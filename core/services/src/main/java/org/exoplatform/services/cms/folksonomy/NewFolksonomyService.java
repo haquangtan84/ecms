@@ -23,6 +23,9 @@ import javax.jcr.Node;
 import org.exoplatform.services.jcr.ext.common.SessionProvider;
 
 /**
+ * This service is used to manage all tags and their styles.
+ *  Currently, it just supports adding/editing/removing the Private & Public tags.
+ * 
  * Created by The eXo Platform SARL Author : Nguyen Anh Vu anhvurz90@gmail.com
  * Nov 13, 2009 10:52:05 AM
  */
@@ -55,8 +58,7 @@ public interface NewFolksonomyService {
   final static public int    PRIVATE         = 1;
 
   /**
-   * Add a private tag to a document. A folksonomy link will be created in a tag
-   * node
+   * Add a private tag to a document. A folksonomy link will be created in a tag node
    *
    * @param tagsName Array of tag name as the children of tree
    * @param documentNode Tagging this node by create a folksonomy link to node

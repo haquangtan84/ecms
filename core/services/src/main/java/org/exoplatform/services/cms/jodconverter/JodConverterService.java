@@ -6,6 +6,10 @@ import java.io.OutputStream;
 
 import org.artofsolving.jodconverter.office.OfficeException;
 
+/**
+ * JodConverter is used to convert documents into different office formats.
+ * 
+ */
 public interface JodConverterService {
 
   /**

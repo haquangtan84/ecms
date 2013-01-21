@@ -26,6 +26,8 @@ import javax.jcr.RepositoryException;
 import org.exoplatform.services.jcr.ext.common.SessionProvider;
 
 /**
+ * Supply API to work with the linked node or the link included in a node.
+ * 
  * Created by The eXo Platform SARL Author : Ly Dinh Quang
  * quang.ly@exoplatform.com Mar 13, 2009
  */

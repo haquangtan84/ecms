@@ -28,6 +28,9 @@ import org.exoplatform.services.cms.taxonomy.impl.TaxonomyNodeAlreadyExistsExcep
 import org.exoplatform.services.cms.taxonomy.impl.TaxonomyPlugin;
 
 /**
+ * Taxonomy service is used to work with taxonomies. In this service, 
+ * there are many functions which enable you to add, find, or delete taxonomies from a node.
+ * 
  * Created by The eXo Platform SARL Author : Ly Dinh Quang
  * quang.ly@exoplatform.com xxx5669@gmail.com Mar 31, 2009
  */

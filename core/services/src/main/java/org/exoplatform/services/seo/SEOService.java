@@ -5,6 +5,11 @@ import java.util.List;
 
 import javax.jcr.Node;
  
+/**
+ * SEOService supplies APIs to manage SEO data of a page or a content. 
+ * This service includes some major functions which enables you to add, store, 
+ * get or remove the metadata of a page or a content.
+ */
 public interface SEOService {
  
   /**

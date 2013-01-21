@@ -117,6 +117,18 @@
           </excludes>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.9</version>
+        <configuration>
+          <reportOutputDirectory>${project.build.directory}</reportOutputDirectory>
+          <destDir>myapidocs</destDir>
+          <!--stylesheet>maven</stylesheet>
+          <stylesheetfile>${basedir}/path/to/your/stylesheetfile.css</stylesheetfile>
+-->
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>

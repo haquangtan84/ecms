@@ -105,7 +105,7 @@ public interface WCMComposer {
   public final static String VISIBILITY_USER = "user";
 
   /**
-   * returns content at the specified path based on filters.
+   * Returns content at the specified path based on filters.
    *
    * @param repository the repository
    * @param workspace the workspace
@@ -125,7 +125,7 @@ public interface WCMComposer {
                          SessionProvider sessionProvider) throws Exception;
   
   /**
-   * returns content at the specified path based on filters.
+   * Returns content at the specified path based on filters.
    *
    * @param workspace the workspace
    * @param path the path
@@ -142,7 +142,7 @@ public interface WCMComposer {
                          SessionProvider sessionProvider) throws Exception;  
 
   /**
-   * returns contents at the specified path based on filters.
+   * Returns contents at the specified path based on filters.
    *
    * @param repository the repository
    * @param workspace the workspace
@@ -162,7 +162,7 @@ public interface WCMComposer {
                                 SessionProvider sessionProvider) throws Exception;
   
   /**
-   * returns contents at the specified path based on filters.
+   * Returns contents at the specified path based on filters.
    * 
    * @param workspace the workspace
    * @param path the path
@@ -177,7 +177,7 @@ public interface WCMComposer {
                                 SessionProvider sessionProvider) throws Exception;
   
  /**
-  * returns contents at the specified path based on filters.
+  * Returns contents at the specified path based on filters.
   *
   * @param nodeLocation the content location
   * @param filters the filters
@@ -247,7 +247,7 @@ public interface WCMComposer {
   public boolean updateContents(String workspace, String path, HashMap<String, String> filters) throws Exception;
 
   /**
-   * returns allowed states for a specified mode.
+   * Returns allowed states for a specified mode.
    *
    * @param mode the mode
    *
@@ -258,7 +258,7 @@ public interface WCMComposer {
   public List<String> getAllowedStates(String mode) throws Exception ;
 
   /**
-   * initialize the templates hashmap
+   * Initialize the templates hashmap
    *
    * @throws Exception the exception
    */

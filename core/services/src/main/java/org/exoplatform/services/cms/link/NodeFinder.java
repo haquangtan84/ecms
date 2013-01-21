@@ -24,6 +24,9 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 
 /**
+ * NodeFinder is used to find a node with a given path. 
+ * If the path to the node contains sub-paths to exo:symlink nodes, find the real link node.
+ * 
  * Created by The eXo Platform SARL
  * Author : Hoang Van Hung
  *          hunghvit@gmail.com

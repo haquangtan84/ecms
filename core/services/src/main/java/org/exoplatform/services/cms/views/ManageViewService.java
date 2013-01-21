@@ -26,6 +26,9 @@ import org.exoplatform.services.jcr.ext.common.SessionProvider;
 import org.exoplatform.services.jcr.ext.hierarchy.NodeHierarchyCreator;
 
 /**
+ * ManageViewService is used to work with views. This service has many functions which allow you to add, 
+ * edit, delete, and get views.
+ * 
  * Created by The eXo Platform SARL
  * Author : Nguyen Quang Hung
  *          nguyenkequanghung@yahoo.com

@@ -30,7 +30,7 @@ import org.exoplatform.services.jcr.ext.common.SessionProvider;
  * 8:19:26 AM
  */
 /**
- * Support to get all documents by time frame
+ * TimelineService is used to get all documents by time frame (day, month, year).
  */
 public interface TimelineService {
 

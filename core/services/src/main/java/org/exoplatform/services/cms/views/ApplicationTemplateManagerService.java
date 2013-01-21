@@ -33,7 +33,7 @@ import org.exoplatform.services.jcr.ext.common.SessionProvider;
 
   /**
    * ApplicationTemplateManagerService is used to manage dynamic groovy templates
-   * for ecm-based products. All implementation of this service need stored the templates in hierarchical context
+   * for ecm-based products. All implementation of this service need store the templates in hierarchical context
    * application 1
    *    /category 1
    *       /template 1
