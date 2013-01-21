@@ -193,6 +193,10 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>2.9</version>
         <configuration>
+          <sourceFileIncludes>
+            <include>PublicationManager.java</include>
+          </sourceFileIncludes>
+          <sourcepath>${basedir}/src/main/java/org/exoplatform/services/wcm/extensions/publication</sourcepath>
           <reportOutputDirectory>${project.build.directory}</reportOutputDirectory>
           <destDir>myapidocs</destDir>
           <!--stylesheet>maven</stylesheet>

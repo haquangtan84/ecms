@@ -9,6 +9,10 @@
   <artifactId>exo-ecms-core-services</artifactId>
   <name>eXo CMS Service</name>
   <description>eXo CMS Service</description>
+
+  <properties>
+    <source.folder>${basedir}/src/main/java/org/exoplatform/services</source.folder>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.chromattic</groupId>
@@ -277,6 +281,18 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>2.9</version>
         <configuration>
+          <sourceFileIncludes>
+            <include>folksonomy/NewFolksonomyService.java</include>
+            <include>SEOService.java</include>
+            <include>jodconverter/JodConverterService.java</include>
+            <include>link/LinkManager.java</include>
+            <include>link/NodeFinder.java</include>
+            <include>taxonomy/TaxonomyService.java</include>
+            <include>timeline/TimelineService.java</include>
+            <include>views/ApplicationTemplateManagerService.java</include>
+            <include>views/ManageViewService.java</include>
+          </sourceFileIncludes>
+          <sourcepath>${source.folder}/cms:${source.folder}/seo</sourcepath>
           <reportOutputDirectory>${project.build.directory}</reportOutputDirectory>
           <destDir>myapidocs</destDir>
           <!--stylesheet>maven</stylesheet>
