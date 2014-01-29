@@ -8,6 +8,7 @@
       <waitingapproval>Đang chờ Phê duyệt của Tôi</waitingapproval>
       <approve>Phê duyệt</approve>
       <publishedtomorrow>Phát hành vào Ngày mai</publishedtomorrow>
+      <refresh>Làm lại</refresh>
     </label>
   </UIDashboardForm>
 </bundle>

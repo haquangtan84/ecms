@@ -9,8 +9,8 @@
     <msg>
       <non-contents>К сожалению, нет доступных статей.</non-contents>
       <item-not-found>Элемент не найден.</item-not-found>
-      <no-permission>You do not have permission to access this node.</no-permission>
-      <category-back>Go to previous</category-back>
+      <no-permission>У вас нет разрешения на доступ к этому узлу.</no-permission>
+      <category-back>Перейти к предыдущей</category-back>
     </msg>
   </UICLVContainer>
   <UIViewerManagementPopupWindow>
@@ -70,7 +70,7 @@
     </label>
     <help>
       <ModeSelectionHelp>Two modes are available to show content. "By Folder" will take all the content available in your selected folder/category. "By Content" lets you manually select the content you want to show.</ModeSelectionHelp>
-      <FolderPathHelp>Select the content you want to show. The default selection will be replaced dynamically if you activate the Dynamic Navigation option (see the Advanced mode below).</FolderPathHelp>
+      <FolderPathHelp>Выберите контент, который вы хотите показать. Выбор по умолчанию будет заменен в динамическом режиме при активации опции Динамическая Навигация (см. Режим расширенных настроек ниже).</FolderPathHelp>
       <HeaderOptionHelp>Show a header on top of the content list. If you activate the Automatic Detection option, it will try to find the header based on the current selection.</HeaderOptionHelp>
       <GeneralOptionHelp>Select the graphical elements you want to show in your list. Note that, depending on your selected template, some elements may not be available.</GeneralOptionHelp>
       <ContextualHelp>Activates the Dynamic Navigation option. Others can change the content dynamically based on a URL parameter.</ContextualHelp>
@@ -83,7 +83,7 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <delete>Delete</delete>
+      <delete>Удалить</delete>
     </action>
     <msg>
       <not-valid-path>The Folder Path is invalid.</not-valid-path>

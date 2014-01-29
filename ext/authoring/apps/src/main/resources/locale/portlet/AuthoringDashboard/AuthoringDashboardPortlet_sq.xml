@@ -8,6 +8,7 @@
       <waitingapproval>{crwdns6425461:0}{crwdne6425461:0}</waitingapproval>
       <approve>{crwdns6425462:0}{crwdne6425462:0}</approve>
       <publishedtomorrow>{crwdns6425463:0}{crwdne6425463:0}</publishedtomorrow>
+      <refresh>#{word.refresh}</refresh>
     </label>
   </UIDashboardForm>
 </bundle>
