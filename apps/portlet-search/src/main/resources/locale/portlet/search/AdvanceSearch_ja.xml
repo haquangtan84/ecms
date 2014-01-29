@@ -24,6 +24,10 @@
       <timeUnitCaption>秒</timeUnitCaption>
       <similar>同じコンテンツが表示されるページ</similar>
       <editor>編集者</editor>
+      <date>Date</date>
+      <relevancy>Relevance</relevancy>
+      <title>Title</title>
+      <sortBy>Sort By:</sortBy>
     </label>
     <action>
       <edit>編集</edit>

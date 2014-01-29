@@ -24,6 +24,10 @@
       <timeUnitCaption>秒</timeUnitCaption>
       <similar>网页相同的内容的显示位置</similar>
       <editor>编辑器</editor>
+      <date>Date</date>
+      <relevancy>Relevance</relevancy>
+      <title>Title</title>
+      <sortBy>Sort By:</sortBy>
     </label>
     <action>
       <edit>编辑</edit>

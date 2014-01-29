@@ -45,7 +45,7 @@
       <admin-view>Admin</admin-view>
       <icon-view>Icons</icon-view>
       <thumbails-view>Thumbnails</thumbails-view>
-      <list-view>List</list-view>
+      <list-view>Список</list-view>
       <authoring-view>Authoring</authoring-view>
       <wcm-category-view>Categories</wcm-category-view>
       <file-view>File Management View</file-view>
