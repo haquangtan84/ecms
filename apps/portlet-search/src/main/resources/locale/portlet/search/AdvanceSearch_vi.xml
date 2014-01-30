@@ -24,10 +24,10 @@
       <timeUnitCaption>giây</timeUnitCaption>
       <similar>Các trang có cùng nội dung</similar>
       <editor>Biên tập viên</editor>
-      <date>Date</date>
-      <relevancy>Relevance</relevancy>
-      <title>Title</title>
-      <sortBy>Sort By:</sortBy>
+      <date>Ngày</date>
+      <relevancy>Mức độ liên quan</relevancy>
+      <title>Tiêu đề</title>
+      <sortBy>Phân loại theo:</sortBy>
     </label>
     <action>
       <edit>Chỉnh sửa</edit>

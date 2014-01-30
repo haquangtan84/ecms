@@ -826,7 +826,7 @@
       <AddView>Add View</AddView>
     </action>
     <msg>
-      <access-denied>Access denied. You do not have permission to use this function.</access-denied>
+      <access-denied>Доступ запрещен. Отсутствует разрешение на использование этой функции.</access-denied>
       <template-in-use>Cannot delete {0}. It is currently in use.</template-in-use>
       <confirm-delete>Are you sure you want to delete this view?</confirm-delete>
     </msg>
@@ -1519,9 +1519,9 @@
     </action>
     <msg>
       <confirm-delete>Do you really want to delete?</confirm-delete>
-      <access-denied>Access denied. You do not have permission to use this function.</access-denied>
+      <access-denied>Доступ запрещен. Отсутствует разрешение на использование этой функции.</access-denied>
       <editing-template>Access denied. You cannot delete and edit the template simultaneously.</editing-template>
-      <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
+      <template-not-exist>Шаблон, который вы пытаетесь удалить, не существует.</template-not-exist>
     </msg>
   </UITemplateList>
   
@@ -1537,8 +1537,8 @@
     </action>
     <msg>
       <confirm-delete>Do you really want to delete?</confirm-delete>
-      <access-denied>Access denied. You do not have permission to use this function.</access-denied>
-      <editing-template>Access denied. You cannot delete and edit this template simultaneously.</editing-template>
+      <access-denied>Доступ запрещен. Отсутствует разрешение на использование этой функции.</access-denied>
+      <editing-template>Доступ запрещен. Вы не можете удалить и одновременно редактировать этот шаблон.</editing-template>
       <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
     </msg>
   </UIActionsTemplateList>
@@ -1555,9 +1555,9 @@
     </action>
     <msg>
       <confirm-delete>Do you really want to delete?</confirm-delete>
-      <access-denied>Access denied. You do not have permission to use this function.</access-denied>
-      <editing-template>Access denied. You cannot delete and edit this template simultaneously.</editing-template>
-      <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
+      <access-denied>Доступ запрещен. Отсутствует разрешение на использование этой функции.</access-denied>
+      <editing-template>Доступ запрещен. Вы не можете удалить и одновременно редактировать этот шаблон.</editing-template>
+      <template-not-exist>Шаблон, который вы пытаетесь удалить, не существует.</template-not-exist>
     </msg>
   </UIOthersTemplateList>
 

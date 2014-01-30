@@ -24,10 +24,10 @@
       <timeUnitCaption>{crwdns6424964:0}{crwdne6424964:0}</timeUnitCaption>
       <similar>{crwdns6424965:0}{crwdne6424965:0}</similar>
       <editor>{crwdns6424966:0}{crwdne6424966:0}</editor>
-      <date>Date</date>
-      <relevancy>Relevance</relevancy>
-      <title>Title</title>
-      <sortBy>Sort By:</sortBy>
+      <date>{crwdns6752605:0}{crwdne6752605:0}</date>
+      <relevancy>{crwdns6752606:0}{crwdne6752606:0}</relevancy>
+      <title>{crwdns6752607:0}{crwdne6752607:0}</title>
+      <sortBy>{crwdns6752608:0}{crwdne6752608:0}</sortBy>
     </label>
     <action>
       <edit>{crwdns6424967:0}{crwdne6424967:0}</edit>
