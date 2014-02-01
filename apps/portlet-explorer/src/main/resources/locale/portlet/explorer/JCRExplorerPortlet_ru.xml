@@ -193,7 +193,7 @@
     <title>Rename</title>
     <label>
       <nameField>Name</nameField>
-      <titleField>Титул</titleField>
+      <titleField>Title</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -623,7 +623,7 @@
       <UIPublicationPanel>Revision</UIPublicationPanel>
       <UIPublicationSchedule>Scheduled</UIPublicationSchedule>
       <UIPublicationPagesContainer>Pages</UIPublicationPagesContainer>
-      <UIPublicationHistory>History</UIPublicationHistory>
+      <UIPublicationHistory>История</UIPublicationHistory>
       <UIVersionViewer>Version Viewer</UIVersionViewer>
 
       <UIPropertyTab>Properties</UIPropertyTab>
@@ -648,7 +648,7 @@
       <UIAddLanguageContainer>Add Language</UIAddLanguageContainer>
       <UINonPublishedForm>State</UINonPublishedForm>
       <UIPublishedForm>State</UIPublishedForm>
-      <UIPublicationLogList>History</UIPublicationLogList>
+      <UIPublicationLogList>История</UIPublicationLogList>
       <UIDocumentWithTree>File View</UIDocumentWithTree>
       <UIDocumentInfo>Document View</UIDocumentInfo>
       <UICategoriesSelectPanel>Select Categories</UICategoriesSelectPanel>
@@ -706,7 +706,7 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <Reset>Очистить</Reset>
+      <Reset>Reset</Reset>
     </action>
     <msg>
       <name-invalid>Please enter the property name.</name-invalid>
@@ -790,7 +790,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
-      <Reset>Очистить</Reset>
+      <Reset>Reset</Reset>
     </action>
     <msg>
       <checkbox-require>Please select at least one permission.</checkbox-require>
@@ -1094,9 +1094,9 @@
     <label>
       <colon>:</colon>
       <operator>Operator</operator>
-      <exactlyPro-properties>Property</exactlyPro-properties>
+      <exactlyPro-properties>Свойство</exactlyPro-properties>
       <exactlyPro-ContainExactly>Contain Exactly</exactlyPro-ContainExactly>
-      <containPro-properties>Property</containPro-properties>
+      <containPro-properties>Свойство</containPro-properties>
       <containPro-Contain>Contain</containPro-Contain>
       <notContainPro-properties>Property</notContainPro-properties>
       <notContainPro-notContain>Not Contain</notContainPro-notContain>
@@ -1196,7 +1196,7 @@
   </UIMetadataSelectForm>
   <property1MetadataPopup>
     <title>
-      <UISelectPropertyForm>Select Property</UISelectPropertyForm>
+      <UISelectPropertyForm>Выбрать свойство</UISelectPropertyForm>
     </title>
   </property1MetadataPopup>
   <property2MetadataPopup>
@@ -1206,7 +1206,7 @@
   </property2MetadataPopup>
   <property3MetadataPopup>
     <title>
-      <UISelectPropertyForm>Select Property</UISelectPropertyForm>
+      <UISelectPropertyForm>Выбрать свойство</UISelectPropertyForm>
     </title>
   </property3MetadataPopup>
   <UISelectPropertyForm>
@@ -1314,8 +1314,8 @@
   </PopupUserSelector>
   <UIPopupTaxonomy>
     <title>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
-      <UIOneNodePathSelector>Add Categories</UIOneNodePathSelector>
+      <UICategoriesSelector>Добавить категории</UICategoriesSelector>
+      <UIOneNodePathSelector>Добавить категории</UIOneNodePathSelector>
     </title>
   </UIPopupTaxonomy>
   <!--
@@ -1397,7 +1397,7 @@
     <label>
       <note>Versioning has not been activated for this node.</note>
       <question>Are you sure you want to activate it?</question>
-      <button-active>Activate</button-active>
+      <button-active>Активировать</button-active>
       <button-cancel>#{word.cancel}</button-cancel>
     </label>
     <msg>
@@ -1439,7 +1439,7 @@
       <question>Are you sure you want to activate?</question>
     </label>
     <action>
-      <activate>Activate</activate>
+      <activate>Активировать</activate>
       <cancel>#{word.cancel}</cancel>
     </action>
   </UIActivateAuditing>
@@ -2423,7 +2423,7 @@
 
   <PopupComponent>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Добавить категории</UIOneTaxonomySelector>
     </title>
   </PopupComponent>
 
@@ -2860,12 +2860,12 @@
   </UITreeExplorer>
   <UIDocumentForm>
     <msg>
-      <constraintviolation-exception>You cannot save the document. The input data are missing or invalid.</constraintviolation-exception>
+      <constraintviolation-exception>Невозможно сохранить документ. Входные данные отсутствуют или являются недопустимыми.</constraintviolation-exception>
     </msg>
   </UIDocumentForm>
   <UIActionForm>
     <msg>
-      <constraintviolation-exception>You cannot save the document. The input data are missing or invalid.</constraintviolation-exception>
+      <constraintviolation-exception>Невозможно сохранить документ. Входные данные отсутствуют или являются недопустимыми.</constraintviolation-exception>
     </msg>
   </UIActionForm>
 
@@ -2977,7 +2977,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Очистить</Reset>
+      <Reset>Reset</Reset>
     </action>
   </UIPublicationSchedule>
 

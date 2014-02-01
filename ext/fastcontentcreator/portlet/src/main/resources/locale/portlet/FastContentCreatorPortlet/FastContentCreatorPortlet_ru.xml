@@ -148,7 +148,7 @@
     <title>
       <UIOneNodePathSelector>Select Location</UIOneNodePathSelector>
       <UIPermissionSelector>Permission Browser</UIPermissionSelector>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
+      <UICategoriesSelector>Добавить категории</UICategoriesSelector>
     </title>
   </PopupComponent>
 
@@ -179,7 +179,7 @@
 
   <PopupComponent>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Добавить категории</UIOneTaxonomySelector>
     </title>
   </PopupComponent>
 

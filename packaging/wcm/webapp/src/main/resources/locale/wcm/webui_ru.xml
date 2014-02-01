@@ -180,7 +180,7 @@
       <Location>Site Name</Location>
       <SearchByName>Search by Name</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
-      <Property>Property</Property>
+      <Property>Свойство</Property>
       <Contain>Contain</Contain>
       <FromDate>From Date</FromDate>
       <ToDate>To Date</ToDate>
@@ -222,7 +222,7 @@
     </action>
     <label>
       <metadataType>Metadata Type</metadataType>
-      <property_select>Property</property_select>
+      <property_select>Свойство</property_select>
     </label>
   </UIContentPropertySelector>
 
