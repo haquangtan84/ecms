@@ -11,7 +11,7 @@
         <Templates>Шаблоны</Templates>
         <Explorer>Explorer</Explorer>
         <Repository>Репозиторий</Repository>
-        <Advanced>Advanced</Advanced>
+        <Advanced>Расширенные</Advanced>
       </label>
     </tab>    
     <label>     
@@ -54,7 +54,7 @@
     </msg>
     <title>
       <add>Добавить</add>
-      <paste>Paste</paste>
+      <paste>Вставить</paste>
       <cut>Вырезать</cut>
       <copy>Копировать</copy>
       <remove>Удалить</remove>
@@ -465,7 +465,7 @@
       <action>Действие</action>
     </header>
     <action>
-      <Export>Export</Export>
+      <Export>Экспорт</Export>
       <Import>Импорт</Import>
       <Add>Добавить</Add>
     </action>
@@ -516,7 +516,7 @@
       <childDefinitions>Определения дочерних узлов</childDefinitions>
       <namespace>Пространство имен</namespace>
       <propertyNamespace>Пространство имен</propertyNamespace>
-      <nodeTypeName>Node Type Name</nodeTypeName>
+      <nodeTypeName>Название типа узла</nodeTypeName>
       <mixinType>Is Mixin Type</mixinType>
       <hasOrderableChildNodes>Упорядочиваемые дочерние узлы</hasOrderableChildNodes>
       <primaryItemName>Primary Item Name</primaryItemName>
@@ -631,7 +631,7 @@
     </header>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Export>Export</Export>
+      <Export>Экспорт</Export>
       <UncheckAll>Убрать все отметки</UncheckAll>
       <CheckAll>Отметить все</CheckAll>
     </action>
@@ -661,7 +661,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Upload>Upload</Upload>
+      <Upload>Загрузить</Upload>
     </action>
     <title>Импортировать тип узла из XML-файла</title>
     <msg>
@@ -680,7 +680,7 @@
   <UINodeTypeImport>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Import>Import</Import>
+      <Import>Импорт</Import>
       <Upload>Повторно загрузить</Upload>
     </action>
     <header>
@@ -819,7 +819,7 @@
       <name>Имя</name>
       <permissions>Права доступа</permissions>
       <tabList>Action Tab</tabList>
-      <baseVersion>Base Version</baseVersion>
+      <baseVersion>Базовая версия</baseVersion>
       <action>Действие</action>
     </header>
     <action>
@@ -887,7 +887,7 @@
                            <Delete>Delete</Delete>
                          </title>
  <header>
-<friendlyPermission>Permissions</friendlyPermission>
+<friendlyPermission>Права доступа</friendlyPermission>
      <action>Действие</action>
  </header>
 <action>
@@ -956,33 +956,33 @@
       <enableVersion>Enable Version</enableVersion>
       <addFolder>Добавить папку</addFolder>
       <addDocument>Добавить документ</addDocument>
-      <editDocument>Edit Document</editDocument>
-      <upload>Upload</upload>
-      <paste>Paste</paste>
+      <editDocument>Редактировать документ</editDocument>
+      <upload>Загрузить</upload>
+      <paste>Вставить</paste>
       <search>Поиск</search>
       <viewReferences>View References</viewReferences>
       <viewNodeType>View Node Type</viewNodeType>
       <viewPermissions>View Permissions</viewPermissions>
-      <viewProperties>View Properties</viewProperties>
+      <viewProperties>Просмотреть свойства</viewProperties>
       <manageVersions>Manage Versions</manageVersions>
       <manageAuditing>Manage Auditing</manageAuditing>
-      <managePublications>Manage Publication</managePublications>
+      <managePublications>Управление публикацией</managePublications>
       <manageCategories>Manage Categories</manageCategories>
       <manageRelations>Manage Relations</manageRelations>
-      <manageActions>Manage Actions</manageActions>
+      <manageActions>Управление действиями</manageActions>
       <exportNode>Экспорт узла</exportNode>
       <importNode>Импорт узла</importNode>
       <viewRelations>View Relations</viewRelations>
       <showJCRStructure>Show JCR Structure</showJCRStructure>
-      <watchDocument>Watch Document</watchDocument>
+      <watchDocument>Просмотреть документ</watchDocument>
       <taggingDocument>Tag Document</taggingDocument>
-      <viewMetadatas>View Metadata</viewMetadatas>
+      <viewMetadatas>Просмотр метаданных</viewMetadatas>
       <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
       <manageHidden>Hide/Show Content</manageHidden>
       <comment>Comment</comment>
       <vote>Vote</vote>  
-      <addCategory>Add Category</addCategory>
-      <addLocalizationLink>Add Translation</addLocalizationLink>
+      <addCategory>Добавить категорию</addCategory>
+      <addLocalizationLink>Добавить перевод</addLocalizationLink>
       <publicationRequestApproval>Request Approval</publicationRequestApproval>
       <publicationApproveContent>Approve Content</publicationApproveContent>
       <publicationPublish>Publish</publicationPublish>
@@ -1017,7 +1017,7 @@
   </UIViewFormTabPane>
   <PopupViewPermission>
     <title>
-      <UIPermissionSelector>Select Permission</UIPermissionSelector>
+      <UIPermissionSelector>Выбрать разрешение</UIPermissionSelector>
     </title>
   </PopupViewPermission>
 
@@ -1048,7 +1048,7 @@
     <header>
       <name>Имя</name>
       <path>Значение</path>
-      <baseVersion>Base Version</baseVersion>
+      <baseVersion>Базовая версия</baseVersion>
       <action>Действие</action>
     </header>
     <action>
@@ -1161,7 +1161,7 @@
     <header>
       <scriptName>Имя</scriptName>
       <path>Script</path>
-      <baseVersion>Base Version</baseVersion>
+      <baseVersion>Базовая версия</baseVersion>
       <action>Действия</action>
     </header>
     <tooltip>
@@ -1239,7 +1239,7 @@
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
-    <title>Add Category</title>
+    <title>Добавить категорию</title>
     <label>
       <taxonomyName>Название категории</taxonomyName>
       <parentPath>Родительский объект</parentPath>
@@ -1328,8 +1328,8 @@
   <UITaxonomyTreeList>
     <header>
       <name>Category Tree</name>
-      <workspace>Workspace</workspace>
-      <homePath>Path</homePath>
+      <workspace>Рабочая область</workspace>
+      <homePath>Путь</homePath>
       <action>Действие</action>
     </header>
     <action>
@@ -1355,8 +1355,8 @@
   <UITaxonomyTreeForm>
     <label>
       <name>Название</name>
-      <workspace>Workspace</workspace>
-      <homePath>Path</homePath>
+      <workspace>Рабочая область</workspace>
+      <homePath>Путь</homePath>
       <permissions>Разрешения</permissions>
     </label>
     <msg>
@@ -1409,13 +1409,13 @@
   
   <UIPopupWindow>
     <title>
-      <UIPermissionManager>Permission Management</UIPermissionManager>
+      <UIPermissionManager>Управление разрешениями</UIPermissionManager>
     </title>
    </UIPopupWindow>
 
   <PopupUserSelector>
     <title>
-      <UIUserContainer>Permission Management</UIUserContainer>
+      <UIUserContainer>Управление разрешениями</UIUserContainer>
     </title>
    </PopupUserSelector>
    
@@ -1493,13 +1493,13 @@
   
   <TaxonomyPopup>
     <title>
-      <UITaxonomyForm>Add Category</UITaxonomyForm>
+      <UITaxonomyForm>Добавить категорию</UITaxonomyForm>
     </title>
   </TaxonomyPopup>
   
   <UITaxonomyManager>
     <title>
-      <permission>Permission Management</permission>
+      <permission>Управление разрешениями</permission>
     </title>
   </UITaxonomyManager>
   <!--
@@ -2309,7 +2309,7 @@
   <action>Действие</action>
   </header>
   <tooltip>
-<UnLock>UnLock</UnLock>
+<UnLock>Разблокировать</UnLock>
   </tooltip>
   <msg>
   <access-denied-exception>You do not have permission to access the node with the path {0}, or this node is deleted.</access-denied-exception>
@@ -2518,7 +2518,7 @@
   
   <UIViewFormTabPane>
   <label>
-  <addCategory>Add Category</addCategory>
+  <addCategory>Добавить категорию</addCategory>
           <addLocalizationLink>Добавить перевод</addLocalizationLink>
   </label>
   </UIViewFormTabPane>

@@ -52,8 +52,8 @@
       <UICLVConfigAllowDynamicUrlStringInput>Allow Dynamic URL</UICLVConfigAllowDynamicUrlStringInput>
       <UICLVConfigShowRssLinkFormCheckboxInput>Show RSS Link</UICLVConfigShowRssLinkFormCheckboxInput>
       <UICLVConfigShowAutomaticDetectionCheckboxInput>Automatic Detection</UICLVConfigShowAutomaticDetectionCheckboxInput>
-      <AdvancedBlock>Advanced</AdvancedBlock>
-      <UICLVConfigDynamicNavigationLabel>Dynamic Navigation</UICLVConfigDynamicNavigationLabel>
+      <AdvancedBlock>Расширенные</AdvancedBlock>
+      <UICLVConfigDynamicNavigationLabel>Динамическая навигация</UICLVConfigDynamicNavigationLabel>
       <UICLVConfigContextualFolderRadioBoxInput>Contextual Folder</UICLVConfigContextualFolderRadioBoxInput>
       <UICLVConfigShowCLVByStringInput>by</UICLVConfigShowCLVByStringInput>
       <UICLVConfigshowSCVWithStringInput>with</UICLVConfigshowSCVWithStringInput>
@@ -93,7 +93,7 @@
       <label>
         <clvContentTab>Выделение содержимого</clvContentTab>
         <clvDisplayTab>Настройки экрана</clvDisplayTab>
-        <clvAdvancedTab>Advanced</clvAdvancedTab>
+        <clvAdvancedTab>Расширенные</clvAdvancedTab>
       </label>
     </tab>
   </UICLVConfig>
@@ -171,12 +171,12 @@
   <PublicationStates>
     <archived>В архиве</archived>
     <obsolete>Obsolete</obsolete>
-    <unpublished>Unpublished</unpublished>
+    <unpublished>Не опубликовано</unpublished>
     <enrolled>Enrolled</enrolled>
     <draft>Черновик</draft>
     <pending>Pending</pending>
     <approved>Утверждено</approved>
-    <inreview>In Review</inreview>
+    <inreview>На рассмотрении</inreview>
     <staged>Staged</staged>
     <published>Опубликовано</published>
   </PublicationStates>
