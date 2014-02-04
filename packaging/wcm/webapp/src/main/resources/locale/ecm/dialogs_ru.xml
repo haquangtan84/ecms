@@ -14,8 +14,8 @@
         <time-interval>Интервал времени</time-interval>
         <query-items>Элементы запроса</query-items>
         <schedule-type>Тип расписания</schedule-type>
-        <remove>Remove Item</remove>
-        <add>Add Item</add>
+        <remove>Удалить элемент</remove>
+        <add>Добавить элемент</add>
         <expand>Развернуть</expand>
       </label>
     </dialog>
@@ -40,7 +40,7 @@
     <dialog>
       <label>
         <name>Название</name>
-        <content>Content</content>
+        <content>Содержимое</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -65,7 +65,7 @@
       <description>#{word.description}</description>
       <port>Порт</port>
       <userName>#{word.userName}</userName>
-      <password>Password</password>
+      <password>Пароль</password>
       <link>Ссылка</link>
       <to>Отправить почту</to>
       <actionName>#{word.name}</actionName>
@@ -76,7 +76,7 @@
       <description>#{word.description}</description>
       <port>Порт</port>
       <userName>#{word.userName}</userName>
-      <password>Password</password>
+      <password>Пароль</password>
       <link>Ссылка</link>
       <to>Отправить почту</to>
       <actionName>#{word.name}</actionName>
@@ -255,7 +255,7 @@
         <name>Имя</name>
         <autoload>Автозагрузка</autoload>
         <minetype>MIME Type</minetype>
-        <content>Content</content>
+        <content>Содержимое</content>
       </label>
     </dialog>
   </ResouceContainer>

@@ -27,7 +27,7 @@
         <cssFile>default.css</cssFile>
         <jsFile>default.js</jsFile>
         <Advanced>Расширенные</Advanced>
-        <Summary>Summary</Summary>
+        <Summary>Краткое описание</Summary>
         <name>#{word.name}</name>
         <title>Заголовок</title>
         <ContentCSS>Данные CSS</ContentCSS>

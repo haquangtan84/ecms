@@ -236,12 +236,12 @@
       <False>false</False>
     </label>
     <title>
-      <view>View</view>
+      <view>Показать</view>
       <edit>Редактировать</edit>
       <delete>Удалить</delete>
     </title>
     <header>
-      <icon>Icon</icon>
+      <icon>Иконка</icon>
       <name>Метаданные</name>
       <type>Тип</type>
       <internalUse>Внутреннее использование</internalUse>
@@ -282,10 +282,10 @@
     <title>Mapping Metadata</title>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Save>Apply</Save>
+      <Save>Применить</Save>
     </action>
     <header>
-      <icon>Icon</icon>
+      <icon>Иконка</icon>
       <label>Имя узла</label>
       <input>Действие</input>
     </header>
@@ -295,7 +295,7 @@
       <metadataName>Имя метаданных:</metadataName>
       <viewPermission>Права доступа:</viewPermission>
       <permission>UIMetadataForm</permission>
-      <metadataLabel>Label:</metadataLabel>
+      <metadataLabel>Метка:</metadataLabel>
     </label>
     <tab>
       <label>
@@ -347,7 +347,7 @@
       <workspace>Рабочая область</workspace>
       <homePath>Home Path</homePath>
       <permissions>Разрешения</permissions>
-      <views>View</views>
+      <views>Показать</views>
       <action>Действие</action>
     </header>
     <tooltip>
@@ -440,7 +440,7 @@
   <UINodeTypeManager>
     <header>
       <icon>Иконка</icon>
-      <label>Node Name</label>
+      <label>Название узла</label>
       <input>Действие</input>
     </header>
     <action>
@@ -470,7 +470,7 @@
       <Add>Добавить</Add>
     </action>
     <tooltip>
-      <View>View</View>
+      <View>Показать</View>
       <Edit>Редактировать</Edit>
       <Delete>Удалить</Delete>
     </tooltip>
@@ -489,8 +489,8 @@
       <Add>Добавить</Add>
     </action>
     <header>
-      <icon>Icon</icon>
-      <label>Node Name</label>
+      <icon>Иконка</icon>
+      <label>Название узла</label>
       <input>Действие</input>
     </header>
   </UINodeTypeOptionList>
@@ -625,7 +625,7 @@
   -->
   <UINodeTypeExport>
     <header>
-      <icon>Icon</icon>
+      <icon>Иконка</icon>
       <label>Имя узла</label>
       <input>Действие</input>
     </header>
@@ -684,8 +684,8 @@
       <Upload>Повторно загрузить</Upload>
     </action>
     <header>
-      <icon>Icon</icon>
-      <label>Node Name</label>
+      <icon>Иконка</icon>
+      <label>Название узла</label>
       <input>Действие</input>
     </header>
     <title>Select Import Node Type</title>
@@ -785,9 +785,9 @@
       <ECMTemplate>Explorer Templates</ECMTemplate>
       <UIScriptForm>Scripts</UIScriptForm>
       <UIDialogTab>Диалоговое окно</UIDialogTab>
-      <UIViewTab>View</UIViewTab>
-      <UITemplateEditForm>Template</UITemplateEditForm>
-      <UITemplateForm>Template</UITemplateForm>
+      <UIViewTab>Показать</UIViewTab>
+      <UITemplateEditForm>Шаблон</UITemplateEditForm>
+      <UITemplateForm>Шаблон</UITemplateForm>
       <UITemplateContainer>Документы</UITemplateContainer>
       <UIActionsTemplateContainer>Действия</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Другое</UIOthersTemplateContainer>
@@ -811,7 +811,7 @@
   -->
   <UIViewList>
    <title>
-     <View>View</View>
+     <View>Показать</View>
      <EditInfo>Редактировать</EditInfo>
      <Delete>Удалить</Delete>
    </title>
@@ -833,7 +833,7 @@
   </UIViewList>
   <ViewPopup>
     <title>
-      <UIViewFormTabPane>View</UIViewFormTabPane>
+      <UIViewFormTabPane>Показать</UIViewFormTabPane>
     </title>
   </ViewPopup>
   <AddPopup>
@@ -854,7 +854,7 @@
                     <Delete>Удалить</Delete>
                   </title>       
  <header>
-  <tabName>Tab</tabName>
+  <tabName>Вкладка</tabName>
   <localizeButtons>Описание</localizeButtons>
 <action>Actions</action>
 </header>
@@ -934,7 +934,7 @@
     </msg>
     <label>
       <viewName>Имя</viewName>
-      <template>Template</template>
+      <template>Шаблон</template>
 <version>Восстановить версию</version>
       <enableVersion>Enable Version</enableVersion>
       <hideExplorerPanel>Hide explorer panel in side bar</hideExplorerPanel>
@@ -950,7 +950,7 @@
       <version>Восстановить версию</version>
       <viewName>Имя</viewName>
       <tabName>Tab Name</tabName>
-      <permission>Permission</permission>
+      <permission>Разрешение</permission>
       <tabs>Вкладки</tabs>
       <template>Шаблоны</template>
       <enableVersion>Enable Version</enableVersion>
@@ -1003,8 +1003,8 @@
     <tab>
       <label>
         <UITabContainer>Действие</UITabContainer>
-        <UIViewForm>View</UIViewForm>
-        <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
+        <UIViewForm>Показать</UIViewForm>
+        <UIViewPermissionContainer>Разрешение</UIViewPermissionContainer>    
       </label>
     </tab>
     <action>
@@ -1012,7 +1012,7 @@
       <Reset>Очистить</Reset>
       <Cancel>#{word.cancel}</Cancel>
       <Close>#{word.close}</Close>
-      <Restore>Restore</Restore>
+      <Restore>Восстановить</Restore>
     </action>
   </UIViewFormTabPane>
   <PopupViewPermission>
@@ -1041,7 +1041,7 @@
   -->
   <UIECMTemplateList>
     <title>
-      <View>View</View>
+      <View>Показать</View>
       <EditInfo>Изменить</EditInfo>
       <Delete>Удалить</Delete>
     </title>
@@ -1071,7 +1071,7 @@
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
       <Reset>Сбросить</Reset>
-      <Restore>Restore</Restore>
+      <Restore>Восстановить</Restore>
       <Refresh>#{word.refresh}</Refresh>
     </action>
     <msg>
@@ -1083,19 +1083,19 @@
     </msg>
     <tab>
       <label>
-        <template>Template</template>
+        <template>Шаблон</template>
         <defaultDialog>Диалоговое окно</defaultDialog>
-        <defaultView>View</defaultView>
+        <defaultView>Показать</defaultView>
       </label>
     </tab>
     <label>
       <name>Имя:</name>
-      <label>Label:</label>
+      <label>Метка:</label>
       <isDocumentTemplate>is Document Template:</isDocumentTemplate>
       <dialog>Dialog Content</dialog>
       <view>View Content</view>
       <permission>Права доступа:</permission>
-      <selectPemistion>Permission</selectPemistion>
+      <selectPemistion>Разрешение</selectPemistion>
     </label>
   </UITemplateForm>
   <!--
@@ -1186,7 +1186,7 @@
       <Restore>#{word.restore}</Restore>
       <Cancel>#{word.cancel}</Cancel>
       <Refresh>#{word.refresh}</Refresh>
-      <Change>Change</Change>
+      <Change>Изменить</Change>
     </action>
     <msg>
       <version-restored>Версия {0} была успешно восстановлена.</version-restored>
@@ -1208,7 +1208,7 @@
   <UIScriptForm>
     <label>
       <selectVersion>Версии</selectVersion>
-      <scriptContent>Content</scriptContent>
+      <scriptContent>Содержимое</scriptContent>
       <scriptLabel>Имя</scriptLabel>
       <scriptName>Script</scriptName>
       <enableVersion>Enable Versioning</enableVersion>
@@ -1223,7 +1223,7 @@
   <ecmScriptForm>
     <label>
       <selectVersion>Версии</selectVersion>
-      <scriptContent>Content</scriptContent>
+      <scriptContent>Содержимое</scriptContent>
       <scriptLabel>Имя</scriptLabel>
       <scriptName>Script</scriptName>
       <enableVersion>Включить управление версиями</enableVersion>
@@ -1511,8 +1511,8 @@
     <header>
       <name>Тип</name>
       <action>Действие</action>
-      <label>Template</label>
-      <icon>Icon</icon>
+      <label>Шаблон</label>
+      <icon>Иконка</icon>
     </header>
     <action>
       <AddNew>Добавить шаблон</AddNew>
@@ -1529,8 +1529,8 @@
     <header>
       <name>Тип</name>
       <action>Действие</action>
-      <label>Template</label>
-      <icon>Icon</icon>
+      <label>Шаблон</label>
+      <icon>Иконка</icon>
     </header>
     <action>
       <AddNew>Добавить шаблон</AddNew>
@@ -1546,8 +1546,8 @@
   <UIOthersTemplateList>
     <header>
       <name>Тип</name>
-      <label>Template</label>
-      <icon>Icon</icon>
+      <label>Шаблон</label>
+      <icon>Иконка</icon>
       <action>Действие</action>
     </header>
     <action>
@@ -1569,7 +1569,7 @@
 
 <UITabPane>
  <title>
- <ContentTemplateContainer>Content</ContentTemplateContainer>
+ <ContentTemplateContainer>Содержимое</ContentTemplateContainer>
 <CateTemplateContainer>Навигация</CateTemplateContainer>
 <PageTemplateContainer>Paginator</PageTemplateContainer>
  </title>
@@ -1583,7 +1583,7 @@
     <header>
       <title>Имя</title>
       <action>Действие</action>
-      <template>Template</template>
+      <template>Шаблон</template>
     </header>
     <action>
       <AddTemplate>Добавить шаблон</AddTemplate>
@@ -1602,7 +1602,7 @@
     <header>
       <title>Имя</title>
       <action>Действие</action>
-      <template>Template</template>
+      <template>Шаблон</template>
     </header>
     <title>
       <Edit>Редактировать</Edit>
@@ -1619,7 +1619,7 @@
     <header>
       <title>Имя</title>
       <action>Действие</action>
-      <template>Template</template>
+      <template>Шаблон</template>
     </header>
     <action>
       <AddTemplate>Добавить шаблон</AddTemplate>
@@ -1673,7 +1673,7 @@
 <label>
  <title>Имя</title>
 <template>Название шаблона</template>
-<content>Content</content>
+<content>Содержимое</content>
 <type>Тип шаблона</type>
 </label>
 </UICLVTemplateForm_ContentTemplateContainer>
@@ -1687,7 +1687,7 @@
 <label>
  <title>Имя</title>
 <template>Название шаблона</template>
-<content>Content</content>
+<content>Содержимое</content>
 <type>Тип шаблона</type>
 </label>
 </UICLVTemplateForm_PageTemplateContainer>
@@ -1701,14 +1701,14 @@
 <label>
  <title>Имя</title>
 <template>Название шаблона</template>
-<content>Content</content>
+<content>Содержимое</content>
 <type>Тип шаблона</type>
 </label>
 </UICLVTemplateForm_CateTemplateContainer>
 <UICLVTemplateForm>
   <label>
     <paginators>Paginator</paginators>
-<list>Content</list>
+<list>Содержимое</list>
 <navigation>Навигация</navigation>
   </label>
                           <action>
@@ -1744,7 +1744,7 @@
   <ViewForm>
     <label>
       <UITemplateContent>ViewForm</UITemplateContent>
-      <UIPopupWindow>View Permission</UIPopupWindow>
+      <UIPopupWindow>Разрешение на просмотр</UIPopupWindow>
       <selectVersion>Версии</selectVersion>
       <content>Содержимое:</content>
       <name>Название:</name>
@@ -1803,7 +1803,7 @@
   <UITemplateEditForm>
     <label>
       <name>Имя:</name>
-      <label>Label:</label>
+      <label>Метка:</label>
       <isDocumentTemplate>это шаблон документа:</isDocumentTemplate>
     </label>
     <action>
@@ -1903,7 +1903,7 @@
   </JCRBrowser>
   <JCRBrowserAssets>
     <title>
-      <UIOneNodePathSelector>Select Icon</UIOneNodePathSelector>
+      <UIOneNodePathSelector>Выбрать значок</UIOneNodePathSelector>
     </title>
   </JCRBrowserAssets>
   <!--
@@ -2105,7 +2105,7 @@
   -->
   <UIViewContainer>
     <title>
-      <View>View</View>
+      <View>Показать</View>
       <EditInfo>Изменить</EditInfo>
       <Delete>Удалить</Delete>
     </title>
@@ -2334,7 +2334,7 @@
     <action>
       <AddTabForm>Добавить вкладку</AddTabForm>
       <AddTab>#{word.save}</AddTab>
-      <BackViewForm>Back</BackViewForm>
+      <BackViewForm>Назад</BackViewForm>
     </action>
   </UIViewFormTabPane>
   

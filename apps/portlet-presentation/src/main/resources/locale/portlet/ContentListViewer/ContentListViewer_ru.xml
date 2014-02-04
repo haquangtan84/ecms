@@ -2,7 +2,7 @@
 <bundle>
   <UICLVContainer>
     <label>
-      <Preferences>Preferences</Preferences>
+      <Preferences>Настройки</Preferences>
       <AddContent>Добавить контент</AddContent>
       <ManageContent>Управление контентом</ManageContent>
     </label>
@@ -38,7 +38,7 @@
       </option>
       <DisplaySettingBlock>Настройки экрана</DisplaySettingBlock>
       <UICLVConfigHeaderFormStringInput>Заголовок</UICLVConfigHeaderFormStringInput>
-      <UICLVConfigDisplayTemplateFormSelectBox>Template</UICLVConfigDisplayTemplateFormSelectBox>
+      <UICLVConfigDisplayTemplateFormSelectBox>Шаблон</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginator</UICLVConfigPaginatorTemplateFormSelectBox>
       <UICLVConfigItemsPerPageFormStringInput>Результатов на странице</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Show Image</UICLVConfigShowIllustrationFormCheckboxInput>

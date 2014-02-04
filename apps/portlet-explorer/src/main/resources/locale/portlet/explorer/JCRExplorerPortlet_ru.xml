@@ -9,7 +9,7 @@
     <label>
       <name>Название</name>
       <email>Эл. почта</email>
-      <website>Website</website>
+      <website>Сайт</website>
       <comment>Комментировать</comment>
     </label>
     <action>
@@ -41,7 +41,7 @@
     </label>
     <button>
       <label>
-        <confirm>OK</confirm>
+        <confirm>ОК</confirm>
       </label>
     </button>
     <msg>
@@ -98,7 +98,7 @@
       <selectView>Select View</selectView>
       <showSideBar>Показать боковую панель</showSideBar>
       <more>Еще</more>
-      <backTo>Back</backTo>
+      <backTo>Назад</backTo>
     </label>
   </UIViewBar>
 
@@ -240,7 +240,7 @@
       <UIViewMetadataManager>Просмотр метаданных</UIViewMetadataManager>
       <UIVoteForm>Vote Document</UIVoteForm>
       <UICommentForm>Комментировать</UICommentForm>
-      <UIPreferencesForm>Preferences</UIPreferencesForm>
+      <UIPreferencesForm>Настройки</UIPreferencesForm>
       <UIPublicationManager>Управление публикацией</UIPublicationManager>
       <UIConfirmMessage>Удалить ?</UIConfirmMessage>
       <UIDeleteFileConfirmMessage>Удалить файл ?</UIDeleteFileConfirmMessage>
@@ -442,7 +442,7 @@
   -->
   <UIWorkingArea>
     <title>
-      <Icon>Icon</Icon>
+      <Icon>Иконка</Icon>
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
@@ -550,7 +550,7 @@
       <label>
         <name>Имя</name>
         <versionable>Versionable</versionable>
-        <exo_owner>Owner</exo_owner>
+        <exo_owner>Владелец</exo_owner>
         <auditing>Auditing</auditing>
         <exo_dateCreated>Дата создания</exo_dateCreated>
         <exo_dateModified>Дата изменения</exo_dateModified>
@@ -1369,7 +1369,7 @@
       <e_4096>Импорт</e_4096>
       <e_8192>Check in</e_8192>
       <e_16384>Check out</e_16384>
-      <e_32768>Restore</e_32768>
+      <e_32768>Восстановить</e_32768>
       <e_65536>Merge</e_65536>
       <e_131072>Cancel Merge</e_131072>
       <e_262144>Done Merge</e_262144>
@@ -1383,7 +1383,7 @@
     <label>
       <operation>Operation</operation>
       <userName>Имя пользователя</userName>
-      <date>Date</date>
+      <date>Дата</date>
       <version>Версия</version>
     </label>
   </UIAuditingInfo>
@@ -1491,7 +1491,7 @@
   -->
   <UILabelForm>
     <label>
-      <label>Label</label>
+      <label>Метка</label>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -1529,7 +1529,7 @@
   <UIViewVersion>
     <label>
       <nodeType>Тип узла</nodeType>
-      <nodeName>Node Name</nodeName>
+      <nodeName>Название узла</nodeName>
       <VersionNumber>Номер версии</VersionNumber>
       <VersionLabels>Version Labels</VersionLabels>
       <VersionDate>Дата версии</VersionDate>
@@ -1764,7 +1764,7 @@
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>View</View>
+      <View>Показать</View>
       <Edit>Редактировать</Edit>
       <Delete>Удалить</Delete>
     </action>
@@ -1825,11 +1825,11 @@
       <keyword-not-support>Неверное ключевое слово. Некоторые символы не поддерживаются.</keyword-not-support>
     </msg>
     <label>
-      <exeButton>Go</exeButton>
+      <exeButton>Перейти</exeButton>
       <address>Адрес:</address>
     </label>
     <title>
-      <exeButton>Go</exeButton>
+      <exeButton>Перейти</exeButton>
       <backButton>Вернуться к предыдущему узлу</backButton>
       <showHistory>Show the history address</showHistory>
       <changeNode>Изменить узел</changeNode>
@@ -1984,7 +1984,7 @@
       <private>Private</private>
       <state>State</state>
       <visibility>Видимость</visibility>
-      <nodeName>Node Name:</nodeName>
+      <nodeName>Название узла:</nodeName>
       <lifecycleName>Lifecycle Name</lifecycleName>
       <stateName>State Name</stateName>
     </label>
@@ -2077,7 +2077,7 @@
   -->
   <UIPublicationLogList>
     <header>
-      <date>Date</date>
+      <date>Дата</date>
       <newState>Новое состояние</newState>
       <user>Пользователь</user>
       <description>Описание</description>
@@ -2644,7 +2644,7 @@
        <Video>Видео</Video>
        <Music>Музыка</Music>
        <Documents>Документ</Documents>
-       <Content>Content</Content>
+       <Content>Содержимое</Content>
     </label>
   </DocumentType>
 
@@ -2654,7 +2654,7 @@
       <Video>Видео</Video>
       <Music>Музыка</Music>
       <Documents>Документ</Documents>
-      <Content>Content</Content>
+      <Content>Содержимое</Content>
     </label>
     <title>Set Up Filter Preferences</title>
     <action>
@@ -2918,7 +2918,7 @@
     </button>
     <revisions>
       <version>Revisions</version>
-      <date>Date</date>
+      <date>Дата</date>
       <author>Автор</author>
       <status>Статус</status>
       <action>Действие</action>
@@ -2950,7 +2950,7 @@
     </scheduled>
     <title>
       <preview>Предварительный просмотр</preview>
-      <restore>Restore</restore>
+      <restore>Восстановить</restore>
     </title>
     <msg>
       <have-no-view-template>The View template is not supported.</have-no-view-template>
@@ -2959,7 +2959,7 @@
   </UIPublicationPanel>
   <UIPublicationHistory>
     <header>
-      <date>Date</date>
+      <date>Дата</date>
       <versionName>Revision Name</versionName>
       <currentState>Текущее состояние</currentState>
       <user>Автор</user>
@@ -3124,7 +3124,7 @@
     <in>in</in>
     <MaxFileSizeAlert>The file size exceeds the size limit of</MaxFileSizeAlert>
     <Waiting>Waiting</Waiting>
-    <Error>Error</Error>
+    <Error>Ошибка</Error>
     <or>or</or>
     <AlreadyInUse>Already in use</AlreadyInUse>
     <Keep>Keep both</Keep>
@@ -3145,7 +3145,7 @@
   <FileView>
     <label>
       <name>Name</name>
-      <date>Date</date>
+      <date>Дата</date>
       <size>Размер</size>
       <sortBy>Упорядочить по:</sortBy>
       <filesAreSelected>Файлы выбраны.</filesAreSelected>

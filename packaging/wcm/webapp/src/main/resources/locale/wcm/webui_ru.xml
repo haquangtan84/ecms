@@ -177,7 +177,7 @@
 
   <UIContentSearchForm>
     <title>
-      <Location>Site Name</Location>
+      <Location>Название сайта</Location>
       <SearchByName>Search by Name</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
       <Property>Свойство</Property>
@@ -248,7 +248,7 @@
     </header>
     <title>
       <Select>Выбрать</Select>
-      <View>View</View>
+      <View>Показать</View>
     </title>
     <msg>
     <template-not-support>Невозможно предварительно просмотреть этот контент. Шаблон не поддерживается</template-not-support>
@@ -259,7 +259,7 @@
     <action>
       <SaveDraft>Сохранить черновик</SaveDraft>
       <FastPublish>Быстрая публикация</FastPublish>
-      <Preferences>Preferences</Preferences>
+      <Preferences>Настройки</Preferences>
       <Close>#{word.close}</Close>
     </action>
     <msg>
@@ -332,7 +332,7 @@
 
   <UIContentDialogPreference>
     <action>
-      <Back>Back</Back>
+      <Back>Назад</Back>
     </action>
   </UIContentDialogPreference>
 
@@ -372,8 +372,8 @@
 
   <Signin>
     <welcome>Добро пожаловать</welcome>
-    <login>Login</login>
-    <logout>Logout</logout>
+    <login>Авторизация</login>
+    <logout>Выйти</logout>
     <language>Изменить язык</language>
     <register>Register</register>
   </Signin>
@@ -421,7 +421,7 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Abort</abort>
+      <abort>Прервать</abort>
     </title>
   </UIPortalApplication>    
   

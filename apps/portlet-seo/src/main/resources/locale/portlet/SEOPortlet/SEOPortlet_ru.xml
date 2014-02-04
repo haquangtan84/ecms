@@ -12,15 +12,15 @@
     <isInherited>Inherited from parent page</isInherited>
       <priority>Приоритет:</priority>
       <frequency>Частота:</frequency>
-      <select-language>Select a language</select-language>
+      <select-language>Выбрать язык</select-language>
       <option>
-        <Always>Always</Always>
+        <Always>Всегда</Always>
         <Hourly>Каждый час</Hourly>
         <Daily>Ежедневно</Daily>
         <Weekly>Еженедельно</Weekly>
         <Monthly>Ежемесячно</Monthly>
         <Yearly>Ежегодно</Yearly>
-        <Never>Never</Never>
+        <Never>Никогда</Never>
       </option> 
     </label>
     <tip>
