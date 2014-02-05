@@ -25,9 +25,9 @@
       <similar>Страницы с тем же содержимым</similar>
       <editor>Редактор</editor>
       <date>Дата</date>
-      <relevancy>Relevance</relevancy>
+      <relevancy>Релевантность</relevancy>
       <title>Заголовок</title>
-      <sortBy>Sort By:</sortBy>
+      <sortBy>Сортировать по:</sortBy>
     </label>
     <action>
       <edit>Редактировать</edit>
