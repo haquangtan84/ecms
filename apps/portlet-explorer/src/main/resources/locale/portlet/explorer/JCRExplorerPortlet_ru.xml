@@ -1980,7 +1980,7 @@
     <label>
       <published>Опубликовано</published>
       <non-published>Не опубликовано</non-published>
-      <public>Public</public>
+      <public>Публичный</public>
       <private>Private</private>
       <state>State</state>
       <visibility>Видимость</visibility>
@@ -2733,7 +2733,7 @@
 
    <UITaggingForm>
     <label>
-      <Public>Public</Public>
+      <Public>Публичный</Public>
       <Private>Private</Private>
       <tagScopes>Tag Scopes</tagScopes>
     </label>
@@ -2936,7 +2936,7 @@
       <unpublished>Не опубликовано</unpublished>
       <enrolled>Enrolled</enrolled>
       <draft>Черновик</draft>
-      <pending>Pending</pending>
+      <pending>В ожидании</pending>
       <approved>Утверждено</approved>
       <inreview>На рассмотрении</inreview>
       <staged>Staged</staged>
@@ -3144,7 +3144,7 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>Name</name>
+      <name>Имя</name>
       <date>Дата</date>
       <size>Размер</size>
       <sortBy>Упорядочить по:</sortBy>

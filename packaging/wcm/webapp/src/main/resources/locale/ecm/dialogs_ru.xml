@@ -286,7 +286,7 @@
     <dialog>
       <label>
         <id>Id</id>
-        <name>Name</name>
+        <name>Имя</name>
         <lifecycle>Жизненный цикл</lifecycle>
         <homePath>Маршрут личного каталога</homePath>
         <targetWorkspace>Целевая рабочая область</targetWorkspace>

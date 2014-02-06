@@ -178,7 +178,7 @@
   <UIContentSearchForm>
     <title>
       <Location>Название сайта</Location>
-      <SearchByName>Search by Name</SearchByName>
+      <SearchByName>Поиск по имени</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
       <Property>Свойство</Property>
       <Contain>Contain</Contain>
@@ -197,7 +197,7 @@
       </option>
     </label>
     <action>
-      <SearchWebContent>Search</SearchWebContent>
+      <SearchWebContent>Поиск</SearchWebContent>
     </action>
     <msg>
       <time-to-late>The searching time is too long.</time-to-late>
@@ -356,7 +356,7 @@
     <label>
       <SingleContentViewer>Single Content Viewer</SingleContentViewer>
       <ContentListViewer>Content List Viewer</ContentListViewer>
-      <Search>Search</Search>
+      <Search>Поиск</Search>
       <Sitemap>Site Map</Sitemap>
       <TwoColumnsLayout>Two-column Layout</TwoColumnsLayout>
       <ThreeColumnsLayout>Three-column Layout</ThreeColumnsLayout>
@@ -390,7 +390,7 @@
       <GeneralDrives>General Drives</GeneralDrives>
       <GroupDrives>Group Drives</GroupDrives>
       <Private>Private</Private>
-      <Public>Public</Public>
+      <Public>Публичный</Public>
       <BackupCenter>Backup Center</BackupCenter>
       <CategorizedDocumentsCenter>Categorized Documents Center</CategorizedDocumentsCenter>
       <CollaborationCenter>Collaboration Center</CollaborationCenter>

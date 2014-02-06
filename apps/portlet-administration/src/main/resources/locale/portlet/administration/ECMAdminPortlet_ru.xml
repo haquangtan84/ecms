@@ -856,10 +856,10 @@
  <header>
   <tabName>Вкладка</tabName>
   <localizeButtons>Описание</localizeButtons>
-<action>Actions</action>
+<action>Действия</action>
 </header>
 <action>
- <AddTab>Add</AddTab>
+ <AddTab>Добавить</AddTab>
 </action>
 <msg>
  <confirm-delete>Are you sure you want to delete this tab?</confirm-delete>
@@ -884,7 +884,7 @@
 
 <UIViewPermissionList>
                          <title>
-                           <Delete>Delete</Delete>
+                           <Delete>Удалить</Delete>
                          </title>
  <header>
 <friendlyPermission>Права доступа</friendlyPermission>
@@ -979,7 +979,7 @@
       <viewMetadatas>Просмотр метаданных</viewMetadatas>
       <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
       <manageHidden>Hide/Show Content</manageHidden>
-      <comment>Comment</comment>
+      <comment>Комментарий</comment>
       <vote>Vote</vote>  
       <addCategory>Добавить категорию</addCategory>
       <addLocalizationLink>Добавить перевод</addLocalizationLink>
