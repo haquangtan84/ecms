@@ -3129,7 +3129,7 @@
     <AlreadyInUse>Already in use</AlreadyInUse>
     <Keep>Keep both</Keep>
     <Replace>Replace</Replace>
-    <Canceled>Canceled</Canceled>
+    <Canceled>Отменено</Canceled>
     <Cancel>#{word.cancel}</Cancel>
     <AbortAllConfirmation>Do you want to abort all files in progress?</AbortAllConfirmation>
   </label>
