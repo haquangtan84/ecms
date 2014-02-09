@@ -45,7 +45,7 @@
       <searchResultSelector>Шаблон результатов поиска</searchResultSelector>
       <searchPaginatorSelector>Поиск шаблона разбивки на страницы</searchPaginatorSelector>
       <searchPageLayoutSelector>Поиск шаблона макета страницы</searchPageLayoutSelector>
-      <searchResultBasePathInputSetAction>Base Path</searchResultBasePathInputSetAction>
+      <searchResultBasePathInputSetAction>Базовый путь</searchResultBasePathInputSetAction>
       <pageMode>Режим страницы</pageMode>
       <option>
         <none>Нет</none>
@@ -60,7 +60,7 @@
   </UISearchPageLayoutManager>
   <searchResultBasePathInputSetAction>
     <title>
-      <SelectBasePath>Select Base Path</SelectBasePath>
+      <SelectBasePath>Выбрать базовый путь</SelectBasePath>
     </title>
   </searchResultBasePathInputSetAction>  
   <UISearchForm>  
