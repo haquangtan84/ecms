@@ -292,7 +292,7 @@
       <Comment>Nhận xét</Comment>
       <ManageVersions>Phiên bản</ManageVersions>
       <ManageAuditing>Quản lý thay đổi</ManageAuditing>
-      <ManagePublications>Xuất bản</ManagePublications>
+      <ManagePublications>Quản lý Xuất bản</ManagePublications>
       <ManageCategories>Danh mục</ManageCategories>
       <ManageRelations>Quan hệ</ManageRelations>
       <ManageActions>Hành động</ManageActions>
@@ -619,7 +619,7 @@
   -->
   <UITabPane>
     <title>
-      <UIPublishingPanel>Publication Pane</UIPublishingPanel>
+      <UIPublishingPanel>Publication Panel</UIPublishingPanel>
       <UIPublicationPanel>Phiên bản</UIPublicationPanel>
       <UIPublicationSchedule>Theo lịch trình</UIPublicationSchedule>
       <UIPublicationPagesContainer>Trang</UIPublicationPagesContainer>
@@ -866,8 +866,8 @@
     <action>
       <MoreConstraints>Hiện/Ẩn Biểu mẫu Ràng buộc</MoreConstraints>
       <Search>Tìm kiếm</Search>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
     <label>
       <moreConstraints>UISimpleSearch</moreConstraints>
@@ -1060,7 +1060,7 @@
     </label>
     <action>
       <Add>Thêm</Add>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
     <msg>
       <properties-required>Bạn chưa nhập tên thuộc tính.</properties-required>
@@ -1155,8 +1155,8 @@
       <query>Truy vấn:</query>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
       <Search>Tìm kiếm</Search>
     </action>
     <msg>
@@ -1176,8 +1176,8 @@
       <query>Truy vấn</query>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </EditQueryForm>
   <EditSavedQueryForm>
@@ -1190,7 +1190,7 @@
       <metadataType>Kiểu Siêu dữ liệu</metadataType>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
       <Add>Thêm mới</Add>
     </action>
   </UIMetadataSelectForm>
@@ -1251,8 +1251,8 @@
       <queryName>Tên Truy vấn</queryName>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UISaveQueryForm>
   <UISavedQuery>
@@ -1297,7 +1297,7 @@
       <documentView>Kiểu Tài liệu</documentView>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
       <Export>Xuất</Export>
     </action>
     <title>Kết xuất nút</title>
@@ -1515,7 +1515,7 @@
     </label>
     <action>
       <Remove>Gỡ bỏ</Remove>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UIRemoveLabelForm>
   <!--
@@ -1675,7 +1675,7 @@
       <SaveAndClose>Lưu và đóng</SaveAndClose>
       <ChangeType>Thay đổi kiểu nội dung</ChangeType>
       <Fullscreen>Toàn màn hình</Fullscreen>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
       <Close>#{word.close}</Close>
     </action>
 <tooltip>
@@ -1706,7 +1706,7 @@
       </label>
     </tab>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>Đóng</Close>
     </action>
   </UIViewDocumentController>
   <!--
@@ -1726,8 +1726,8 @@
       <name>Tên câu truy vấn</name>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UIQuerySaveForm>
   <!--
@@ -1743,12 +1743,12 @@
   </editActionPopup>
   <UIActionViewContainer>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UIActionViewContainer>
   <UIActionList>
     <header>
-      <name>#{word.name}</name>
+      <name>Tên</name>
       <description>Mô tả</description>
   <lifecycle>Vòng đời</lifecycle>
   <triggeredaction>Hành động được kích hoạt</triggeredaction>
@@ -1763,7 +1763,7 @@
       <access-denied>Truy nhập bị hủy bỏ!Bạn không có quyền để thực hiện thao tác này.</access-denied>
     </msg>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>Đóng</Close>
       <View>Xem</View>
       <Edit>Chỉnh sửa</Edit>
       <Delete>Xóa</Delete>
@@ -1771,8 +1771,8 @@
   </UIActionList>
   <UIActionForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Back>#{word.back}</Back>
+      <Save>Lưu</Save>
+      <Back>Quay lại</Back>
     </action>
     <label>
       <name>Biểu mẫu hành động</name>
@@ -1843,7 +1843,7 @@
   <UIWatchDocumentForm>
     <action>
       <Watch>Theo dõi</Watch>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
       <Continue>Tiếp tục</Continue>
       <Unwatch>Ngừng theo dõi</Unwatch>
     </action>
@@ -1870,7 +1870,7 @@
     </label>
     <action>
       <AddTag>Thêm</AddTag>
-      <Cancel>#{word.close}</Cancel>
+      <Cancel>Đóng</Cancel>
     </action>
     <msg>
       <name-exist>Tên nhãn '{0}' đã tồn tại.</name-exist>
@@ -1902,8 +1902,8 @@
   -->
   <UIViewMetadataForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UIViewMetadataForm>
   <metadataForm>
@@ -2106,8 +2106,8 @@
   -->
   <UIThumbnailForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>Lưu</Save>
+      <Cancel>Hủy bỏ</Cancel>
       <RemoveThumbnail>Xoá ảnh nhỏ</RemoveThumbnail>
     </action>
     <label>
@@ -2205,7 +2205,7 @@
   </UIDriveSelector>
   <UIJcrExplorerEditForm>
     <label>
-      <DriveNameInput>UI JCR Explorer Edit Form</DriveNameInput>
+      <DriveNameInput>UIJcrExplorerEditForm</DriveNameInput>
     </label>
     <msg>
       <personal-usecase>Ổ đĩa cá nhân của người sử dụng hiện tại sẽ được sử dụng khi bạn chọn kiểu truy cập là người dùng.</personal-usecase>

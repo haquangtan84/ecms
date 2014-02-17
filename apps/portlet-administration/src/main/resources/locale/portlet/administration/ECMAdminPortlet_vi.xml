@@ -294,7 +294,7 @@
       <viewTemplate>Mẫu thiết kế Giao diện xem:</viewTemplate>
       <metadataName>Tên Siêu dữ liệu:</metadataName>
       <viewPermission>Phân quyền:</viewPermission>
-      <permission>UIMetadataForm</permission>
+      <permission>Dữ liệu Metadata</permission>
       <metadataLabel>Nhãn:</metadataLabel>
     </label>
     <tab>
@@ -996,7 +996,7 @@
   </UITabForm>
   <UIPermissionForm>
     <label>
-      <permission>UIPermissionForm</permission>
+      <permission>Xem quyền</permission>
     </label>
   </UIPermissionForm>
   <UIViewFormTabPane>
@@ -2050,7 +2050,7 @@
   <UIWorkspaceList>
     <label>
       <workspaceName>Không gian lưu trữ:</workspaceName>
-      <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
+      <rootNodeInfo>Vùng làm việc</rootNodeInfo>
       <rootNodePath>Đường dẫn Gốc:</rootNodePath>
     </label>
   </UIWorkspaceList>
@@ -2239,8 +2239,8 @@
       <firstName>#{word.firstName}</firstName>
     <email>#{word.email}</email>
       <action>#{word.action}</action>
-      <Add>#{word.Add}</Add>
-      <Close>#{word.Close}</Close>
+      <Add>#{word.add}</Add>
+      <Close>#{word.close}</Close>
     </label>
   </PermissionTreeSelectUser>
   
@@ -2280,7 +2280,7 @@
     <label>
       <name>Phân quyền</name>      
       <permissions>Phân quyền</permissions>
-      <PermissionButton>UI Unlock Form</PermissionButton>
+      <PermissionButton>UIUnLockForm</PermissionButton>
     </label>
     <action>
       <Save>#{word.save}</Save>

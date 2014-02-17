@@ -557,7 +557,7 @@
       <CancelChild>#{word.cancel}</CancelChild>
       <UpdateProperty>#{palabra.actualizar}</UpdateProperty>
       <CancelProperty>#{word.cancel}</CancelProperty>
-      <Close>#{word.close}</Close>
+      <Close>#{word.cancel}</Close>
     </action>
     <msg>
       <register-successfully>El tipo de nodo '{0}' se registró correctamente.</register-successfully>

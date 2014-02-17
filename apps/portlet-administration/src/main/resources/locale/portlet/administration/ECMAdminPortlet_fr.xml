@@ -668,8 +668,8 @@
       <filename-error>Parcourir les fichiers pour l'import</filename-error>
       <data-file-error>Seuls les fichiers XML ou ZIP sont supportés pour l'import</data-file-error>
             <data-invalid>Les données importées sont invalides</data-invalid>
-	  <nodetype-exist>Données invalides: Le type de noeud '{0}' existe déjà</nodetype-exist>
-	  <namespace-invalid>Données invalides:  L'espace de nommage '{0}' est inconnu</namespace-invalid>
+      <nodetype-exist>Données invalides: Le type de noeud '{0}' existe déjà</nodetype-exist>
+      <namespace-invalid>Données invalides:  L'espace de nommage '{0}' est inconnu</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -736,8 +736,8 @@
       <AddAction>Ajouter</AddAction>
     </action>
 				<msg>
-					 <confirm-delete>Êtes-vous sûr de vouloir supprimer ce type d'action?</confirm-delete>
-						<cannot-delete>Vous ne pouvez pas supprimer ce type d'action car il est utilisé par le système.</cannot-delete>
+ <confirm-delete>Êtes-vous sûr de vouloir supprimer ce type d'action?</confirm-delete>
+<cannot-delete>Vous ne pouvez pas supprimer ce type d'action car il est utilisé par le système.</cannot-delete>
 				</msg>			
   </UIActionTypeList>
   <!--
@@ -2265,7 +2265,7 @@
   </UIPermissionTreeInfo>
   <UITaxonomyTreeMainForm>
 		<msg>
-			<no-right-target-path>Vous devez choisir un autre chemin d'accueil</no-right-target-path>
+      <no-right-target-path>Vous devez choisir un autre chemin d'accueil</no-right-target-path>
 		</msg>
 	</UITaxonomyTreeMainForm>
 	

@@ -372,7 +372,7 @@
       <can-not-unlock-node>このノードをロック解除する権限がありません。正しい権限を得る為に管理者にコンタクトしてください。</can-not-unlock-node>
       <no-node>貼り付けるために選択されたノードがありません。</no-node>
       <can-not-paste-node>このノードを貼り付ける権限がありません。正しい権限を得る為に管理者にコンタクトしてください。</can-not-paste-node>
-      <can-not-move-node>You do not have permission to move this node. Please contact the administrator.</can-not-move-node>
+      <can-not-move-node>このノードを貼り付ける権限がありません。管理者に連絡して正しい権限を割り当ててもらってください。</can-not-move-node>
       <does-not-support-versioning>バージョンニングはこのノードでサポートされていません。</does-not-support-versioning>
       <path-not-found>このノードは削除されたか変更されました。リフレッシュボタンをクリックしてください。</path-not-found>
       <paste-lock-exception>ソース・ノードまたは転送先のノードはロックされているか、ロックされたノードとの関連があるため、ノードに'{0}'を貼付けることができません。</paste-lock-exception>
@@ -655,7 +655,7 @@
       <UISelectedCategoriesGrid>カテゴリ参照</UISelectedCategoriesGrid>
       <UIWorkflowPublicationActionForm>Workflow 公開 アクション</UIWorkflowPublicationActionForm>
       <UIWorkflowPublicationViewForm>Workflow 公開 ビュー</UIWorkflowPublicationViewForm>
-      <metadatasitemetadata>Site Metadata</metadatasitemetadata>
+      <metadatasitemetadata>サイトのメタデータ</metadatasitemetadata>
       <dcelementset>ダブリンコア</dcelementset>
     </title>
   </UITabPane>
@@ -1657,7 +1657,7 @@
   -->
   <UISelectDocumentForm>
     <label>
-      <selectTemplate>Select your template from the list below</selectTemplate>
+      <selectTemplate>Select your template in the list below</selectTemplate>
       <ThumbnailView>サムネイル表示</ThumbnailView>
       <ListView>一覧表示</ListView>
       <Cancel>#{word.cancel}</Cancel>
@@ -2673,7 +2673,7 @@
       <ShowMusic>全ての音楽ファイルを表示</ShowMusic>
       <ShowImages>全てのイメージファイルを表示</ShowImages>
       <ShowDocuments>全てのドキュメントファイルを表示</ShowDocuments>
-      <ShowContent>Show all document types</ShowContent>
+      <ShowContent>ドキュメントのタイプをすべて表示する</ShowContent>
     </title>
   </UIAllItemsByType>
 

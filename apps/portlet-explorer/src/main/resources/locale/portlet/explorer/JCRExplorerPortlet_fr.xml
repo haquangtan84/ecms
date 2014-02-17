@@ -318,7 +318,7 @@
         <no-publication-lifecycle>Aucun cycle de vie de publication n'a été spécifié.</no-publication-lifecycle>
       </manage-publication>
       <unsubcriber-lifecycle>Le nœud n'était déjà dans aucun cycle de publication.</unsubcriber-lifecycle>
-        <not-supported-nodetype>Seuls les contenus de type document peuvent être supprimés d'un cycle de publication.</not-supported-nodetype>
+      <not-supported-nodetype>Seuls les contenus de type document peuvent être supprimés d'un cycle de publication.</not-supported-nodetype>
       <unsubcriber-lifecycle-finish>Le noeud a été enlevé du cycle de publication avec succès.</unsubcriber-lifecycle-finish>
       <access-false>Ce document n'est pas un article ou vous devez d'abord effectuer un checked in.</access-false>
       <unsupported-action>Cette action n'est pas supportée.</unsupported-action>
@@ -1786,7 +1786,7 @@
       <not-support>Le formulaire d'édition '{0}' n'est pas supporté</not-support>
       <no-permission-add>Accès refusé. Vous n'avez pas les droits suffisants pour ajouter une action ici.</no-permission-add>
       <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour accéder à ce formulaire.</access-denied>
-	  <lifecycle-invalid>Impossible d'ajouter cette action. La phase du cycle de vie de l'action est invalide.</lifecycle-invalid>
+      <lifecycle-invalid>Impossible d'ajouter cette action. La phase du cycle de vie de l'action est invalide.</lifecycle-invalid>
     </msg>
     <title>Détail de l'Action</title>
     <validator>
@@ -2267,7 +2267,7 @@
       <repository-exception>Accès refusé. Vous n'avez pas la permission d'ajouter un lien symbolique vers ce noeud.</repository-exception>
       <numberformat-exception>Impossible d'enregistrer ce dossier. Vous devez saisir un format numérique.</numberformat-exception>
       <path-node-invalid>Veuillez saisir le chemin du noeud.</path-node-invalid>
-			<path-node-not-allowed>Ce nom n'est pas autorisé.</path-node-not-allowed>
+      <path-node-not-allowed>Ce nom n'est pas autorisé.</path-node-not-allowed>
       <non-node>Vous n'avez pas les droits d'accès au noeud cible.</non-node>
       <cannot-save>Impossible d'ajouter un lien symbolique pour ce type de noeud.</cannot-save>
       <item-exists-exception>Un noeud du même nom existe déjà.</item-exists-exception>
@@ -2296,8 +2296,8 @@
       <repository-exception>Accès refusé. Vous n'avez pas la permission d'ajouter un lien symbolique vers ce noeud.</repository-exception>
       <numberformat-exception>Impossible d'enregistrer ce dossier. Vous devez saisir un format numérique.</numberformat-exception>
       <path-node-invalid>Veuillez saisir le chemin du noeud.</path-node-invalid>
-			<path-node-not-allowed>Ce nom n'est pas autorisé.</path-node-not-allowed>
-			<non-node>Vous n'avez pas les droits d'accès au noeud cible</non-node>
+      <path-node-not-allowed>Ce nom n'est pas autorisé.</path-node-not-allowed>
+      <non-node>Vous n'avez pas les droits d'accès au noeud cible</non-node>
 			<cannot-save>Certaines contraintes ont été violées durant cette opération.</cannot-save>
       <item-exists-exception>Un noeud du même nom existe déjà.</item-exists-exception>
       <translation-node-same-language-default>Cette traduction possède la même langue que le contenu courant.</translation-node-same-language-default>
@@ -2475,7 +2475,7 @@
 
   <UIDocumentForm>
   	<msg>
-  		<do-not-permission>Vous n'avez pas le droit de charger le template '{0}'.</do-not-permission>
+      <do-not-permission>Vous n'avez pas le droit de charger le template '{0}'.</do-not-permission>
   	</msg>
   </UIDocumentForm>
 
@@ -2527,7 +2527,7 @@
 
   <UIActionForm>
   	<msg>
-  		<name-not-allowed>Ce nom d'action est interdit.</name-not-allowed>
+      <name-not-allowed>Ce nom d'action est interdit.</name-not-allowed>
   	</msg>
   </UIActionForm>
 
