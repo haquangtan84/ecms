@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <!--
+  ###################################################################################
+  #             org.exoplatform.ecm.webui.component.explorer.UIActionBar      #
+  ###################################################################################
+  -->
+  <UIActionBar>
+    <tooltip>
+      <PublicationRequestApproval>{crwdns6768248:0}{crwdne6768248:0}</PublicationRequestApproval>
+      <PublicationApproveContent>{crwdns6768249:0}{crwdne6768249:0}</PublicationApproveContent>
+      <PublicationPublish>{crwdns6768250:0}{crwdne6768250:0}</PublicationPublish>
+    </tooltip>
+  </UIActionBar>
+</bundle>

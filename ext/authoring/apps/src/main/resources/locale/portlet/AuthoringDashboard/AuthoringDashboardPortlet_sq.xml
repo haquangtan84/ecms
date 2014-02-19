@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <UIDashboardForm>
+    <label>
+      <title>Author Dashboard</title>
+      <nocontent>{crwdns6768270:0}{crwdne6768270:0}</nocontent>
+      <mydraft>{crwdns6768271:0}{crwdne6768271:0}</mydraft>
+      <waitingapproval>{crwdns6768272:0}{crwdne6768272:0}</waitingapproval>
+      <approve>{crwdns6768273:0}{crwdne6768273:0}</approve>
+      <publishedtomorrow>{crwdns6768274:0}{crwdne6768274:0}</publishedtomorrow>
+      <refresh>#{word.refresh}</refresh>
+    </label>
+  </UIDashboardForm>
+</bundle>

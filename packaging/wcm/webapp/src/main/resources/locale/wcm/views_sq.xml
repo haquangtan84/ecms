@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2009 eXo Platform SAS.
+    
+    This is free software; you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as
+    published by the Free Software Foundation; either version 2.1 of
+    the License, or (at your option) any later version.
+    
+    This software is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+    Lesser General Public License for more details.
+    
+    You should have received a copy of the GNU Lesser General Public
+    License along with this software; if not, write to the Free
+    Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+    02110-1301 USA, or see the FSF site: http://www.fsf.org.
+
+-->
+<bundle>
+  <WebLink>
+    <view>
+      <label>
+        <url>{crwdns6767664:0}{crwdne6767664:0}</url>
+        <description>{crwdns6767665:0}{crwdne6767665:0}</description>
+      </label>
+    </view>
+  </WebLink>
+
+  <SiteMetadata>
+    <view>
+      <label>
+        <title>{crwdns6767666:0}{crwdne6767666:0}</title>
+        <description>{crwdns6767667:0}{crwdne6767667:0}</description>
+        <keywords>{crwdns6767668:0}{crwdne6767668:0}</keywords>
+        <robots>{crwdns6767669:0}{crwdne6767669:0}</robots>
+      </label>
+      <tooltip>
+        <add-edit>{crwdns6767670:0}{crwdne6767670:0}</add-edit>
+        <cancel>#{word.cancel}</cancel>
+      </tooltip>
+      <action>
+        <add-edit>{crwdns6767672:0}{crwdne6767672:0}</add-edit>
+        <cancel>#{word.cancel}</cancel>
+      </action>
+    </view>
+  </SiteMetadata>
+
+  <Category>
+    <view>
+      <label>{crwdns6767674:0}{crwdne6767674:0}</label>
+    </view>
+  </Category>
+
+  <Tag>
+    <view>
+      <label>{crwdns6767675:0}{crwdne6767675:0}</label>
+    </view>
+  </Tag>
+</bundle>

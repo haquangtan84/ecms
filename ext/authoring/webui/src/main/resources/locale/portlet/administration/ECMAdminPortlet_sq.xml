@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <UIViewFormTabPane>
+  <label>
+          <publicationRequestApproval>{crwdns6767949:0}{crwdne6767949:0}</publicationRequestApproval>
+          <publicationApproveContent>{crwdns6767950:0}{crwdne6767950:0}</publicationApproveContent>
+          <publicationPublish>{crwdns6767951:0}{crwdne6767951:0}</publicationPublish>
+  </label>
+  </UIViewFormTabPane>
+</bundle>

@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UIECMAdminControlPanel #
+  ################################################################################
+  -->
+  <UIECMAdminControlPanel>
+    <tab>
+      <label>
+        <Templates>{crwdns6766674:0}{crwdne6766674:0}</Templates>
+        <Explorer>{crwdns6766675:0}{crwdne6766675:0}</Explorer>
+        <Repository>{crwdns6766676:0}{crwdne6766676:0}</Repository>
+        <Advanced>{crwdns6766677:0}{crwdne6766677:0}</Advanced>
+      </label>
+    </tab>    
+    <label>     
+      <UITaxonomyManagerTrees>{crwdns6766678:0}{crwdne6766678:0}</UITaxonomyManagerTrees>
+      <UIMetadataManager>{crwdns6766679:0}{crwdne6766679:0}</UIMetadataManager>
+      <UINamespaceManager>{crwdns6766680:0}{crwdne6766680:0}</UINamespaceManager>
+      <UINodeTypeManager>{crwdns6766681:0}{crwdne6766681:0}</UINodeTypeManager>
+      <UITemplatesManager>{crwdns6766682:0}{crwdne6766682:0}</UITemplatesManager>
+   <UICLVTemplatesManager>{crwdns6766683:0}{crwdne6766683:0}</UICLVTemplatesManager>
+      <UIViewManager>{crwdns6766684:0}{crwdne6766684:0}</UIViewManager>
+      <UIDriveManager>{crwdns6766685:0}{crwdne6766685:0}</UIDriveManager>
+      <UIQueriesManager>{crwdns6766686:0}{crwdne6766686:0}</UIQueriesManager>
+      <UIActionManager>{crwdns6766687:0}{crwdne6766687:0}</UIActionManager>
+      <UIScriptManager>{crwdns6766688:0}{crwdne6766688:0}</UIScriptManager>
+      <UIUnLockManager>{crwdns6766689:0}{crwdne6766689:0}</UIUnLockManager>
+      <UIFolksonomyManager>{crwdns6766690:0}{crwdne6766690:0}</UIFolksonomyManager>      
+    </label>
+    <msg>
+      <access-denied>{crwdns6766691:0}{crwdne6766691:0}</access-denied>
+    </msg>
+  </UIECMAdminControlPanel>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UITaxonomy #
+  ################################################################################
+  -->
+  <UITaxonomyWorkingArea>
+    <msg>
+      <referential-integrity>{crwdns6766692:0}{crwdne6766692:0}</referential-integrity>
+      <no-taxonomy-selected>{crwdns6766693:0}{crwdne6766693:0}</no-taxonomy-selected>
+      <node-is-cutting>{crwdns6766694:0}{0}{crwdne6766694:0}</node-is-cutting>
+      <can-not-paste>{crwdns6766695:0}{crwdne6766695:0}</can-not-paste>
+      <reference-exception>{crwdns6766696:0}{crwdne6766696:0}</reference-exception>
+      <path-error>{crwdns6766697:0}{crwdne6766697:0}</path-error>
+    </msg>
+  </UITaxonomyWorkingArea>
+  <UITaxonomyManager>
+    <msg>
+      <confirm-delete>{crwdns6766698:0}{crwdne6766698:0}</confirm-delete>
+    </msg>
+    <title>
+      <add>{crwdns6766699:0}{crwdne6766699:0}</add>
+      <paste>{crwdns6766700:0}{crwdne6766700:0}</paste>
+      <cut>{crwdns6766701:0}{crwdne6766701:0}</cut>
+      <copy>{crwdns6766702:0}{crwdne6766702:0}</copy>
+      <remove>{crwdns6766703:0}{crwdne6766703:0}</remove>
+    </title>
+  </UITaxonomyManager>
+  
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.taxonomy.UITaxonomyTreeContainer#
+  ################################################################################
+  -->
+  <UITaxonomyTreeContainer>
+    <tab>
+      <info>
+        <UITaxonomyTreeMainForm>{crwdns6766704:0}{crwdne6766704:0}</UITaxonomyTreeMainForm>
+        <UIPermissionTreeManager>{crwdns6766705:0}{crwdne6766705:0}</UIPermissionTreeManager>
+        <UIActionTaxonomyManager>{crwdns6766706:0}{crwdne6766706:0}</UIActionTaxonomyManager>
+        <UITaxonomyTreeCreateChild>{crwdns6766707:0}{crwdne6766707:0}</UITaxonomyTreeCreateChild>
+      </info>
+    </tab>
+    <msg>
+      <not-exist-tree>{crwdns6766708:0}{crwdne6766708:0}</not-exist-tree>
+    </msg>
+  </UITaxonomyTreeContainer>
+  
+  <!--
+##########################################################################################
+#     org.exoplatform.ecm.webui.component.admin.taxonomy.UITaxonomyTreeMainForm          #
+##########################################################################################
+-->
+  <UITaxonomyTreeMainForm>
+    <action>
+      <Reset>{crwdns6766709:0}{crwdne6766709:0}</Reset>
+    </action>
+    <msg>
+      <name-not-allowed>{crwdns6766710:0}{crwdne6766710:0}</name-not-allowed>
+      <name-emty>{crwdns6766711:0}{crwdne6766711:0}</name-emty>
+      <homePath-emty>{crwdns6766712:0}{crwdne6766712:0}</homePath-emty>
+      <targetPath-emty>{crwdns6766713:0}{crwdne6766713:0}</targetPath-emty>
+      <taxonomytree-existed>{crwdns6766714:0}{crwdne6766714:0}</taxonomytree-existed>
+    </msg>
+  </UITaxonomyTreeMainForm>
+
+  <TaxonomyTreeMainForm>
+    <label>
+      <TaxoTreeName>{crwdns6766715:0}{crwdne6766715:0}</TaxoTreeName>
+      <TaxoTreeWorkspace>{crwdns6766716:0}{crwdne6766716:0}</TaxoTreeWorkspace>
+      <TaxoTreeHomePath>{crwdns6766717:0}{crwdne6766717:0}</TaxoTreeHomePath>
+    </label>
+  </TaxonomyTreeMainForm>
+
+  <TaxonomyTreeHomePath>
+    <title>
+      <AddPath>{crwdns6766718:0}{crwdne6766718:0}</AddPath>
+    </title>
+  </TaxonomyTreeHomePath>
+  
+  <!--
+##########################################################################################
+#     org.exoplatform.ecm.webui.component.admin.taxonomy.tree.info.UIPermissionTreeInfo  #
+##########################################################################################
+-->
+<UIPermissionTreeInfo>
+<action>
+<title>
+<Delete>{crwdns6766719:0}{crwdne6766719:0}</Delete>
+<Edit>{crwdns6766720:0}{crwdne6766720:0}</Edit>
+</title>
+</action>
+<header>
+<usersOrGroups>{crwdns6766721:0}{crwdne6766721:0}</usersOrGroups>
+<read>{crwdns6766722:0}{crwdne6766722:0}</read>
+<addNode>{crwdns6766723:0}{crwdne6766723:0}</addNode>
+<setProperty>{crwdns6766724:0}{crwdne6766724:0}</setProperty>
+<remove>{crwdns6766725:0}{crwdne6766725:0}</remove>
+<action>{crwdns6766726:0}{crwdne6766726:0}</action>
+</header>
+</UIPermissionTreeInfo>
+
+<!--
+##########################################################################################
+#     org.exoplatform.ecm.webui.component.admin.taxonomy.tree.info.UIPermissionTreeForm  #
+##########################################################################################
+-->
+  <UIPermissionTreeForm>
+    <msg>
+      <have-not-any-permission>{crwdns6766727:0}{crwdne6766727:0}</have-not-any-permission>
+    </msg>
+  </UIPermissionTreeForm>
+
+<!--
+################################################################################
+#     org.exoplatform.ecm.webui.component.admin.taxonomy.UIActionForm          #
+################################################################################
+-->
+
+  <UIActionForm>
+    <title>{crwdns6766728:0}{crwdne6766728:0}</title>
+    <action>
+      <Save>#{word.save}</Save>
+    </action>
+    <msg>
+      <name-not-allowed>{crwdns6766730:0}{crwdne6766730:0}</name-not-allowed>
+      <path-invalid>{crwdns6766731:0}{crwdne6766731:0}</path-invalid>
+      <taxonomy-existed>{crwdns6766732:0}{crwdne6766732:0}</taxonomy-existed>
+      <taxonomy-node-existed>{crwdns6766733:0}{crwdne6766733:0}</taxonomy-node-existed>
+      <no-permission-add>{crwdns6766734:0}{crwdne6766734:0}</no-permission-add>
+      <not-created-tree>{crwdns6766735:0}{crwdne6766735:0}</not-created-tree>
+    </msg>
+  </UIActionForm>
+
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UITemplatesManager #
+  ################################################################################
+  -->
+  <UITemplatesList>
+    <header>
+      <name>{crwdns6766736:0}{crwdne6766736:0}</name>
+      <action>{crwdns6766737:0}{crwdne6766737:0}</action>
+    </header>
+  </UITemplatesList>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UINamespaceForm  #
+  ################################################################################
+  -->
+  <NameSpacePopup>
+    <title>
+      <UINamespaceForm>{crwdns6766738:0}{crwdne6766738:0}</UINamespaceForm>
+    </title>
+  </NameSpacePopup>
+  <UINamespaceForm>
+    <title>{crwdns6766739:0}{crwdne6766739:0}</title>
+    <label>
+      <namespace>{crwdns6766740:0}{crwdne6766740:0}</namespace>
+      <uri>{crwdns6766741:0}{crwdne6766741:0}</uri>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <msg>
+      <register-unsuccessfull>{crwdns6766744:0}{crwdne6766744:0}</register-unsuccessfull>
+      <prefix-null>{crwdns6766745:0}{crwdne6766745:0}</prefix-null>
+      <uri-null>{crwdns6766746:0}{crwdne6766746:0}</uri-null>
+    </msg>
+  </UINamespaceForm>
+  <!--
+  ################################################################################
+  #      org.exoplatform.ecm.webui.component.admin.namespace.UINamespaceList #
+  ################################################################################
+  -->
+  <UINamespaceList>
+    <header>
+      <prefix>{crwdns6766747:0}{crwdne6766747:0}</prefix>
+      <uri>{crwdns6766748:0}{crwdne6766748:0}</uri>
+      <action>{crwdns6766749:0}{crwdne6766749:0}</action>
+    </header>
+    <action>
+      <AddNamespace>{crwdns6766750:0}{crwdne6766750:0}</AddNamespace>
+    </action>
+  </UINamespaceList>
+  <NamespacePopup>
+    <title>
+      <UINamespaceForm>{crwdns6766751:0}{crwdne6766751:0}</UINamespaceForm>
+    </title>
+  </NamespacePopup>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UIMetadataList #
+  ################################################################################
+  -->
+  <UIMetadataList>
+    <label>
+      <false>{crwdns6766752:0}{crwdne6766752:0}</false>
+      <true>{crwdns6766753:0}{crwdne6766753:0}</true>
+      <True>{crwdns6766754:0}{crwdne6766754:0}</True>
+      <False>{crwdns6766755:0}{crwdne6766755:0}</False>
+    </label>
+    <title>
+      <view>{crwdns6766756:0}{crwdne6766756:0}</view>
+      <edit>{crwdns6766757:0}{crwdne6766757:0}</edit>
+      <delete>{crwdns6766758:0}{crwdne6766758:0}</delete>
+    </title>
+    <header>
+      <icon>{crwdns6766759:0}{crwdne6766759:0}</icon>
+      <name>{crwdns6766760:0}{crwdne6766760:0}</name>
+      <type>{crwdns6766761:0}{crwdne6766761:0}</type>
+      <internalUse>{crwdns6766762:0}{crwdne6766762:0}</internalUse>
+      <action>{crwdns6766763:0}{crwdne6766763:0}</action>
+    </header>
+    <msg>
+      <confirm-delete>{crwdns6766764:0}{crwdne6766764:0}</confirm-delete>
+      <delete-successful>{crwdns6766765:0}{0}{crwdne6766765:0}</delete-successful>
+      <path-not-found-exception>{crwdns6766766:0}{crwdne6766766:0}</path-not-found-exception>
+    </msg>
+    <action>
+      <Add>{crwdns6766767:0}{crwdne6766767:0}</Add>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+  </UIMetadataList>
+  <MetadataPopupAddNew>
+    <title>
+      <UIMetadataForm>Add New Metadata's Template</UIMetadataForm>
+    </title>
+  </MetadataPopupAddNew>
+  <MetadataPopupEdit>
+    <title>
+      <UIMetadataForm>{crwdns6766770:0}{crwdne6766770:0}</UIMetadataForm>
+    </title>
+  </MetadataPopupEdit>
+  <MetataPermissionPopup>
+    <title>
+      <MetadataPermission>{crwdns6766771:0}{crwdne6766771:0}</MetadataPermission>
+      <QueriesPermissionBrowse>{crwdns6766772:0}{crwdne6766772:0}</QueriesPermissionBrowse>
+    </title>
+  </MetataPermissionPopup>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.metadata.UIMetadataForm #
+  ################################################################################
+  -->
+  <UIMetadataForm>
+    <title>{crwdns6766773:0}{crwdne6766773:0}</title>
+    <action>
+      <Cancel>#{word.cancel}</Cancel>
+      <Save>{crwdns6766775:0}{crwdne6766775:0}</Save>
+    </action>
+    <header>
+      <icon>{crwdns6766776:0}{crwdne6766776:0}</icon>
+      <label>{crwdns6766777:0}{crwdne6766777:0}</label>
+      <input>{crwdns6766778:0}{crwdne6766778:0}</input>
+    </header>
+    <label>
+      <dialogTemplate>{crwdns6766779:0}{crwdne6766779:0}</dialogTemplate>
+      <viewTemplate>{crwdns6766780:0}{crwdne6766780:0}</viewTemplate>
+      <metadataName>{crwdns6766781:0}{crwdne6766781:0}</metadataName>
+      <viewPermission>{crwdns6766782:0}{crwdne6766782:0}</viewPermission>
+      <permission>UIMetadataForm</permission>
+      <metadataLabel>{crwdns6766784:0}{crwdne6766784:0}</metadataLabel>
+    </label>
+    <tab>
+      <label>
+        <metadataTypeTab>{crwdns6766785:0}{crwdne6766785:0}</metadataTypeTab>
+        <dialogTab>{crwdns6766786:0}{crwdne6766786:0}</dialogTab>
+        <viewTab>{crwdns6766787:0}{crwdne6766787:0}</viewTab>
+      </label>
+    </tab>
+  </UIMetadataForm>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.metadata.UIMetadataView #
+  ################################################################################
+  -->
+  <UIMetadataView>
+    <header>
+      <name>{crwdns6766788:0}{crwdne6766788:0}</name>
+      <type>{crwdns6766789:0}{crwdne6766789:0}</type>
+      <description>{crwdns6766790:0}{crwdne6766790:0}</description>
+      <isMixin>{crwdns6766791:0}{crwdne6766791:0}</isMixin>
+      <orderable>{crwdns6766792:0}{crwdne6766792:0}</orderable>
+    </header>
+    <info>
+      <description>{crwdns6766793:0}{crwdne6766793:0}</description>
+    </info>
+    <tab>
+      <element>{crwdns6766794:0}{crwdne6766794:0}</element>
+      <metadataView>{crwdns6766795:0}{crwdne6766795:0}</metadataView>
+    </tab>
+    <action>
+      <Cancel>#{word.close}</Cancel>
+      <Back>#{word.back}</Back>
+    </action>
+  </UIMetadataView>
+  <ViewMetadataPopup>
+    <title>
+      <UIMetadataView>{crwdns6766798:0}{crwdne6766798:0}</UIMetadataView>
+    </title>
+  </ViewMetadataPopup>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UIDriveManager #
+  ################################################################################
+  -->
+  <UIDriveList>
+    <header>
+      <icon>{crwdns6766799:0}{crwdne6766799:0}</icon>
+      <name>{crwdns6766800:0}{crwdne6766800:0}</name>
+      <workspace>{crwdns6766801:0}{crwdne6766801:0}</workspace>
+      <homePath>{crwdns6766802:0}{crwdne6766802:0}</homePath>
+      <permissions>{crwdns6766803:0}{crwdne6766803:0}</permissions>
+      <views>{crwdns6766804:0}{crwdne6766804:0}</views>
+      <action>{crwdns6766805:0}{crwdne6766805:0}</action>
+    </header>
+    <tooltip>
+      <Delete>{crwdns6766806:0}{crwdne6766806:0}</Delete>
+      <EditInfo>{crwdns6766807:0}{crwdne6766807:0}</EditInfo>
+    </tooltip>
+    <msg>
+      <confirm-delete>{crwdns6766808:0}{crwdne6766808:0}</confirm-delete>
+    </msg>
+    <action>
+      <AddDrive>{crwdns6766809:0}{crwdne6766809:0}</AddDrive>
+    </action>
+    <label>
+      <permission>{crwdns6766810:0}{0}{crwdnd6766810:0}{1}{crwdne6766810:0}</permission>
+    </label>
+  </UIDriveList>
+  <UIDriveForm>
+    <action>
+      <Cancel>#{word.cancel}</Cancel>
+      <Save>#{word.save}</Save>
+      <Back>#{word.back}</Back>
+      <Refresh>#{word.refresh}</Refresh>
+    </action>
+    <msg>
+      <drive-exists>{crwdns6766815:0}{crwdne6766815:0}</drive-exists>
+      <workspace-path-invalid>{crwdns6766816:0}{crwdne6766816:0}</workspace-path-invalid>
+      <drive-views-invalid>{crwdns6766817:0}{crwdne6766817:0}</drive-views-invalid>
+      <icon-not-found>{crwdns6766818:0}{crwdne6766818:0}</icon-not-found>
+      <permission-null>{crwdns6766819:0}{crwdne6766819:0}</permission-null>
+      <allowCreateFolders>{crwdns6766820:0}{crwdne6766820:0}</allowCreateFolders>
+      <name-null>{crwdns6766821:0}{crwdne6766821:0}</name-null>
+      <fileName-invalid>{crwdns6766822:0}{crwdne6766822:0}</fileName-invalid>
+    </msg>
+    <tab>
+      <label>
+        <DriveInputSet>{crwdns6766823:0}{crwdne6766823:0}</DriveInputSet>
+        <ViewsInputSet>{crwdns6766824:0}{crwdne6766824:0}</ViewsInputSet>
+        <PermissionInputSet>{crwdns6766825:0}{crwdne6766825:0}</PermissionInputSet>
+      </label>
+    </tab>
+    <label>
+      <name>{crwdns6766826:0}{crwdne6766826:0}</name>
+      <workspace>{crwdns6766827:0}{crwdne6766827:0}</workspace>
+      <homePath>{crwdns6766828:0}{crwdne6766828:0}</homePath>
+      <icon>{crwdns6766829:0}{crwdne6766829:0}</icon>
+      <viewPreferences>{crwdns6766830:0}{crwdne6766830:0}</viewPreferences>
+      <viewNonDocument>{crwdns6766831:0}{crwdne6766831:0}</viewNonDocument>
+      <viewSideBar>{crwdns6766832:0}{crwdne6766832:0}</viewSideBar>
+      <permissions>{crwdns6766833:0}{crwdne6766833:0}</permissions>
+      <showHiddenNode>{crwdns6766834:0}{crwdne6766834:0}</showHiddenNode>
+      <allowCreateFolders>{crwdns6766835:0}{crwdne6766835:0}</allowCreateFolders>
+      <Admin>{crwdns6766836:0}{crwdne6766836:0}</Admin>
+      <Categories>{crwdns6766837:0}{crwdne6766837:0}</Categories>
+      <Icons>{crwdns6766838:0}{crwdne6766838:0}</Icons>
+      <List>{crwdns6766839:0}{crwdne6766839:0}</List>
+      <Web>{crwdns6766840:0}{crwdne6766840:0}</Web>
+    </label>
+  </UIDriveForm>
+  <AddDriveManagerPopup>
+    <title>
+      <UIDriveForm>{crwdns6766841:0}{crwdne6766841:0}</UIDriveForm>
+    </title>
+  </AddDriveManagerPopup>
+  <EditDriveManagerPopup>
+    <title>
+      <UIDriveForm>{crwdns6766842:0}{crwdne6766842:0}</UIDriveForm>
+    </title>
+  </EditDriveManagerPopup>
+  <UITreeList>
+    <info>
+      <child-not-found>{crwdns6766843:0}{crwdne6766843:0}</child-not-found>
+    </info>
+    <header>
+      <name>{crwdns6766844:0}{crwdne6766844:0}</name>
+      <action>{crwdns6766845:0}{crwdne6766845:0}</action>
+    </header>
+  </UITreeList>
+  
+  <UIRepositoryList>
+    <titlebar>
+      <label>{crwdns6766846:0}{crwdne6766846:0}</label>
+    </titlebar>
+  </UIRepositoryList>
+  
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeManager #
+  ################################################################################
+  -->
+  <UINodeTypeManager>
+    <header>
+      <icon>{crwdns6766847:0}{crwdne6766847:0}</icon>
+      <label>{crwdns6766848:0}{crwdne6766848:0}</label>
+      <input>{crwdns6766849:0}{crwdne6766849:0}</input>
+    </header>
+    <action>
+      <Save>#{word.save}</Save>
+    </action>
+  </UINodeTypeManager>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeList #
+  ################################################################################
+  -->
+  <UINodeTypeList>
+    <label>
+      <true>{crwdns6766851:0}{crwdne6766851:0}</true>
+      <false>{crwdns6766852:0}{crwdne6766852:0}</false>
+    </label>
+    <header>
+      <icon>{crwdns6766853:0}{crwdne6766853:0}</icon>
+      <nodeType>{crwdns6766854:0}{crwdne6766854:0}</nodeType>
+      <mixinType>{crwdns6766855:0}{crwdne6766855:0}</mixinType>
+      <orderable>{crwdns6766856:0}{crwdne6766856:0}</orderable>
+      <action>{crwdns6766857:0}{crwdne6766857:0}</action>
+    </header>
+    <action>
+      <Export>{crwdns6766858:0}{crwdne6766858:0}</Export>
+      <Import>{crwdns6766859:0}{crwdne6766859:0}</Import>
+      <Add>{crwdns6766860:0}{crwdne6766860:0}</Add>
+    </action>
+    <tooltip>
+      <View>{crwdns6766861:0}{crwdne6766861:0}</View>
+      <Edit>{crwdns6766862:0}{crwdne6766862:0}</Edit>
+      <Delete>{crwdns6766863:0}{crwdne6766863:0}</Delete>
+    </tooltip>
+    <msg>
+      <confirm-delete>{crwdns6766864:0}{crwdne6766864:0}</confirm-delete>
+    </msg>
+  </UINodeTypeList>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeOptionList #
+  ################################################################################
+  -->
+  <UINodeTypeOptionList>
+    <action>
+      <Save>#{word.save}</Save>
+      <Add>{crwdns6766866:0}{crwdne6766866:0}</Add>
+    </action>
+    <header>
+      <icon>{crwdns6766867:0}{crwdne6766867:0}</icon>
+      <label>{crwdns6766868:0}{crwdne6766868:0}</label>
+      <input>{crwdns6766869:0}{crwdne6766869:0}</input>
+    </header>
+  </UINodeTypeOptionList>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeForm #
+  ################################################################################
+  -->
+  <UINodeTypeForm>
+    <tab>
+      <label>
+        <nodeTypeDefinition>{crwdns6766870:0}{crwdne6766870:0}</nodeTypeDefinition>
+        <propertyDefinition>{crwdns6766871:0}{crwdne6766871:0}</propertyDefinition>
+        <childNodeDefinition>{crwdns6766872:0}{crwdne6766872:0}</childNodeDefinition>
+        <superTypeTab>{crwdns6766873:0}{crwdne6766873:0}</superTypeTab>
+        <DefaultTypeTab>{crwdns6766874:0}{crwdne6766874:0}</DefaultTypeTab>
+        <RequiredTypeTab>{crwdns6766875:0}{crwdne6766875:0}</RequiredTypeTab>
+        <Contraints>{crwdns6766876:0}{crwdne6766876:0}</Contraints>
+      </label>
+    </tab>
+    <label>
+      <propertiesDefinitions>{crwdns6766877:0}{crwdne6766877:0}</propertiesDefinitions>
+      <childDefinitions>{crwdns6766878:0}{crwdne6766878:0}</childDefinitions>
+      <namespace>{crwdns6766879:0}{crwdne6766879:0}</namespace>
+      <propertyNamespace>{crwdns6766880:0}{crwdne6766880:0}</propertyNamespace>
+      <nodeTypeName>{crwdns6766881:0}{crwdne6766881:0}</nodeTypeName>
+      <mixinType>{crwdns6766882:0}{crwdne6766882:0}</mixinType>
+      <hasOrderableChildNodes>{crwdns6766883:0}{crwdne6766883:0}</hasOrderableChildNodes>
+      <primaryItemName>{crwdns6766884:0}{crwdne6766884:0}</primaryItemName>
+      <superTypes>{crwdns6766885:0}{crwdne6766885:0}</superTypes>
+      <propertyname>{crwdns6766886:0}{crwdne6766886:0}</propertyname>
+      <requiredType>{crwdns6766887:0}{crwdne6766887:0}</requiredType>
+      <multiple>{crwdns6766888:0}{crwdne6766888:0}</multiple>
+      <mandatory>{crwdns6766889:0}{crwdne6766889:0}</mandatory>
+      <autoCreated>{crwdns6766890:0}{crwdne6766890:0}</autoCreated>
+      <parentversion>{crwdns6766891:0}{crwdne6766891:0}</parentversion>
+      <protected>{crwdns6766892:0}{crwdne6766892:0}</protected>
+      <constraints>{crwdns6766893:0}{crwdne6766893:0}</constraints>
+      <UIFormTableInputSet>UIFormTableInputSet</UIFormTableInputSet>
+      <sameNameSiblings>{crwdns6766895:0}{crwdne6766895:0}</sameNameSiblings>
+      <childNamespace>{crwdns6766896:0}{crwdne6766896:0}</childNamespace>
+      <childMandatory>{crwdns6766897:0}{crwdne6766897:0}</childMandatory>
+      <childAutocreated>{crwdns6766898:0}{crwdne6766898:0}</childAutocreated>
+      <childParentversion>{crwdns6766899:0}{crwdne6766899:0}</childParentversion>
+      <childProtected>{crwdns6766900:0}{crwdne6766900:0}</childProtected>
+      <childNodename>{crwdns6766901:0}{crwdne6766901:0}</childNodename>
+      <requiredPrimaryType>{crwdns6766902:0}{crwdne6766902:0}</requiredPrimaryType>
+      <defaultPrimaryType>{crwdns6766903:0}{crwdne6766903:0}</defaultPrimaryType>
+      <valueconstraints>{crwdns6766904:0}{crwdne6766904:0}</valueconstraints>
+    </label>
+    <action>
+      <Cancel>#{word.cancel}</Cancel>
+      <Save>#{word.save}</Save>
+      <SaveDraft>{crwdns6766907:0}{crwdne6766907:0}</SaveDraft>
+      <AddProperty>{crwdns6766908:0}{crwdne6766908:0}</AddProperty>
+      <AddChild>{crwdns6766909:0}{crwdne6766909:0}</AddChild>
+      <AddConstraints>{crwdns6766910:0}{crwdne6766910:0}</AddConstraints>
+      <Back>#{word.back}</Back>
+      <AddType>{crwdns6766912:0}{crwdne6766912:0}</AddType>
+      <AddValue>{crwdns6766913:0}{crwdne6766913:0}</AddValue>
+      <CancelConstraints>#{word.cancel}</CancelConstraints>
+      <CancelTab>#{word.cancel}</CancelTab>
+      <UpdateChild>#{word.update}</UpdateChild>
+      <CancelChild>#{word.cancel}</CancelChild>
+      <UpdateProperty>#{word.update}</UpdateProperty>
+      <CancelProperty>#{word.cancel}</CancelProperty>
+      <Close>#{word.close}</Close>
+    </action>
+    <msg>
+      <register-successfully>{crwdns6766921:0}{0}{crwdne6766921:0}</register-successfully>
+      <supertype-is-madatory>{crwdns6766922:0}{crwdne6766922:0}</supertype-is-madatory>
+      <register-failed>{crwdns6766923:0}{crwdne6766923:0}</register-failed>
+      <nodeType-name>{crwdns6766924:0}{crwdne6766924:0}</nodeType-name>
+      <fileName-invalid>{crwdns6766925:0}{crwdne6766925:0}</fileName-invalid>
+      <node-type-exists>{crwdns6766926:0}{0}{crwdne6766926:0}</node-type-exists>
+      <node-type-name>{crwdns6766927:0}{crwdne6766927:0}</node-type-name>
+      <values-error>{crwdns6766928:0}{crwdne6766928:0}</values-error>
+      <confirm-delete-child>{crwdns6766929:0}{crwdne6766929:0}</confirm-delete-child>
+      <confirm-delete-property>{crwdns6766930:0}{crwdne6766930:0}</confirm-delete-property>
+    </msg>
+  </UINodeTypeForm>
+  <UIPropertyDefinitionForm>
+    <tab>
+      <label>
+        <constraints>{crwdns6766931:0}{crwdne6766931:0}</constraints>
+        <UIFormMultiValueInputSet>{crwdns6766932:0}{crwdne6766932:0}</UIFormMultiValueInputSet>
+      </label>
+    </tab>
+    <msg>
+      <property-name>{crwdns6766933:0}{crwdne6766933:0}</property-name>
+      <not-supported-value-constraints>{crwdns6766934:0}{crwdne6766934:0}</not-supported-value-constraints>
+    </msg>
+  </UIPropertyDefinitionForm>
+  <UIChildNodeDefinitionForm>
+    <msg>
+      <child-name>{crwdns6766935:0}{crwdne6766935:0}</child-name>
+      <child-invalid>{crwdns6766936:0}{crwdne6766936:0}</child-invalid>
+      <default-node-type-not-found>{crwdns6766937:0}{crwdne6766937:0}</default-node-type-not-found>
+      <requiredPrimaryType>{crwdns6766938:0}{crwdne6766938:0}</requiredPrimaryType>
+      <defaultPrimaryType>{crwdns6766939:0}{crwdne6766939:0}</defaultPrimaryType>
+    </msg>
+  </UIChildNodeDefinitionForm>
+  <defaultPrimaryTypePopup>
+    <title>
+      <FormdefaultPrimaryTypePopup>{crwdns6766940:0}{crwdne6766940:0}</FormdefaultPrimaryTypePopup>
+    </title>
+  </defaultPrimaryTypePopup>
+  <requiredPrimaryTypePopup>
+    <title>
+      <FormrequiredPrimaryTypePopup>{crwdns6766941:0}{crwdne6766941:0}</FormrequiredPrimaryTypePopup>
+    </title>
+  </requiredPrimaryTypePopup>
+  <superTypesPopup>
+    <title>
+      <FormsuperTypesPopup>{crwdns6766942:0}{crwdne6766942:0}</FormsuperTypesPopup>
+    </title>
+  </superTypesPopup>
+  <NodeTypePopup>
+    <title>
+      <UINodeTypeForm>{crwdns6766943:0}{crwdne6766943:0}</UINodeTypeForm>
+    </title>
+  </NodeTypePopup>
+  <ViewNodeTypePopup>
+    <title>
+      <UINodeTypeForm>{crwdns6766944:0}{crwdne6766944:0}</UINodeTypeForm>
+    </title>
+  </ViewNodeTypePopup>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeExport   #
+  ################################################################################
+  -->
+  <UINodeTypeExport>
+    <header>
+      <icon>{crwdns6766945:0}{crwdne6766945:0}</icon>
+      <label>{crwdns6766946:0}{crwdne6766946:0}</label>
+      <input>{crwdns6766947:0}{crwdne6766947:0}</input>
+    </header>
+    <action>
+      <Cancel>#{word.cancel}</Cancel>
+      <Export>{crwdns6766949:0}{crwdne6766949:0}</Export>
+      <UncheckAll>{crwdns6766950:0}{crwdne6766950:0}</UncheckAll>
+      <CheckAll>{crwdns6766951:0}{crwdne6766951:0}</CheckAll>
+    </action>
+    <title>{crwdns6766952:0}{crwdne6766952:0}</title>
+    <msg>
+      <item-null>{crwdns6766953:0}{crwdne6766953:0}</item-null>
+    </msg>
+  </UINodeTypeExport>
+  <NodeTypeExportPopup>
+    <title>
+      <UINodeTypeExport>{crwdns6766954:0}{crwdne6766954:0}</UINodeTypeExport>
+    </title>
+  </NodeTypeExportPopup>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeOptionList   #
+  ################################################################################
+  -->
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeUpload   #
+  ################################################################################
+  -->
+  <UINodeTypeUpload>
+    <label>
+      <upload>{crwdns6766955:0}{crwdne6766955:0}</upload>
+    </label>
+    <action>
+      <Cancel>#{word.cancel}</Cancel>
+      <Upload>{crwdns6766957:0}{crwdne6766957:0}</Upload>
+    </action>
+    <title>{crwdns6766958:0}{crwdne6766958:0}</title>
+    <msg>
+      <filename-error>{crwdns6766959:0}{crwdne6766959:0}</filename-error>
+      <data-file-error>{crwdns6766960:0}{crwdne6766960:0}</data-file-error>
+      <data-invalid>{crwdns6766961:0}{crwdne6766961:0}</data-invalid>
+      <nodetype-exist>{crwdns6766962:0}{0}{crwdne6766962:0}</nodetype-exist>
+      <namespace-invalid>{crwdns6766963:0}{0}{crwdne6766963:0}</namespace-invalid>
+    </msg>
+  </UINodeTypeUpload>
+  <!--
+  ################################################################################
+  #    org.exoplatform.ecm.webui.component.admin.nodetype.UINodeTypeImport   #
+  ################################################################################
+  -->
+  <UINodeTypeImport>
+    <action>
+      <Cancel>#{word.cancel}</Cancel>
+      <Import>{crwdns6766965:0}{crwdne6766965:0}</Import>
+      <Upload>{crwdns6766966:0}{crwdne6766966:0}</Upload>
+    </action>
+    <header>
+      <icon>{crwdns6766967:0}{crwdne6766967:0}</icon>
+      <label>{crwdns6766968:0}{crwdne6766968:0}</label>
+      <input>{crwdns6766969:0}{crwdne6766969:0}</input>
+    </header>
+    <title>{crwdns6766970:0}{crwdne6766970:0}</title>
+    <msg>
+      <no-nodetype-registered>{crwdns6766971:0}{crwdne6766971:0}</no-nodetype-registered>
+      <nodetype-registered>{crwdns6766972:0}{crwdne6766972:0}</nodetype-registered>
+    </msg>
+  </UINodeTypeImport>
+  <NodeTypeImportPopup>
+    <title>
+      <UINodeTypeImportPopup>{crwdns6766973:0}{crwdne6766973:0}</UINodeTypeImportPopup>
+    </title>
+  </NodeTypeImportPopup>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.UIDriveForm #
+  ################################################################################
+  -->
+  <DriveInputSet>
+    <label>
+      <both>Both</both>
+      <folderOnly>Folder</folderOnly>
+      <unstructuredFolder>Unstructured Folder</unstructuredFolder>
+    </label>
+    <title>
+      <AddPermission>{crwdns6766977:0}{crwdne6766977:0}</AddPermission>
+      <RemovePermission>{crwdns6766978:0}{crwdne6766978:0}</RemovePermission>
+      <AddIcon>{crwdns6766979:0}{crwdne6766979:0}</AddIcon>
+      <AddPath>{crwdns6766980:0}{crwdne6766980:0}</AddPath>
+    </title>
+  </DriveInputSet>
+  <!--
+  ###################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.action.UIActionTypeList#
+  ###################################################################################
+  -->
+  <UIActionTypeList>
+    <header>
+      <name>{crwdns6766981:0}{crwdne6766981:0}</name>
+      <label>{crwdns6766982:0}{crwdne6766982:0}</label>
+      <action>{crwdns6766983:0}{crwdne6766983:0}</action>
+    </header>
+    <title>
+      <Edit>{crwdns6766984:0}{crwdne6766984:0}</Edit>
+      <Delete>{crwdns6766985:0}{crwdne6766985:0}</Delete>
+    </title>
+    <action>
+      <AddAction>{crwdns6766986:0}{crwdne6766986:0}</AddAction>
+    </action>
+<msg>
+ <confirm-delete>{crwdns6766987:0}{crwdne6766987:0}</confirm-delete>
+<cannot-delete>{crwdns6766988:0}{crwdne6766988:0}</cannot-delete>
+</msg>
+  </UIActionTypeList>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.action.UIActionTypeForm #
+  ######################################################################################
+  -->
+  <ActionPopup>
+    <title>
+      <UIActionTypeForm>{crwdns6766989:0}{crwdne6766989:0}</UIActionTypeForm>
+    </title>
+  </ActionPopup>
+  <UIActionTypeForm>
+    <title>{crwdns6766990:0}{crwdne6766990:0}</title>
+    <label>
+      <actionType>{crwdns6766991:0}{crwdne6766991:0}</actionType>
+      <name>{crwdns6766992:0}{crwdne6766992:0}</name>
+      <isMove>is Action Move:</isMove>
+      <variables>{crwdns6766994:0}{crwdne6766994:0}</variables>
+      <exo_businessProcessAction>{crwdns6766995:0}{crwdne6766995:0}</exo_businessProcessAction>
+      <exo_scriptAction>{crwdns6766996:0}{crwdne6766996:0}</exo_scriptAction>
+      <exo_ruleAction>{crwdns6766997:0}{crwdne6766997:0}</exo_ruleAction>
+      <script>{crwdns6766998:0}{crwdne6766998:0}</script>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <msg>
+      <action-type-added>{crwdns6767001:0}{0}{crwdne6767001:0}</action-type-added>
+      <action-type-create-error>{crwdns6767002:0}{crwdne6767002:0}</action-type-create-error>
+      <action-name-invalid>{crwdns6767003:0}{0}{crwdne6767003:0}</action-name-invalid>
+      <action-exist>{crwdns6767004:0}{crwdne6767004:0}</action-exist>
+      <fileName-invalid>{crwdns6767005:0}{crwdne6767005:0}</fileName-invalid>
+    </msg>
+  </UIActionTypeForm>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.view.UIViewManager     #
+  ######################################################################################
+  -->
+  <UITabPane>
+    <title>
+      <UIViewContainer>{crwdns6767006:0}{crwdne6767006:0}</UIViewContainer>
+      <ECMTemplate>{crwdns6767007:0}{crwdne6767007:0}</ECMTemplate>
+      <UIScriptForm>{crwdns6767008:0}{crwdne6767008:0}</UIScriptForm>
+      <UIDialogTab>{crwdns6767009:0}{crwdne6767009:0}</UIDialogTab>
+      <UIViewTab>{crwdns6767010:0}{crwdne6767010:0}</UIViewTab>
+      <UITemplateEditForm>{crwdns6767011:0}{crwdne6767011:0}</UITemplateEditForm>
+      <UITemplateForm>{crwdns6767012:0}{crwdne6767012:0}</UITemplateForm>
+      <UITemplateContainer>{crwdns6767013:0}{crwdne6767013:0}</UITemplateContainer>
+      <UIActionsTemplateContainer>{crwdns6767014:0}{crwdne6767014:0}</UIActionsTemplateContainer>
+      <UIOthersTemplateContainer>{crwdns6767015:0}{crwdne6767015:0}</UIOthersTemplateContainer>
+  <UIActionScriptContainer>{crwdns6767016:0}{crwdne6767016:0}</UIActionScriptContainer>
+  <UIWidgetScriptContainer>{crwdns6767017:0}{crwdne6767017:0}</UIWidgetScriptContainer>
+<UIInterceptorScriptContainer>{crwdns6767018:0}{crwdne6767018:0}</UIInterceptorScriptContainer>
+
+<nodeTypeDefinition>{crwdns6767019:0}{crwdne6767019:0}</nodeTypeDefinition>
+      <propertyDefinition>{crwdns6767020:0}{crwdne6767020:0}</propertyDefinition>
+      <childNodeDefinition>{crwdns6767021:0}{crwdne6767021:0}</childNodeDefinition>
+      <SuperTypeTab>{crwdns6767022:0}{crwdne6767022:0}</SuperTypeTab>
+      <DefaultTypeTab>{crwdns6767023:0}{crwdne6767023:0}</DefaultTypeTab>
+      <RequiredTypeTab>{crwdns6767024:0}{crwdne6767024:0}</RequiredTypeTab>
+      <Contraints>{crwdns6767025:0}{crwdne6767025:0}</Contraints>
+    </title>
+  </UITabPane>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.view.UIViewList    #
+  ######################################################################################
+  -->
+  <UIViewList>
+   <title>
+     <View>{crwdns6767026:0}{crwdne6767026:0}</View>
+     <EditInfo>{crwdns6767027:0}{crwdne6767027:0}</EditInfo>
+     <Delete>{crwdns6767028:0}{crwdne6767028:0}</Delete>
+   </title>
+    <header>
+      <name>{crwdns6767029:0}{crwdne6767029:0}</name>
+      <permissions>{crwdns6767030:0}{crwdne6767030:0}</permissions>
+      <tabList>{crwdns6767031:0}{crwdne6767031:0}</tabList>
+      <baseVersion>{crwdns6767032:0}{crwdne6767032:0}</baseVersion>
+      <action>{crwdns6767033:0}{crwdne6767033:0}</action>
+    </header>
+    <action>
+      <AddView>{crwdns6767034:0}{crwdne6767034:0}</AddView>
+    </action>
+    <msg>
+      <access-denied>{crwdns6767035:0}{crwdne6767035:0}</access-denied>
+      <template-in-use>{crwdns6767036:0}{0}{crwdne6767036:0}</template-in-use>
+      <confirm-delete>{crwdns6767037:0}{crwdne6767037:0}</confirm-delete>
+    </msg>
+  </UIViewList>
+  <ViewPopup>
+    <title>
+      <UIViewFormTabPane>{crwdns6767038:0}{crwdne6767038:0}</UIViewFormTabPane>
+    </title>
+  </ViewPopup>
+  <AddPopup>
+    <title>
+      <UIViewFormTabPane>{crwdns6767039:0}{crwdne6767039:0}</UIViewFormTabPane>
+      <AddPopup>{crwdns6767040:0}{crwdne6767040:0}</AddPopup>
+    </title>
+  </AddPopup>
+  <EditPopup>
+    <title>
+      <UIViewFormTabPane>{crwdns6767041:0}{crwdne6767041:0}</UIViewFormTabPane>
+    </title>
+  </EditPopup>
+
+<UITabList>
+                  <title>
+                    <Edit>{crwdns6767042:0}{crwdne6767042:0}</Edit>
+                    <Delete>{crwdns6767043:0}{crwdne6767043:0}</Delete>
+                  </title>       
+ <header>
+  <tabName>{crwdns6767044:0}{crwdne6767044:0}</tabName>
+  <localizeButtons>{crwdns6767045:0}{crwdne6767045:0}</localizeButtons>
+<action>{crwdns6767046:0}{crwdne6767046:0}</action>
+</header>
+<action>
+ <AddTab>{crwdns6767047:0}{crwdne6767047:0}</AddTab>
+</action>
+<msg>
+ <confirm-delete>{crwdns6767048:0}{crwdne6767048:0}</confirm-delete>
+</msg>
+<grid>
+ <msg>
+  <empty>{crwdns6767049:0}{crwdne6767049:0}</empty>
+ </msg>
+</grid>
+</UITabList>
+
+<UIViewPermissionList>
+ <title>{crwdns6767050:0}{crwdne6767050:0}</title>
+<label>
+ <permission>{crwdns6767051:0}{0}{crwdnd6767051:0}{1}{crwdne6767051:0}</permission>
+</label>
+<msg>
+ <confirm-delete>{crwdns6767052:0}{crwdne6767052:0}</confirm-delete>
+  <permission-cannot-empty>{crwdns6767053:0}{crwdne6767053:0}</permission-cannot-empty>
+</msg>
+</UIViewPermissionList>
+
+<UIViewPermissionList>
+                         <title>
+                           <Delete>{crwdns6767054:0}{crwdne6767054:0}</Delete>
+                         </title>
+ <header>
+<friendlyPermission>{crwdns6767055:0}{crwdne6767055:0}</friendlyPermission>
+     <action>{crwdns6767056:0}{crwdne6767056:0}</action>
+ </header>
+<action>
+ <title>
+  <Delete>{crwdns6767057:0}{crwdne6767057:0}</Delete>
+ </title>
+</action>
+<grid>
+ <msg>
+  <empty>{crwdns6767058:0}{crwdne6767058:0}</empty>
+ </msg>
+</grid>
+</UIViewPermissionList>
+
+<UIViewPermissionForm>
+<action>
+ <Add>{crwdns6767059:0}{crwdne6767059:0}</Add>
+</action>
+<label>
+ <userOrGroup>{crwdns6767060:0}{crwdne6767060:0}</userOrGroup>
+</label>
+<msg>
+ <permission-exist>{crwdns6767061:0}{0}{crwdne6767061:0}</permission-exist>
+</msg>
+</UIViewPermissionForm>
+
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.view.UIViewFormTabPane   #
+  ######################################################################################
+  -->
+  <UIViewForm>
+    <title>
+      <AddPermission>{crwdns6767062:0}{crwdne6767062:0}</AddPermission>
+      <RemovePermission>{crwdns6767063:0}{crwdne6767063:0}</RemovePermission>
+    </title>
+    <msg>
+      <view-name-invalid>{crwdns6767064:0}{crwdne6767064:0}</view-name-invalid>
+      <fileName-invalid>{crwdns6767065:0}{crwdne6767065:0}</fileName-invalid>
+      <permission-not-empty>{crwdns6767066:0}{crwdne6767066:0}</permission-not-empty>      
+      <mustbe-add-tab>{crwdns6767067:0}{crwdne6767067:0}</mustbe-add-tab>
+<mustbe-add-permission>{crwdns6767068:0}{crwdne6767068:0}</mustbe-add-permission>
+      <view-exist>{crwdns6767069:0}{crwdne6767069:0}</view-exist>
+    </msg>
+    <label>
+      <viewName>{crwdns6767070:0}{crwdne6767070:0}</viewName>
+      <template>{crwdns6767071:0}{crwdne6767071:0}</template>
+<version>{crwdns6767072:0}{crwdne6767072:0}</version>
+      <enableVersion>{crwdns6767073:0}{crwdne6767073:0}</enableVersion>
+      <hideExplorerPanel>{crwdns6767074:0}{crwdne6767074:0}</hideExplorerPanel>
+    </label>
+  </UIViewForm>
+  <UITabForm>
+    <msg>
+      <button-select-error>{crwdns6767075:0}{crwdne6767075:0}</button-select-error>
+      <tab-name-error>{crwdns6767076:0}{crwdne6767076:0}</tab-name-error>
+      <fileName-invalid>{crwdns6767077:0}{crwdne6767077:0}</fileName-invalid>
+    </msg>
+    <label>
+      <version>{crwdns6767078:0}{crwdne6767078:0}</version>
+      <viewName>{crwdns6767079:0}{crwdne6767079:0}</viewName>
+      <tabName>{crwdns6767080:0}{crwdne6767080:0}</tabName>
+      <permission>{crwdns6767081:0}{crwdne6767081:0}</permission>
+      <tabs>{crwdns6767082:0}{crwdne6767082:0}</tabs>
+      <template>{crwdns6767083:0}{crwdne6767083:0}</template>
+      <enableVersion>{crwdns6767084:0}{crwdne6767084:0}</enableVersion>
+      <addFolder>{crwdns6767085:0}{crwdne6767085:0}</addFolder>
+      <addDocument>{crwdns6767086:0}{crwdne6767086:0}</addDocument>
+      <editDocument>{crwdns6767087:0}{crwdne6767087:0}</editDocument>
+      <upload>{crwdns6767088:0}{crwdne6767088:0}</upload>
+      <paste>{crwdns6767089:0}{crwdne6767089:0}</paste>
+      <search>{crwdns6767090:0}{crwdne6767090:0}</search>
+      <viewReferences>{crwdns6767091:0}{crwdne6767091:0}</viewReferences>
+      <viewNodeType>{crwdns6767092:0}{crwdne6767092:0}</viewNodeType>
+      <viewPermissions>{crwdns6767093:0}{crwdne6767093:0}</viewPermissions>
+      <viewProperties>{crwdns6767094:0}{crwdne6767094:0}</viewProperties>
+      <manageVersions>{crwdns6767095:0}{crwdne6767095:0}</manageVersions>
+      <manageAuditing>{crwdns6767096:0}{crwdne6767096:0}</manageAuditing>
+      <managePublications>{crwdns6767097:0}{crwdne6767097:0}</managePublications>
+      <manageCategories>{crwdns6767098:0}{crwdne6767098:0}</manageCategories>
+      <manageRelations>{crwdns6767099:0}{crwdne6767099:0}</manageRelations>
+      <manageActions>{crwdns6767100:0}{crwdne6767100:0}</manageActions>
+      <exportNode>{crwdns6767101:0}{crwdne6767101:0}</exportNode>
+      <importNode>{crwdns6767102:0}{crwdne6767102:0}</importNode>
+      <viewRelations>{crwdns6767103:0}{crwdne6767103:0}</viewRelations>
+      <showJCRStructure>{crwdns6767104:0}{crwdne6767104:0}</showJCRStructure>
+      <watchDocument>{crwdns6767105:0}{crwdne6767105:0}</watchDocument>
+      <taggingDocument>{crwdns6767106:0}{crwdne6767106:0}</taggingDocument>
+      <viewMetadatas>{crwdns6767107:0}{crwdne6767107:0}</viewMetadatas>
+      <overloadThumbnail>{crwdns6767108:0}{crwdne6767108:0}</overloadThumbnail>
+      <manageHidden>{crwdns6767109:0}{crwdne6767109:0}</manageHidden>
+      <comment>{crwdns6767110:0}{crwdne6767110:0}</comment>
+      <vote>{crwdns6767111:0}{crwdne6767111:0}</vote>  
+      <addCategory>{crwdns6767112:0}{crwdne6767112:0}</addCategory>
+      <addLocalizationLink>{crwdns6767113:0}{crwdne6767113:0}</addLocalizationLink>
+      <publicationRequestApproval>{crwdns6767114:0}{crwdne6767114:0}</publicationRequestApproval>
+      <publicationApproveContent>{crwdns6767115:0}{crwdne6767115:0}</publicationApproveContent>
+      <publicationPublish>{crwdns6767116:0}{crwdne6767116:0}</publicationPublish>
+<contentNavigation>{crwdns6767117:0}{crwdne6767117:0}</contentNavigation>
+<addSymLink>{crwdns6767118:0}{crwdne6767118:0}</addSymLink>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>      
+      <Cancel>#{word.cancel}</Cancel>      
+    </action>
+  </UITabForm>
+  <UIPermissionForm>
+    <label>
+      <permission>UIPermissionForm</permission>
+    </label>
+  </UIPermissionForm>
+  <UIViewFormTabPane>
+    <tab>
+      <label>
+        <UITabContainer>{crwdns6767122:0}{crwdne6767122:0}</UITabContainer>
+        <UIViewForm>{crwdns6767123:0}{crwdne6767123:0}</UIViewForm>
+        <UIViewPermissionContainer>{crwdns6767124:0}{crwdne6767124:0}</UIViewPermissionContainer>    
+      </label>
+    </tab>
+    <action>
+      <Save>#{word.save}</Save>
+      <Reset>{crwdns6767126:0}{crwdne6767126:0}</Reset>
+      <Cancel>#{word.cancel}</Cancel>
+      <Close>#{word.close}</Close>
+      <Restore>{crwdns6767129:0}{crwdne6767129:0}</Restore>
+    </action>
+  </UIViewFormTabPane>
+  <PopupViewPermission>
+    <title>
+      <UIPermissionSelector>{crwdns6767130:0}{crwdne6767130:0}</UIPermissionSelector>
+    </title>
+  </PopupViewPermission>
+
+<TabForm_Popup>
+ <title>
+  <UITabForm>{crwdns6767131:0}{crwdne6767131:0}</UITabForm>
+ </title>
+</TabForm_Popup>
+
+<tab_permission>
+ <title>
+  <SelectUser>{crwdns6767132:0}{crwdne6767132:0}</SelectUser>
+<SelectMember>{crwdns6767133:0}{crwdne6767133:0}</SelectMember>
+<AddAny>{crwdns6767134:0}{crwdne6767134:0}</AddAny>
+ </title>
+</tab_permission>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.view.UIECMTemplateList   #
+  ######################################################################################
+  -->
+  <UIECMTemplateList>
+    <title>
+      <View>{crwdns6767135:0}{crwdne6767135:0}</View>
+      <EditInfo>{crwdns6767136:0}{crwdne6767136:0}</EditInfo>
+      <Delete>{crwdns6767137:0}{crwdne6767137:0}</Delete>
+    </title>
+    <header>
+      <name>{crwdns6767138:0}{crwdne6767138:0}</name>
+      <path>{crwdns6767139:0}{crwdne6767139:0}</path>
+      <baseVersion>{crwdns6767140:0}{crwdne6767140:0}</baseVersion>
+      <action>{crwdns6767141:0}{crwdne6767141:0}</action>
+    </header>
+    <action>
+      <Add>{crwdns6767142:0}{crwdne6767142:0}</Add>
+    </action>
+    <msg>
+      <template-in-use>{crwdns6767143:0}{0}{crwdne6767143:0}</template-in-use>
+      <confirm-delete>{crwdns6767144:0}{crwdne6767144:0}</confirm-delete>
+      <access-denied>{crwdns6767145:0}{crwdne6767145:0}</access-denied>
+      <delete-permission-denied>{crwdns6767146:0}{0}{crwdne6767146:0}</delete-permission-denied>
+    </msg>
+  </UIECMTemplateList>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.view.UITemplateForm #
+  ################################################################################
+  -->
+  <UITemplateForm>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+      <Reset>{crwdns6767149:0}{crwdne6767149:0}</Reset>
+      <Restore>{crwdns6767150:0}{crwdne6767150:0}</Restore>
+      <Refresh>#{word.refresh}</Refresh>
+    </action>
+    <msg>
+      <version-restored>{crwdns6767152:0}{0}{crwdne6767152:0}</version-restored>
+      <role-require>{crwdns6767153:0}{crwdne6767153:0}</role-require>
+      <template-name-exist>{crwdns6767154:0}{0}{crwdne6767154:0}</template-name-exist>
+      <add-permission-denied>{crwdns6767155:0}{crwdne6767155:0}</add-permission-denied>
+      <edit-permission-denied>{crwdns6767156:0}{0}{crwdne6767156:0}</edit-permission-denied>
+    </msg>
+    <tab>
+      <label>
+        <template>{crwdns6767157:0}{crwdne6767157:0}</template>
+        <defaultDialog>{crwdns6767158:0}{crwdne6767158:0}</defaultDialog>
+        <defaultView>{crwdns6767159:0}{crwdne6767159:0}</defaultView>
+      </label>
+    </tab>
+    <label>
+      <name>{crwdns6767160:0}{crwdne6767160:0}</name>
+      <label>{crwdns6767161:0}{crwdne6767161:0}</label>
+      <isDocumentTemplate>{crwdns6767162:0}{crwdne6767162:0}</isDocumentTemplate>
+      <dialog>{crwdns6767163:0}{crwdne6767163:0}</dialog>
+      <view>{crwdns6767164:0}{crwdne6767164:0}</view>
+      <permission>{crwdns6767165:0}{crwdne6767165:0}</permission>
+      <selectPemistion>{crwdns6767166:0}{crwdne6767166:0}</selectPemistion>
+    </label>
+  </UITemplateForm>
+  <!--
+  ################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.view.ecmTempForm #
+  ################################################################################
+  -->
+  <ecmTempForm>
+    <label>
+      <version>{crwdns6767167:0}{crwdne6767167:0}</version>
+      <content>{crwdns6767168:0}{crwdne6767168:0}</content>
+      <name>{crwdns6767169:0}{crwdne6767169:0}</name>
+      <homeTemplate>{crwdns6767170:0}{crwdne6767170:0}</homeTemplate>
+      <enableVersion>{crwdns6767171:0}{crwdne6767171:0}</enableVersion>
+    </label>
+  </ecmTempForm>
+  <ecmTempFormPopup>
+    <title>
+      <ecmTempForm>{crwdns6767172:0}{crwdne6767172:0}</ecmTempForm>
+    </title>
+  </ecmTempFormPopup>
+  <ecmTempFormAdd>
+    <title>
+      <ecmTempForm>{crwdns6767173:0}{crwdne6767173:0}</ecmTempForm>
+      <ecmTempFormAdd>{crwdns6767174:0}{crwdne6767174:0}</ecmTempFormAdd>
+    </title>
+  </ecmTempFormAdd>
+  <ecmTempFormEdit>
+    <title>
+      <ecmTempForm>{crwdns6767175:0}{crwdne6767175:0}</ecmTempForm>
+    </title>
+  </ecmTempFormEdit>
+
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.script.UIScriptManager #
+  ######################################################################################
+  -->
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.script.UIECMFilterForm #
+  ######################################################################################
+  -->
+  <UIECMFilterForm>
+    <label>
+      <selectScript>{crwdns6767176:0}{crwdne6767176:0}</selectScript>
+    </label>
+  </UIECMFilterForm>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.script.UIScriptList #
+  ######################################################################################
+  -->
+  <UIScriptList>
+    <action>
+      <Edit>#{word.edit}</Edit>
+      <Delete>#{word.delete}</Delete>
+      <AddNew>{crwdns6767179:0}{crwdne6767179:0}</AddNew>
+    </action>
+    <msg>
+      <confirm-delete>{crwdns6767180:0}{crwdne6767180:0}</confirm-delete>
+    </msg>
+    <header>
+      <scriptName>{crwdns6767181:0}{crwdne6767181:0}</scriptName>
+      <path>{crwdns6767182:0}{crwdne6767182:0}</path>
+      <baseVersion>{crwdns6767183:0}{crwdne6767183:0}</baseVersion>
+      <action>{crwdns6767184:0}{crwdne6767184:0}</action>
+    </header>
+    <tooltip>
+      <Edit>{crwdns6767185:0}{crwdne6767185:0}</Edit>
+      <Delete>{crwdns6767186:0}{crwdne6767186:0}</Delete>
+    </tooltip>
+  </UIScriptList>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.script.UIScriptForm #
+  ######################################################################################
+  -->
+  <uiECMScriptsPopup>
+    <title>
+      <ecmScriptForm>ECM Script</ecmScriptForm>
+    </title>
+  </uiECMScriptsPopup>
+
+  <UIScriptForm>
+    <action>
+      <Save>#{word.save}</Save>
+      <Restore>#{word.restore}</Restore>
+      <Cancel>#{word.cancel}</Cancel>
+      <Refresh>#{word.refresh}</Refresh>
+      <Change>{crwdns6767192:0}{crwdne6767192:0}</Change>
+    </action>
+    <msg>
+      <version-restored>{crwdns6767193:0}{0}{crwdne6767193:0}</version-restored>
+      <name-null>{crwdns6767194:0}{crwdne6767194:0}</name-null>
+      <name-exist>{crwdns6767195:0}{0}{crwdne6767195:0}</name-exist>
+      <fileName-invalid>{crwdns6767196:0}{crwdne6767196:0}</fileName-invalid>
+    </msg>
+  </UIScriptForm>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.script.CBScriptForm #
+  ######################################################################################
+  -->
+  <ScriptContainerPopup>
+    <title>
+      <UIScriptForm>{crwdns6767197:0}{crwdne6767197:0}</UIScriptForm>
+    </title>
+  </ScriptContainerPopup>
+  <UIScriptForm>
+    <label>
+      <selectVersion>{crwdns6767198:0}{crwdne6767198:0}</selectVersion>
+      <scriptContent>{crwdns6767199:0}{crwdne6767199:0}</scriptContent>
+      <scriptLabel>{crwdns6767200:0}{crwdne6767200:0}</scriptLabel>
+      <scriptName>{crwdns6767201:0}{crwdne6767201:0}</scriptName>
+      <enableVersion>{crwdns6767202:0}{crwdne6767202:0}</enableVersion>
+    </label>
+  </UIScriptForm>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.script.ecmScriptForm #
+  ######################################################################################
+  -->
+ 
+  <ecmScriptForm>
+    <label>
+      <selectVersion>{crwdns6767203:0}{crwdne6767203:0}</selectVersion>
+      <scriptContent>{crwdns6767204:0}{crwdne6767204:0}</scriptContent>
+      <scriptLabel>{crwdns6767205:0}{crwdne6767205:0}</scriptLabel>
+      <scriptName>{crwdns6767206:0}{crwdne6767206:0}</scriptName>
+      <enableVersion>{crwdns6767207:0}{crwdne6767207:0}</enableVersion>
+    </label>
+  </ecmScriptForm>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.taxonomy.UITaxonomyForm #
+  ######################################################################################
+  -->
+  <UITaxonomyForm>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <title>{crwdns6767210:0}{crwdne6767210:0}</title>
+    <label>
+      <taxonomyName>{crwdns6767211:0}{crwdne6767211:0}</taxonomyName>
+      <parentPath>{crwdns6767212:0}{crwdne6767212:0}</parentPath>
+    </label>
+    <msg>
+      <exist>{crwdns6767213:0}{0}{crwdne6767213:0}</exist>
+      <name-null>{crwdns6767214:0}{crwdne6767214:0}</name-null>
+      <name-invalid>{crwdns6767215:0}{crwdne6767215:0}</name-invalid>
+      <name-too-long>{crwdns6767216:0}{crwdne6767216:0}</name-too-long>
+    </msg>
+  </UITaxonomyForm>
+    
+  <EditTaxonomyTreePopup>
+    <title>
+      <UITaxonomyTreeContainer>{crwdns6767217:0}{crwdne6767217:0}</UITaxonomyTreeContainer>
+    </title>
+  </EditTaxonomyTreePopup>
+
+  <AddTaxonomyTreePopup>
+    <title>
+      <UITaxonomyTreeContainer>{crwdns6767218:0}{crwdne6767218:0}</UITaxonomyTreeContainer>
+    </title>
+  </AddTaxonomyTreePopup>
+  
+  <TaxonomyPopupCreateChild>
+    <title>
+      <UITaxonomyTreeCreateChildForm>{crwdns6767219:0}{crwdne6767219:0}</UITaxonomyTreeCreateChildForm>
+    </title>
+  </TaxonomyPopupCreateChild>
+
+<UITaxonomyTreeCreateChildForm>
+  <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <label>
+      <parentPath>{crwdns6767222:0}{crwdne6767222:0}</parentPath>
+      <taxonomyName>{crwdns6767223:0}{crwdne6767223:0}</taxonomyName>
+    </label>
+    <msg>
+      <name-null>{crwdns6767224:0}{crwdne6767224:0}</name-null>
+      <name-invalid>{crwdns6767225:0}{crwdne6767225:0}</name-invalid>
+      <name-too-long>{crwdns6767226:0}{0}{crwdne6767226:0}</name-too-long>
+      <exist>{crwdns6767227:0}{crwdne6767227:0}</exist>
+    </msg>
+</UITaxonomyTreeCreateChildForm>
+
+  <PopupComponent>
+    <title>
+      <UIOneNodePathSelector>{crwdns6767228:0}{crwdne6767228:0}</UIOneNodePathSelector>
+    </title>
+  </PopupComponent>
+  
+  <TaxoPopupUserSelector>
+  <title>
+      <TaxoTreeSelectUserOrGroup>{crwdns6767229:0}{crwdne6767229:0}</TaxoTreeSelectUserOrGroup>
+      <UIPermissionTreeSelectUser>{crwdns6767230:0}{crwdne6767230:0}</UIPermissionTreeSelectUser>
+    </title>
+  </TaxoPopupUserSelector>
+
+  <TaxoTreeSelectUserOrGroupPopup>
+  <title>
+      <TaxoTreeSelectUserOrGroup>{crwdns6767231:0}{crwdne6767231:0}</TaxoTreeSelectUserOrGroup>
+    </title>
+  </TaxoTreeSelectUserOrGroupPopup>
+  
+  <TaxoTreeAnyPermission>
+    <label>
+      <any>{crwdns6767232:0}{crwdne6767232:0}</any>
+      <anyPermission>TaxoTreeAnyPermission</anyPermission>
+    </label>
+  </TaxoTreeAnyPermission>
+  
+  <TaxoTreeSelectUserOrGroup>
+    <label>
+      <selectGroup>{crwdns6767234:0}{crwdne6767234:0}</selectGroup>
+      <selectMembership>{crwdns6767235:0}{crwdne6767235:0}</selectMembership>
+    </label>
+  </TaxoTreeSelectUserOrGroup>
+  
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.taxonomy.UITaxonomyTreeList #
+  ######################################################################################
+  -->
+  <UITaxonomyTreeList>
+    <header>
+      <name>{crwdns6767236:0}{crwdne6767236:0}</name>
+      <workspace>{crwdns6767237:0}{crwdne6767237:0}</workspace>
+      <homePath>{crwdns6767238:0}{crwdne6767238:0}</homePath>
+      <action>{crwdns6767239:0}{crwdne6767239:0}</action>
+    </header>
+    <action>
+      <AddTaxonomyTree>{crwdns6767240:0}{crwdne6767240:0}</AddTaxonomyTree>
+    </action>
+    <tooltip>
+      <EditTaxonomyTree>{crwdns6767241:0}{crwdne6767241:0}</EditTaxonomyTree>
+      <Delete>{crwdns6767242:0}{crwdne6767242:0}</Delete>
+    </tooltip>
+    <title>{crwdns6767243:0}{crwdne6767243:0}</title>
+    <msg>
+      <no-list>{crwdns6767244:0}{crwdne6767244:0}</no-list>
+      <confirm-delete>{crwdns6767245:0}{crwdne6767245:0}</confirm-delete>
+      <is-in-trash>{crwdns6767246:0}{crwdne6767246:0}</is-in-trash>
+    </msg>
+  </UITaxonomyTreeList>
+  
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.taxonomy.UITaxonomyTreeForm  #
+  ######################################################################################
+  -->
+  <UITaxonomyTreeForm>
+    <label>
+      <name>{crwdns6767247:0}{crwdne6767247:0}</name>
+      <workspace>{crwdns6767248:0}{crwdne6767248:0}</workspace>
+      <homePath>{crwdns6767249:0}{crwdne6767249:0}</homePath>
+      <permissions>{crwdns6767250:0}{crwdne6767250:0}</permissions>
+    </label>
+    <msg>
+      <homapath-emty>{crwdns6767251:0}{crwdne6767251:0}</homapath-emty>
+    </msg>
+  </UITaxonomyTreeForm>
+  
+  <UIPermissionTreeForm>
+    <label>
+      <UIPopupWindow>{crwdns6767252:0}{crwdne6767252:0}</UIPopupWindow>
+      <permission>UIPermissionTreeForm</permission>
+      <userOrGroup>{crwdns6767254:0}{crwdne6767254:0}</userOrGroup>
+      <read>{crwdns6767255:0}{crwdne6767255:0}</read>
+      <add_node>{crwdns6767256:0}{crwdne6767256:0}</add_node>
+      <set_property>{crwdns6767257:0}{crwdne6767257:0}</set_property>
+      <remove>{crwdns6767258:0}{crwdne6767258:0}</remove>
+    </label>
+    <title>{crwdns6767259:0}{crwdne6767259:0}</title>
+    <action>
+      <Close>#{word.close}</Close>
+      <Save>Save</Save>
+      <Reset>{crwdns6767262:0}{crwdne6767262:0}</Reset>
+    </action>
+    <msg>
+      <checkbox-require>{crwdns6767263:0}{crwdne6767263:0}</checkbox-require>
+      <userOrGroup-required>{crwdns6767264:0}{crwdne6767264:0}</userOrGroup-required>
+      <not-change-permission>{crwdns6767265:0}{crwdne6767265:0}</not-change-permission>
+      <access-denied>{crwdns6767266:0}{crwdne6767266:0}</access-denied>
+    </msg>
+  </UIPermissionTreeForm>
+  
+  <PopupTaxonomyJCRBrowser>
+  <title>
+      <UIOneNodePathSelector>{crwdns6767267:0}{crwdne6767267:0}</UIOneNodePathSelector>
+    </title>
+  </PopupTaxonomyJCRBrowser>
+  
+  <PopupTaxonomyTreePermission>
+    <title>
+      <UIPermissionSelector>{crwdns6767268:0}{crwdne6767268:0}</UIPermissionSelector>
+    </title>
+   </PopupTaxonomyTreePermission>
+   
+   <PopupDrivePermission>
+    <title>
+      <AddDrivePermissionSelector>{crwdns6767269:0}{crwdne6767269:0}</AddDrivePermissionSelector>
+      <UIPermissionSelector>{crwdns6767270:0}{crwdne6767270:0}</UIPermissionSelector>
+    </title>
+  </PopupDrivePermission>
+  
+  <UIPopupWindow>
+    <title>
+      <UIPermissionManager>{crwdns6767271:0}{crwdne6767271:0}</UIPermissionManager>
+    </title>
+   </UIPopupWindow>
+
+  <PopupUserSelector>
+    <title>
+      <UIUserContainer>{crwdns6767272:0}{crwdne6767272:0}</UIUserContainer>
+    </title>
+   </PopupUserSelector>
+   
+  <UIPermissionInfo>
+    <action>
+      <title>
+        <Edit>{crwdns6767273:0}{crwdne6767273:0}</Edit>
+        <Delete>{crwdns6767274:0}{crwdne6767274:0}</Delete>
+      </title>
+    </action>
+    <header>
+      <usersOrGroups>{crwdns6767275:0}{crwdne6767275:0}</usersOrGroups>
+      <read>{crwdns6767276:0}{crwdne6767276:0}</read>
+      <addNode>{crwdns6767277:0}{crwdne6767277:0}</addNode>
+      <remove>{crwdns6767278:0}{crwdne6767278:0}</remove>
+      <action>{crwdns6767279:0}{crwdne6767279:0}</action>
+    </header>
+    <msg>
+      <confirm-delete-permission>{crwdns6767280:0}{crwdne6767280:0}</confirm-delete-permission>
+      <no-permission-tochange>{crwdns6767281:0}{crwdne6767281:0}</no-permission-tochange>
+      <no-permission-remove>{crwdns6767282:0}{crwdne6767282:0}</no-permission-remove>
+      <access-denied>{crwdns6767283:0}{crwdne6767283:0}</access-denied>
+    </msg>
+  </UIPermissionInfo>
+  <permission>
+    <title>
+      <SelectUser>{crwdns6767284:0}{crwdne6767284:0}</SelectUser>
+      <SelectMember>{crwdns6767285:0}{crwdne6767285:0}</SelectMember>
+      <AddAny>{crwdns6767286:0}{crwdne6767286:0}</AddAny>
+    </title>
+  </permission>
+  <!--
+  #############################################################################
+  #             org.exoplatform.ecm.webui.component.explorer.UIPermissionForm #
+  #############################################################################
+  -->
+  <SelectUserOrGroup>
+    <title>
+      <UIGroupSelector>{crwdns6767287:0}{crwdne6767287:0}</UIGroupSelector>
+      <UIPermissionSelector>{crwdns6767288:0}{crwdne6767288:0}</UIPermissionSelector>
+      <UIGroupMemberSelector>{crwdns6767289:0}{crwdne6767289:0}</UIGroupMemberSelector>
+    </title>
+  </SelectUserOrGroup>
+  <UIGroupSelector>
+    <label>
+      <selectGroup>{crwdns6767290:0}{crwdne6767290:0}</selectGroup>
+      <selectUser>{crwdns6767291:0}{crwdne6767291:0}</selectUser>
+    </label>
+    <msg>
+      <not-change-owner>{crwdns6767292:0}{0}{crwdne6767292:0}</not-change-owner>
+    </msg>
+  </UIGroupSelector>
+  <UIPermissionForm>
+    <label>
+      <UIPopupWindow>{crwdns6767293:0}{crwdne6767293:0}</UIPopupWindow>
+      <permission>UIPermissionForm</permission>
+      <userOrGroup>{crwdns6767294:0}{crwdne6767294:0}</userOrGroup>
+      <read>{crwdns6767295:0}{crwdne6767295:0}</read>
+      <add_node>{crwdns6767296:0}{crwdne6767296:0}</add_node>
+      <remove>{crwdns6767297:0}{crwdne6767297:0}</remove>
+    </label>
+    <title>{crwdns6767298:0}{crwdne6767298:0}</title>
+    <action>
+      <Close>#{word.close}</Close>
+      <Save>#{word.save}</Save>
+      <Reset>{crwdns6767301:0}{crwdne6767301:0}</Reset>
+    </action>
+    <msg>
+      <checkbox-require>{crwdns6767302:0}{crwdne6767302:0}</checkbox-require>
+      <userOrGroup-required>{crwdns6767303:0}{crwdne6767303:0}</userOrGroup-required>
+      <not-change-permission>{crwdns6767304:0}{crwdne6767304:0}</not-change-permission>
+      <access-denied>{crwdns6767305:0}{crwdne6767305:0}</access-denied>
+    </msg>
+  </UIPermissionForm>
+  
+  <TaxonomyPopup>
+    <title>
+      <UITaxonomyForm>{crwdns6767306:0}{crwdne6767306:0}</UITaxonomyForm>
+    </title>
+  </TaxonomyPopup>
+  
+  <UITaxonomyManager>
+    <title>
+      <permission>{crwdns6767307:0}{crwdne6767307:0}</permission>
+    </title>
+  </UITaxonomyManager>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UITemplateList #
+  ######################################################################################
+  -->
+  <UITemplateList>
+    <header>
+      <name>{crwdns6767308:0}{crwdne6767308:0}</name>
+      <action>{crwdns6767309:0}{crwdne6767309:0}</action>
+      <label>{crwdns6767310:0}{crwdne6767310:0}</label>
+      <icon>{crwdns6767311:0}{crwdne6767311:0}</icon>
+    </header>
+    <action>
+      <AddNew>{crwdns6767312:0}{crwdne6767312:0}</AddNew>
+    </action>
+    <msg>
+      <confirm-delete>{crwdns6767313:0}{crwdne6767313:0}</confirm-delete>
+      <access-denied>{crwdns6767314:0}{crwdne6767314:0}</access-denied>
+      <editing-template>{crwdns6767315:0}{crwdne6767315:0}</editing-template>
+      <template-not-exist>{crwdns6767316:0}{crwdne6767316:0}</template-not-exist>
+    </msg>
+  </UITemplateList>
+  
+  <UIActionsTemplateList>
+    <header>
+      <name>{crwdns6767317:0}{crwdne6767317:0}</name>
+      <action>{crwdns6767318:0}{crwdne6767318:0}</action>
+      <label>{crwdns6767319:0}{crwdne6767319:0}</label>
+      <icon>{crwdns6767320:0}{crwdne6767320:0}</icon>
+    </header>
+    <action>
+      <AddNew>{crwdns6767321:0}{crwdne6767321:0}</AddNew>
+    </action>
+    <msg>
+      <confirm-delete>{crwdns6767322:0}{crwdne6767322:0}</confirm-delete>
+      <access-denied>{crwdns6767323:0}{crwdne6767323:0}</access-denied>
+      <editing-template>{crwdns6767324:0}{crwdne6767324:0}</editing-template>
+      <template-not-exist>{crwdns6767325:0}{crwdne6767325:0}</template-not-exist>
+    </msg>
+  </UIActionsTemplateList>
+  
+  <UIOthersTemplateList>
+    <header>
+      <name>{crwdns6767326:0}{crwdne6767326:0}</name>
+      <label>{crwdns6767327:0}{crwdne6767327:0}</label>
+      <icon>{crwdns6767328:0}{crwdne6767328:0}</icon>
+      <action>{crwdns6767329:0}{crwdne6767329:0}</action>
+    </header>
+    <action>
+      <AddNew>{crwdns6767330:0}{crwdne6767330:0}</AddNew>
+    </action>
+    <msg>
+      <confirm-delete>{crwdns6767331:0}{crwdne6767331:0}</confirm-delete>
+      <access-denied>{crwdns6767332:0}{crwdne6767332:0}</access-denied>
+      <editing-template>{crwdns6767333:0}{crwdne6767333:0}</editing-template>
+      <template-not-exist>{crwdns6767334:0}{crwdne6767334:0}</template-not-exist>
+    </msg>
+  </UIOthersTemplateList>
+
+ <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.clv package #
+  ######################################################################################
+  -->
+
+<UITabPane>
+ <title>
+ <ContentTemplateContainer>{crwdns6767335:0}{crwdne6767335:0}</ContentTemplateContainer>
+<CateTemplateContainer>{crwdns6767336:0}{crwdne6767336:0}</CateTemplateContainer>
+<PageTemplateContainer>{crwdns6767337:0}{crwdne6767337:0}</PageTemplateContainer>
+ </title>
+</UITabPane>
+
+  <UICLVTemplateList>
+    <title>
+      <Edit>{crwdns6767338:0}{crwdne6767338:0}</Edit>
+      <Delete>{crwdns6767339:0}{crwdne6767339:0}</Delete>
+    </title>
+    <header>
+      <title>{crwdns6767340:0}{crwdne6767340:0}</title>
+      <action>{crwdns6767341:0}{crwdne6767341:0}</action>
+      <template>{crwdns6767342:0}{crwdne6767342:0}</template>
+    </header>
+    <action>
+      <AddTemplate>{crwdns6767343:0}{crwdne6767343:0}</AddTemplate>
+<Edit>{crwdns6767344:0}{crwdne6767344:0}</Edit>
+<Delete>{crwdns6767345:0}{crwdne6767345:0}</Delete>
+    </action>
+    <msg>
+      <confirm-delete>{crwdns6767346:0}{crwdne6767346:0}</confirm-delete>
+      <access-denied>{crwdns6767347:0}{crwdne6767347:0}</access-denied>
+      <editing-template>{crwdns6767348:0}{crwdne6767348:0}</editing-template>
+      <template-not-exist>{crwdns6767349:0}{crwdne6767349:0}</template-not-exist>
+    </msg>
+  </UICLVTemplateList>
+
+<CateTemplateList>
+    <header>
+      <title>{crwdns6767350:0}{crwdne6767350:0}</title>
+      <action>{crwdns6767351:0}{crwdne6767351:0}</action>
+      <template>{crwdns6767352:0}{crwdne6767352:0}</template>
+    </header>
+    <title>
+      <Edit>{crwdns6767353:0}{crwdne6767353:0}</Edit>
+      <Delete>{crwdns6767354:0}{crwdne6767354:0}</Delete>
+    </title>
+    <action>
+      <AddTemplate>{crwdns6767355:0}{crwdne6767355:0}</AddTemplate>
+<Edit>{crwdns6767356:0}{crwdne6767356:0}</Edit>
+<Delete>{crwdns6767357:0}{crwdne6767357:0}</Delete>
+    </action>
+</CateTemplateList>
+
+<PageTemplateList>
+    <header>
+      <title>{crwdns6767358:0}{crwdne6767358:0}</title>
+      <action>{crwdns6767359:0}{crwdne6767359:0}</action>
+      <template>{crwdns6767360:0}{crwdne6767360:0}</template>
+    </header>
+    <action>
+      <AddTemplate>{crwdns6767361:0}{crwdne6767361:0}</AddTemplate>
+<Edit>{crwdns6767362:0}{crwdne6767362:0}</Edit>
+<Delete>{crwdns6767363:0}{crwdne6767363:0}</Delete>
+    </action>
+</PageTemplateList>
+
+<EditCLVTemplatePopup_ContentTemplateContainer>
+ <title>
+   <UICLVTemplateForm_ContentTemplateContainer>{crwdns6767364:0}{crwdne6767364:0}</UICLVTemplateForm_ContentTemplateContainer>   
+ </title>
+</EditCLVTemplatePopup_ContentTemplateContainer>
+
+<EditCLVTemplatePopup_CateTemplateContainer>
+ <title>
+   <UICLVTemplateForm_CateTemplateContainer>{crwdns6767365:0}{crwdne6767365:0}</UICLVTemplateForm_CateTemplateContainer>   
+ </title>
+</EditCLVTemplatePopup_CateTemplateContainer>
+
+<EditCLVTemplatePopup_PageTemplateContainer>
+ <title>
+   <UICLVTemplateForm_PageTemplateContainer>{crwdns6767366:0}{crwdne6767366:0}</UICLVTemplateForm_PageTemplateContainer>   
+ </title>
+</EditCLVTemplatePopup_PageTemplateContainer>
+
+<CLVTemplatePopup_ContentTemplateContainer>
+ <title>
+   <UICLVTemplateForm_ContentTemplateContainer>{crwdns6767367:0}{crwdne6767367:0}</UICLVTemplateForm_ContentTemplateContainer>   
+ </title>
+</CLVTemplatePopup_ContentTemplateContainer>
+
+<CLVTemplatePopup_CateTemplateContainer>
+ <title>
+   <UICLVTemplateForm_CateTemplateContainer>{crwdns6767368:0}{crwdne6767368:0}</UICLVTemplateForm_CateTemplateContainer>   
+ </title>
+</CLVTemplatePopup_CateTemplateContainer>
+
+<CLVTemplatePopup_PageTemplateContainer>
+ <title>
+   <UICLVTemplateForm_PageTemplateContainer>{crwdns6767369:0}{crwdne6767369:0}</UICLVTemplateForm_PageTemplateContainer>   
+ </title>
+</CLVTemplatePopup_PageTemplateContainer>
+
+<UICLVTemplateForm_ContentTemplateContainer>
+ <action>
+  <Save>#{word.save}</Save>
+<Reset>{crwdns6767371:0}{crwdne6767371:0}</Reset>
+<Cancel>#{word.cancel}</Cancel>
+ </action>
+<label>
+ <title>{crwdns6767373:0}{crwdne6767373:0}</title>
+<template>{crwdns6767374:0}{crwdne6767374:0}</template>
+<content>{crwdns6767375:0}{crwdne6767375:0}</content>
+<type>{crwdns6767376:0}{crwdne6767376:0}</type>
+</label>
+</UICLVTemplateForm_ContentTemplateContainer>
+
+<UICLVTemplateForm_PageTemplateContainer>
+ <action>
+  <Save>#{word.save}</Save>
+<Reset>{crwdns6767378:0}{crwdne6767378:0}</Reset>
+<Cancel>#{word.cancel}</Cancel>
+ </action>
+<label>
+ <title>{crwdns6767380:0}{crwdne6767380:0}</title>
+<template>{crwdns6767381:0}{crwdne6767381:0}</template>
+<content>{crwdns6767382:0}{crwdne6767382:0}</content>
+<type>{crwdns6767383:0}{crwdne6767383:0}</type>
+</label>
+</UICLVTemplateForm_PageTemplateContainer>
+
+<UICLVTemplateForm_CateTemplateContainer>
+ <action>
+  <Save>#{word.save}</Save>
+<Reset>{crwdns6767385:0}{crwdne6767385:0}</Reset>
+<Cancel>#{word.cancel}</Cancel>
+ </action>
+<label>
+ <title>{crwdns6767387:0}{crwdne6767387:0}</title>
+<template>{crwdns6767388:0}{crwdne6767388:0}</template>
+<content>{crwdns6767389:0}{crwdne6767389:0}</content>
+<type>{crwdns6767390:0}{crwdne6767390:0}</type>
+</label>
+</UICLVTemplateForm_CateTemplateContainer>
+<UICLVTemplateForm>
+  <label>
+    <paginators>{crwdns6767391:0}{crwdne6767391:0}</paginators>
+<list>{crwdns6767392:0}{crwdne6767392:0}</list>
+<navigation>{crwdns6767393:0}{crwdne6767393:0}</navigation>
+  </label>
+                          <action>
+                            <Save>#{word.save}</Save>
+                            <Reset>{crwdns6767395:0}{crwdne6767395:0}</Reset> 
+                            <Cancel>#{word.cancel}</Cancel> 
+                          </action> 
+  <msg>
+  <template-existing>{crwdns6767397:0}{crwdne6767397:0}</template-existing>
+  </msg>
+</UICLVTemplateForm>
+
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UITemplateForm #
+  ######################################################################################
+  -->
+  <AddNewTemplatePermission>
+    <title>
+      <UIPermissionSelector>{crwdns6767398:0}{crwdne6767398:0}</UIPermissionSelector>
+    </title>
+  </AddNewTemplatePermission>
+  <TemplatePermission>
+    <title>
+      <UIPermissionSelector>{crwdns6767399:0}{crwdne6767399:0}</UIPermissionSelector>
+    </title>
+  </TemplatePermission>
+  <TemplateContainerPopup>
+    <title>
+      <UITemplateForm>{crwdns6767400:0}{crwdne6767400:0}</UITemplateForm>
+    </title>
+  </TemplateContainerPopup>
+  <ViewForm>
+    <label>
+      <UITemplateContent>ViewForm</UITemplateContent>
+      <UIPopupWindow>{crwdns6767402:0}{crwdne6767402:0}</UIPopupWindow>
+      <selectVersion>{crwdns6767403:0}{crwdne6767403:0}</selectVersion>
+      <content>{crwdns6767404:0}{crwdne6767404:0}</content>
+      <name>{crwdns6767405:0}{crwdne6767405:0}</name>
+      <isDocumentTemplate>{crwdns6767406:0}{crwdne6767406:0}</isDocumentTemplate>
+      <viewPermission>{crwdns6767407:0}{crwdne6767407:0}</viewPermission>
+      <enableVersion>{crwdns6767408:0}{crwdne6767408:0}</enableVersion>
+    </label>
+    <title>{crwdns6767409:0}{crwdne6767409:0}</title>
+  </ViewForm>
+  <DialogForm>
+    <label>
+      <UITemplateContent>DialogForm</UITemplateContent>
+      <UIPopupWindow>{crwdns6767411:0}{crwdne6767411:0}</UIPopupWindow>
+      <selectVersion>{crwdns6767412:0}{crwdne6767412:0}</selectVersion>
+      <content>{crwdns6767413:0}{crwdne6767413:0}</content>
+      <name>{crwdns6767414:0}{crwdne6767414:0}</name>
+      <isDocumentTemplate>{crwdns6767415:0}{crwdne6767415:0}</isDocumentTemplate>
+      <viewPermission>{crwdns6767416:0}{crwdne6767416:0}</viewPermission>
+      <enableVersion>{crwdns6767417:0}{crwdne6767417:0}</enableVersion>
+    </label>
+    <title>{crwdns6767418:0}{crwdne6767418:0}</title>
+  </DialogForm>
+  <DialogFormTemplatePermission>
+    <title>
+      <UIPermissionSelector>{crwdns6767419:0}{crwdne6767419:0}</UIPermissionSelector>
+    </title>
+  </DialogFormTemplatePermission>
+  <ViewFormTemplatePermission>
+    <title>
+      <UIPermissionSelector>{crwdns6767420:0}{crwdne6767420:0}</UIPermissionSelector>
+    </title>
+  </ViewFormTemplatePermission>
+  <TemplateContainerPopup>
+    <title>
+      <UIViewTemplate_UITemplateContainer><![CDATA[View & Edit Template]]></UIViewTemplate_UITemplateContainer>
+      <UIViewTemplate_UIActionsTemplateContainer><![CDATA[View & Edit Template]]></UIViewTemplate_UIActionsTemplateContainer>
+      <UIViewTemplate_UIOthersTemplateContainer><![CDATA[View & Edit Template]]></UIViewTemplate_UIOthersTemplateContainer>
+    </title>
+  </TemplateContainerPopup>
+  <UITemplatesManager>
+    <title>
+      <Edit>{crwdns6767424:0}{crwdne6767424:0}</Edit>
+      <Delete>{crwdns6767425:0}{crwdne6767425:0}</Delete>
+    </title>
+  </UITemplatesManager>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UIViewTemplate #
+  ######################################################################################
+  -->
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UITemplateEditForm #
+  ######################################################################################
+  -->
+  <UITemplateEditForm>
+    <label>
+      <name>{crwdns6767426:0}{crwdne6767426:0}</name>
+      <label>{crwdns6767427:0}{crwdne6767427:0}</label>
+      <isDocumentTemplate>{crwdns6767428:0}{crwdne6767428:0}</isDocumentTemplate>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+      <Refresh>#{word.refresh}</Refresh>
+    </action>
+  </UITemplateEditForm>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UIDialogTab #
+  ######################################################################################
+  -->
+  <UIDialogTab>
+    <header>
+      <name>{crwdns6767432:0}{crwdne6767432:0}</name>
+      <roles>{crwdns6767433:0}{crwdne6767433:0}</roles>
+      <baseVersion>{crwdns6767434:0}{crwdne6767434:0}</baseVersion>
+      <action>{crwdns6767435:0}{crwdne6767435:0}</action>
+    </header>
+    <msg>
+      <undeletable>{crwdns6767436:0}{0}{crwdne6767436:0}</undeletable>
+      <confirm-delete>{crwdns6767437:0}{crwdne6767437:0}</confirm-delete>
+    </msg>
+    <action>
+      <title>
+        <Edit>{crwdns6767438:0}{crwdne6767438:0}</Edit>
+        <Delete>{crwdns6767439:0}{crwdne6767439:0}</Delete>
+      </title>
+    </action>
+  </UIDialogTab>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UIViewTab #
+  ######################################################################################
+  -->
+  <UIViewTab>
+    <header>
+      <name>{crwdns6767440:0}{crwdne6767440:0}</name>
+      <roles>{crwdns6767441:0}{crwdne6767441:0}</roles>
+      <baseVersion>{crwdns6767442:0}{crwdne6767442:0}</baseVersion>
+      <action>{crwdns6767443:0}{crwdne6767443:0}</action>
+    </header>
+    <msg>
+      <undeletable>{crwdns6767444:0}{0}{crwdne6767444:0}</undeletable>
+      <confirm-delete>{crwdns6767445:0}{crwdne6767445:0}</confirm-delete>
+    </msg>
+    <action>
+      <title>
+        <Edit>{crwdns6767446:0}{crwdne6767446:0}</Edit>
+        <Delete>{crwdns6767447:0}{crwdne6767447:0}</Delete>
+      </title>
+    </action>
+  </UIViewTab>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.UITemplateContent #
+  ######################################################################################
+  -->
+  <UITemplateContent>
+    <action>
+      <Save>#{word.save}</Save>
+      <Restore>#{word.restore}</Restore>
+      <Cancel>#{word.cancel}</Cancel>
+      <Refresh>#{word.refresh}</Refresh>
+    </action>
+    <msg>
+      <name-invalid>{crwdns6767452:0}{crwdne6767452:0}</name-invalid>
+      <roles-invalid>{crwdns6767453:0}{crwdne6767453:0}</roles-invalid>
+      <version-restored>{crwdns6767454:0}{0}{crwdne6767454:0}</version-restored>
+      <name-exist>{crwdns6767455:0}{0}{crwdne6767455:0}</name-exist>
+    </msg>
+    <title>
+      <AddPermission>{crwdns6767456:0}{crwdne6767456:0}</AddPermission>
+      <RemovePermission>{crwdns6767457:0}{crwdne6767457:0}</RemovePermission>
+    </title>
+  </UITemplateContent>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.DialogForm #
+  ######################################################################################
+  -->
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.templates.ViewForm #
+  ######################################################################################
+  -->
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.UIJCRBrowser #
+  ######################################################################################
+  -->
+  <JCRBrowser>
+    <title>
+      <UIOneNodePathSelector>{crwdns6767458:0}{crwdne6767458:0}</UIOneNodePathSelector>
+    </title>
+  </JCRBrowser>
+  <JCRBrowserAssets>
+    <title>
+      <UIOneNodePathSelector>{crwdns6767459:0}{crwdne6767459:0}</UIOneNodePathSelector>
+    </title>
+  </JCRBrowserAssets>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.queries #
+  ######################################################################################
+  -->
+  <UIQueriesList>
+    <header>
+      <name>{crwdns6767460:0}{crwdne6767460:0}</name>
+      <type>{crwdns6767461:0}{crwdne6767461:0}</type>
+      <statement>{crwdns6767462:0}{crwdne6767462:0}</statement>
+      <permission>{crwdns6767463:0}{crwdne6767463:0}</permission>
+      <action>{crwdns6767464:0}{crwdne6767464:0}</action>
+    </header>
+    <action>
+      <AddQuery>{crwdns6767465:0}{crwdne6767465:0}</AddQuery>
+    </action>
+    <tooltip>
+      <Edit>{crwdns6767466:0}{crwdne6767466:0}</Edit>
+      <Delete>{crwdns6767467:0}{crwdne6767467:0}</Delete>
+    </tooltip>
+    <msg>
+      <confirm-delete>{crwdns6767468:0}{crwdne6767468:0}</confirm-delete>
+      <query-not-existed>{crwdns6767469:0}{crwdne6767469:0}</query-not-existed>
+      <can-not-remove>{crwdns6767470:0}{crwdne6767470:0}</can-not-remove>
+    </msg>
+  </UIQueriesList>
+  <UIQueriesForm>
+    <label>
+      <name>{crwdns6767471:0}{crwdne6767471:0}</name>
+      <type>{crwdns6767472:0}{crwdne6767472:0}</type>
+      <statement>{crwdns6767473:0}{crwdne6767473:0}</statement>
+      <cache>{crwdns6767474:0}{crwdne6767474:0}</cache>
+      <permissions>{crwdns6767475:0}{crwdne6767475:0}</permissions>
+      <PermissionButton>{crwdns6767476:0}{crwdne6767476:0}</PermissionButton>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <msg>
+      <permission-require>{crwdns6767479:0}{crwdne6767479:0}</permission-require>
+      <name-invalid>{crwdns6767480:0}{crwdne6767480:0}</name-invalid>
+      <name-existing>{crwdns6767481:0}{crwdne6767481:0}</name-existing>
+      <invalid-query>{crwdns6767482:0}{crwdne6767482:0}</invalid-query>
+      <access-denied>{crwdns6767483:0}{crwdne6767483:0}</access-denied>
+    </msg>
+  </UIQueriesForm>
+  <AddQueryForm>
+    <title>
+      <UIQueriesForm>{crwdns6767484:0}{crwdne6767484:0}</UIQueriesForm>
+    </title>
+  </AddQueryForm>
+  <EditQueryForm>
+    <title>
+      <UIQueriesForm>{crwdns6767485:0}{crwdne6767485:0}</UIQueriesForm>
+    </title>
+  </EditQueryForm>
+<PermissionPopup>
+  <title>
+    <UIGroupMemberSelector>{crwdns6767486:0}{crwdne6767486:0}</UIGroupMemberSelector>
+  </title>
+</PermissionPopup>
+  <!--
+  ######################################################################################
+  #             org.exoplatform.ecm.webui.component.admin.folksonomy #
+  ######################################################################################
+  -->
+  <UITagManager>
+    <title>
+      <EditStyle>{crwdns6767487:0}{crwdne6767487:0}</EditStyle>
+      <RemoveStyle>{crwdns6767488:0}{crwdne6767488:0}</RemoveStyle>
+    </title>    
+  </UITagManager>
+  <UITagStyleList>
+    <header>
+      <name>{crwdns6767489:0}{crwdne6767489:0}</name>
+      <documentRange>{crwdns6767490:0}{crwdne6767490:0}</documentRange>
+      <tagHTML>{crwdns6767491:0}{crwdne6767491:0}</tagHTML>
+      <action>{crwdns6767492:0}{crwdne6767492:0}</action>
+    </header>
+    <title>
+      <Edit>{crwdns6767493:0}{crwdne6767493:0}</Edit>
+      <Delete>{crwdns6767494:0}{crwdne6767494:0}</Delete>
+      <Remove>{crwdns6767495:0}{crwdne6767495:0}</Remove>
+    </title>
+    <action>
+      <AddStyle>{crwdns6767496:0}{crwdne6767496:0}</AddStyle>
+    </action>
+  </UITagStyleList>
+  <UITagStyleForm>
+    <label>
+      <styleName>{crwdns6767497:0}{crwdne6767497:0}</styleName>
+      <documentRange>{crwdns6767498:0}{crwdne6767498:0}</documentRange>
+      <styleHTML>{crwdns6767499:0}{crwdne6767499:0}</styleHTML>
+    </label>
+    <action>
+      <UpdateStyle>{crwdns6767500:0}{crwdne6767500:0}</UpdateStyle>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <msg>
+      <range-validator>{crwdns6767502:0}{crwdne6767502:0}</range-validator>
+      <error-update>{crwdns6767503:0}{crwdne6767503:0}</error-update>
+      <item-not-existing>{crwdns6767504:0}{crwdne6767504:0}</item-not-existing>
+    </msg>
+  </UITagStyleForm>
+  <FolksonomyPopup>
+    <title>
+      <UITagStyleForm>{crwdns6767505:0}{crwdne6767505:0}</UITagStyleForm>
+    </title>
+  </FolksonomyPopup>
+  <!--
+  ###################################################################################
+  # org.exoplatform.ecm.jcr.ECMNameValidator  #
+  ###################################################################################
+  -->
+  <ECMNameValidator>
+    <msg>
+      <Invalid-char>{crwdns6767506:0}{0}{crwdne6767506:0}</Invalid-char>
+      <empty-input>{crwdns6767507:0}{0}{crwdne6767507:0}</empty-input>
+    </msg>
+  </ECMNameValidator>
+  <EmptyFieldValidator>
+    <msg>
+      <empty-input>{crwdns6767508:0}{0}{crwdne6767508:0}</empty-input>
+    </msg>
+  </EmptyFieldValidator>
+  <!--
+  ###################################################################################
+  # org.exoplatform.ecm.jcr.PermissionValidator  #
+  ###################################################################################
+  -->
+  <PermissionValidator>
+  <msg>
+      <permission-path-invalid>{crwdns6767509:0}{0}{crwdne6767509:0}</permission-path-invalid>
+  </msg>
+  </PermissionValidator>
+  <!--
+  ###################################################################################
+  # Repository  #
+  ###################################################################################
+  -->
+  <UIWorkspaceList>
+    <label>
+      <workspaceName>{crwdns6767510:0}{crwdne6767510:0}</workspaceName>
+      <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
+      <rootNodePath>{crwdns6767512:0}{crwdne6767512:0}</rootNodePath>
+    </label>
+  </UIWorkspaceList>
+  <!--
+  ###################################################################################
+  # Others  #
+  ###################################################################################
+  -->
+  <UIFormInputSetWithAction>
+    <msg>
+      <confirm-delete>{crwdns6767513:0}{crwdne6767513:0}</confirm-delete>
+    </msg>
+  </UIFormInputSetWithAction>
+  <template>
+    <title>
+      <AddPermission>{crwdns6767514:0}{crwdne6767514:0}</AddPermission>
+    </title>
+  </template>
+  <metadataTypeTab>
+    <title>
+      <AddPermission>{crwdns6767515:0}{crwdne6767515:0}</AddPermission>
+    </title>
+  </metadataTypeTab>
+  <PermissionButton>
+    <title>
+      <AddPermission>{crwdns6767516:0}{crwdne6767516:0}</AddPermission>
+    </title>
+  </PermissionButton>
+  <nodeTypeDefinition>
+    <title>
+      <AddSuperType>{crwdns6767517:0}{crwdne6767517:0}</AddSuperType>
+    </title>
+  </nodeTypeDefinition>
+  <childNodeDefinition>
+    <title>
+      <AddRequiredType>{crwdns6767518:0}{crwdne6767518:0}</AddRequiredType>
+      <AddDefaultType>{crwdns6767519:0}{crwdne6767519:0}</AddDefaultType>
+    </title>
+  </childNodeDefinition>
+  <propertyDefinition>
+    <title>
+      <AddConstraints>{crwdns6767520:0}{crwdne6767520:0}</AddConstraints>
+    </title>
+  </propertyDefinition>
+  <authInputSet>
+    <title>
+      <Select>{crwdns6767521:0}{crwdne6767521:0}</Select>
+    </title>
+  </authInputSet>
+  <!--
+  #grid with action
+  -->
+  <UIViewContainer>
+    <title>
+      <View>{crwdns6767522:0}{crwdne6767522:0}</View>
+      <EditInfo>{crwdns6767523:0}{crwdne6767523:0}</EditInfo>
+      <Delete>{crwdns6767524:0}{crwdne6767524:0}</Delete>
+    </title>
+<label>
+  <permission>{crwdns6767525:0}{0}{crwdnd6767525:0}{1}{crwdne6767525:0}</permission>
+</label>
+  </UIViewContainer>
+  <ECMTemplate>
+    <title>
+      <EditInfo>{crwdns6767526:0}{crwdne6767526:0}</EditInfo>
+      <Delete>{crwdns6767527:0}{crwdne6767527:0}</Delete>
+    </title>
+  </ECMTemplate>
+  <step1>
+    <title>
+      <AddPermission>{crwdns6767528:0}{crwdne6767528:0}</AddPermission>
+    </title>
+  </step1>
+  <step2>
+    <title>
+      <SelectContainer>{crwdns6767529:0}{crwdne6767529:0}</SelectContainer>
+      <SelectStore>{crwdns6767530:0}{crwdne6767530:0}</SelectStore>
+    </title>
+  </step2>
+  <step3>
+    <title>
+      <SelectQueryHandler>{crwdns6767531:0}{crwdne6767531:0}</SelectQueryHandler>
+    </title>
+  </step3>
+  <UIDrivePermissionSelector>
+    <label>
+      <selectGroup>{crwdns6767532:0}{crwdne6767532:0}</selectGroup>
+      <selectUser>{crwdns6767533:0}{crwdne6767533:0}</selectUser>
+      <selectMembership>{crwdns6767534:0}{crwdne6767534:0}</selectMembership>
+    </label>
+  </UIDrivePermissionSelector>
+  
+  <UIPermissionSelector>
+    <label>
+      <selectGroup>{crwdns6767535:0}{crwdne6767535:0}</selectGroup>
+      <selectUser>{crwdns6767536:0}{crwdne6767536:0}</selectUser>
+      <selectMembership>{crwdns6767537:0}{crwdne6767537:0}</selectMembership>
+    </label>
+  </UIPermissionSelector>
+  
+  <UIAnyPermission>
+    <label>
+      <anyPermission>{crwdns6767538:0}{crwdne6767538:0}</anyPermission>
+    </label>
+  </UIAnyPermission>
+  
+  <UIMDriveAnyPermission>
+    <label>
+      <anyPermission>{crwdns6767539:0}{crwdne6767539:0}</anyPermission>
+    </label>
+  </UIMDriveAnyPermission>
+  
+  <UIQueriesAnyPermission>
+    <label>
+      <anyPermission>{crwdns6767540:0}{crwdne6767540:0}</anyPermission>
+    </label>
+  </UIQueriesAnyPermission>
+  
+  <MetadataPermission>
+    <label>
+      <selectGroup>{crwdns6767541:0}{crwdne6767541:0}</selectGroup>
+    </label>
+  </MetadataPermission>  
+  <MetadataPermission>
+    <label>
+      <selectMembership>{crwdns6767542:0}{crwdne6767542:0}</selectMembership>
+    </label>
+  </MetadataPermission>
+  <anyPermission>
+    <title>
+      <AddAnyPermission>{crwdns6767543:0}{crwdne6767543:0}</AddAnyPermission>
+    </title>
+  </anyPermission>
+  <!--
+  #########Since ECM 2.3##################
+  -->
+  <QueriesPermissionBrowse>
+    <label>
+      <selectGroup>{crwdns6767544:0}{crwdne6767544:0}</selectGroup>
+      <selectUser>{crwdns6767545:0}{crwdne6767545:0}</selectUser>
+      <selectMembership>{crwdns6767546:0}{crwdne6767546:0}</selectMembership>
+    </label>
+  </QueriesPermissionBrowse>
+  <!--
+  #########Since ECM 2.4##################
+  -->  
+  <UIViewFormTabPane>
+    <label>
+      <addSymLink>{crwdns6767547:0}{crwdne6767547:0}</addSymLink>
+    </label>
+  </UIViewFormTabPane>
+  <!--
+  #########Since ECM 2.5##################
+  --> 
+  
+  <UIDriveForm>
+<msg>
+  <permission-path-invalid>{crwdns6767548:0}{0}{crwdne6767548:0}</permission-path-invalid>
+  </msg>
+  </UIDriveForm>
+  
+  <UITaxonomyTreeMainForm>
+    <msg>
+      <homepath-emty>{crwdns6767549:0}{crwdne6767549:0}</homepath-emty>
+      <targetpath-emty>{crwdns6767550:0}{crwdne6767550:0}</targetpath-emty>
+    </msg>
+  </UITaxonomyTreeMainForm>
+  <UITaxonomyWorkingArea>
+  <msg>
+  <exist>{crwdns6767551:0}{crwdne6767551:0}</exist>
+  </msg>
+  </UITaxonomyWorkingArea>
+
+  <PermissionTreeSelectUser>
+    <label>
+      <option>
+        <userName>#{word.userName}</userName>
+        <lastName>#{word.lastName}</lastName>
+        <firstName>#{word.firstName}</firstName>
+        <email>#{word.email}</email>
+      </option>
+      <group>{crwdns6767556:0}{crwdne6767556:0}</group>
+      <searchUser>{crwdns6767557:0}{crwdne6767557:0}</searchUser>
+      <userName>#{word.userName}</userName>
+      <lastName>#{word.lastName}</lastName>
+      <firstName>#{word.firstName}</firstName>
+    <email>#{word.email}</email>
+      <action>#{word.action}</action>
+      <Add>#{word.Add}</Add>
+      <Close>#{word.Close}</Close>
+    </label>
+  </PermissionTreeSelectUser>
+  
+  <!--
+  #########Since ECM 2.6 ##################
+  -->   
+  <DriveInputSet>
+    <label>
+      <nt_folder>{crwdns6767565:0}{crwdne6767565:0}</nt_folder>
+      <nt_unstructured>{crwdns6767566:0}{crwdne6767566:0}</nt_unstructured>
+      <exo_cssFolder>{crwdns6767567:0}{crwdne6767567:0}</exo_cssFolder>
+      <exo_jsFolder>{crwdns6767568:0}{crwdne6767568:0}</exo_jsFolder>
+      <exo_linkFolder>{crwdns6767569:0}{crwdne6767569:0}</exo_linkFolder>
+      <exo_webFolder>{crwdns6767570:0}{crwdne6767570:0}</exo_webFolder>
+   </label>
+  </DriveInputSet>
+  <UIPermissionTreeInfo>
+  <msg>
+      <confirm-delete-permission>{crwdns6767571:0}{crwdne6767571:0}</confirm-delete-permission>
+      <no-permission-remove>{crwdns6767572:0}{crwdne6767572:0}</no-permission-remove>  
+  </msg>
+  </UIPermissionTreeInfo>  
+  <UITaxonomyTreeMainForm>
+<msg>
+      <no-right-target-path>{crwdns6767573:0}{crwdne6767573:0}</no-right-target-path>
+</msg>
+</UITaxonomyTreeMainForm>
+
+<UIECMAdminControlPanel>
+    <tab>
+      <label>        
+        <ManageUnLock>{crwdns6767574:0}{crwdne6767574:0}</ManageUnLock>
+      </label>
+    </tab>        
+</UIECMAdminControlPanel>
+<UIUnLockForm>
+    <label>
+      <name>{crwdns6767575:0}{crwdne6767575:0}</name>      
+      <permissions>{crwdns6767576:0}{crwdne6767576:0}</permissions>
+      <PermissionButton>UI Unlock Form</PermissionButton>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <msg>
+      <permission-require>{crwdns6767580:0}{crwdne6767580:0}</permission-require>      
+    </msg>
+  </UIUnLockForm>
+  <UILockHolderList>
+  <header>
+  <name>{crwdns6767581:0}{crwdne6767581:0}</name>
+  <action>{crwdns6767582:0}{crwdne6767582:0}</action>
+  </header>
+  <tooltip>
+<DeleteLock>{crwdns6767583:0}{crwdne6767583:0}</DeleteLock>
+  </tooltip>
+  <msg>
+  <can-not-delete-lock-holder>{crwdns6767584:0}{0}{crwdne6767584:0}</can-not-delete-lock-holder>
+  </msg>
+  </UILockHolderList>
+  <UILockNodeList>
+  <header>
+  <name>{crwdns6767585:0}{crwdne6767585:0}</name>
+  <hoderLock>{crwdns6767586:0}{crwdne6767586:0}</hoderLock>
+  <action>{crwdns6767587:0}{crwdne6767587:0}</action>
+  </header>
+  <tooltip>
+<UnLock>{crwdns6767588:0}{crwdne6767588:0}</UnLock>
+  </tooltip>
+  <msg>
+  <access-denied-exception>{crwdns6767589:0}{0}{crwdne6767589:0}</access-denied-exception>
+  </msg>
+  </UILockNodeList>
+  <EditUnLockForm>
+    <title>
+      <UIUnLockForm>{crwdns6767590:0}{crwdne6767590:0}</UIUnLockForm>
+    </title>
+  </EditUnLockForm>  
+  <UITabPane>
+    <action>
+      <Close>#{word.close}</Close>
+    </action>
+    <title>
+    <UILockHolderContainer>{crwdns6767592:0}{crwdne6767592:0}</UILockHolderContainer>
+    <UILockNodeList>{crwdns6767593:0}{crwdne6767593:0}</UILockNodeList>
+    </title>
+  </UITabPane>
+  
+  <UIViewFormTabPane>
+    <action>
+      <AddTabForm>{crwdns6767594:0}{crwdne6767594:0}</AddTabForm>
+      <AddTab>#{word.save}</AddTab>
+      <BackViewForm>{crwdns6767596:0}{crwdne6767596:0}</BackViewForm>
+    </action>
+  </UIViewFormTabPane>
+  
+ <UITemplateForm>
+<tab>
+<label>
+<defaultSkin>{crwdns6767597:0}{crwdne6767597:0}</defaultSkin>
+</label>
+</tab>
+</UITemplateForm>
+ 
+  <UITabPane>
+    <title>
+      <UISkinTab>{crwdns6767598:0}{crwdne6767598:0}</UISkinTab>
+    </title>
+  </UITabPane>
+  
+  <UISkinTab>
+    <header>
+      <name>{crwdns6767599:0}{crwdne6767599:0}</name>
+      <roles>{crwdns6767600:0}{crwdne6767600:0}</roles>
+      <baseVersion>{crwdns6767601:0}{crwdne6767601:0}</baseVersion>
+      <action>{crwdns6767602:0}{crwdne6767602:0}</action>
+    </header>
+    <msg>
+      <undeletable>{crwdns6767603:0}{0}{crwdne6767603:0}</undeletable>
+      <confirm-delete>{crwdns6767604:0}{crwdne6767604:0}</confirm-delete>
+    </msg>
+    <action>
+      <title>
+        <Edit>{crwdns6767605:0}{crwdne6767605:0}</Edit>
+        <Delete>{crwdns6767606:0}{crwdne6767606:0}</Delete>
+      </title>
+    </action>
+  </UISkinTab>
+  
+  <SkinForm>
+    <label>
+      <UITemplateContent>SkinForm</UITemplateContent>
+      <UIPopupWindow>{crwdns6767608:0}{crwdne6767608:0}</UIPopupWindow>
+      <selectVersion>{crwdns6767609:0}{crwdne6767609:0}</selectVersion>
+      <content>{crwdns6767610:0}{crwdne6767610:0}</content>
+      <name>{crwdns6767611:0}{crwdne6767611:0}</name>
+      <isDocumentTemplate>{crwdns6767612:0}{crwdne6767612:0}</isDocumentTemplate>
+      <viewPermission>{crwdns6767613:0}{crwdne6767613:0}</viewPermission>
+      <enableVersion>{crwdns6767614:0}{crwdne6767614:0}</enableVersion>
+    </label>
+    <title>{crwdns6767615:0}{crwdne6767615:0}</title>
+  </SkinForm>
+
+ <UITagManager>
+   <action>
+     <title>
+       <RemoveStyle>{crwdns6767616:0}{crwdne6767616:0}</RemoveStyle>
+         <AddStyle>{crwdns6767617:0}{crwdne6767617:0}</AddStyle>
+     </title>
+   </action>
+   <msg>
+     <confirm-delete>{crwdns6767618:0}{crwdne6767618:0}</confirm-delete>
+   </msg>
+ </UITagManager>
+
+<UITaxonomyTreeContainer>
+<action>
+<Cancel>#{word.close}</Cancel>
+</action>
+</UITaxonomyTreeContainer>
+<UITaxonomyTreeMainForm>
+<action>
+<NextViewPermission>{crwdns6767620:0}{crwdne6767620:0}</NextViewPermission>
+<Reset>Reset</Reset>
+</action>
+</UITaxonomyTreeMainForm>
+
+<UIPermissionTreeForm>
+<action>
+<Save>Save</Save>
+<Reset>Reset</Reset>
+<NextAddAction>{crwdns6767621:0}{crwdne6767621:0}</NextAddAction>
+<Previous>{crwdns6767622:0}{crwdne6767622:0}</Previous>
+</action>
+</UIPermissionTreeForm>
+
+<UIActionForm>
+<action>
+<PreviousViewPermission>{crwdns6767623:0}{crwdne6767623:0}</PreviousViewPermission>
+<NextViewTree>{crwdns6767624:0}{crwdne6767624:0}</NextViewTree>
+</action>
+  <msg>
+    <xss-vulnerability-character>{crwdns6767625:0}{0}{crwdne6767625:0}</xss-vulnerability-character>
+<xss-vulnerability-character-wo-label>{crwdns6767626:0}{crwdne6767626:0}</xss-vulnerability-character-wo-label>
+  </msg>
+</UIActionForm>
+
+<UITaxonomyTreeWorkingArea>
+<action>
+<Previous>{crwdns6767627:0}{crwdne6767627:0}</Previous>
+</action>
+</UITaxonomyTreeWorkingArea>
+
+  <UITabPane>
+    <title>
+      <UITagManager>{crwdns6767628:0}{crwdne6767628:0}</UITagManager>
+      <UITagPermissionManager>{crwdns6767629:0}{crwdne6767629:0}</UITagPermissionManager>
+    </title>
+  </UITabPane>
+  
+  <UITagPermissionInfo>
+    <header>
+      <usersOrGroups>{crwdns6767630:0}{crwdne6767630:0}</usersOrGroups>
+      <action>{crwdns6767631:0}{crwdne6767631:0}</action>
+    </header>
+    <action>
+      <title>
+        <Delete>{crwdns6767632:0}{crwdne6767632:0}</Delete>
+      </title>
+    </action>
+    <msg>
+      <confirm-delete-permission>{crwdns6767633:0}{crwdne6767633:0}</confirm-delete-permission>
+    </msg>   
+  </UITagPermissionInfo>
+  <UITagPermissionForm>
+    <title>{crwdns6767634:0}{crwdne6767634:0}</title>
+    <action>
+      <Save>#{word.save}</Save>
+      <Add>{crwdns6767636:0}{crwdne6767636:0}</Add>
+    </action>
+    <label>
+      <userOrGroup>{crwdns6767637:0}{crwdne6767637:0}</userOrGroup>
+    </label>
+    <msg>
+      <userOrGroup-alreadyExists>{crwdns6767638:0}{crwdne6767638:0}</userOrGroup-alreadyExists>
+    </msg>    
+  </UITagPermissionForm>
+  
+  <UIGroupMemberSelector>
+    <label>
+      <selectGroup>{crwdns6767639:0}{crwdne6767639:0}</selectGroup>
+      <selectMembership>{crwdns6767640:0}{crwdne6767640:0}</selectMembership>
+    </label>
+  </UIGroupMemberSelector>
+  
+  <UIFolksonomyManager>
+  <msg>
+      <confirm-delete>{crwdns6767641:0}{crwdne6767641:0}</confirm-delete>
+  </msg>
+    <action>
+      <title>
+        <AddStyle>{crwdns6767642:0}{crwdne6767642:0}</AddStyle>
+      </title>
+    </action>
+  </UIFolksonomyManager>  
+<UIActionForm>
+  <title>
+  <ShowComponent>{crwdns6767643:0}{crwdne6767643:0}</ShowComponent>
+  <removeReference>{crwdns6767644:0}{crwdne6767644:0}</removeReference>
+  </title>
+  </UIActionForm> 
+  <NodeTypeNameValidator>
+    <msg>
+      <Invalid-char>{crwdns6767645:0}{crwdne6767645:0}</Invalid-char>
+      <empty-input>{crwdns6767646:0}{crwdne6767646:0}</empty-input>
+    </msg>
+  </NodeTypeNameValidator>
+  <UIActionForm>
+    <msg>
+      <constraint-violation-exception>{crwdns6767647:0}{0}{crwdnd6767647:0}{1}{crwdnd6767647:0}{2}{crwdne6767647:0}</constraint-violation-exception>
+    </msg>
+  </UIActionForm>
+  
+  <UIWorkspaceWizard>
+    <msg>
+      <name-not-allowed>{crwdns6767648:0}{crwdne6767648:0}</name-not-allowed>
+    </msg>
+  </UIWorkspaceWizard>
+  <UIRepositoryForm>
+    <msg>
+      <not-complete-repository>The repository is being created. You need to wait a few minutes before creating another one.</not-complete-repository>
+    </msg>
+  </UIRepositoryForm>
+  
+  <UIViewFormTabPane>
+  <label>
+  <addCategory>{crwdns6767650:0}{crwdne6767650:0}</addCategory>
+          <addLocalizationLink>{crwdns6767651:0}{crwdne6767651:0}</addLocalizationLink>
+  </label>
+  </UIViewFormTabPane>
+
+<UIDriveForm>
+<label>
+<allowNodeTypesOnTree>{crwdns6767652:0}{crwdne6767652:0}</allowNodeTypesOnTree>
+</label>
+</UIDriveForm>
+<DriveInputSet>
+<title>
+<RemovePermission>Remove Permission</RemovePermission>
+<ChooseNodeType>{crwdns6767653:0}{crwdne6767653:0}</ChooseNodeType>
+<RemoveNodeType>{crwdns6767654:0}{crwdne6767654:0}</RemoveNodeType>
+</title>
+</DriveInputSet>
+<PopupNodeTypeSelector>
+<title>
+<UINodeTypeSelector>{crwdns6767655:0}{crwdne6767655:0}</UINodeTypeSelector>
+<PopupNodeTypeSelector>{crwdns6767656:0}{crwdne6767656:0}</PopupNodeTypeSelector>
+</title>
+</PopupNodeTypeSelector>
+  <UINodeTypeSelector>
+    <label>
+      <selectedAllNodeTypes>{crwdns6767657:0}{crwdne6767657:0}</selectedAllNodeTypes>
+    </label>
+  </UINodeTypeSelector>
+  <UIScriptForm>
+    <msg>
+      <PathNotFoundException>{crwdns6767658:0}{0}{crwdne6767658:0}</PathNotFoundException>      
+    </msg>
+  </UIScriptForm>
+ <UINodeTypeList>
+   <msg>
+   <no-list>{crwdns6767659:0}{crwdne6767659:0}</no-list>
+   </msg>
+ </UINodeTypeList>
+  <UIActionForm>
+    <msg>
+      <canotChangeActionId>{crwdns6767660:0}{crwdne6767660:0}</canotChangeActionId>
+    </msg>
+  </UIActionForm>
+  <PopupComponent>
+    <title>
+      <UINodeTypeSelector>{crwdns6767661:0}{crwdne6767661:0}</UINodeTypeSelector>
+    </title>
+  </PopupComponent>
+  <UIPageIterator>
+    <label>
+      <maxPageSize>{crwdns6767662:0}{crwdne6767662:0}</maxPageSize>
+    </label>
+  </UIPageIterator>
+  <UILockNodeList>
+    <msg>
+      <can-not-unlock-node>{crwdns6767663:0}{crwdne6767663:0}</can-not-unlock-node>
+    </msg>
+ </UILockNodeList>
+</bundle>
