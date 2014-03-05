@@ -279,7 +279,7 @@
       <Save>#{word.save}</Save>
       <Clear>Clear</Clear>
       <title>
-        <Edit>Edit</Edit>
+        <Edit>Redaguoti</Edit>
         <Delete>Delete</Delete>
       </title>
     </action>
@@ -421,7 +421,7 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Abort</abort>
+      <abort>Nutraukti</abort>
     </title>
   </UIPortalApplication>    
   

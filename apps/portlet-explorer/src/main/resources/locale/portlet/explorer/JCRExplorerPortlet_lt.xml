@@ -190,7 +190,7 @@
   #########################################################################################
   -->
   <UIRenameForm>
-    <title>Rename</title>
+    <title>Pervadinti</title>
     <label>
       <nameField>Name</nameField>
       <titleField>Title</titleField>
@@ -214,7 +214,7 @@
   </UIRenameForm>
   <UIPopupWindow>
     <title>
-      <UIRenameForm>Rename</UIRenameForm>
+      <UIRenameForm>Pervadinti</UIRenameForm>
       <UIActionContainer>Edit Action</UIActionContainer>
       <UIFolderForm>New Folder</UIFolderForm>
       <UIUploadManager>Upload File</UIUploadManager>
@@ -231,9 +231,9 @@
       <UISavedQuery>Saved Queries List</UISavedQuery>
       <UIWatchDocumentForm>Watch Document</UIWatchDocumentForm>
       <UIActionManager>Manage Actions</UIActionManager>
-      <UIDocumentForm>Edit Document</UIDocumentForm>
+      <UIDocumentForm>Redaguoti dokumentą</UIDocumentForm>
       <UIDocumentFormController>Add New Document</UIDocumentFormController>
-      <EditFormController>Edit Document</EditFormController>
+      <EditFormController>Redaguoti dokumentą</EditFormController>
       <UIRelationManager>Add Relation</UIRelationManager>
       <UICategoryManager>Add Category</UICategoryManager>
       <UIImportNode>Import</UIImportNode>
@@ -252,8 +252,8 @@
       <UIThumbnailForm>Add Thumbnail Image</UIThumbnailForm>
       <UIAllItemsPreferenceForm>Preference Settings</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Select Restore Path</UISelectRestorePath>
-      <UISEOForm>Manage SEO</UISEOForm>
-      <UISEOToolbarForm>Manage SEO</UISEOToolbarForm>
+      <UISEOForm>Valdyti SEO</UISEOForm>
+      <UISEOToolbarForm>Valdyti SEO</UISEOToolbarForm>
     </title>
     <header>
       <workspace>Workspace</workspace>
@@ -282,7 +282,7 @@
     <tooltip>
       <AddFolder>New Folder</AddFolder>
       <AddDocument>New Content</AddDocument>
-      <EditDocument>Edit</EditDocument>
+      <EditDocument>Redaguoti</EditDocument>
       <Upload>Upload</Upload>
       <Paste>Paste</Paste>
       <Search>Search</Search>
@@ -517,7 +517,7 @@
       <node-remove-success>Node '{0}' has been removed.</node-remove-success>
     </msg>
     <tooltip>
-      <Rename>Rename</Rename>
+      <Rename>Pervadinti</Rename>
       <Cut>Cut</Cut>
       <Copy>Copy</Copy>
       <Save>#{word.save}</Save>
@@ -526,7 +526,7 @@
       <Checkout>Checkout</Checkout>
       <Lock>Lock</Lock>
       <Unlock>Unlock</Unlock>
-      <EditDocument>Edit</EditDocument>
+      <EditDocument>Redaguoti</EditDocument>
       <Paste>Paste</Paste>
       <LockedBy>Locked by</LockedBy>
     </tooltip>
@@ -566,9 +566,9 @@
     <event>
       <Lock>Lock</Lock>
       <Unlock>UnLock</Unlock>
-      <EditDocument>Edit</EditDocument>
+      <EditDocument>Redaguoti</EditDocument>
       <Copy>Copy</Copy>
-      <Rename>Rename</Rename>
+      <Rename>Pervadinti</Rename>
       <Delete>Delete</Delete>
       <Save>#{word.save}</Save>
       <Cut>Cut</Cut>
@@ -731,7 +731,7 @@
   <UIPermissionInfo>
     <action>
       <title>
-        <Edit>Edit</Edit>
+        <Edit>Redaguoti</Edit>
         <Delete>Remove Permission</Delete>
       </title>
     </action>
@@ -1265,7 +1265,7 @@
     </header>
     <tooltip>
       <Execute>Execute</Execute>
-      <Edit>Edit</Edit>
+      <Edit>Redaguoti</Edit>
       <Delete>Delete</Delete>
     </tooltip>
     <label>
@@ -1765,7 +1765,7 @@
     <action>
       <Close>#{word.close}</Close>
       <View>View</View>
-      <Edit>Edit</Edit>
+      <Edit>Redaguoti</Edit>
       <Delete>Delete</Delete>
     </action>
   </UIActionList>
@@ -2178,7 +2178,7 @@
   <UIJcrExplorerEditForm>
     <title>Edit File Explorer</title>
     <action>
-      <Edit>Edit</Edit>
+      <Edit>Redaguoti</Edit>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2644,7 +2644,7 @@
        <Video>Video</Video>
        <Music>Music</Music>
        <Documents>Document</Documents>
-       <Content>Content</Content>
+       <Content>Turinys</Content>
     </label>
   </DocumentType>
 
@@ -2654,7 +2654,7 @@
       <Video>Video</Video>
       <Music>Music</Music>
       <Documents>Document</Documents>
-      <Content>Content</Content>
+      <Content>Turinys</Content>
     </label>
     <title>Set Up Filter Preferences</title>
     <action>
