@@ -333,7 +333,7 @@
     <dialog>
       <label>
         <isDeep>Is Deep</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Skilčių tipai</nodetypes>
         <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -343,7 +343,7 @@
     <dialog>
       <label>
         <isDeep>Is Deep</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Skilčių tipai</nodetypes>
         <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -353,7 +353,7 @@
     <dialog>
       <label>
         <isDeep>Is Deep</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Skilčių tipai</nodetypes>
         <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -363,7 +363,7 @@
     <dialog>
       <label>
         <isDeep>Is Deep</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Skilčių tipai</nodetypes>
         <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>

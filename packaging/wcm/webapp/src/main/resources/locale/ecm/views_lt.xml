@@ -57,7 +57,7 @@
   <Mail>
     <view>
       <label>
-        <from>From:</from>
+        <from>Nuo:</from>
         <to>To:</to>
         <cc>Cc:</cc>
         <date>Date:</date>
