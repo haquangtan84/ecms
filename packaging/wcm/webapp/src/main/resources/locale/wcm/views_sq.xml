@@ -23,8 +23,8 @@
   <WebLink>
     <view>
       <label>
-        <url>{crwdns6424664:0}{crwdne6424664:0}</url>
-        <description>{crwdns6424665:0}{crwdne6424665:0}</description>
+        <url>crwdns6424664:0crwdne6424664:0</url>
+        <description>crwdns6424665:0crwdne6424665:0</description>
       </label>
     </view>
   </WebLink>
@@ -32,17 +32,17 @@
   <SiteMetadata>
     <view>
       <label>
-        <title>{crwdns6424666:0}{crwdne6424666:0}</title>
-        <description>{crwdns6424667:0}{crwdne6424667:0}</description>
-        <keywords>{crwdns6424668:0}{crwdne6424668:0}</keywords>
-        <robots>{crwdns6424669:0}{crwdne6424669:0}</robots>
+        <title>crwdns6424666:0crwdne6424666:0</title>
+        <description>crwdns6424667:0crwdne6424667:0</description>
+        <keywords>crwdns6424668:0crwdne6424668:0</keywords>
+        <robots>crwdns6424669:0crwdne6424669:0</robots>
       </label>
       <tooltip>
-        <add-edit>{crwdns6424670:0}{crwdne6424670:0}</add-edit>
+        <add-edit>crwdns6424670:0crwdne6424670:0</add-edit>
         <cancel>#{word.cancel}</cancel>
       </tooltip>
       <action>
-        <add-edit>{crwdns6424672:0}{crwdne6424672:0}</add-edit>
+        <add-edit>crwdns6424672:0crwdne6424672:0</add-edit>
         <cancel>#{word.cancel}</cancel>
       </action>
     </view>
@@ -50,13 +50,13 @@
 
   <Category>
     <view>
-      <label>{crwdns6424674:0}{crwdne6424674:0}</label>
+      <label>crwdns6424674:0crwdne6424674:0</label>
     </view>
   </Category>
 
   <Tag>
     <view>
-      <label>{crwdns6424675:0}{crwdne6424675:0}</label>
+      <label>crwdns6424675:0crwdne6424675:0</label>
     </view>
   </Tag>
 </bundle>

@@ -2,29 +2,29 @@
 <bundle>
 <UIPopupWindow>
 <title>
-<UIViewInfoManager>{crwdns6425025:0}{crwdne6425025:0}</UIViewInfoManager>
+<UIViewInfoManager>crwdns6425025:0crwdne6425025:0</UIViewInfoManager>
 </title>
 </UIPopupWindow>
     
 <ECMContextMenu>
 <event>
-<ViewInfo>{crwdns6425026:0}{crwdne6425026:0}</ViewInfo>
+<ViewInfo>crwdns6425026:0crwdne6425026:0</ViewInfo>
 </event>
 </ECMContextMenu>
 <UIViewInfoContainer>
 <label>
-      <name>{crwdns6425027:0}{crwdne6425027:0}</name>
-      <title>{crwdns6425028:0}{crwdne6425028:0}</title>
-      <type>{crwdns6425029:0}{crwdne6425029:0}</type>
-      <size>{crwdns6425030:0}{crwdne6425030:0}</size>
-      <owner>{crwdns6425031:0}{crwdne6425031:0}</owner>
-      <lastModifier>{crwdns6425032:0}{crwdne6425032:0}</lastModifier>
-      <created>{crwdns6425033:0}{crwdne6425033:0}</created>
-      <lastModified>{crwdns6425034:0}{crwdne6425034:0}</lastModified>
-      <publicationState>{crwdns6425035:0}{crwdne6425035:0}</publicationState>
+      <name>crwdns6425027:0crwdne6425027:0</name>
+      <title>crwdns6425028:0crwdne6425028:0</title>
+      <type>crwdns6425029:0crwdne6425029:0</type>
+      <size>crwdns6425030:0crwdne6425030:0</size>
+      <owner>crwdns6425031:0crwdne6425031:0</owner>
+      <lastModifier>crwdns6425032:0crwdne6425032:0</lastModifier>
+      <created>crwdns6425033:0crwdne6425033:0</created>
+      <lastModified>crwdns6425034:0crwdne6425034:0</lastModified>
+      <publicationState>crwdns6425035:0crwdne6425035:0</publicationState>
 </label>
 <value>
-      <folder>{crwdns6425036:0}{crwdne6425036:0}</folder>
+      <folder>crwdns6425036:0crwdne6425036:0</folder>
 </value>
 <action>
 <Close>#{word.close}</Close>

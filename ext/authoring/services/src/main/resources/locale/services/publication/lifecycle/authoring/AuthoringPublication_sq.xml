@@ -3,21 +3,21 @@
   <PublicationService>
     <AuthoringPublicationPlugin>
       <changeState>
-        <obsoleted>{crwdns6423524:0}{crwdne6423524:0}</obsoleted>
-        <published>{crwdns6423525:0}{crwdne6423525:0}</published>
-<unpublished>{crwdns6423526:0}{crwdne6423526:0}</unpublished>
-<archived>{crwdns6423527:0}{crwdne6423527:0}</archived>
-<staged>{crwdns6423528:0}{crwdne6423528:0}</staged>
-<approved>{crwdns6423529:0}{crwdne6423529:0}</approved>
-<pending>{crwdns6423530:0}{crwdne6423530:0}</pending>
-<draft>{crwdns6423531:0}{crwdne6423531:0}</draft>
+        <obsoleted>crwdns6423524:0crwdne6423524:0</obsoleted>
+        <published>crwdns6423525:0crwdne6423525:0</published>
+<unpublished>crwdns6423526:0crwdne6423526:0</unpublished>
+<archived>crwdns6423527:0crwdne6423527:0</archived>
+<staged>crwdns6423528:0crwdne6423528:0</staged>
+<approved>crwdns6423529:0crwdne6423529:0</approved>
+<pending>crwdns6423530:0crwdne6423530:0</pending>
+<draft>crwdns6423531:0crwdne6423531:0</draft>
       </changeState>
     </AuthoringPublicationPlugin>
   </PublicationService>
   <Publication>
     <log>
       <description>
-        <enrolled>{crwdns6718075:0}{crwdne6718075:0}</enrolled>
+        <enrolled>crwdns6718075:0crwdne6718075:0</enrolled>
       </description>
     </log>
   </Publication>

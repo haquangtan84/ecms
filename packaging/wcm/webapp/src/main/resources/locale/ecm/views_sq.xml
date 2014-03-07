@@ -4,14 +4,14 @@
   <View>
     <label>
       <languages>
-        <en>{crwdns6425151:0}{crwdne6425151:0}</en>
-        <fr>{crwdns6425152:0}{crwdne6425152:0}</fr>
-        <ru>{crwdns6425153:0}{crwdne6425153:0}</ru>
-        <vi>{crwdns6425154:0}{crwdne6425154:0}</vi>
-        <nl>{crwdns6425155:0}{crwdne6425155:0}</nl>
-        <de>{crwdns6425156:0}{crwdne6425156:0}</de>
-        <uk>{crwdns6425157:0}{crwdne6425157:0}</uk>
-        <ar>{crwdns6425158:0}{crwdne6425158:0}</ar>
+        <en>crwdns6425151:0crwdne6425151:0</en>
+        <fr>crwdns6425152:0crwdne6425152:0</fr>
+        <ru>crwdns6425153:0crwdne6425153:0</ru>
+        <vi>crwdns6425154:0crwdne6425154:0</vi>
+        <nl>crwdns6425155:0crwdne6425155:0</nl>
+        <de>crwdns6425156:0crwdne6425156:0</de>
+        <uk>crwdns6425157:0crwdne6425157:0</uk>
+        <ar>crwdns6425158:0crwdne6425158:0</ar>
       </languages>
     </label>
   </View>
@@ -22,14 +22,14 @@
   <Comment>
     <view>
       <label>
-        <postedBy>{crwdns6425161:0}{crwdne6425161:0}</postedBy>
-        <at>{crwdns6425162:0}{crwdne6425162:0}</at>
-        <comments>{crwdns6425163:0}{crwdne6425163:0}</comments>
-        <show-comments>{crwdns6425164:0}{crwdne6425164:0}</show-comments>
-        <hide-comments>{crwdns6425165:0}{crwdne6425165:0}</hide-comments>
-        <comment-by>{crwdns6425166:0}{crwdne6425166:0}</comment-by>
-        <email>{crwdns6425167:0}{crwdne6425167:0}</email>
-        <site>{crwdns6425168:0}{crwdne6425168:0}</site>
+        <postedBy>crwdns6425161:0crwdne6425161:0</postedBy>
+        <at>crwdns6425162:0crwdne6425162:0</at>
+        <comments>crwdns6425163:0crwdne6425163:0</comments>
+        <show-comments>crwdns6425164:0crwdne6425164:0</show-comments>
+        <hide-comments>crwdns6425165:0crwdne6425165:0</hide-comments>
+        <comment-by>crwdns6425166:0crwdne6425166:0</comment-by>
+        <email>crwdns6425167:0crwdne6425167:0</email>
+        <site>crwdns6425168:0crwdne6425168:0</site>
       </label>
     </view>
   </Comment>
@@ -40,13 +40,13 @@
   <File>
     <view>
       <label>
-        <not-viewable>{crwdns6425186:0}{crwdne6425186:0}</not-viewable>
-        <using-webDAV>{crwdns6425187:0}{crwdne6425187:0}</using-webDAV>
-        <file-size-too-big>{crwdns6425188:0}{crwdne6425188:0}</file-size-too-big>
-        <webDAV>{crwdns6425189:0}{crwdne6425189:0}</webDAV>
-        <download>{crwdns6425190:0}{crwdne6425190:0}</download>
-        <htmlview>{crwdns6425191:0}{crwdne6425191:0}</htmlview>
-        <plaintextview>{crwdns6425192:0}{crwdne6425192:0}</plaintextview>
+        <not-viewable>crwdns6425186:0crwdne6425186:0</not-viewable>
+        <using-webDAV>crwdns6425187:0crwdne6425187:0</using-webDAV>
+        <file-size-too-big>crwdns6425188:0crwdne6425188:0</file-size-too-big>
+        <webDAV>crwdns6425189:0crwdne6425189:0</webDAV>
+        <download>crwdns6425190:0crwdne6425190:0</download>
+        <htmlview>crwdns6425191:0crwdne6425191:0</htmlview>
+        <plaintextview>crwdns6425192:0crwdne6425192:0</plaintextview>
       </label>
     </view>
   </File>
@@ -57,12 +57,12 @@
   <Mail>
     <view>
       <label>
-        <from>{crwdns6425228:0}{crwdne6425228:0}</from>
-        <to>{crwdns6425229:0}{crwdne6425229:0}</to>
+        <from>crwdns6425228:0crwdne6425228:0</from>
+        <to>crwdns6425229:0crwdne6425229:0</to>
         <cc>Cc:</cc>
-        <date>{crwdns6425231:0}{crwdne6425231:0}</date>
-        <subject>{crwdns6425232:0}{crwdne6425232:0}</subject>
-        <attachment>{crwdns6425233:0}{crwdne6425233:0}</attachment>
+        <date>crwdns6425231:0crwdne6425231:0</date>
+        <subject>crwdns6425232:0crwdne6425232:0</subject>
+        <attachment>crwdns6425233:0crwdne6425233:0</attachment>
       </label>
     </view>
   </Mail>
@@ -72,8 +72,8 @@
   <Vote>
     <view>
       <label>
-        <avg-rating>{crwdns6425255:0}{crwdne6425255:0}</avg-rating>
-        <subscription>{crwdns6425256:0}{crwdne6425256:0}</subscription>
+        <avg-rating>crwdns6425255:0crwdne6425255:0</avg-rating>
+        <subscription>crwdns6425256:0crwdne6425256:0</subscription>
       </label>
     </view>
   </Vote>
@@ -83,12 +83,12 @@
   <ListView>
     <view>
       <label>
-        <name>{crwdns6425257:0}{crwdne6425257:0}</name>
-        <versionable>{crwdns6425258:0}{crwdne6425258:0}</versionable>
-        <exo_owner>{crwdns6425259:0}{crwdne6425259:0}</exo_owner>
-        <exo_dateCreated>{crwdns6425260:0}{crwdne6425260:0}</exo_dateCreated>
-        <exo_dateModified>{crwdns6425261:0}{crwdne6425261:0}</exo_dateModified>
-        <auditing>{crwdns6425262:0}{crwdne6425262:0}</auditing>
+        <name>crwdns6425257:0crwdne6425257:0</name>
+        <versionable>crwdns6425258:0crwdne6425258:0</versionable>
+        <exo_owner>crwdns6425259:0crwdne6425259:0</exo_owner>
+        <exo_dateCreated>crwdns6425260:0crwdne6425260:0</exo_dateCreated>
+        <exo_dateModified>crwdns6425261:0crwdne6425261:0</exo_dateModified>
+        <auditing>crwdns6425262:0crwdne6425262:0</auditing>
       </label>
     </view>
   </ListView>
@@ -99,10 +99,10 @@
   <AddMetadata>
     <view>
       <label>
-        <action-name>{crwdns6425280:0}{crwdne6425280:0}</action-name>
-        <lifecycle>{crwdns6425281:0}{crwdne6425281:0}</lifecycle>
-        <metadata>{crwdns6425282:0}{crwdne6425282:0}</metadata>
-        <description>{crwdns6425283:0}{crwdne6425283:0}</description>
+        <action-name>crwdns6425280:0crwdne6425280:0</action-name>
+        <lifecycle>crwdns6425281:0crwdne6425281:0</lifecycle>
+        <metadata>crwdns6425282:0crwdne6425282:0</metadata>
+        <description>crwdns6425283:0crwdne6425283:0</description>
       </label>
     </view>
   </AddMetadata>
@@ -113,9 +113,9 @@
   <AutoVersioning>
     <view>
       <label>
-        <action-name>{crwdns6425284:0}{crwdne6425284:0}</action-name>
-        <lifecycle>{crwdns6425285:0}{crwdne6425285:0}</lifecycle>
-        <description>{crwdns6425286:0}{crwdne6425286:0}</description>
+        <action-name>crwdns6425284:0crwdne6425284:0</action-name>
+        <lifecycle>crwdns6425285:0crwdne6425285:0</lifecycle>
+        <description>crwdns6425286:0crwdne6425286:0</description>
       </label>
     </view>
   </AutoVersioning>
@@ -125,9 +125,9 @@
   <EnableVersioning>
     <view>
       <label>
-        <action-name>{crwdns6425287:0}{crwdne6425287:0}</action-name>
-        <lifecycle>{crwdns6425288:0}{crwdne6425288:0}</lifecycle>
-        <description>{crwdns6425289:0}{crwdne6425289:0}</description>
+        <action-name>crwdns6425287:0crwdne6425287:0</action-name>
+        <lifecycle>crwdns6425288:0crwdne6425288:0</lifecycle>
+        <description>crwdns6425289:0crwdne6425289:0</description>
       </label>
     </view>
   </EnableVersioning>
@@ -137,31 +137,31 @@
   <ElementSet>
     <view>
       <label>
-        <not-avaliable>{crwdns6425290:0}{crwdne6425290:0}</not-avaliable>
-        <core-elements>{crwdns6752600:0}{crwdne6752600:0}</core-elements>
-        <title>{crwdns6425291:0}{crwdne6425291:0}</title>
-        <creator>{crwdns6425292:0}{crwdne6425292:0}</creator>
-        <subject>{crwdns6425293:0}{crwdne6425293:0}</subject>
-        <source>{crwdns6425294:0}{crwdne6425294:0}</source>
-        <contributor>{crwdns6425295:0}{crwdne6425295:0}</contributor>
-        <resource-type>{crwdns6425296:0}{crwdne6425296:0}</resource-type>
-        <date>{crwdns6425297:0}{crwdne6425297:0}</date>
-        <publisher>{crwdns6425298:0}{crwdne6425298:0}</publisher>
-        <description>{crwdns6425299:0}{crwdne6425299:0}</description>
-        <rights>{crwdns6425300:0}{crwdne6425300:0}</rights>
-        <relation>{crwdns6425301:0}{crwdne6425301:0}</relation>
-        <format>{crwdns6425302:0}{crwdne6425302:0}</format>
-        <coverage>{crwdns6425303:0}{crwdne6425303:0}</coverage>
-        <identifier>{crwdns6425304:0}{crwdne6425304:0}</identifier>
-        <languages>{crwdns6425305:0}{crwdne6425305:0}</languages>
+        <not-avaliable>crwdns6425290:0crwdne6425290:0</not-avaliable>
+        <core-elements>crwdns6752600:0crwdne6752600:0</core-elements>
+        <title>crwdns6425291:0crwdne6425291:0</title>
+        <creator>crwdns6425292:0crwdne6425292:0</creator>
+        <subject>crwdns6425293:0crwdne6425293:0</subject>
+        <source>crwdns6425294:0crwdne6425294:0</source>
+        <contributor>crwdns6425295:0crwdne6425295:0</contributor>
+        <resource-type>crwdns6425296:0crwdne6425296:0</resource-type>
+        <date>crwdns6425297:0crwdne6425297:0</date>
+        <publisher>crwdns6425298:0crwdne6425298:0</publisher>
+        <description>crwdns6425299:0crwdne6425299:0</description>
+        <rights>crwdns6425300:0crwdne6425300:0</rights>
+        <relation>crwdns6425301:0crwdne6425301:0</relation>
+        <format>crwdns6425302:0crwdne6425302:0</format>
+        <coverage>crwdns6425303:0crwdne6425303:0</coverage>
+        <identifier>crwdns6425304:0crwdne6425304:0</identifier>
+        <languages>crwdns6425305:0crwdne6425305:0</languages>
       </label>
       <action>
-        <add-edit>{crwdns6425306:0}{crwdne6425306:0}</add-edit>
+        <add-edit>crwdns6425306:0crwdne6425306:0</add-edit>
         <cancel>#{word.cancel}</cancel>
       </action>
       <tooltip>
         <cancel>#{word.cancel}</cancel>
-        <add-edit>{crwdns6425309:0}{crwdne6425309:0}</add-edit>
+        <add-edit>crwdns6425309:0crwdne6425309:0</add-edit>
       </tooltip>
     </view>
   </ElementSet>
@@ -169,10 +169,10 @@
   <ScriptAction>
     <view>
       <label> 
-        <isDeep>{crwdns6425399:0}{crwdne6425399:0}</isDeep>
-        <nodetypes>{crwdns6425400:0}{crwdne6425400:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425401:0}{crwdne6425401:0}</affectedNodeTypeNames>
-        <nodeTypeName>{crwdns6425402:0}{crwdne6425402:0}</nodeTypeName>
+        <isDeep>crwdns6425399:0crwdne6425399:0</isDeep>
+        <nodetypes>crwdns6425400:0crwdne6425400:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425401:0crwdne6425401:0</affectedNodeTypeNames>
+        <nodeTypeName>crwdns6425402:0crwdne6425402:0</nodeTypeName>
       </label> 
     </view>
   </ScriptAction>
@@ -180,10 +180,10 @@
   <AddMetadata>
     <view>
       <label>
-        <isDeep>{crwdns6425411:0}{crwdne6425411:0}</isDeep>
-        <nodetypes>{crwdns6425412:0}{crwdne6425412:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425413:0}{crwdne6425413:0}</affectedNodeTypeNames>
-        <nodeTypeName>{crwdns6425414:0}{crwdne6425414:0}</nodeTypeName>
+        <isDeep>crwdns6425411:0crwdne6425411:0</isDeep>
+        <nodetypes>crwdns6425412:0crwdne6425412:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425413:0crwdne6425413:0</affectedNodeTypeNames>
+        <nodeTypeName>crwdns6425414:0crwdne6425414:0</nodeTypeName>
       </label> 
     </view>
   </AddMetadata>
@@ -191,10 +191,10 @@
   <EnableVersioning>
     <view>
       <label>
-        <isDeep>{crwdns6425423:0}{crwdne6425423:0}</isDeep>
-        <nodetypes>{crwdns6425424:0}{crwdne6425424:0}</nodetypes> 
-        <affectedNodeTypeNames>{crwdns6425425:0}{crwdne6425425:0}</affectedNodeTypeNames>
-        <nodeTypeName>{crwdns6425426:0}{crwdne6425426:0}</nodeTypeName>
+        <isDeep>crwdns6425423:0crwdne6425423:0</isDeep>
+        <nodetypes>crwdns6425424:0crwdne6425424:0</nodetypes> 
+        <affectedNodeTypeNames>crwdns6425425:0crwdne6425425:0</affectedNodeTypeNames>
+        <nodeTypeName>crwdns6425426:0crwdne6425426:0</nodeTypeName>
       </label> 
     </view>
   </EnableVersioning>
@@ -202,10 +202,10 @@
   <AutoVersioning>
     <view>
       <label>
-        <isDeep>{crwdns6425427:0}{crwdne6425427:0}</isDeep>
-        <nodetypes>{crwdns6425428:0}{crwdne6425428:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425429:0}{crwdne6425429:0}</affectedNodeTypeNames>
-        <nodeTypeName>{crwdns6425430:0}{crwdne6425430:0}</nodeTypeName>
+        <isDeep>crwdns6425427:0crwdne6425427:0</isDeep>
+        <nodetypes>crwdns6425428:0crwdne6425428:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425429:0crwdne6425429:0</affectedNodeTypeNames>
+        <nodeTypeName>crwdns6425430:0crwdne6425430:0</nodeTypeName>
       </label> 
     </view>
   </AutoVersioning>
@@ -213,13 +213,13 @@
    <AccessibleMedia>
     <view>
       <label>
-      <Play-audio-description-of-this-video>{crwdns6425431:0}{crwdne6425431:0}</Play-audio-description-of-this-video>
-      <Read-more>{crwdns6425432:0}{crwdne6425432:0}</Read-more>
-      <Read-less>{crwdns6425433:0}{crwdne6425433:0}</Read-less>
-      <Switch-back-to-original-video>{crwdns6425434:0}{crwdne6425434:0}</Switch-back-to-original-video>
+      <Play-audio-description-of-this-video>crwdns6425431:0crwdne6425431:0</Play-audio-description-of-this-video>
+      <Read-more>crwdns6425432:0crwdne6425432:0</Read-more>
+      <Read-less>crwdns6425433:0crwdne6425433:0</Read-less>
+      <Switch-back-to-original-video>crwdns6425434:0crwdne6425434:0</Switch-back-to-original-video>
       </label>
       <tooltip>
-      <A-second-media-file-is-available-as-audio-description>{crwdns6425435:0}{crwdne6425435:0}</A-second-media-file-is-available-as-audio-description>
+      <A-second-media-file-is-available-as-audio-description>crwdns6425435:0crwdne6425435:0</A-second-media-file-is-available-as-audio-description>
       </tooltip>
     </view>
   </AccessibleMedia>

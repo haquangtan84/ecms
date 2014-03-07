@@ -2,118 +2,118 @@
 <bundle>
   <UIPresentationContainer>
     <title>
-      <QuickEdit>{crwdns6424872:0}{crwdne6424872:0}</QuickEdit>
-      <print>{crwdns6424873:0}{crwdne6424873:0}</print>
-      <FastPublish>{crwdns6424874:0}{crwdne6424874:0}</FastPublish>
+      <QuickEdit>crwdns6424872:0crwdne6424872:0</QuickEdit>
+      <print>crwdns6424873:0crwdne6424873:0</print>
+      <FastPublish>crwdns6424874:0crwdne6424874:0</FastPublish>
     </title>
     <label>
-      <draft>{crwdns6424875:0}{crwdne6424875:0}</draft>
-      <print>{crwdns6424876:0}{crwdne6424876:0}</print>
+      <draft>crwdns6424875:0crwdne6424875:0</draft>
+      <print>crwdns6424876:0crwdne6424876:0</print>
     </label>
     <msg>
-      <no-content>{crwdns6424877:0}{crwdne6424877:0}</no-content>
-      <internal-server-error>{crwdns6424878:0}{crwdne6424878:0}</internal-server-error>
-      <empty-title-error>{crwdns6424879:0}{crwdne6424879:0}</empty-title-error>
+      <no-content>crwdns6424877:0crwdne6424877:0</no-content>
+      <internal-server-error>crwdns6424878:0crwdne6424878:0</internal-server-error>
+      <empty-title-error>crwdns6424879:0crwdne6424879:0</empty-title-error>
     </msg>
   </UIPresentationContainer>
   <CorrectContentSelectorPopupWindow>
     <title>
-      <UIContentSelectorOne>{crwdns6424880:0}{crwdne6424880:0}</UIContentSelectorOne>
+      <UIContentSelectorOne>crwdns6424880:0crwdne6424880:0</UIContentSelectorOne>
     </title>
   </CorrectContentSelectorPopupWindow>
   <UISingleContentViewerPortlet>
     <msg>
-      <AccessControlException>{crwdns6424881:0}{crwdne6424881:0}</AccessControlException>
+      <AccessControlException>crwdns6424881:0crwdne6424881:0</AccessControlException>
     </msg>
   </UISingleContentViewerPortlet>
   <UISCVContextualRadioBox>
     <label>
-      <Enable>{crwdns6424882:0}{crwdne6424882:0}</Enable>
-      <Disable>{crwdns6424883:0}{crwdne6424883:0}</Disable>
+      <Enable>crwdns6424882:0crwdne6424882:0</Enable>
+      <Disable>crwdns6424883:0crwdne6424883:0</Disable>
     </label>
   </UISCVContextualRadioBox>
   <UIPreferencesPopupWindows>
     <title>
-      <UISCVPreferences>{crwdns6424884:0}{crwdne6424884:0}</UISCVPreferences>
+      <UISCVPreferences>crwdns6424884:0crwdne6424884:0</UISCVPreferences>
     </title>
   </UIPreferencesPopupWindows>
   <UISCVPreferences>
     <action>
       <Save>#{word.save}</Save>
-      <Abort>{crwdns6424886:0}{crwdne6424886:0}</Abort>
+      <Abort>crwdns6424886:0crwdne6424886:0</Abort>
       <Cancel>#{word.cancel}</Cancel>
-      <Print>{crwdns6424888:0}{crwdne6424888:0}</Print>
+      <Print>crwdns6424888:0crwdne6424888:0</Print>
       <Close>#{word.close}</Close>
     </action>
-    <title>{crwdns6424890:0}{crwdne6424890:0}</title>
+    <title>crwdns6424890:0crwdne6424890:0</title>
     <label>
-      <Back>{crwdns6424891:0}{crwdne6424891:0}</Back>
-      <Edit>{crwdns6424892:0}{crwdne6424892:0}</Edit>
-      <Preferences>{crwdns6424893:0}{crwdne6424893:0}</Preferences>
-      <Title>{crwdns6424894:0}{crwdne6424894:0}</Title>
-      <UISCVShowTitleConfigurationCheckBox>{crwdns6424895:0}{crwdne6424895:0}</UISCVShowTitleConfigurationCheckBox>
-      <UISCVShowDateConfigurationCheckBox>{crwdns6424896:0}{crwdne6424896:0}</UISCVShowDateConfigurationCheckBox>
-      <UISCVShowOptionBarConfigurationCheckBox>{crwdns6424897:0}{crwdne6424897:0}</UISCVShowOptionBarConfigurationCheckBox>
-      <DisplaySettingBlock>{crwdns6424898:0}{crwdne6424898:0}</DisplaySettingBlock>
-      <ContentPathBlock>{crwdns6424899:0}{crwdne6424899:0}</ContentPathBlock>
-      <UISCVConfigItemPathFormInputSet>{crwdns6424900:0}{crwdne6424900:0}</UISCVConfigItemPathFormInputSet>
-    <UISCVContentPathConfigurationInputBox>{crwdns6424901:0}{crwdne6424901:0}</UISCVContentPathConfigurationInputBox>
-      <Advance>{crwdns6424902:0}{crwdne6424902:0}</Advance>
-      <ContextCaption>{crwdns6424903:0}{crwdne6424903:0}</ContextCaption>
-      <UISCVContextualRadioBox>{crwdns6424904:0}{crwdne6424904:0}</UISCVContextualRadioBox>
-      <UISCVParameterInputBox>{crwdns6424905:0}{crwdne6424905:0}</UISCVParameterInputBox>
-      <PrintSettingBlock>{crwdns6424906:0}{crwdne6424906:0}</PrintSettingBlock>
-      <UISCVPrintPageParameter>{crwdns6424907:0}{crwdne6424907:0}</UISCVPrintPageParameter>
-      <UISCVConfigPrintPageFormInputSet>{crwdns6424908:0}{crwdne6424908:0}</UISCVConfigPrintPageFormInputSet>
-      <LockStatus>{crwdns6424909:0}{crwdne6424909:0}</LockStatus>
-      <CacheManagement>{crwdns6424910:0}{crwdne6424910:0}</CacheManagement>
-      <UISCVCacheRadioBox>{crwdns6424911:0}{crwdne6424911:0}</UISCVCacheRadioBox>
+      <Back>crwdns6424891:0crwdne6424891:0</Back>
+      <Edit>crwdns6424892:0crwdne6424892:0</Edit>
+      <Preferences>crwdns6424893:0crwdne6424893:0</Preferences>
+      <Title>crwdns6424894:0crwdne6424894:0</Title>
+      <UISCVShowTitleConfigurationCheckBox>crwdns6424895:0crwdne6424895:0</UISCVShowTitleConfigurationCheckBox>
+      <UISCVShowDateConfigurationCheckBox>crwdns6424896:0crwdne6424896:0</UISCVShowDateConfigurationCheckBox>
+      <UISCVShowOptionBarConfigurationCheckBox>crwdns6424897:0crwdne6424897:0</UISCVShowOptionBarConfigurationCheckBox>
+      <DisplaySettingBlock>crwdns6424898:0crwdne6424898:0</DisplaySettingBlock>
+      <ContentPathBlock>crwdns6424899:0crwdne6424899:0</ContentPathBlock>
+      <UISCVConfigItemPathFormInputSet>crwdns6424900:0crwdne6424900:0</UISCVConfigItemPathFormInputSet>
+    <UISCVContentPathConfigurationInputBox>crwdns6424901:0crwdne6424901:0</UISCVContentPathConfigurationInputBox>
+      <Advance>crwdns6424902:0crwdne6424902:0</Advance>
+      <ContextCaption>crwdns6424903:0crwdne6424903:0</ContextCaption>
+      <UISCVContextualRadioBox>crwdns6424904:0crwdne6424904:0</UISCVContextualRadioBox>
+      <UISCVParameterInputBox>crwdns6424905:0crwdne6424905:0</UISCVParameterInputBox>
+      <PrintSettingBlock>crwdns6424906:0crwdne6424906:0</PrintSettingBlock>
+      <UISCVPrintPageParameter>crwdns6424907:0crwdne6424907:0</UISCVPrintPageParameter>
+      <UISCVConfigPrintPageFormInputSet>crwdns6424908:0crwdne6424908:0</UISCVConfigPrintPageFormInputSet>
+      <LockStatus>crwdns6424909:0crwdne6424909:0</LockStatus>
+      <CacheManagement>crwdns6424910:0crwdne6424910:0</CacheManagement>
+      <UISCVCacheRadioBox>crwdns6424911:0crwdne6424911:0</UISCVCacheRadioBox>
     </label>
     <help>
-      <ContentPathBlock>{crwdns6424912:0}{crwdne6424912:0}</ContentPathBlock>
-      <DisplaySettingBlock>{crwdns6424913:0}{crwdne6424913:0}</DisplaySettingBlock>
-      <ContextualHelp>{crwdns6424914:0}{crwdne6424914:0}</ContextualHelp>
-      <ParameterHelp>{crwdns6424915:0}{crwdne6424915:0}</ParameterHelp>
+      <ContentPathBlock>crwdns6424912:0crwdne6424912:0</ContentPathBlock>
+      <DisplaySettingBlock>crwdns6424913:0crwdne6424913:0</DisplaySettingBlock>
+      <ContextualHelp>crwdns6424914:0crwdne6424914:0</ContextualHelp>
+      <ParameterHelp>crwdns6424915:0crwdne6424915:0</ParameterHelp>
     </help>
     <msg>
-      <not-valid-path>{crwdns6424916:0}{crwdne6424916:0}</not-valid-path>
+      <not-valid-path>crwdns6424916:0crwdne6424916:0</not-valid-path>
     </msg>
     <tab>
       <label>
-        <UISCVConfigContentFormInputSet>{crwdns6424917:0}{crwdne6424917:0}</UISCVConfigContentFormInputSet>
-        <UISCVConfigDisplayFormInputSet>{crwdns6424918:0}{crwdne6424918:0}</UISCVConfigDisplayFormInputSet>
-        <UISCVConfigPrintFormInputSet>{crwdns6424919:0}{crwdne6424919:0}</UISCVConfigPrintFormInputSet>
-        <UISCVConfigAdvancedFormInputSet>{crwdns6424920:0}{crwdne6424920:0}</UISCVConfigAdvancedFormInputSet>
+        <UISCVConfigContentFormInputSet>crwdns6424917:0crwdne6424917:0</UISCVConfigContentFormInputSet>
+        <UISCVConfigDisplayFormInputSet>crwdns6424918:0crwdne6424918:0</UISCVConfigDisplayFormInputSet>
+        <UISCVConfigPrintFormInputSet>crwdns6424919:0crwdne6424919:0</UISCVConfigPrintFormInputSet>
+        <UISCVConfigAdvancedFormInputSet>crwdns6424920:0crwdne6424920:0</UISCVConfigAdvancedFormInputSet>
       </label>
     </tab>
   </UISCVPreferences>
   <UISCVConfigItemPathFormInputSet>
     <title>
-      <SelectFolderPath>{crwdns6424921:0}{crwdne6424921:0}</SelectFolderPath>
-      <AddPath>{crwdns6524417:0}{crwdne6524417:0}</AddPath>
+      <SelectFolderPath>crwdns6424921:0crwdne6424921:0</SelectFolderPath>
+      <AddPath>crwdns6524417:0crwdne6524417:0</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
     <title>
-      <SelectTargetPage>{crwdns6424922:0}{crwdne6424922:0}</SelectTargetPage>
+      <SelectTargetPage>crwdns6424922:0crwdne6424922:0</SelectTargetPage>
     </title>
   </UISCVConfigPrintPageFormInputSet>
   <PublicationStates>
-    <archived>{crwdns6424923:0}{crwdne6424923:0}</archived>
-    <obsolete>{crwdns6424924:0}{crwdne6424924:0}</obsolete>
-    <unpublished>{crwdns6424925:0}{crwdne6424925:0}</unpublished>
-    <enrolled>{crwdns6424926:0}{crwdne6424926:0}</enrolled>
-    <draft>{crwdns6424927:0}{crwdne6424927:0}</draft>
-    <pending>{crwdns6424928:0}{crwdne6424928:0}</pending>
-    <approved>{crwdns6424929:0}{crwdne6424929:0}</approved>
-    <inreview>{crwdns6424930:0}{crwdne6424930:0}</inreview>
-    <staged>{crwdns6424931:0}{crwdne6424931:0}</staged>
-    <published>{crwdns6424932:0}{crwdne6424932:0}</published>
+    <archived>crwdns6424923:0crwdne6424923:0</archived>
+    <obsolete>crwdns6424924:0crwdne6424924:0</obsolete>
+    <unpublished>crwdns6424925:0crwdne6424925:0</unpublished>
+    <enrolled>crwdns6424926:0crwdne6424926:0</enrolled>
+    <draft>crwdns6424927:0crwdne6424927:0</draft>
+    <pending>crwdns6424928:0crwdne6424928:0</pending>
+    <approved>crwdns6424929:0crwdne6424929:0</approved>
+    <inreview>crwdns6424930:0crwdne6424930:0</inreview>
+    <staged>crwdns6424931:0crwdne6424931:0</staged>
+    <published>crwdns6424932:0crwdne6424932:0</published>
   </PublicationStates>
   <UISCVCacheRadioBox>
     <label>
-      <Enable>{crwdns6424933:0}{crwdne6424933:0}</Enable>
-      <Disable>{crwdns6424934:0}{crwdne6424934:0}</Disable>
+      <Enable>crwdns6424933:0crwdne6424933:0</Enable>
+      <Disable>crwdns6424934:0crwdne6424934:0</Disable>
     </label>
   </UISCVCacheRadioBox>
 </bundle>

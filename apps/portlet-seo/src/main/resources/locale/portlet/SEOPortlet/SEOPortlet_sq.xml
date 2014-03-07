@@ -2,63 +2,63 @@
 <bundle>
   <UISEOForm>
     <label>  
-      <title>{crwdns6424994:0}{crwdne6424994:0}</title>
-      <description>{crwdns6424995:0}{crwdne6424995:0}</description>
-      <keywords>{crwdns6424996:0}{crwdne6424996:0}</keywords>
-      <language>{crwdns6424997:0}{crwdne6424997:0}</language>
-      <robots>{crwdns6424998:0}{crwdne6424998:0}</robots>
-      <sitemap>{crwdns6424999:0}{crwdne6424999:0}</sitemap>
-      <sitemapvisible>{crwdns6425000:0}{crwdne6425000:0}</sitemapvisible>
-    <isInherited>{crwdns6425001:0}{crwdne6425001:0}</isInherited>
-      <priority>{crwdns6425002:0}{crwdne6425002:0}</priority>
-      <frequency>{crwdns6425003:0}{crwdne6425003:0}</frequency>
-      <select-language>{crwdns6425004:0}{crwdne6425004:0}</select-language>
+      <title>crwdns6424994:0crwdne6424994:0</title>
+      <description>crwdns6424995:0crwdne6424995:0</description>
+      <keywords>crwdns6424996:0crwdne6424996:0</keywords>
+      <language>crwdns6424997:0crwdne6424997:0</language>
+      <robots>crwdns6424998:0crwdne6424998:0</robots>
+      <sitemap>crwdns6424999:0crwdne6424999:0</sitemap>
+      <sitemapvisible>crwdns6425000:0crwdne6425000:0</sitemapvisible>
+    <isInherited>crwdns6425001:0crwdne6425001:0</isInherited>
+      <priority>crwdns6425002:0crwdne6425002:0</priority>
+      <frequency>crwdns6425003:0crwdne6425003:0</frequency>
+      <select-language>crwdns6425004:0crwdne6425004:0</select-language>
       <option>
-        <Always>{crwdns6425005:0}{crwdne6425005:0}</Always>
-        <Hourly>{crwdns6425006:0}{crwdne6425006:0}</Hourly>
-        <Daily>{crwdns6425007:0}{crwdne6425007:0}</Daily>
-        <Weekly>{crwdns6425008:0}{crwdne6425008:0}</Weekly>
-        <Monthly>{crwdns6425009:0}{crwdne6425009:0}</Monthly>
-        <Yearly>{crwdns6425010:0}{crwdne6425010:0}</Yearly>
-        <Never>{crwdns6425011:0}{crwdne6425011:0}</Never>
+        <Always>crwdns6425005:0crwdne6425005:0</Always>
+        <Hourly>crwdns6425006:0crwdne6425006:0</Hourly>
+        <Daily>crwdns6425007:0crwdne6425007:0</Daily>
+        <Weekly>crwdns6425008:0crwdne6425008:0</Weekly>
+        <Monthly>crwdns6425009:0crwdne6425009:0</Monthly>
+        <Yearly>crwdns6425010:0crwdne6425010:0</Yearly>
+        <Never>crwdns6425011:0crwdne6425011:0</Never>
       </option> 
     </label>
     <tip>
-  <priority>{crwdns6425012:0}{crwdne6425012:0}</priority>
+  <priority>crwdns6425012:0crwdne6425012:0</priority>
   </tip>   
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <repository-exception>{crwdns6425015:0}{crwdne6425015:0}</repository-exception>
-      <confirm-delete>{crwdns6425016:0}{crwdne6425016:0}</confirm-delete>      
+      <repository-exception>crwdns6425015:0crwdne6425015:0</repository-exception>
+      <confirm-delete>crwdns6425016:0crwdne6425016:0</confirm-delete>      
     </msg>
     <title>
-    <seo-delete>{crwdns6425017:0}{crwdne6425017:0}</seo-delete>
+    <seo-delete>crwdns6425017:0crwdne6425017:0</seo-delete>
     </title>
   <help> 
-  <priority>{crwdns6425018:0}{crwdne6425018:0}</priority>
-  <description>{crwdns6425019:0}{crwdne6425019:0}</description>
-  <keywords>{crwdns6425020:0}{crwdne6425020:0}</keywords>  
+  <priority>crwdns6425018:0crwdne6425018:0</priority>
+  <description>crwdns6425019:0crwdne6425019:0</description>
+  <keywords>crwdns6425020:0crwdne6425020:0</keywords>  
   </help>  
   </UISEOForm>
   <UISEOPopupWindow>
   <title>
-      <UISEOForm>{crwdns6425021:0}{crwdne6425021:0}</UISEOForm>
+      <UISEOForm>crwdns6425021:0crwdne6425021:0</UISEOForm>
   </title>
   </UISEOPopupWindow>    
   <UISEOToolbarForm>
   <title>
-      <seo>{crwdns6425022:0}{crwdne6425022:0}</seo>
+      <seo>crwdns6425022:0crwdne6425022:0</seo>
   </title>
   <label>
-    <seo>{crwdns6425023:0}{crwdne6425023:0}</seo>
+    <seo>crwdns6425023:0crwdne6425023:0</seo>
   </label>
   </UISEOToolbarForm>  
   <FloatNumberValidator>
     <msg>
-      <Invalid-number>{crwdns6425024:0}{crwdne6425024:0}</Invalid-number>
+      <Invalid-number>crwdns6425024:0crwdne6425024:0</Invalid-number>
     </msg>
   </FloatNumberValidator>  
   

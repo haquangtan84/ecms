@@ -2,16 +2,16 @@
 <bundle>
   <ContentSelector>
     <msg>
-      <no-file-selected>{crwdns6423532:0}{crwdne6423532:0}</no-file-selected>
+      <no-file-selected>crwdns6423532:0crwdne6423532:0</no-file-selected>
     </msg>
   </ContentSelector>
   <RenameConnector>
     <label>
-      <rename>{crwdns6423533:0}{crwdne6423533:0}</rename>
-      <cancel>{crwdns6721470:0}{crwdne6721470:0}</cancel>
+      <rename>crwdns6423533:0crwdne6423533:0</rename>
+      <cancel>crwdns6721470:0crwdne6721470:0</cancel>
     </label>
     <msg>
-      <renaming>{crwdns6423535:0}{crwdne6423535:0}</renaming>
+      <renaming>crwdns6423535:0crwdne6423535:0</renaming>
     </msg>
   </RenameConnector>
 </bundle>

@@ -2,9 +2,9 @@
 <bundle>
   <UIViewFormTabPane>
   <label>
-          <publicationRequestApproval>{crwdns6424949:0}{crwdne6424949:0}</publicationRequestApproval>
-          <publicationApproveContent>{crwdns6424950:0}{crwdne6424950:0}</publicationApproveContent>
-          <publicationPublish>{crwdns6424951:0}{crwdne6424951:0}</publicationPublish>
+          <publicationRequestApproval>crwdns6424949:0crwdne6424949:0</publicationRequestApproval>
+          <publicationApproveContent>crwdns6424950:0crwdne6424950:0</publicationApproveContent>
+          <publicationPublish>crwdns6424951:0crwdne6424951:0</publicationPublish>
   </label>
   </UIViewFormTabPane>
 </bundle>

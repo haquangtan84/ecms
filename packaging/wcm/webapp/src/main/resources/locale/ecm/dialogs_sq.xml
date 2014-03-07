@@ -6,17 +6,17 @@
   <Ecm>
     <dialog>
       <label>
-        <end-time>{crwdns6425549:0}{crwdne6425549:0}</end-time>
-        <start-time>{crwdns6425550:0}{crwdne6425550:0}</start-time>
-        <lifecycle>{crwdns6425551:0}{crwdne6425551:0}</lifecycle>
-        <mimeType>{crwdns6425552:0}{crwdne6425552:0}</mimeType>
-        <repeat-count>{crwdns6425553:0}{crwdne6425553:0}</repeat-count>
-        <time-interval>{crwdns6425554:0}{crwdne6425554:0}</time-interval>
-        <query-items>{crwdns6425555:0}{crwdne6425555:0}</query-items>
-        <schedule-type>{crwdns6425556:0}{crwdne6425556:0}</schedule-type>
-        <remove>{crwdns6425557:0}{crwdne6425557:0}</remove>
-        <add>{crwdns6425558:0}{crwdne6425558:0}</add>
-        <expand>{crwdns6425559:0}{crwdne6425559:0}</expand>
+        <end-time>crwdns6425549:0crwdne6425549:0</end-time>
+        <start-time>crwdns6425550:0crwdne6425550:0</start-time>
+        <lifecycle>crwdns6425551:0crwdne6425551:0</lifecycle>
+        <mimeType>crwdns6425552:0crwdne6425552:0</mimeType>
+        <repeat-count>crwdns6425553:0crwdne6425553:0</repeat-count>
+        <time-interval>crwdns6425554:0crwdne6425554:0</time-interval>
+        <query-items>crwdns6425555:0crwdne6425555:0</query-items>
+        <schedule-type>crwdns6425556:0crwdne6425556:0</schedule-type>
+        <remove>crwdns6425557:0crwdne6425557:0</remove>
+        <add>crwdns6425558:0crwdne6425558:0</add>
+        <expand>crwdns6425559:0crwdne6425559:0</expand>
       </label>
     </dialog>
   </Ecm>
@@ -24,12 +24,12 @@
   <UIDocumentForm>
     <label>
       <title>#{word.title}</title>
-      <link>{crwdns6425561:0}{crwdne6425561:0}</link>
+      <link>crwdns6425561:0crwdne6425561:0</link>
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
-      <name>{crwdns6425565:0}{crwdne6425565:0}</name>
-    <categories>{crwdns6425566:0}{crwdne6425566:0}</categories>
+      <name>crwdns6425565:0crwdne6425565:0</name>
+    <categories>crwdns6425566:0crwdne6425566:0</categories>
     </label>
   </UIDocumentForm>
  
@@ -39,8 +39,8 @@
   <HtmlFile>
     <dialog>
       <label>
-        <name>{crwdns6425585:0}{crwdne6425585:0}</name>
-        <content>{crwdns6425586:0}{crwdne6425586:0}</content>
+        <name>crwdns6425585:0crwdne6425585:0</name>
+        <content>crwdns6425586:0crwdne6425586:0</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -52,10 +52,10 @@
     <dialog>
       <label>
         <name>#{word.name}</name>
-        <categories>{crwdns6425590:0}{crwdne6425590:0}</categories>
+        <categories>crwdns6425590:0crwdne6425590:0</categories>
         <mimeType>#{Ecm.dialog.label.mimeType}</mimeType>
         <content>#{word.content}</content>
-        <re-upload>{crwdns6425593:0}{crwdne6425593:0}</re-upload>
+        <re-upload>crwdns6425593:0crwdne6425593:0</re-upload>
       </label>
     </dialog>
   </File>
@@ -63,22 +63,22 @@
   <UIActionForm>
     <label>
       <description>#{word.description}</description>
-      <port>{crwdns6425595:0}{crwdne6425595:0}</port>
+      <port>crwdns6425595:0crwdne6425595:0</port>
       <userName>#{word.userName}</userName>
-      <password>{crwdns6425597:0}{crwdne6425597:0}</password>
-      <link>{crwdns6425598:0}{crwdne6425598:0}</link>
-      <to>{crwdns6425599:0}{crwdne6425599:0}</to>
+      <password>crwdns6425597:0crwdne6425597:0</password>
+      <link>crwdns6425598:0crwdne6425598:0</link>
+      <to>crwdns6425599:0crwdne6425599:0</to>
       <actionName>#{word.name}</actionName>
     </label>
   </UIActionForm>
   <EditFormAction>
     <label>
       <description>#{word.description}</description>
-      <port>{crwdns6425602:0}{crwdne6425602:0}</port>
+      <port>crwdns6425602:0crwdne6425602:0</port>
       <userName>#{word.userName}</userName>
-      <password>{crwdns6425604:0}{crwdne6425604:0}</password>
-      <link>{crwdns6425605:0}{crwdne6425605:0}</link>
-      <to>{crwdns6425606:0}{crwdne6425606:0}</to>
+      <password>crwdns6425604:0crwdne6425604:0</password>
+      <link>crwdns6425605:0crwdne6425605:0</link>
+      <to>crwdns6425606:0crwdne6425606:0</to>
       <actionName>#{word.name}</actionName>
     </label>
   </EditFormAction>
@@ -89,10 +89,10 @@
   <AddMetadata>
     <dialog>
       <label>
-        <id>{crwdns6425631:0}{crwdne6425631:0}</id>
+        <id>crwdns6425631:0crwdne6425631:0</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
-        <metadata>{crwdns6425634:0}{crwdne6425634:0}</metadata>
+        <metadata>crwdns6425634:0crwdne6425634:0</metadata>
         <description>#{word.description}</description>
       </label>
     </dialog>
@@ -104,7 +104,7 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <id>{crwdns6425636:0}{crwdne6425636:0}</id>
+        <id>crwdns6425636:0crwdne6425636:0</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
         <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
@@ -112,7 +112,7 @@
         <end-time>#{Ecm.dialog.label.end-time}</end-time>
         <repeat-count>#{Ecm.dialog.label.repeat-count}</repeat-count>
         <time-inteval>#{Ecm.dialog.label.time-interval}</time-inteval>
-        <cron-expression>{crwdns6425644:0}{crwdne6425644:0}</cron-expression>
+        <cron-expression>crwdns6425644:0crwdne6425644:0</cron-expression>
         <description>#{word.description}</description>
       </label>
     </dialog>
@@ -123,7 +123,7 @@
   <EnableVersioning>
     <dialog>
       <label>
-        <id>{crwdns6425646:0}{crwdne6425646:0}</id>
+        <id>crwdns6425646:0crwdne6425646:0</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
         <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
@@ -143,20 +143,20 @@
     <dialog>
       <label>
         <title>#{word.title}:</title>
-        <creator>{crwdns6425657:0}{crwdne6425657:0}</creator>
+        <creator>crwdns6425657:0crwdne6425657:0</creator>
         <subject>#{word.subject}:</subject>
-        <source>{crwdns6425659:0}{crwdne6425659:0}</source>
-        <contributor>{crwdns6425660:0}{crwdne6425660:0}</contributor>
-        <resource-type>{crwdns6425661:0}{crwdne6425661:0}</resource-type>
+        <source>crwdns6425659:0crwdne6425659:0</source>
+        <contributor>crwdns6425660:0crwdne6425660:0</contributor>
+        <resource-type>crwdns6425661:0crwdne6425661:0</resource-type>
         <date>#{word.date}:</date>
-        <publisher>{crwdns6425663:0}{crwdne6425663:0}</publisher>
+        <publisher>crwdns6425663:0crwdne6425663:0</publisher>
         <description>#{word.description}:</description>
-        <rights>{crwdns6425665:0}{crwdne6425665:0}</rights>
-        <relation>{crwdns6425666:0}{crwdne6425666:0}</relation>
+        <rights>crwdns6425665:0crwdne6425665:0</rights>
+        <relation>crwdns6425666:0crwdne6425666:0</relation>
         <format>#{word.format}:</format>
-        <coverage>{crwdns6425668:0}{crwdne6425668:0}</coverage>
-        <identifier>{crwdns6425669:0}{crwdne6425669:0}</identifier>
-        <language>{crwdns6425670:0}{crwdne6425670:0}</language>
+        <coverage>crwdns6425668:0crwdne6425668:0</coverage>
+        <identifier>crwdns6425669:0crwdne6425669:0</identifier>
+        <language>crwdns6425670:0crwdne6425670:0</language>
       </label>
     </dialog>
   </ElementSet>
@@ -167,8 +167,8 @@
   <Actionable>
     <dialog>
       <label>
-        <primary-type>{crwdns6425682:0}{crwdne6425682:0}</primary-type>
-        <mixin-types>{crwdns6425683:0}{crwdne6425683:0}</mixin-types>
+        <primary-type>crwdns6425682:0crwdne6425682:0</primary-type>
+        <mixin-types>crwdns6425683:0crwdne6425683:0</mixin-types>
       </label>
     </dialog>
   </Actionable>
@@ -179,10 +179,10 @@
   <Move>
     <dialog>
       <label>
-        <destination-workpsace>{crwdns6425692:0}{crwdne6425692:0}</destination-workpsace>
-        <destination-path>{crwdns6425693:0}{crwdne6425693:0}</destination-path>
-        <primary-type>{crwdns6425694:0}{crwdne6425694:0}</primary-type>
-        <mixin-types>{crwdns6425695:0}{crwdne6425695:0}</mixin-types>
+        <destination-workpsace>crwdns6425692:0crwdne6425692:0</destination-workpsace>
+        <destination-path>crwdns6425693:0crwdne6425693:0</destination-path>
+        <primary-type>crwdns6425694:0crwdne6425694:0</primary-type>
+        <mixin-types>crwdns6425695:0crwdne6425695:0</mixin-types>
       </label>
     </dialog>
   </Move>
@@ -192,8 +192,8 @@
   <Published>
     <dialog>
       <label>
-        <start-publication>{crwdns6425696:0}{crwdne6425696:0}</start-publication>
-        <end-publication>{crwdns6425697:0}{crwdne6425697:0}</end-publication>
+        <start-publication>crwdns6425696:0crwdne6425696:0</start-publication>
+        <end-publication>crwdns6425697:0crwdne6425697:0</end-publication>
       </label>
     </dialog>
   </Published>
@@ -204,7 +204,7 @@
   <Referenceable>
     <dialog>
       <label>
-        <uuid>{crwdns6425714:0}{crwdne6425714:0}</uuid>
+        <uuid>crwdns6425714:0crwdne6425714:0</uuid>
       </label>
     </dialog>
   </Referenceable>
@@ -214,7 +214,7 @@
   <Relationable>
     <dialog>
       <label>
-        <relation>{crwdns6425715:0}{crwdne6425715:0}</relation>
+        <relation>crwdns6425715:0crwdne6425715:0</relation>
       </label>
     </dialog>
   </Relationable>
@@ -224,7 +224,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>{crwdns6425716:0}{crwdne6425716:0}</title>
+        <title>crwdns6425716:0crwdne6425716:0</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
@@ -236,12 +236,12 @@
   <Versionable>
     <dialog>
       <label>
-        <version-history>{crwdns6425721:0}{crwdne6425721:0}</version-history>
-        <base-version>{crwdns6425722:0}{crwdne6425722:0}</base-version>
-        <is-checked-out>{crwdns6425723:0}{crwdne6425723:0}</is-checked-out>
-        <predecessors>{crwdns6425724:0}{crwdne6425724:0}</predecessors>
-        <merge-failed>{crwdns6425725:0}{crwdne6425725:0}</merge-failed>
-        <uuid>{crwdns6425726:0}{crwdne6425726:0}</uuid>
+        <version-history>crwdns6425721:0crwdne6425721:0</version-history>
+        <base-version>crwdns6425722:0crwdne6425722:0</base-version>
+        <is-checked-out>crwdns6425723:0crwdne6425723:0</is-checked-out>
+        <predecessors>crwdns6425724:0crwdne6425724:0</predecessors>
+        <merge-failed>crwdns6425725:0crwdne6425725:0</merge-failed>
+        <uuid>crwdns6425726:0crwdne6425726:0</uuid>
       </label>
     </dialog>
   </Versionable>
@@ -252,10 +252,10 @@
   <ResouceContainer>
     <dialog>
       <label>
-        <name>{crwdns6425730:0}{crwdne6425730:0}</name>
-        <autoload>{crwdns6425731:0}{crwdne6425731:0}</autoload>
-        <minetype>{crwdns6438241:0}{crwdne6438241:0}</minetype>
-        <content>{crwdns6425733:0}{crwdne6425733:0}</content>
+        <name>crwdns6425730:0crwdne6425730:0</name>
+        <autoload>crwdns6425731:0crwdne6425731:0</autoload>
+        <minetype>crwdns6438241:0crwdne6438241:0</minetype>
+        <content>crwdns6425733:0crwdne6425733:0</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -264,17 +264,17 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>{crwdns6425734:0}{crwdne6425734:0}</Invalid-input>
+      <Invalid-input>crwdns6425734:0crwdne6425734:0</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>{crwdns6425735:0}{0}{crwdne6425735:0}</empty-input>
+      <empty-input>crwdns6425735:0{0}crwdne6425735:0</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>{crwdns6425736:0}{0}{crwdne6425736:0}</Invalid-number>
+      <Invalid-number>crwdns6425736:0{0}crwdne6425736:0</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--
@@ -285,18 +285,18 @@
   <ScriptAction>
     <dialog>
       <label>
-        <id>{crwdns6425737:0}{crwdne6425737:0}</id>
-        <name>{crwdns6425738:0}{crwdne6425738:0}</name>
-        <lifecycle>{crwdns6425739:0}{crwdne6425739:0}</lifecycle>
-        <homePath>{crwdns6425740:0}{crwdne6425740:0}</homePath>
-        <targetWorkspace>{crwdns6425741:0}{crwdne6425741:0}</targetWorkspace>
-        <targetPath>{crwdns6425742:0}{crwdne6425742:0}</targetPath>
+        <id>crwdns6425737:0crwdne6425737:0</id>
+        <name>crwdns6425738:0crwdne6425738:0</name>
+        <lifecycle>crwdns6425739:0crwdne6425739:0</lifecycle>
+        <homePath>crwdns6425740:0crwdne6425740:0</homePath>
+        <targetWorkspace>crwdns6425741:0crwdne6425741:0</targetWorkspace>
+        <targetPath>crwdns6425742:0crwdne6425742:0</targetPath>
       </label>
     </dialog>
   </ScriptAction>
   <UIDialogForm>
    <form>
-   <DialogFormException>{crwdns6425743:0}{crwdne6425743:0}</DialogFormException>
+   <DialogFormException>crwdns6425743:0crwdne6425743:0</DialogFormException>
    </form>
   </UIDialogForm>
 
@@ -305,36 +305,36 @@
 
   ###################### resoucebundle exo:taxonomyAction dialogs template ####
   -->
-<no>{crwdns6425744:0}{crwdne6425744:0}</no>
-<yes>{crwdns6425745:0}{crwdne6425745:0}</yes>
-<true>{crwdns6425746:0}{crwdne6425746:0}</true>
-<false>{crwdns6425747:0}{crwdne6425747:0}</false>
-<Electronic>{crwdns6425748:0}{crwdne6425748:0}</Electronic>
-<Paper>{crwdns6425749:0}{crwdne6425749:0}</Paper>
-<NONE>{crwdns6425750:0}{crwdne6425750:0}</NONE>
-<CLASSIFIED>{crwdns6425751:0}{crwdne6425751:0}</CLASSIFIED>
-<UNCLASSIFIED>{crwdns6425752:0}{crwdne6425752:0}</UNCLASSIFIED>
-<NOCONTRACT>{crwdns6425753:0}{crwdne6425753:0}</NOCONTRACT>
-<one-minute>{crwdns6425754:0}{crwdne6425754:0}</one-minute>
-<hourly>{crwdns6425755:0}{crwdne6425755:0}</hourly>
-<daily>{crwdns6425756:0}{crwdne6425756:0}</daily>
-<quarterly>{crwdns6425757:0}{crwdne6425757:0}</quarterly>
-<yearly>{crwdns6425758:0}{crwdne6425758:0}</yearly>
-<ten-years>{crwdns6425759:0}{crwdne6425759:0}</ten-years>
-<read>{crwdns6425760:0}{crwdne6425760:0}</read>
-  <schedule>{crwdns6425761:0}{crwdne6425761:0}</schedule>
-  <node_added>{crwdns6425762:0}{crwdne6425762:0}</node_added>
-  <node_removed>{crwdns6425763:0}{crwdne6425763:0}</node_removed>
-  <property_added>{crwdns6425764:0}{crwdne6425764:0}</property_added>
-  <property_removed>{crwdns6425765:0}{crwdne6425765:0}</property_removed>
-  <property_changed>{crwdns6425766:0}{crwdne6425766:0}</property_changed>
+<no>crwdns6425744:0crwdne6425744:0</no>
+<yes>crwdns6425745:0crwdne6425745:0</yes>
+<true>crwdns6425746:0crwdne6425746:0</true>
+<false>crwdns6425747:0crwdne6425747:0</false>
+<Electronic>crwdns6425748:0crwdne6425748:0</Electronic>
+<Paper>crwdns6425749:0crwdne6425749:0</Paper>
+<NONE>crwdns6425750:0crwdne6425750:0</NONE>
+<CLASSIFIED>crwdns6425751:0crwdne6425751:0</CLASSIFIED>
+<UNCLASSIFIED>crwdns6425752:0crwdne6425752:0</UNCLASSIFIED>
+<NOCONTRACT>crwdns6425753:0crwdne6425753:0</NOCONTRACT>
+<one-minute>crwdns6425754:0crwdne6425754:0</one-minute>
+<hourly>crwdns6425755:0crwdne6425755:0</hourly>
+<daily>crwdns6425756:0crwdne6425756:0</daily>
+<quarterly>crwdns6425757:0crwdne6425757:0</quarterly>
+<yearly>crwdns6425758:0crwdne6425758:0</yearly>
+<ten-years>crwdns6425759:0crwdne6425759:0</ten-years>
+<read>crwdns6425760:0crwdne6425760:0</read>
+  <schedule>crwdns6425761:0crwdne6425761:0</schedule>
+  <node_added>crwdns6425762:0crwdne6425762:0</node_added>
+  <node_removed>crwdns6425763:0crwdne6425763:0</node_removed>
+  <property_added>crwdns6425764:0crwdne6425764:0</property_added>
+  <property_removed>crwdns6425765:0crwdne6425765:0</property_removed>
+  <property_changed>crwdns6425766:0crwdne6425766:0</property_changed>
 
   <ScriptAction>
     <dialog>
       <label>
-        <isDeep>{crwdns6425770:0}{crwdne6425770:0}</isDeep>
-        <nodetypes>{crwdns6425771:0}{crwdne6425771:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425772:0}{crwdne6425772:0}</affectedNodeTypeNames>
+        <isDeep>crwdns6425770:0crwdne6425770:0</isDeep>
+        <nodetypes>crwdns6425771:0crwdne6425771:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425772:0crwdne6425772:0</affectedNodeTypeNames>
       </label>
     </dialog>
   </ScriptAction>
@@ -342,9 +342,9 @@
   <AddMetadata>
     <dialog>
       <label>
-        <isDeep>{crwdns6425779:0}{crwdne6425779:0}</isDeep>
-        <nodetypes>{crwdns6425780:0}{crwdne6425780:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425781:0}{crwdne6425781:0}</affectedNodeTypeNames>
+        <isDeep>crwdns6425779:0crwdne6425779:0</isDeep>
+        <nodetypes>crwdns6425780:0crwdne6425780:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425781:0crwdne6425781:0</affectedNodeTypeNames>
       </label>
     </dialog>
   </AddMetadata>
@@ -352,9 +352,9 @@
   <EnableVersioning>
     <dialog>
       <label>
-        <isDeep>{crwdns6425788:0}{crwdne6425788:0}</isDeep>
-        <nodetypes>{crwdns6425789:0}{crwdne6425789:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425790:0}{crwdne6425790:0}</affectedNodeTypeNames>
+        <isDeep>crwdns6425788:0crwdne6425788:0</isDeep>
+        <nodetypes>crwdns6425789:0crwdne6425789:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425790:0crwdne6425790:0</affectedNodeTypeNames>
       </label>
     </dialog>
   </EnableVersioning>
@@ -362,9 +362,9 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <isDeep>{crwdns6425791:0}{crwdne6425791:0}</isDeep>
-        <nodetypes>{crwdns6425792:0}{crwdne6425792:0}</nodetypes>
-        <affectedNodeTypeNames>{crwdns6425793:0}{crwdne6425793:0}</affectedNodeTypeNames>
+        <isDeep>crwdns6425791:0crwdne6425791:0</isDeep>
+        <nodetypes>crwdns6425792:0crwdne6425792:0</nodetypes>
+        <affectedNodeTypeNames>crwdns6425793:0crwdne6425793:0</affectedNodeTypeNames>
       </label>
     </dialog>
   </AutoVersioning>
@@ -372,15 +372,15 @@
   <AccessibleMedia>
   <dialog>
   <label>
-  <captions>{crwdns6425809:0}{crwdne6425809:0}</captions>
-<audioDescription>{crwdns6425810:0}{crwdne6425810:0}</audioDescription>
-<alternativeText>{crwdns6425811:0}{crwdne6425811:0}</alternativeText>
+  <captions>crwdns6425809:0crwdne6425809:0</captions>
+<audioDescription>crwdns6425810:0crwdne6425810:0</audioDescription>
+<alternativeText>crwdns6425811:0crwdne6425811:0</alternativeText>
 </label>
 </dialog>
 <help>
-<CaptionsHelp>{crwdns6425812:0}{crwdne6425812:0}</CaptionsHelp>
-<AudioDescriptionHelp>{crwdns6425813:0}{crwdne6425813:0}</AudioDescriptionHelp>
-<AlternativeTextHelp>{crwdns6425814:0}{crwdne6425814:0}</AlternativeTextHelp>
+<CaptionsHelp>crwdns6425812:0crwdne6425812:0</CaptionsHelp>
+<AudioDescriptionHelp>crwdns6425813:0crwdne6425813:0</AudioDescriptionHelp>
+<AlternativeTextHelp>crwdns6425814:0crwdne6425814:0</AlternativeTextHelp>
 </help>
 </AccessibleMedia>
   

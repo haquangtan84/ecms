@@ -7,9 +7,9 @@
   -->
   <UIActionBar>
     <tooltip>
-      <PublicationRequestApproval>{crwdns6425436:0}{crwdne6425436:0}</PublicationRequestApproval>
-      <PublicationApproveContent>{crwdns6425437:0}{crwdne6425437:0}</PublicationApproveContent>
-      <PublicationPublish>{crwdns6425438:0}{crwdne6425438:0}</PublicationPublish>
+      <PublicationRequestApproval>crwdns6425436:0crwdne6425436:0</PublicationRequestApproval>
+      <PublicationApproveContent>crwdns6425437:0crwdne6425437:0</PublicationApproveContent>
+      <PublicationPublish>crwdns6425438:0crwdne6425438:0</PublicationPublish>
     </tooltip>
   </UIActionBar>
 </bundle>
