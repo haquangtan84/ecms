@@ -73,14 +73,14 @@
     <label>
       <Relation>Relation</Relation>
       <Explorer>Failų naršyklė</Explorer>
-      <Close>Close Sidebar</Close>
+      <Close>uždaryti šoninę juostą</Close>
       <TagExplorer>Žymos debesis</TagExplorer>
       <Clipboard>Iškarpinė</Clipboard>
       <SavedSearches>Išsaugotos paieškos</SavedSearches>
     </label>
     <title>
       <Control>Control Sidebar</Control>
-      <Close>Close Sidebar</Close>
+      <Close>uždaryti šoninę juostą</Close>
     </title>
   </UISideBar>
   <!--
@@ -865,7 +865,7 @@
   <UISimpleSearch>
     <action>
       <MoreConstraints>Show/Hide Constraint Form</MoreConstraints>
-      <Search>Search</Search>
+      <Search>Ieškoti</Search>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -1157,7 +1157,7 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <Search>Search</Search>
+      <Search>Ieškoti</Search>
     </action>
     <msg>
       <!--DMS 2.4.x ECM-3566-->
@@ -2491,7 +2491,7 @@
       <Info>Info</Info>
       <Actions>Actions</Actions>
       <Collaboration>Collaboration</Collaboration>
-      <Search>Search</Search>
+      <Search>Ieškoti</Search>
     </obtion>
   </UIActionBar>
 

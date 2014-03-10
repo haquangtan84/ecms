@@ -178,7 +178,7 @@
   <UIContentSearchForm>
     <title>
       <Location>Svetainės pavadinimas</Location>
-      <SearchByName>Search by Name</SearchByName>
+      <SearchByName>Paieška pagal vardą</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
       <Property>Property</Property>
       <Contain>Contain</Contain>
@@ -197,7 +197,7 @@
       </option>
     </label>
     <action>
-      <SearchWebContent>Search</SearchWebContent>
+      <SearchWebContent>Ieškoti</SearchWebContent>
     </action>
     <msg>
       <time-to-late>The searching time is too long.</time-to-late>
