@@ -217,7 +217,7 @@
 
   <UIContentPropertySelector>
     <action>
-      <Add>Add</Add>
+      <Add>Pridėti</Add>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -390,7 +390,7 @@
       <GeneralDrives>General Drives</GeneralDrives>
       <GroupDrives>Group Drives</GroupDrives>
       <Private>Private</Private>
-      <Public>Public</Public>
+      <Public>Viešas</Public>
       <BackupCenter>Backup Center</BackupCenter>
       <CategorizedDocumentsCenter>Categorized Documents Center</CategorizedDocumentsCenter>
       <CollaborationCenter>Collaboration Center</CollaborationCenter>

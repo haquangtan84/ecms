@@ -17,8 +17,8 @@
         <Always>Always</Always>
         <Hourly>Hourly</Hourly>
         <Daily>Daily</Daily>
-        <Weekly>Weekly</Weekly>
-        <Monthly>Monthly</Monthly>
+        <Weekly>Kas savaitę</Weekly>
+        <Monthly>Kas mėnesį</Monthly>
         <Yearly>Yearly</Yearly>
         <Never>Never</Never>
       </option> 

@@ -293,7 +293,7 @@
       <dialogTemplate>Dialog Template:</dialogTemplate>
       <viewTemplate>View Template:</viewTemplate>
       <metadataName>Metadata Name:</metadataName>
-      <viewPermission>Permission:</viewPermission>
+      <viewPermission>Teisė:</viewPermission>
       <permission>UIMetadataForm</permission>
       <metadataLabel>Label:</metadataLabel>
     </label>
@@ -516,7 +516,7 @@
       <childDefinitions>Child Node Definitions</childDefinitions>
       <namespace>Name Space</namespace>
       <propertyNamespace>Name Space</propertyNamespace>
-      <nodeTypeName>Node Type Name</nodeTypeName>
+      <nodeTypeName>Mazgo tipo pavadinimas</nodeTypeName>
       <mixinType>Is Mixin Type</mixinType>
       <hasOrderableChildNodes>Orderable Child Nodes</hasOrderableChildNodes>
       <primaryItemName>Primary Item Name</primaryItemName>
@@ -1047,7 +1047,7 @@
     </title>
     <header>
       <name>Pavadinimas</name>
-      <path>Value</path>
+      <path>Reikšmė</path>
       <baseVersion>Base Version</baseVersion>
       <action>Veiksmas</action>
     </header>
@@ -1094,7 +1094,7 @@
       <isDocumentTemplate>is Document Template:</isDocumentTemplate>
       <dialog>Dialog Content</dialog>
       <view>View Content</view>
-      <permission>Permission:</permission>
+      <permission>Teisė:</permission>
       <selectPemistion>Permission</selectPemistion>
     </label>
   </UITemplateForm>
@@ -1749,7 +1749,7 @@
       <content>Content:</content>
       <name>Name:</name>
       <isDocumentTemplate>is Document Template</isDocumentTemplate>
-      <viewPermission>Permission:</viewPermission>
+      <viewPermission>Teisė:</viewPermission>
       <enableVersion>Versioning activated</enableVersion>
     </label>
     <title>Add/Edit View</title>
@@ -1762,7 +1762,7 @@
       <content>Content:</content>
       <name>Name:</name>
       <isDocumentTemplate>is Document Template</isDocumentTemplate>
-      <viewPermission>Permission:</viewPermission>
+      <viewPermission>Teisė:</viewPermission>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
     <title>Add/Edit Dialog</title>
@@ -2379,7 +2379,7 @@
       <content>Content:</content>
       <name>Name:</name>
       <isDocumentTemplate>is Document Template</isDocumentTemplate>
-      <viewPermission>Permission:</viewPermission>
+      <viewPermission>Teisė:</viewPermission>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
     <title>Add/Edit Skin</title>
@@ -2460,7 +2460,7 @@
     <title>Add Permission</title>
     <action>
       <Save>#{word.save}</Save>
-      <Add>Add</Add>
+      <Add>Pridėti</Add>
     </action>
     <label>
       <userOrGroup>Memberships:</userOrGroup>
@@ -2531,13 +2531,13 @@
 <DriveInputSet>
 <title>
 <RemovePermission>Remove Permission</RemovePermission>
-<ChooseNodeType>Select Node Types</ChooseNodeType>
+<ChooseNodeType>Pasirinkti mazgų tipus</ChooseNodeType>
 <RemoveNodeType>Remove</RemoveNodeType>
 </title>
 </DriveInputSet>
 <PopupNodeTypeSelector>
 <title>
-<UINodeTypeSelector>Select Node Types</UINodeTypeSelector>
+<UINodeTypeSelector>Pasirinkti mazgų tipus</UINodeTypeSelector>
 <PopupNodeTypeSelector>Select Node Types</PopupNodeTypeSelector>
 </title>
 </PopupNodeTypeSelector>

@@ -59,12 +59,12 @@
   <UIFCCActionList>
     <header>
       <name>Name</name>
-      <description>Description</description>
+      <description>Aprašymas</description>
       <instanceOf>Instance of</instanceOf>
       <action>Veiksmas</action>
     </header>
     <action>
-      <Add>Add</Add>
+      <Add>Pridėti</Add>
     </action>
     <msg>
       <empty>No actions</empty>

@@ -217,9 +217,9 @@
       <UIRenameForm>Pervadinti</UIRenameForm>
       <UIActionContainer>Edit Action</UIActionContainer>
       <UIFolderForm>New Folder</UIFolderForm>
-      <UIUploadManager>Upload File</UIUploadManager>
+      <UIUploadManager>Įkelti failą</UIUploadManager>
       <UIReferencesList>References List</UIReferencesList>
-      <UIExportNode>Export</UIExportNode>
+      <UIExportNode>Eksportuoti</UIExportNode>
       <UINodeTypeInfo>Node Type Information</UINodeTypeInfo>
       <UIVersionInfo>Version Info</UIVersionInfo>
       <UIActivateVersion>Activate Version</UIActivateVersion>
@@ -236,7 +236,7 @@
       <EditFormController>Redaguoti dokumentą</EditFormController>
       <UIRelationManager>Add Relation</UIRelationManager>
       <UICategoryManager>Pridėti kategoriją</UICategoryManager>
-      <UIImportNode>Import</UIImportNode>
+      <UIImportNode>Importuoti</UIImportNode>
       <UIViewMetadataManager>View Metadata</UIViewMetadataManager>
       <UIVoteForm>Vote Document</UIVoteForm>
       <UICommentForm>Comment</UICommentForm>
@@ -296,7 +296,7 @@
       <ManageCategories>Categories</ManageCategories>
       <ManageRelations>Relations</ManageRelations>
       <ManageActions>Actions</ManageActions>
-      <ExportNode>Export</ExportNode>
+      <ExportNode>Eksportuoti</ExportNode>
       <ImportNode>Import</ImportNode>
       <OverloadThumbnail>Overload Thumbnail</OverloadThumbnail>
       <ManageHidden>Show/Hide Content</ManageHidden>
@@ -645,7 +645,7 @@
       <UIActionContainer>Add Action</UIActionContainer>
       <UIActionViewContainer>Action Info</UIActionViewContainer>
       <UIMultiLanguageForm>View Language</UIMultiLanguageForm>
-      <UIAddLanguageContainer>Add Language</UIAddLanguageContainer>
+      <UIAddLanguageContainer>Pridėti kalbą</UIAddLanguageContainer>
       <UINonPublishedForm>State</UINonPublishedForm>
       <UIPublishedForm>State</UIPublishedForm>
       <UIPublicationLogList>History</UIPublicationLogList>
@@ -670,7 +670,7 @@
     <header>
       <name>Name</name>
       <multiValue>Multi Value</multiValue>
-      <value>Value</value>
+      <value>Reikšmė</value>
       <action>Veiksmas</action>
     </header>
     <label>
@@ -696,7 +696,7 @@
     <title>Add/Edit Property</title>
     <label>
       <name>Name:</name>
-      <type>Type:</type>
+      <type>Tipas:</type>
       <value>Value:</value>
       <upload>Upload:</upload>
       <namespace>Namespace:</namespace>
@@ -1138,7 +1138,7 @@
       <result>Results:</result>
     </label>
     <title>
-      <result>Filter</result>
+      <result>Filtras</result>
     </title>
     <button>
       <label-Select>Select</label-Select>
@@ -1150,7 +1150,7 @@
   </UICompareExactlyForm>
   <UIJCRAdvancedSearch>
     <label>
-      <name>Name:</name>
+      <name>Vardas:</name>
       <selectBox>Select Query Style:</selectBox>
       <query>Query:</query>
     </label>
@@ -1191,7 +1191,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Add>Add</Add>
+      <Add>Pridėti</Add>
     </action>
   </UIMetadataSelectForm>
   <property1MetadataPopup>
@@ -1298,7 +1298,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Export>Export</Export>
+      <Export>Eksportuoti</Export>
     </action>
     <title>Export Node</title>
   </UIExportNode>
@@ -1366,7 +1366,7 @@
       <e_512>Remove Mixin</e_512>
       <e_1024>Clone</e_1024>
       <e_2048>Update</e_2048>
-      <e_4096>Import</e_4096>
+      <e_4096>Importuoti</e_4096>
       <e_8192>Check in</e_8192>
       <e_16384>Check out</e_16384>
       <e_32768>Restore</e_32768>
@@ -1412,7 +1412,7 @@
   <UIActivePublication>
     <header>
       <LifecycleName>Name</LifecycleName>
-      <LifecycleDesc>Description</LifecycleDesc>
+      <LifecycleDesc>Aprašymas</LifecycleDesc>
       <action>Veiksmas</action>
     </header>
     <action>
@@ -1467,11 +1467,11 @@
       <format>Format</format>
       <systemView>System View</systemView>
       <documentView>Document View</documentView>
-      <upload>Upload File</upload>
+      <upload>Įkelti failą</upload>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Import>Import</Import>
+      <Import>Importuoti</Import>
     </action>
     <title>Import Node</title>
     <msg>
@@ -1749,7 +1749,7 @@
   <UIActionList>
     <header>
       <name>#{word.name}</name>
-      <description>Description</description>
+      <description>Aprašymas</description>
   <lifecycle>Life Cycle</lifecycle>
   <triggeredaction>Triggered Action</triggeredaction>
       <instanceOf>Instance of Action Type</instanceOf>
@@ -1869,7 +1869,7 @@
       <tagSet>UITaggingForm</tagSet>
     </label>
     <action>
-      <AddTag>Add</AddTag>
+      <AddTag>Pridėti</AddTag>
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
@@ -1980,7 +1980,7 @@
     <label>
       <published>Published</published>
       <non-published>Unpublished</non-published>
-      <public>Public</public>
+      <public>Viešas</public>
       <private>Private</private>
       <state>State</state>
       <visibility>Visibility</visibility>
@@ -2080,7 +2080,7 @@
       <date>Date</date>
       <newState>New State</newState>
       <user>User</user>
-      <description>Description</description>
+      <description>Aprašymas</description>
       <version>Version</version>
       <visibility>Visibility</visibility>
     </header>
@@ -2605,7 +2605,7 @@
 
   <SameNamePopup>
     <title>
-      <UIUploadBehaviorWithSameName>Upload File</UIUploadBehaviorWithSameName>
+      <UIUploadBehaviorWithSameName>Įkelti failą</UIUploadBehaviorWithSameName>
     </title>
   </SameNamePopup>
 
@@ -2733,7 +2733,7 @@
 
    <UITaggingForm>
     <label>
-      <Public>Public</Public>
+      <Public>Viešas</Public>
       <Private>Private</Private>
       <tagScopes>Tag Scopes</tagScopes>
     </label>
@@ -2821,14 +2821,14 @@
     <UIActionForm>
     <title>
       <ShowComponent>Show Component</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Pašalinti</removeReference>
     </title>
   </UIActionForm>
 
   <EditFormAction>
     <title>
       <ShowComponent>Show Component</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Pašalinti</removeReference>
     </title>
   </EditFormAction>
 
@@ -2880,7 +2880,7 @@
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Add</Add>
+      <Add>Pridėti</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2963,7 +2963,7 @@
       <versionName>Revision Name</versionName>
       <currentState>Current State</currentState>
       <user>Author</user>
-      <description>Description</description>
+      <description>Aprašymas</description>
     </header>
   </UIPublicationHistory>
   
