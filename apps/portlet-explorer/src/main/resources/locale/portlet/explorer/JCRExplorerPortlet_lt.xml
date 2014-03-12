@@ -1491,7 +1491,7 @@
   -->
   <UILabelForm>
     <label>
-      <label>Label</label>
+      <label>Etiketė</label>
     </label>
     <action>
       <Save>#{word.save}</Save>
