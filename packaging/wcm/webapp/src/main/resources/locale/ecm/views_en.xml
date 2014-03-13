@@ -40,7 +40,7 @@
   <File>
     <view>
       <label>
-        <not-viewable>This content is not viewable</not-viewable>
+        <not-viewable>The preview of this document is not available.</not-viewable>
         <using-webDAV>or use WebDAV to access the content</using-webDAV>
         <file-size-too-big>The content of this file is too big. You should download and open in the client.</file-size-too-big>
         <webDAV>WebDAV View</webDAV>
