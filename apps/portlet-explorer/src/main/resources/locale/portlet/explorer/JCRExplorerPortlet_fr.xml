@@ -129,7 +129,7 @@
     <title>Explorateur</title>
     <label>
       <Root>Racine</Root>
-      <webDavView>Ouvrir à distance</webDavView>
+      <webDavView>Ouvrir dans MS Office</webDavView>
     </label>
     <msg>
       <path-not-found>Cet élément a été modifié ou supprimé. Veuillez cliquer sur le bouton "Actualiser".</path-not-found>

@@ -40,7 +40,7 @@
   <File>
     <view>
       <label>
-        <not-viewable>Этот контент не возможно отобразить. Загрузите его или используйте WebDAV для доступа</not-viewable>
+        <not-viewable>The preview of this document is not available.</not-viewable>
         <using-webDAV>или используйте WebDAV для доступа к содержимому</using-webDAV>
         <file-size-too-big>Слишком большой размер содержимого этой страницы. Вам необходимо скачать и открыть в клиенте.</file-size-too-big>
         <webDAV>Показать через WebDAV</webDAV>

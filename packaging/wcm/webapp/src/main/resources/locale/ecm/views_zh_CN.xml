@@ -40,7 +40,7 @@
   <File>
     <view>
       <label>
-        <not-viewable>此内容不是可查看</not-viewable>
+        <not-viewable>The preview of this document is not available.</not-viewable>
         <using-webDAV>或使用 WebDAV 访问的内容</using-webDAV>
         <file-size-too-big>此文件的内容是太大。您应下载和在客户端中打开。</file-size-too-big>
         <webDAV>WebDAV 视图</webDAV>

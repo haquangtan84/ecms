@@ -40,7 +40,7 @@
   <File>
     <view>
       <label>
-        <not-viewable>Nội dung này không thể xem được.</not-viewable>
+        <not-viewable>Tài liệu này không thể xem được. Bạn cần tải về và xem bằng phần mềm phù hợp.</not-viewable>
         <using-webDAV>hoặc dùng WebDAV để xem nội dung đó.</using-webDAV>
         <file-size-too-big>Nội dung của tệp tin này quá lớn. Bạn nên tải xuống và mở tại máy khách.</file-size-too-big>
         <webDAV>Hiển thị kiểu WebDAV</webDAV>
