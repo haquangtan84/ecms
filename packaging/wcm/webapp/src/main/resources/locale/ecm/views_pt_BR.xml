@@ -41,7 +41,7 @@
     <view>
       <label>
         <not-viewable>The preview of this document is not available.</not-viewable>
-        <using-webDAV>ou utilize WebDAV para acessar o conteúdo</using-webDAV>
+        <using-webDAV>or Open in MS Office</using-webDAV>
         <file-size-too-big>O contéudo deste arquivo é muito grande. Você deve baixá-lo e abrí-lo no cliente.</file-size-too-big>
         <webDAV>Ver WebDAV</webDAV>
         <download>Baixar</download>

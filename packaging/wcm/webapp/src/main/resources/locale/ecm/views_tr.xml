@@ -41,7 +41,7 @@
     <view>
       <label>
         <not-viewable>The preview of this document is not available.</not-viewable>
-        <using-webDAV>ya da içeriğe erişmek için WebDAV kullan</using-webDAV>
+        <using-webDAV>or Open in MS Office</using-webDAV>
         <file-size-too-big>Bu içerik çok büyük. İçeriği indirip görüntüleyebilirsiniz.</file-size-too-big>
         <webDAV>WebDAV Görünümü</webDAV>
         <download>İndir</download>

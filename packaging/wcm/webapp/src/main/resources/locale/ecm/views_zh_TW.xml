@@ -41,7 +41,7 @@
     <view>
       <label>
         <not-viewable>The preview of this document is not available.</not-viewable>
-        <using-webDAV>或使用 WebDAV 訪問的內容</using-webDAV>
+        <using-webDAV>or Open in MS Office</using-webDAV>
         <file-size-too-big>此檔的內容太大。您應該在用戶端下載並打開。</file-size-too-big>
         <webDAV>WebDAV 視圖</webDAV>
         <download>下載</download>

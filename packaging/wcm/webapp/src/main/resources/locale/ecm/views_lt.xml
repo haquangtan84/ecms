@@ -41,7 +41,7 @@
     <view>
       <label>
         <not-viewable>The preview of this document is not available.</not-viewable>
-        <using-webDAV>or use WebDAV to access the content</using-webDAV>
+        <using-webDAV>or Open in MS Office</using-webDAV>
         <file-size-too-big>The content of this file is too big. You should download and open in the client.</file-size-too-big>
         <webDAV>WebDAV View</webDAV>
         <download>Atsisiųsti</download>
