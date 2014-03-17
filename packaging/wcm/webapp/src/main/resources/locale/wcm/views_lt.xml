@@ -50,13 +50,13 @@
 
   <Category>
     <view>
-      <label>Category</label>
+      <label>Kategorija</label>
     </view>
   </Category>
 
   <Tag>
     <view>
-      <label>Tag</label>
+      <label>Žymė</label>
     </view>
   </Tag>
 </bundle>

@@ -29,19 +29,19 @@
   -->
   <UIVoteForm>
     <title>
-      <normal>Poor</normal>
-      <good>Below average</good>
-      <verygood>Average</verygood>
-      <excellent>Above average</excellent>
-      <best>Good</best>
-      <no-value>no value yet</no-value>
+      <normal>Prastas</normal>
+      <good>Mažesnis nei vidutinis</good>
+      <verygood>Vidutinis</verygood>
+      <excellent>Didesnis nei vidutinis</excellent>
+      <best>Geras</best>
+      <no-value>nėra jokio vertinimo</no-value>
     </title>
     <label>
-      <my-rating>My Rating:</my-rating>
+      <my-rating>Mano vertinimas:</my-rating>
     </label>
     <button>
       <label>
-        <confirm>OK</confirm>
+        <confirm>Gerai</confirm>
       </label>
     </button>
     <msg>
@@ -58,8 +58,8 @@
   -->
   <UIJCRExplorer>
     <msg>
-      <refresh-session-success>The session was refreshed successfully.</refresh-session-success>
-      <no-node-history>You are in the root node.</no-node-history>
+      <refresh-session-success>Sesija buvo sėkmingai atnaujinta.</refresh-session-success>
+      <no-node-history>Jūs esate šakniniame mazge.</no-node-history>
       <save-session-success>All changes have been saved.</save-session-success>
       <target-path-not-found>You cannot access this node, either because it doesn't exist anymore or because you do not have the right to access it.</target-path-not-found>
     </msg>
@@ -71,7 +71,7 @@
   -->
   <UISideBar>
     <label>
-      <Relation>Relation</Relation>
+      <Relation>Ryšys</Relation>
       <Explorer>Failų naršyklė</Explorer>
       <Close>uždaryti šoninę juostą</Close>
       <TagExplorer>Žymos debesis</TagExplorer>
@@ -92,13 +92,13 @@
     <label>
       <driveWorkspace>Drive Workspace:</driveWorkspace>
       <backToJCR>Back to JCR Main Drives</backToJCR>
-      <setUpBrowser>Set up your browsing preferences</setUpBrowser>
+      <setUpBrowser>Nustatyti jūsų naršymo pasirinkimus</setUpBrowser>
       <refesh>Atnaujinti</refesh>
       <currentDrive>Current Drive</currentDrive>
       <selectView>Select View</selectView>
       <showSideBar>Show Sidebar</showSideBar>
       <more>Daugiau</more>
-      <backTo>Back</backTo>
+      <backTo>Atgal</backTo>
     </label>
   </UIViewBar>
 
@@ -157,15 +157,15 @@
   <UIPreferencesForm>
     <title>Set up your browsing preferences</title>
     <label>
-      <enableStructure>Enable DMS Structure:</enableStructure>
-      <showSideBar>Show Sidebar:</showSideBar>
-      <showHiddenNode>Show Hidden Nodes:</showHiddenNode>
-      <showNonDocument>Show Non-document Nodes:</showNonDocument>
-      <showRefDocuments>Show Referenced Documents:</showRefDocuments>
-      <enableDragAndDrop>Enable Drag &amp; Drop:</enableDragAndDrop>
-      <sortBy>Sort by:</sortBy>
+      <enableStructure>Įgalinti DMS struktūrą:</enableStructure>
+      <showSideBar>Rodyti šoninę juostą:</showSideBar>
+      <showHiddenNode>Rodyti paslėptus mazgus:</showHiddenNode>
+      <showNonDocument>Rodyti ne dokumentų mazgus:</showNonDocument>
+      <showRefDocuments>Rodyti nurodytus dokumentus:</showRefDocuments>
+      <enableDragAndDrop>Įgalinti „Vilkti ir Mesti”:</enableDragAndDrop>
+      <sortBy>Rūšiuoti pagal:</sortBy>
       <order>Order by:</order>
-      <nodesPerPage>Nodes Per Page:</nodesPerPage>
+      <nodesPerPage>Mazgų skaičius puslapyje:</nodesPerPage>
     </label>
     <action>
       <Back>#{word.close}</Back>
@@ -178,7 +178,7 @@
   #########################################################################################
   -->
   <UIAllItemsPreferenceForm>
-    <title>Set Up Filter Preferences</title>
+    <title>Nustatyti filtro pirmenybes</title>
     <action>
       <Cancel>#{word.cancel}</Cancel>
       <Save>#{word.save}</Save>
@@ -216,41 +216,41 @@
     <title>
       <UIRenameForm>Pervadinti</UIRenameForm>
       <UIActionContainer>Edit Action</UIActionContainer>
-      <UIFolderForm>New Folder</UIFolderForm>
+      <UIFolderForm>Naujas aplankas</UIFolderForm>
       <UIUploadManager>Įkelti failą</UIUploadManager>
       <UIReferencesList>References List</UIReferencesList>
       <UIExportNode>Eksportuoti</UIExportNode>
       <UINodeTypeInfo>Node Type Information</UINodeTypeInfo>
-      <UIVersionInfo>Version Info</UIVersionInfo>
-      <UIActivateVersion>Activate Version</UIActivateVersion>
+      <UIVersionInfo>Versijos informacija</UIVersionInfo>
+      <UIActivateVersion>Aktyvuoti versiją</UIActivateVersion>
       <UIAuditingInfo>Auditing Information</UIAuditingInfo>
-      <UIActivateAuditing>Activate Auditing</UIActivateAuditing>
-      <UIPermissionManager>Permission Management</UIPermissionManager>
-      <UIPropertiesManager>Properties Management</UIPropertiesManager>
+      <UIActivateAuditing>Aktyvuoti auditą</UIActivateAuditing>
+      <UIPermissionManager>Teisių valdymas</UIPermissionManager>
+      <UIPropertiesManager>Ypatybių valdymas</UIPropertiesManager>
       <UIECMSearch>Advanced Search</UIECMSearch>
       <UISavedQuery>Saved Queries List</UISavedQuery>
-      <UIWatchDocumentForm>Watch Document</UIWatchDocumentForm>
+      <UIWatchDocumentForm>Stebėti dokumentą</UIWatchDocumentForm>
       <UIActionManager>Manage Actions</UIActionManager>
       <UIDocumentForm>Redaguoti dokumentą</UIDocumentForm>
       <UIDocumentFormController>Add New Document</UIDocumentFormController>
       <EditFormController>Redaguoti dokumentą</EditFormController>
-      <UIRelationManager>Add Relation</UIRelationManager>
+      <UIRelationManager>Pridėti ryšį</UIRelationManager>
       <UICategoryManager>Pridėti kategoriją</UICategoryManager>
       <UIImportNode>Importuoti</UIImportNode>
-      <UIViewMetadataManager>View Metadata</UIViewMetadataManager>
-      <UIVoteForm>Vote Document</UIVoteForm>
-      <UICommentForm>Comment</UICommentForm>
-      <UIPreferencesForm>Preferences</UIPreferencesForm>
+      <UIViewMetadataManager>Peržiūrėti metaduomenis</UIViewMetadataManager>
+      <UIVoteForm>Dokumento balsavimas</UIVoteForm>
+      <UICommentForm>Komentuoti</UICommentForm>
+      <UIPreferencesForm>Nuostatos</UIPreferencesForm>
       <UIPublicationManager>Manage Publication</UIPublicationManager>
-      <UIConfirmMessage>Delete ?</UIConfirmMessage>
-      <UIDeleteFileConfirmMessage>Delete File ?</UIDeleteFileConfirmMessage>
+      <UIConfirmMessage>Ištrinti ?</UIConfirmMessage>
+      <UIDeleteFileConfirmMessage>Ištrinti failą ?</UIDeleteFileConfirmMessage>
       <UIDeleteFolderConfirmMessage>Delete Folder ?</UIDeleteFolderConfirmMessage>
       <UIDeleteItemsConfirmMessage>Delete Items ?</UIDeleteItemsConfirmMessage>
       <UIRestoreConfirmMessage>Confirm Restore</UIRestoreConfirmMessage>
       <UIActivePublication>Enroll to Publication Lifecycle</UIActivePublication>
       <UITaggingForm>Tag Document</UITaggingForm>
-      <UIThumbnailForm>Add Thumbnail Image</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>Preference Settings</UIAllItemsPreferenceForm>
+      <UIThumbnailForm>Pridėti miniatiūrą</UIThumbnailForm>
+      <UIAllItemsPreferenceForm>Pradiniai nustatymai</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Select Restore Path</UISelectRestorePath>
       <UISEOForm>Valdyti SEO</UISEOForm>
       <UISEOToolbarForm>Valdyti SEO</UISEOToolbarForm>
@@ -280,31 +280,31 @@
   -->
   <UIActionBar>
     <tooltip>
-      <AddFolder>New Folder</AddFolder>
-      <AddDocument>New Content</AddDocument>
+      <AddFolder>Naujas aplankas</AddFolder>
+      <AddDocument>Naujas turinys</AddDocument>
       <EditDocument>Redaguoti</EditDocument>
-      <Upload>Upload</Upload>
+      <Upload>Įkelti</Upload>
       <Paste>Paste</Paste>
       <Search>Search</Search>
-      <WatchDocument>Watch/Unwatch</WatchDocument>
-      <TaggingDocument>Tag</TaggingDocument>
-      <Vote>Vote</Vote>
-      <Comment>Comment</Comment>
-      <ManageVersions>Versions</ManageVersions>
-      <ManageAuditing>Audit</ManageAuditing>
+      <WatchDocument>Stebėti/Nestebėti</WatchDocument>
+      <TaggingDocument>Žymė</TaggingDocument>
+      <Vote>Balsavimas</Vote>
+      <Comment>Komentuoti</Comment>
+      <ManageVersions>Versijos</ManageVersions>
+      <ManageAuditing>Auditas</ManageAuditing>
       <ManagePublications>Publications</ManagePublications>
       <ManageCategories>Categories</ManageCategories>
-      <ManageRelations>Relations</ManageRelations>
+      <ManageRelations>Ryšiai</ManageRelations>
       <ManageActions>Actions</ManageActions>
       <ExportNode>Eksportuoti</ExportNode>
       <ImportNode>Import</ImportNode>
-      <OverloadThumbnail>Overload Thumbnail</OverloadThumbnail>
+      <OverloadThumbnail>Perkrovos miniatūra</OverloadThumbnail>
       <ManageHidden>Show/Hide Content</ManageHidden>
       <ViewReferences>References</ViewReferences>
       <ViewNodeType>Types</ViewNodeType>
-      <ViewPermissions>Permissions</ViewPermissions>
-      <ViewProperties>Properties</ViewProperties>
-      <ViewMetadatas>Metadata</ViewMetadatas>
+      <ViewPermissions>Teisės</ViewPermissions>
+      <ViewProperties>Ypatybės</ViewProperties>
+      <ViewMetadatas>Metaduomenys</ViewMetadatas>
       <ViewRelations>Show/Hide Relations</ViewRelations>
       <ShowJCRStructure>Show/Hide Content Structure</ShowJCRStructure>
     </tooltip>
@@ -329,7 +329,7 @@
       <not-support>Cannot edit the selected node.</not-support>
       <template-null>This node has no dialog available.</template-null>
       <keyword-null>There are no keywords to search.</keyword-null>
-      <not-found>No results found.</not-found>
+      <not-found>Rezultatų nerasta.</not-found>
       <keyword-not-allow>This keyword is not allowed.</keyword-not-allow>
       <is-not-referenable>Node '{0}' cannot be referenceable.</is-not-referenable>
       <access-denied>Access denied. You do not have edit permission in this node.</access-denied>
@@ -350,7 +350,7 @@
       <AdvanceSearch>Advanced Search</AdvanceSearch>
       <SavedQueries>Saved Queries</SavedQueries>
       <ShowAllOwnedByUser>Rodyti visus mano elementus</ShowAllOwnedByUser>
-      <ShowAllFavourite>Show All Favorite Items</ShowAllFavourite>
+      <ShowAllFavourite>Rodyti visus mėgstamus elementus</ShowAllFavourite>
       <ShowAllHidden>Rodyti visus paslėptus elementus</ShowAllHidden>
       <ShowAllFromTrash>Show All Items From Trash</ShowAllFromTrash>
     </title>
@@ -383,7 +383,7 @@
       <is-checked-in>Please check out this node before renaming.</is-checked-in>
       <is-checked-in-lock>Please check out this node before locking.</is-checked-in-lock>
       <cant-lock>You cannot lock this node.</cant-lock>
-      <node-locked>The item with the path {0} or upper level is locked.</node-locked>
+      <node-locked>Elementas {0} arba aukštesnis lygis yra užrakintas.</node-locked>
       <can-not-delete>Please close this node before deleting.</can-not-delete>
       <can-not-delete-version>You cannot delete this node. It is versioning.</can-not-delete-version>
       <not-support>You cannot delete the selected node. Please select another node.</not-support>
@@ -410,16 +410,16 @@
   <UIFolderForm>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Save>Create Folder</Save>
+      <Save>Sukurti aplanką</Save>
     </action>
     <label>
-      <titleTextBox>Folder Name:</titleTextBox>
+      <titleTextBox>Aplanko pavadinimas:</titleTextBox>
       <customTypeCheckBox>Use a custom type of folder</customTypeCheckBox>
     </label>
     <title>Add/Edit Folder</title>
     <msg>
       <addFolder-successful>The folder '{0}' was added successfully.</addFolder-successful>
-      <name-invalid>Please enter the folder name.</name-invalid>
+      <name-invalid>Prašome įrašyti aplanko pavadinimą.</name-invalid>
       <title-invalid>Please enter the folder title.</title-invalid>
       <name-not-allowed>This name is not allowed.</name-not-allowed>
       <fileName-error>The file name is invalid.</fileName-error>
@@ -446,8 +446,8 @@
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>Are you sure you want to delete the item '{0}'?</confirm-delete>
-      <confirm-delete-file>Are you sure you want to delete the file '{0}'?</confirm-delete-file>
+      <confirm-delete>Ar tikrai norite ištrinti elementą '{0}'?</confirm-delete>
+      <confirm-delete-file>Ar tikrai norite ištrinti failą '{0}'?</confirm-delete-file>
       <confirm-delete-folder>Are you sure you want to delete the folder '{0}' and all subfolders?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
@@ -487,7 +487,7 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>Are you sure you want to delete the {0} selected files, their references, folders and all subfolders?</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>Are you sure you want to delete the {0} selected items, files, their references, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' was deleted succesfully.</feedback-delete>
+      <feedback-delete>'{0}' sėkmingai ištrinta.</feedback-delete>
       <feedback-delete-multi>{0} items were deleted succesfully.</feedback-delete-multi>      
       <feedback-delete-permanently>'{0}' was removed permanently.</feedback-delete-permanently>
       <feedback-delete-permanently-multi>{0} items were removed permanently.</feedback-delete-permanently-multi>
@@ -518,14 +518,14 @@
     </msg>
     <tooltip>
       <Rename>Pervadinti</Rename>
-      <Cut>Cut</Cut>
-      <Copy>Copy</Copy>
+      <Cut>Iškirpti</Cut>
+      <Copy>Kopijuoti</Copy>
       <Save>#{word.save}</Save>
       <RemoveNode>Delete</RemoveNode>
       <Checkin>Checkin</Checkin>
       <Checkout>Checkout</Checkout>
-      <Lock>Lock</Lock>
-      <Unlock>Unlock</Unlock>
+      <Lock>Užrakinti</Lock>
+      <Unlock>Atrakinti</Unlock>
       <EditDocument>Redaguoti</EditDocument>
       <Paste>Paste</Paste>
       <LockedBy>Locked by</LockedBy>
@@ -542,15 +542,15 @@
     </msg>
     <tooltip>
       <remove-attachment>Remove this attachment file</remove-attachment>
-      <remove-comment>Remove this comment</remove-comment>
+      <remove-comment>Pašalinti šį komentarą</remove-comment>
     </tooltip>
   </UIDocumentInfo>
   <ListView>
     <view>
       <label>
-        <name>Name</name>
+        <name>Vardas</name>
         <versionable>Versionable</versionable>
-        <exo_owner>Owner</exo_owner>
+        <exo_owner>Savininkas</exo_owner>
         <auditing>Auditing</auditing>
         <exo_dateCreated>Date Created</exo_dateCreated>
         <exo_dateModified>Date Modifed</exo_dateModified>
@@ -564,30 +564,30 @@
   -->
   <ECMContextMenu>
     <event>
-      <Lock>Lock</Lock>
-      <Unlock>UnLock</Unlock>
+      <Lock>Užrakinti</Lock>
+      <Unlock>Atrakinti</Unlock>
       <EditDocument>Redaguoti</EditDocument>
-      <Copy>Copy</Copy>
+      <Copy>Kopijuoti</Copy>
       <Rename>Pervadinti</Rename>
-      <Delete>Delete</Delete>
+      <Delete>Ištrinti</Delete>
       <Save>#{word.save}</Save>
-      <Cut>Cut</Cut>
+      <Cut>Iškirpti</Cut>
       <Paste>Paste</Paste>
-      <CheckOut>CheckOut</CheckOut>
-      <CheckIn>CheckIn</CheckIn>
+      <CheckOut>Išregistruoti</CheckOut>
+      <CheckIn>Užregistruoti</CheckIn>
       <WebDAV>View WebDAV</WebDAV>
       <autoversion>Auto Versioning</autoversion>
       <Custom>Custom</Custom>
-      <AddFolder>New Folder</AddFolder>
-      <AddDocument>New Content</AddDocument>
+      <AddFolder>Naujas aplankas</AddFolder>
+      <AddDocument>Naujas turinys</AddDocument>
       <Upload>Upload Files</Upload>
-      <MoveNode>Move</MoveNode>
-      <UnLock>Unlock</UnLock>
+      <MoveNode>Perkelti</MoveNode>
+      <UnLock>Atrakinti</UnLock>
       <ViewProperties>View Properties</ViewProperties>
       <GetURL>Copy URL To Clipboard</GetURL>
       <AddThumbnail>Add/Remove Thumbnail</AddThumbnail>
-      <AddToFavourite>Add To Favorite</AddToFavourite>
-      <RemoveFromFavourite>Remove From Favorite</RemoveFromFavourite>
+      <AddToFavourite>Pridėti prie mėgiamų</AddToFavourite>
+      <RemoveFromFavourite>Pašalinti iš mėgstamų</RemoveFromFavourite>
       <MoveToTrash>Move to Trash</MoveToTrash>
       <RestoreFromTrash>Restore from Trash</RestoreFromTrash>
       <EmptyTrash>Empty Trash</EmptyTrash>
@@ -627,8 +627,8 @@
       <UIVersionViewer>Version Viewer</UIVersionViewer>
 
       <UIPropertyTab>Ypatybės</UIPropertyTab>
-      <UIMetadataTab>Metadata</UIMetadataTab>
-      <UIPropertyForm>Add New Property</UIPropertyForm>
+      <UIMetadataTab>Metaduomenys</UIMetadataTab>
+      <UIPropertyForm>Pridėti naują ypatybę</UIPropertyForm>
       <UIUploadContent>Information of uploaded file</UIUploadContent>
       <UIJCRAdvancedSearch>New Query</UIJCRAdvancedSearch>
       <UISavedQuery>Saved Query</UISavedQuery>
@@ -639,7 +639,7 @@
       <UIConstraintsForm>Constraints Form</UIConstraintsForm>
       <UIViewSearchResult>View Content</UIViewSearchResult>
       <UIContentNameSearch>Search by Name</UIContentNameSearch>
-      <UINodeInfo>Version Info</UINodeInfo>
+      <UINodeInfo>Versijos informacija</UINodeInfo>
       <UINodeProperty>Node Property</UINodeProperty>
       <UIActionListContainer>Available Actions</UIActionListContainer>
       <UIActionContainer>Add Action</UIActionContainer>
@@ -651,7 +651,7 @@
       <UIPublicationLogList>History</UIPublicationLogList>
       <UIDocumentWithTree>File View</UIDocumentWithTree>
       <UIDocumentInfo>Document View</UIDocumentInfo>
-      <UICategoriesSelectPanel>Select Categories</UICategoriesSelectPanel>
+      <UICategoriesSelectPanel>Pasirinkti kategorijas</UICategoriesSelectPanel>
       <UISelectedCategoriesGrid>Referenced Categories</UISelectedCategoriesGrid>
       <UIWorkflowPublicationActionForm>Workflow Publication Action</UIWorkflowPublicationActionForm>
       <UIWorkflowPublicationViewForm>Workflow Publication View</UIWorkflowPublicationViewForm>
@@ -668,7 +668,7 @@
       <remove-property>Are you sure you want to remove this property?</remove-property>
     </confirm>
     <header>
-      <name>Name</name>
+      <name>Pavadinimas</name>
       <multiValue>Multi Value</multiValue>
       <value>Reikšmė</value>
       <action>Veiksmas</action>
@@ -739,7 +739,7 @@
       <usersOrGroups>User or Group</usersOrGroups>
       <read>Read</read>
       <addNode>Modify</addNode>
-      <remove>Remove</remove>
+      <remove>Pašalinti</remove>
       <action>Veiksmas</action>
     </header>
     <msg>
@@ -878,7 +878,7 @@
     </label>
     <msg>
       <keyword-null>Please enter your keyword.</keyword-null>
-      <not-found>No results found.</not-found>
+      <not-found>Rezultatų nerasta.</not-found>
       <keyword-not-allow>This keyword is not allowed.</keyword-not-allow>
       <value-null>Please enter your keyword or constraints.</value-null>
       <value-save-null>Please enter a keyword or constraints before saving this query.</value-save-null>
@@ -894,7 +894,7 @@
   <UISearchResult>
     <msg>
       <not-support>There is no View template for this node.</not-support>
-      <empty>No results found.</empty>
+      <empty>Rezultatų nerasta.</empty>
       <access-denied>You cannot open this folder, either because it no longer exists or because you do not have the right to access it.</access-denied>
       <query-invalid>The query is invalid.</query-invalid>
     </msg>
@@ -903,7 +903,7 @@
       <path>Path</path>
       <action>Veiksmas</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
+      <type>Tipas</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -925,7 +925,7 @@
   <UIShowAllOwnedByUserResult>
     <msg>
       <not-support>There is no View template for this node</not-support>
-      <empty>No results found.</empty>
+      <empty>Rezultatų nerasta.</empty>
       <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
       <query-invalid>The query is invalid</query-invalid>
     </msg>
@@ -934,7 +934,7 @@
       <path>Path</path>
       <action>Veiksmas</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
+      <type>Tipas</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -965,7 +965,7 @@
       <path>Path</path>
       <action>Veiksmas</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
+      <type>Tipas</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -1100,10 +1100,10 @@
       <containPro-Contain>Contain</containPro-Contain>
       <notContainPro-properties>Property</notContainPro-properties>
       <notContainPro-notContain>Not Contain</notContainPro-notContain>
-      <ConstraintOption-From>From</ConstraintOption-From>
+      <ConstraintOption-From>Nuo</ConstraintOption-From>
       <ConstraintOption-To>To</ConstraintOption-To>
       <DocumentType-label>Document Type</DocumentType-label>
-      <Category-label>Category</Category-label>
+      <Category-label>Kategorija</Category-label>
       <created>Created</created>
       <modified>Modified</modified>
       <and>And</and>
@@ -1145,7 +1145,7 @@
       <label-Cancel>#{word.cancel}</label-Cancel>
     </button>
     <msg>
-      <not-result-found>No results found.</not-result-found>
+      <not-result-found>Rezultatų nerasta.</not-result-found>
     </msg>
   </UICompareExactlyForm>
   <UIJCRAdvancedSearch>
@@ -1171,7 +1171,7 @@
   </UIJCRAdvancedSearch>
   <EditQueryForm>
     <label>
-      <name>Name</name>
+      <name>Vardas</name>
       <selectBox>Select Query Style</selectBox>
       <query>Query</query>
     </label>
@@ -1290,7 +1290,7 @@
   -->
   <UIExportNode>
     <label>
-      <format>Format</format>
+      <format>Formatas</format>
       <nodePath>Path to Export</nodePath>
       <zip>Zip</zip>
       <systemView>System View</systemView>
@@ -1360,30 +1360,30 @@
       <e_16>Property Changed</e_16>
       <e_8>Property Removed</e_8>
       <e_32>#{word.save}</e_32>
-      <e_64>Move</e_64>
-      <e_128>Copy</e_128>
+      <e_64>Perkelti</e_64>
+      <e_128>Kopijuoti</e_128>
       <e_256>Add Mixin</e_256>
       <e_512>Remove Mixin</e_512>
       <e_1024>Clone</e_1024>
-      <e_2048>Update</e_2048>
+      <e_2048>Atnaujinti</e_2048>
       <e_4096>Importuoti</e_4096>
       <e_8192>Check in</e_8192>
       <e_16384>Check out</e_16384>
       <e_32768>Restore</e_32768>
-      <e_65536>Merge</e_65536>
+      <e_65536>Sujungti</e_65536>
       <e_131072>Cancel Merge</e_131072>
       <e_262144>Done Merge</e_262144>
       <e_524288>Add Version Label</e_524288>
       <e_1048576>Remove Version Label</e_1048576>
       <e_2097152>Remove Version</e_2097152>
-      <e_4194304>Lock</e_4194304>
-      <e_8388608>Unlock</e_8388608>
+      <e_4194304>Užrakinti</e_4194304>
+      <e_8388608>Atrakinti</e_8388608>
       <e_16777216>Read</e_16777216>
     </eventName>
     <label>
       <operation>Operation</operation>
-      <userName>Username</userName>
-      <date>Date</date>
+      <userName>Vartotojo vardas</userName>
+      <date>Data</date>
       <version>Version</version>
     </label>
   </UIAuditingInfo>
@@ -1395,9 +1395,9 @@
   -->
   <UIActivateVersion>
     <label>
-      <note>Versioning has not been activated for this node.</note>
-      <question>Are you sure you want to activate it?</question>
-      <button-active>Activate</button-active>
+      <note>Versijavimas nėra aktyvuotas šiam mazgui.</note>
+      <question>Ar tikrai norite aktyvuoti?</question>
+      <button-active>Aktyvuoti</button-active>
       <button-cancel>#{word.cancel}</button-cancel>
     </label>
     <msg>
@@ -1411,7 +1411,7 @@
   -->
   <UIActivePublication>
     <header>
-      <LifecycleName>Name</LifecycleName>
+      <LifecycleName>Vardas</LifecycleName>
       <LifecycleDesc>Aprašymas</LifecycleDesc>
       <action>Veiksmas</action>
     </header>
@@ -1435,11 +1435,11 @@
   -->
   <UIActivateAuditing>
     <label>
-      <note>Auditing has not been activated for this node.</note>
-      <question>Are you sure you want to activate?</question>
+      <note>Auditas šiam mazgui neaktyvuotas.</note>
+      <question>Ar tikrai norite aktyvuoti?</question>
     </label>
     <action>
-      <activate>Activate</activate>
+      <activate>Aktyvuoti</activate>
       <cancel>#{word.cancel}</cancel>
     </action>
   </UIActivateAuditing>
@@ -1464,7 +1464,7 @@
   -->
   <UIImportNode>
     <label>
-      <format>Format</format>
+      <format>Formatas</format>
       <systemView>System View</systemView>
       <documentView>Document View</documentView>
       <upload>Įkelti failą</upload>
@@ -1561,7 +1561,7 @@
   </UICategoryManager>
   <UICategoriesAddedList>
     <header>
-      <path>Category</path>
+      <path>Kategorija</path>
       <action>Actions</action>
     </header>
     <msg>
@@ -1574,7 +1574,7 @@
       </title>
     </action>
     <label>
-      <category>Category</category>
+      <category>Kategorija</category>
       <actions>Veiksmas</actions>
       <delete>Delete</delete>
     </label>
@@ -1599,23 +1599,23 @@
     </action>
     <tab>
       <label>
-        <UIOneNodePathSelector>Select Relation</UIOneNodePathSelector>
+        <UIOneNodePathSelector>Pasirinkite ryšį</UIOneNodePathSelector>
       </label>
     </tab>
     <tab>
       <label>
-        <UIRelationsAddedList>Relation List</UIRelationsAddedList>
+        <UIRelationsAddedList>Ryšių sąrašas</UIRelationsAddedList>
       </label>
     </tab>
   </UIRelationManager>
   <UIRelationsAddedList>
     <header>
-      <path>Relations</path>
-      <action>Actions</action>
+      <path>Ryšiai</path>
+      <action>Veiksmai</action>
     </header>
     <action>
       <title>
-        <Delete>Delete</Delete>
+        <Delete>Ištrinti</Delete>
       </title>
     </action>
     <msg>
@@ -1672,7 +1672,7 @@
     <title>Add New Document</title>
     <action>
       <Save>#{word.save}</Save>
-      <SaveAndClose>Save &amp; Close</SaveAndClose>
+      <SaveAndClose>Išsaugoti ir uždaryti</SaveAndClose>
       <ChangeType>Change Content Type</ChangeType>
       <Fullscreen>Fullscreen</Fullscreen>
       <Cancel>#{word.cancel}</Cancel>
@@ -1766,7 +1766,7 @@
       <Close>#{word.close}</Close>
       <View>View</View>
       <Edit>Redaguoti</Edit>
-      <Delete>Delete</Delete>
+      <Delete>Ištrinti</Delete>
     </action>
   </UIActionList>
   <UIActionForm>
@@ -1842,17 +1842,17 @@
   -->
   <UIWatchDocumentForm>
     <action>
-      <Watch>Watch</Watch>
+      <Watch>Stebėti</Watch>
       <Cancel>#{word.cancel}</Cancel>
       <Continue>Continue</Continue>
       <Unwatch>Unwatch</Unwatch>
     </action>
     <label>
-      <notificationType>Notification Type:</notificationType>
+      <notificationType>Pranešimo tipas:</notificationType>
     </label>
     <msg>
       <not-support>This notification type is not supported. Please select another type.</not-support>
-      <watching-successfully>You are watching this document.</watching-successfully>
+      <watching-successfully>Jūs stebite šį dokumentą.</watching-successfully>
       <unwatching-successfully>You have left the watchers list successfully.</unwatching-successfully>
       <node-iswatching>This document is watched.</node-iswatching>
     </msg>
@@ -1864,8 +1864,8 @@
   -->
   <UITaggingForm>
     <label>
-      <names>Tag Names:</names>
-      <linked>Linked Tags:</linked>
+      <names>Žymos pavadinimai:</names>
+      <linked>Susietos žymės:</linked>
       <tagSet>UITaggingForm</tagSet>
     </label>
     <action>
@@ -1881,7 +1881,7 @@
       <path-not-found>This tag has been deleted or changed. Please click on the Refresh button.</path-not-found>
     </msg>
     <introduction>
-      <tagName>Separate multiple tags by commas ","</tagName>
+      <tagName>Kelias žymes atskirti kableliu ","</tagName>
     </introduction>
   </UITaggingForm>
 
@@ -1908,7 +1908,7 @@
   </UIViewMetadataForm>
   <metadataForm>
     <title>
-      <UIViewMetadataForm>Add/Edit Properties</UIViewMetadataForm>
+      <UIViewMetadataForm>Pridėti/redaguoti ypatybes</UIViewMetadataForm>
     </title>
   </metadataForm>
   <UIViewMetadataTemplate>
@@ -1981,9 +1981,9 @@
       <published>Published</published>
       <non-published>Unpublished</non-published>
       <public>Viešas</public>
-      <private>Private</private>
+      <private>Privatus</private>
       <state>State</state>
-      <visibility>Visibility</visibility>
+      <visibility>Matomumas</visibility>
       <nodeName>Node Name:</nodeName>
       <lifecycleName>Lifecycle Name</lifecycleName>
       <stateName>State Name</stateName>
@@ -2001,7 +2001,7 @@
   -->
   <UIWorkspaceList>
     <label>
-      <workspaceName>Workspace:</workspaceName>
+      <workspaceName>Darbo sritis:</workspaceName>
       <rootNodeInfo>Root Path:</rootNodeInfo>
       <rootPath>Root Path:</rootPath>
     </label>
@@ -2038,7 +2038,7 @@
   </RepeatIntervalValidator>
   <UIPermissionSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>Pasirinkti grupę</selectGroup>
       <selectUser>Select User</selectUser>
       <selectMembership>Select Membership</selectMembership>
     </label>
@@ -2077,12 +2077,12 @@
   -->
   <UIPublicationLogList>
     <header>
-      <date>Date</date>
+      <date>Data</date>
       <newState>New State</newState>
-      <user>User</user>
+      <user>Vartotojas</user>
       <description>Aprašymas</description>
       <version>Version</version>
-      <visibility>Visibility</visibility>
+      <visibility>Matomumas</visibility>
     </header>
     <action>
       <Close>#{word.close}</Close>
@@ -2108,18 +2108,18 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <RemoveThumbnail>Remove Thumbnail</RemoveThumbnail>
+      <RemoveThumbnail>Pašalinti miniatiūrą</RemoveThumbnail>
     </action>
     <label>
       <mediumSize>Thumbnail Image</mediumSize>
-      <SelectFile>Choose Thumbnail Image</SelectFile>
+      <SelectFile>Pasirinkti miniatiūros paveikslėlį</SelectFile>
     </label>
     <msg>
       <mimetype-incorrect>Incorrect file type. Thumbnails can only be created from .JPG, .PNG or .GIF files.</mimetype-incorrect>
       <access-denied>Access denied. You do not have permission to add a thumbnail to this node.</access-denied>
       <confirm-delete>Are you sure you want to remove this thumbnail?</confirm-delete>
       <is-checked-in>This node is checked in. Please check out before performing any action.</is-checked-in>
-      <fileName-error>Please select a file to upload.</fileName-error>
+      <fileName-error>Pasirinkite failą, kurį norite įkelti.</fileName-error>
     </msg>
     <title>
       <remove-thumbnail>Remove this Thumbnail</remove-thumbnail>
@@ -2158,7 +2158,7 @@
   -->
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>Pasirinkti grupę</selectGroup>
       <selectUser>Select User</selectUser>
       <selectMembership>Select Membership</selectMembership>
     </label>
@@ -2318,7 +2318,7 @@
 
   <ECMContextMenu>
     <event>
-      <AddSymLink>Add Symlink</AddSymLink>
+      <AddSymLink>Pridėti nuorodą</AddSymLink>
       <AddLocalizationLink>Add Translation</AddLocalizationLink>
     </event>
   </ECMContextMenu>
@@ -2403,7 +2403,7 @@
   <UIConfirmMessage>
     <label>
       <Close>#{word.cancel}</Close>
-      <OK>Delete</OK>
+      <OK>Ištrinti</OK>
       <ReplaceData>Replace Data</ReplaceData>
       <Back>Back to Rename</Back>
       <Keepfile>Keep both files</Keepfile>
@@ -2489,7 +2489,7 @@
     <obtion>
       <Admin>Admin</Admin>
       <Info>Info</Info>
-      <Actions>Actions</Actions>
+      <Actions>Veiksmai</Actions>
       <Collaboration>Collaboration</Collaboration>
       <Search>Ieškoti</Search>
     </obtion>
@@ -2569,13 +2569,13 @@
 
   <Comments>
     <tooltip>
-      <remove-comment>Remove this comment</remove-comment>
-      <edit-comment>Edit this comment</edit-comment>
+      <remove-comment>Pašalinti šį komentarą</remove-comment>
+      <edit-comment>Redaguoti šį komentarą</edit-comment>
     </tooltip>
   </Comments>
   <UIDocumentInfo>
     <msg>
-      <confirm-deletecomment>Are you sure you want to delete this comment?</confirm-deletecomment>
+      <confirm-deletecomment>Ar tikrai norite ištrinti šį komentarą?</confirm-deletecomment>
     </msg>
   </UIDocumentInfo>
 
@@ -2612,10 +2612,10 @@
   <UIAllItems>
     <label>
       <OwnedByMe>Owned by me</OwnedByMe>
-      <Favourites>Favorites</Favourites>
-      <Hidden>Hidden</Hidden>
+      <Favourites>Mėgstamiausi</Favourites>
+      <Hidden>Paslėptas</Hidden>
       <Trash>Trash</Trash>
-      <Configuration>Set Up Preferences</Configuration>
+      <Configuration>Nuostatos</Configuration>
     </label>
     <title>
       <allItems>Visi elementai</allItems>
@@ -2624,11 +2624,11 @@
 
   <UIPreferencesForm>
       <label>
-          <Alphabetic>Alphabetical</Alphabetic>
-          <Type>Type</Type>
-          <CreatedDate>Created Date</CreatedDate>
+          <Alphabetic>Abėcėlę</Alphabetic>
+          <Type>Tipas</Type>
+          <CreatedDate>Sukūrimo data</CreatedDate>
           <ModifiedDate>Modified Date</ModifiedDate>
-          <Ascending>Ascending</Ascending>
+          <Ascending>Didėjančią tvarką</Ascending>
           <Descending>Descending</Descending>
       </label>
   </UIPreferencesForm>
@@ -2640,23 +2640,23 @@
   </UISavedSearches>
   <DocumentType>
     <label>
-       <Images>Image</Images>
+       <Images>Paveikslėlis</Images>
        <Video>Video</Video>
-       <Music>Music</Music>
-       <Documents>Document</Documents>
+       <Music>Muzika</Music>
+       <Documents>Dokumentas</Documents>
        <Content>Turinys</Content>
     </label>
   </DocumentType>
 
   <UIDocumentFilterForm>
     <label>
-      <Images>Image</Images>
+      <Images>Paveikslėlis</Images>
       <Video>Video</Video>
-      <Music>Music</Music>
-      <Documents>Document</Documents>
+      <Music>Muzika</Music>
+      <Documents>Dokumentas</Documents>
       <Content>Turinys</Content>
     </label>
-    <title>Set Up Filter Preferences</title>
+    <title>Nustatyti filtro pirmenybes</title>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
@@ -2665,8 +2665,8 @@
 
   <UIAllItemsByType>
     <label>
-    <ByType>Filter by Type</ByType>
-      <DocumentFilterConfiguration>Set Up Filter Preferences</DocumentFilterConfiguration>
+    <ByType>Filtruoti pagal tipą</ByType>
+      <DocumentFilterConfiguration>Nustatyti filtro nuostatas</DocumentFilterConfiguration>
     </label>
     <title>
       <ShowVideo>Rodyti visus video failus</ShowVideo>
@@ -2689,15 +2689,15 @@
   </ECMContextMenu>
   <UIPopupWindow>
     <title>
-      <UIDocumentFilterForm>Filter Documents Type</UIDocumentFilterForm>
+      <UIDocumentFilterForm>Filtruoti dokumentų tipą</UIDocumentFilterForm>
     </title>
   </UIPopupWindow>
 
   <UIAllItemsPreferenceForm>
     <label>
-      <showOwnedByUser>Owned by me</showOwnedByUser>
-      <showFavourites>Favorites</showFavourites>
-      <showHiddens>Hidden</showHiddens>
+      <showOwnedByUser>Priklausantys man</showOwnedByUser>
+      <showFavourites>Mėgstamiausi</showFavourites>
+      <showHiddens>Paslėptas</showHiddens>
       <showTrash>Trash</showTrash>
     </label>
     <action>
@@ -2734,7 +2734,7 @@
    <UITaggingForm>
     <label>
       <Public>Viešas</Public>
-      <Private>Private</Private>
+      <Private>Privatus</Private>
       <tagScopes>Tag Scopes</tagScopes>
     </label>
    </UITaggingForm>
@@ -2749,7 +2749,7 @@
 
   <UIEditingTagsForm>
     <header>
-      <name>Name</name>
+      <name>Vardas</name>
       <relatedDocuments>Related Documents</relatedDocuments>
       <action>Veiksmas</action>
     </header>
@@ -2757,7 +2757,7 @@
       <title>
         <EditTag>Edit Tag</EditTag>
         <RemoveTag>Remove Tag</RemoveTag>
-        <AddTag>Add Tag</AddTag>
+        <AddTag>Pridėti žymę</AddTag>
       </title>
     </action>
     <msg>
@@ -2785,7 +2785,7 @@
 
   <TagPopup>
     <title>
-      <UITagForm>Tag</UITagForm>
+      <UITagForm>Žymė</UITagForm>
     </title>
   </TagPopup>
 
@@ -2808,7 +2808,7 @@
 
   <UIPopupWindow>
     <title>
-      <UITaggingFormContainer>Tag Manager</UITaggingFormContainer>
+      <UITaggingFormContainer>Žymos valdymas</UITaggingFormContainer>
     </title>
   </UIPopupWindow>
 
@@ -2841,7 +2841,7 @@
 
   <UIPreferencesForm>
       <label>
-            <queryType>Query Type:</queryType>
+            <queryType>Užklausos tipas:</queryType>
             <SQL>SQL</SQL>
             <XPATH>XPATH</XPATH>
       </label>
@@ -2918,8 +2918,8 @@
     </button>
     <revisions>
       <version>Revisions</version>
-      <date>Date</date>
-      <author>Author</author>
+      <date>Data</date>
+      <author>Autorius</author>
       <status>Status</status>
       <action>Veiksmas</action>
       <label>Revision</label>
@@ -2936,8 +2936,8 @@
       <unpublished>Unpublished</unpublished>
       <enrolled>Enrolled</enrolled>
       <draft>Draft</draft>
-      <pending>Pending</pending>
-      <approved>Approved</approved>
+      <pending>Laukiama</pending>
+      <approved>Patvirtinta</approved>
       <inreview>In Review</inreview>
       <staged>Staged</staged>
       <published>Published</published>
@@ -2945,11 +2945,11 @@
     </status>
     <scheduled>
       <title>Scheduled</title>
-      <from>From</from>
+      <from>Nuo</from>
       <to>To</to>
     </scheduled>
     <title>
-      <preview>Preview</preview>
+      <preview>Peržiūra</preview>
       <restore>Restore</restore>
     </title>
     <msg>
@@ -2959,7 +2959,7 @@
   </UIPublicationPanel>
   <UIPublicationHistory>
     <header>
-      <date>Date</date>
+      <date>Data</date>
       <versionName>Revision Name</versionName>
       <currentState>Current State</currentState>
       <user>Author</user>
@@ -3030,7 +3030,7 @@
      <ShowAdvance>Show Advanced</ShowAdvance>
     </action>
     <label>
-    <Advance>Advanced</Advance>
+    <Advance>Papildomi</Advance>
     </label>
   </UIPreferencesForm>
 
@@ -3144,13 +3144,13 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>Name</name>
-      <date>Date</date>
-      <size>Size</size>
-      <sortBy>Sort by:</sortBy>
+      <name>Vardas</name>
+      <date>Data</date>
+      <size>Dydis</size>
+      <sortBy>Rūšiuoti pagal:</sortBy>
       <filesAreSelected>Files are selected.</filesAreSelected>
       <ClearSelection>Clear selection</ClearSelection>
-      <more>More</more>
+      <more>Daugiau</more>
     </label>
   </FileView>
   <UIPropertyForm>

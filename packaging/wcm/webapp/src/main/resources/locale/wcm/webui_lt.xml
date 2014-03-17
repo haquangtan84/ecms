@@ -82,7 +82,7 @@
     <title>
       <UIContentBrowsePanelOne>Content Browser</UIContentBrowsePanelOne>
       <UIContentBrowsePanelMulti>Content Browser</UIContentBrowsePanelMulti>
-      <UIContentBrowsePanelFolder>Folder Browser</UIContentBrowsePanelFolder>
+      <UIContentBrowsePanelFolder>Aplankų naršyklė</UIContentBrowsePanelFolder>
       <UIContentSearchForm>Content Search Form</UIContentSearchForm>
       <UIContentSearchResult>Paieškos rezultatas</UIContentSearchResult>
       <UIContentViewer>Preview Content</UIContentViewer>
