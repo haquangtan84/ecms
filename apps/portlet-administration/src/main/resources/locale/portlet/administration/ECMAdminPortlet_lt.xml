@@ -796,7 +796,7 @@
 <UIInterceptorScriptContainer>Perėmėjai</UIInterceptorScriptContainer>
 
 <nodeTypeDefinition>Node Type</nodeTypeDefinition>
-      <propertyDefinition>Property</propertyDefinition>
+      <propertyDefinition>Ypatybė</propertyDefinition>
       <childNodeDefinition>Child Node</childNodeDefinition>
       <SuperTypeTab>Super Types</SuperTypeTab>
       <DefaultTypeTab>Default Primary</DefaultTypeTab>

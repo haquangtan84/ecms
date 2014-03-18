@@ -180,7 +180,7 @@
       <Location>Svetainės pavadinimas</Location>
       <SearchByName>Paieška pagal vardą</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
-      <Property>Property</Property>
+      <Property>Ypatybė</Property>
       <Contain>Contain</Contain>
       <FromDate>From Date</FromDate>
       <ToDate>To Date</ToDate>
@@ -222,7 +222,7 @@
     </action>
     <label>
       <metadataType>Metadata Type</metadataType>
-      <property_select>Property</property_select>
+      <property_select>Ypatybė</property_select>
     </label>
   </UIContentPropertySelector>
 
