@@ -47,7 +47,7 @@
     <msg>
       <not-support>Jūs negalite balsuoti už šio dokumento tipą.</not-support>
       <not-checkedout>You must check out the node before voting.</not-checkedout>
-      <vote-restriction>You cannot vote more than one time.</vote-restriction>
+      <vote-restriction>Jūs negalite balsuoti daugiau nei vieną kartą.</vote-restriction>
     </msg>
   </UIVoteForm>
  
@@ -60,8 +60,8 @@
     <msg>
       <refresh-session-success>Sesija buvo sėkmingai atnaujinta.</refresh-session-success>
       <no-node-history>Jūs esate šakniniame mazge.</no-node-history>
-      <save-session-success>All changes have been saved.</save-session-success>
-      <target-path-not-found>You cannot access this node, either because it doesn't exist anymore or because you do not have the right to access it.</target-path-not-found>
+      <save-session-success>Visi pakeitimai išsaugoti.</save-session-success>
+      <target-path-not-found>Negalite prieiti prie šio mazgo, nes jis nebeegzistuoja arba neturite priėjimo teisės.</target-path-not-found>
     </msg>
   </UIJCRExplorer>
   <!--
@@ -90,13 +90,13 @@
   -->
   <UIViewBar>
     <label>
-      <driveWorkspace>Drive Workspace:</driveWorkspace>
-      <backToJCR>Back to JCR Main Drives</backToJCR>
+      <driveWorkspace>Disko darbo sritis:</driveWorkspace>
+      <backToJCR>Atgal į JCR pagrindinius diskus</backToJCR>
       <setUpBrowser>Nustatyti jūsų naršymo pasirinkimus</setUpBrowser>
       <refesh>Atnaujinti</refesh>
-      <currentDrive>Current Drive</currentDrive>
-      <selectView>Select View</selectView>
-      <showSideBar>Show Sidebar</showSideBar>
+      <currentDrive>Esamas diskas</currentDrive>
+      <selectView>Pasirinkti rodymą</selectView>
+      <showSideBar>Rodyti šoninę juostą</showSideBar>
       <more>Daugiau</more>
       <backTo>Atgal</backTo>
     </label>
@@ -114,9 +114,9 @@
       <GeneralDrives>Bendrieji diskai</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There is no view available according to your access permissions in drive '{0}'.</no-view-found>
+      <no-view-found>Nėra jokio rodymo pagal jūsų prieigos teises diske '{0}'.</no-view-found>
       <access-denied>Prieiga uždrausta. Jūs galite neturėti teisių darbo srities diske '{0}'.</access-denied>
-      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <workspace-not-exist>Programa"{0}" buvo išsaugota vienoje neatpažintoje darbo srityje. Prašome sukonfigūruoti šį diską.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -126,10 +126,10 @@
   #############################################################################
   -->
   <UITreeExplorer>
-    <title>Explorer</title>
+    <title>Naršyklė</title>
     <label>
-      <Root>Root</Root>
-      <webDavView>Open in MS Office</webDavView>
+      <Root>Šaknis</Root>
+      <webDavView>Atidaryti su MS Office</webDavView>
     </label>
     <msg>
       <path-not-found>Šis elementas buvo ištrintas arba pakeistas. Spustelėkite mygtuką atnaujinti.</path-not-found>
@@ -142,10 +142,10 @@
   -->
   <UIViewRelationList>
     <label>
-      <languages-list>Translations</languages-list>
-      <relation-list>Relations</relation-list>
+      <languages-list>Vertimai</languages-list>
+      <relation-list>Ryšiai</relation-list>
       <references-list>Nuorodos</references-list>
-      <no-related-document>No Related Document</no-related-document>
+      <no-related-document>Nėra atitinkamo dokumento</no-related-document>
       <related-document>Susiję dokumentai</related-document>
     </label>
   </UIViewRelationList>
@@ -155,7 +155,7 @@
   #########################################################################################
   -->
   <UIPreferencesForm>
-    <title>Set up your browsing preferences</title>
+    <title>Nustatyti jūsų naršymo nuostatas</title>
     <label>
       <enableStructure>Įgalinti DMS struktūrą:</enableStructure>
       <showSideBar>Rodyti šoninę juostą:</showSideBar>
@@ -164,7 +164,7 @@
       <showRefDocuments>Rodyti nurodytus dokumentus:</showRefDocuments>
       <enableDragAndDrop>Įgalinti „Vilkti ir Mesti”:</enableDragAndDrop>
       <sortBy>Rūšiuoti pagal:</sortBy>
-      <order>Order by:</order>
+      <order>Rūšiuoti pagal:</order>
       <nodesPerPage>Mazgų skaičius puslapyje:</nodesPerPage>
     </label>
     <action>
@@ -193,7 +193,7 @@
     <title>Pervadinti</title>
     <label>
       <nameField>Name</nameField>
-      <titleField>Title</titleField>
+      <titleField>Pavadinimas</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -201,7 +201,7 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>Node '{0}' was renamed to '{1}' successfully.</rename-successfull>
+      <rename-successfull>Mazgas '{0}' buvo sėkmingai pervadintas į '{1}'.</rename-successfull>
       <rename-denied>Access denied. You cannot rename this node.</rename-denied>
       <fileName-invalid>The new name contains some invalid characters.</fileName-invalid>
       <newName-same-oldName>The new name already exists. Please check again.</newName-same-oldName>
@@ -223,14 +223,14 @@
       <UINodeTypeInfo>Node Type Information</UINodeTypeInfo>
       <UIVersionInfo>Versijos informacija</UIVersionInfo>
       <UIActivateVersion>Aktyvuoti versiją</UIActivateVersion>
-      <UIAuditingInfo>Auditing Information</UIAuditingInfo>
+      <UIAuditingInfo>Audito informacija</UIAuditingInfo>
       <UIActivateAuditing>Aktyvuoti auditą</UIActivateAuditing>
       <UIPermissionManager>Teisių valdymas</UIPermissionManager>
       <UIPropertiesManager>Ypatybių valdymas</UIPropertiesManager>
-      <UIECMSearch>Advanced Search</UIECMSearch>
-      <UISavedQuery>Saved Queries List</UISavedQuery>
+      <UIECMSearch>Išplėstinė paieška</UIECMSearch>
+      <UISavedQuery>Išsaugotų užklausų sąrašas</UISavedQuery>
       <UIWatchDocumentForm>Stebėti dokumentą</UIWatchDocumentForm>
-      <UIActionManager>Manage Actions</UIActionManager>
+      <UIActionManager>Valdyti veiksmus</UIActionManager>
       <UIDocumentForm>Redaguoti dokumentą</UIDocumentForm>
       <UIDocumentFormController>Pridėti naują dokumentą</UIDocumentFormController>
       <EditFormController>Redaguoti dokumentą</EditFormController>
@@ -244,14 +244,14 @@
       <UIPublicationManager>Valdyti paskelbimą</UIPublicationManager>
       <UIConfirmMessage>Ištrinti ?</UIConfirmMessage>
       <UIDeleteFileConfirmMessage>Ištrinti failą ?</UIDeleteFileConfirmMessage>
-      <UIDeleteFolderConfirmMessage>Delete Folder ?</UIDeleteFolderConfirmMessage>
-      <UIDeleteItemsConfirmMessage>Delete Items ?</UIDeleteItemsConfirmMessage>
-      <UIRestoreConfirmMessage>Confirm Restore</UIRestoreConfirmMessage>
+      <UIDeleteFolderConfirmMessage>Ištrinti dokumentą ?</UIDeleteFolderConfirmMessage>
+      <UIDeleteItemsConfirmMessage>Ištrinti elementus ?</UIDeleteItemsConfirmMessage>
+      <UIRestoreConfirmMessage>Patvirtinti atkūrimą</UIRestoreConfirmMessage>
       <UIActivePublication>Enroll to Publication Lifecycle</UIActivePublication>
-      <UITaggingForm>Tag Document</UITaggingForm>
+      <UITaggingForm>Žymėti dokumentą</UITaggingForm>
       <UIThumbnailForm>Pridėti miniatiūrą</UIThumbnailForm>
       <UIAllItemsPreferenceForm>Pradiniai nustatymai</UIAllItemsPreferenceForm>
-      <UISelectRestorePath>Select Restore Path</UISelectRestorePath>
+      <UISelectRestorePath>Pasirinkite atkūrimo kelią</UISelectRestorePath>
       <UISEOForm>Valdyti SEO</UISEOForm>
       <UISEOToolbarForm>Valdyti SEO</UISEOToolbarForm>
     </title>
@@ -266,10 +266,10 @@
   #########################################################################################
   -->
   <UIResourceForm>
-    <title>Edit File Content</title>
+    <title>Redaguoti failo turinį</title>
     <label>
       <name>Name</name>
-      <textToModify>Text to modify</textToModify>
+      <textToModify>Tekstas keitimui</textToModify>
       <fileToUpload>Upload new content for that document (must be the same mime-type)</fileToUpload>
     </label>
   </UIResourceForm>
@@ -426,7 +426,7 @@
       <constraint-violation>The current node does not allow you to add the node type '{0}'.</constraint-violation>
       <repository-exception>An unexpected error occurred. Please contact your administrator for more details.</repository-exception>
       <repository-exception-permission>You do not have permission to add a new folder to this node.</repository-exception-permission>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <numberformat-exception>Jūs negalite išsaugoti šio dokumento. Pavadinimas turi būti skaitinio formato.</numberformat-exception>
       <!--DMS 2.4.x; ECM-3553-->
       <not-allow-sameNameSibling>You cannot save the folder. This node does not accept two nodes with the same name.</not-allow-sameNameSibling>
       <ntFolder-not-avaiable>You must select a custom type of folder</ntFolder-not-avaiable>
@@ -647,7 +647,7 @@
       <UIMultiLanguageForm>View Language</UIMultiLanguageForm>
       <UIAddLanguageContainer>Pridėti kalbą</UIAddLanguageContainer>
       <UINonPublishedForm>State</UINonPublishedForm>
-      <UIPublishedForm>State</UIPublishedForm>
+      <UIPublishedForm>Būsena</UIPublishedForm>
       <UIPublicationLogList>History</UIPublicationLogList>
       <UIDocumentWithTree>File View</UIDocumentWithTree>
       <UIDocumentInfo>Dokumento rodymas</UIDocumentInfo>
@@ -1791,7 +1791,7 @@
     <title>Add/Edit Action</title>
     <validator>
       <validator>Validator</validator>
-      <destPath>With Path</destPath>
+      <destPath>Su keliu</destPath>
     </validator>
   </UIActionForm>
   <UIActionTypeForm>
@@ -1808,8 +1808,8 @@
   </PopupComponent>
   <EditFormAction>
     <validator>
-      <validator>Validator</validator>
-      <destPath>With Path</destPath>
+      <validator>Validatorius</validator>
+      <destPath>Su keliu</destPath>
     </validator>
     <title>Veiksmo forma</title>
   </EditFormAction>
@@ -2265,7 +2265,7 @@
       <fileName-error>Failo pavadinimas yra klaidingas.</fileName-error>
       <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
       <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <numberformat-exception>Jūs negalite išsaugoti šio dokumento. Pavadinimas turi būti skaitinio formato.</numberformat-exception>
       <path-node-invalid>Please enter the path node.</path-node-invalid>
       <path-node-not-allowed>Šis pavadinimas neleidžiamas.</path-node-not-allowed>
       <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
