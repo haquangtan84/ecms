@@ -13,8 +13,8 @@
       <comment>crwdns6421852:0crwdne6421852:0</comment>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6421853:0{word.save}crwdne6421853:0</Save>
+      <Cancel>crwdns6421854:0{word.cancel}crwdne6421854:0</Cancel>
     </action>
     <msg>
       <not-support>crwdns6421855:0crwdne6421855:0</not-support>
@@ -79,7 +79,7 @@
       <SavedSearches>crwdns6421891:0crwdne6421891:0</SavedSearches>
     </label>
     <title>
-      <Control>Control Sidebar</Control>
+      <Control>crwdns6421892:0crwdne6421892:0</Control>
       <Close>crwdns6421893:0crwdne6421893:0</Close>
     </title>
   </UISideBar>
@@ -168,8 +168,8 @@
       <nodesPerPage>crwdns6421932:0crwdne6421932:0</nodesPerPage>
     </label>
     <action>
-      <Back>#{word.close}</Back>
-      <Save>#{word.save}</Save>
+      <Back>crwdns6421933:0{word.close}crwdne6421933:0</Back>
+      <Save>crwdns6421934:0{word.save}crwdne6421934:0</Save>
     </action>
   </UIPreferencesForm>
   <!--
@@ -180,8 +180,8 @@
   <UIAllItemsPreferenceForm>
     <title>crwdns6421935:0crwdne6421935:0</title>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
-      <Save>#{word.save}</Save>
+      <Cancel>crwdns6421936:0{word.cancel}crwdne6421936:0</Cancel>
+      <Save>crwdns6421937:0{word.save}crwdne6421937:0</Save>
     </action>
   </UIAllItemsPreferenceForm>
   <!--
@@ -196,9 +196,9 @@
       <titleField>crwdns6421940:0crwdne6421940:0</titleField>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
-      <Save>#{word.save}</Save>
-      <Back>#{word.back}</Back>
+      <Cancel>crwdns6421941:0{word.cancel}crwdne6421941:0</Cancel>
+      <Save>crwdns6421942:0{word.save}crwdne6421942:0</Save>
+      <Back>crwdns6421943:0{word.back}crwdne6421943:0</Back>
     </action>
     <msg>
       <rename-successfull>crwdns6421944:0{0}crwdnd6421944:0{1}crwdne6421944:0</rename-successfull>
@@ -409,7 +409,7 @@
   -->
   <UIFolderForm>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422116:0{word.cancel}crwdne6422116:0</Cancel>
       <Save>crwdns6422117:0crwdne6422117:0</Save>
     </action>
     <label>
@@ -520,7 +520,7 @@
       <Rename>crwdns6422185:0crwdne6422185:0</Rename>
       <Cut>crwdns6422186:0crwdne6422186:0</Cut>
       <Copy>crwdns6422187:0crwdne6422187:0</Copy>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700511:0{word.save}crwdne6700511:0</Save>
       <RemoveNode>crwdns6422189:0crwdne6422189:0</RemoveNode>
       <Checkin>crwdns6422190:0crwdne6422190:0</Checkin>
       <Checkout>crwdns6422191:0crwdne6422191:0</Checkout>
@@ -570,7 +570,7 @@
       <Copy>crwdns6422214:0crwdne6422214:0</Copy>
       <Rename>crwdns6422215:0crwdne6422215:0</Rename>
       <Delete>crwdns6422216:0crwdne6422216:0</Delete>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700512:0{word.save}crwdne6700512:0</Save>
       <Cut>crwdns6422218:0crwdne6422218:0</Cut>
       <Paste>crwdns6422219:0crwdne6422219:0</Paste>
       <CheckOut>crwdns6422220:0crwdne6422220:0</CheckOut>
@@ -609,7 +609,7 @@
       <path>crwdns6422261:0crwdne6422261:0</path>
     </header>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700513:0{word.close}crwdne6700513:0</Close>
     </action>
   </UIReferencesList>
   <!--
@@ -619,7 +619,7 @@
   -->
   <UITabPane>
     <title>
-      <UIPublishingPanel>Publication Pane</UIPublishingPanel>
+      <UIPublishingPanel>crwdns6422263:0crwdne6422263:0</UIPublishingPanel>
       <UIPublicationPanel>crwdns6422264:0crwdne6422264:0</UIPublicationPanel>
       <UIPublicationSchedule>crwdns6422265:0crwdne6422265:0</UIPublicationSchedule>
       <UIPublicationPagesContainer>crwdns6422266:0crwdne6422266:0</UIPublicationPagesContainer>
@@ -653,8 +653,8 @@
       <UIDocumentInfo>crwdns6422293:0crwdne6422293:0</UIDocumentInfo>
       <UICategoriesSelectPanel>crwdns6422294:0crwdne6422294:0</UICategoriesSelectPanel>
       <UISelectedCategoriesGrid>crwdns6422295:0crwdne6422295:0</UISelectedCategoriesGrid>
-      <UIWorkflowPublicationActionForm>Workflow Publication Action</UIWorkflowPublicationActionForm>
-      <UIWorkflowPublicationViewForm>Workflow Publication View</UIWorkflowPublicationViewForm>
+      <UIWorkflowPublicationActionForm>crwdns6422296:0crwdne6422296:0</UIWorkflowPublicationActionForm>
+      <UIWorkflowPublicationViewForm>crwdns6422297:0crwdne6422297:0</UIWorkflowPublicationViewForm>
       <metadatasitemetadata>crwdns6469120:0crwdne6469120:0</metadatasitemetadata>
       <dcelementset>crwdns6438230:0crwdne6438230:0</dcelementset>
     </title>
@@ -669,17 +669,17 @@
     </confirm>
     <header>
       <name>crwdns6422304:0crwdne6422304:0</name>
-      <multiValue>Multi Value</multiValue>
+      <multiValue>crwdns6422305:0crwdne6422305:0</multiValue>
       <value>crwdns6422306:0crwdne6422306:0</value>
       <action>crwdns6422307:0crwdne6422307:0</action>
     </header>
     <label>
-      <binary>Binary Data</binary>
-      <notavailable>N/A</notavailable>
-      <cannotget>Cannot get values</cannotget>
+      <binary>crwdns6422308:0crwdne6422308:0</binary>
+      <notavailable>crwdns6422309:0crwdne6422309:0</notavailable>
+      <cannotget>crwdns6422310:0crwdne6422310:0</cannotget>
     </label>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6422311:0{word.close}crwdne6422311:0</Close>
     </action>
   </UIPropertyTab>
   <!--
@@ -693,33 +693,33 @@
   #############################################################################
   -->
   <UIPropertyForm>
-    <title>Add/Edit Property</title>
+    <title>crwdns6422312:0crwdne6422312:0</title>
     <label>
       <name>crwdns6422313:0crwdne6422313:0</name>
       <type>crwdns6422314:0crwdne6422314:0</type>
-      <value>Value:</value>
+      <value>crwdns6422315:0crwdne6422315:0</value>
       <upload>crwdns6422316:0crwdne6422316:0</upload>
-      <namespace>Namespace:</namespace>
-      <multiple>Multiple:</multiple>
-      <property_select>Add New Property:</property_select>
+      <namespace>crwdns6422317:0crwdne6422317:0</namespace>
+      <multiple>crwdns6422318:0crwdne6422318:0</multiple>
+      <property_select>crwdns6422319:0crwdne6422319:0</property_select>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422320:0{word.save}crwdne6422320:0</Save>
+      <Cancel>crwdns6700514:0{word.cancel}crwdne6700514:0</Cancel>
       <Reset>crwdns6422322:0crwdne6422322:0</Reset>
     </action>
     <msg>
-      <name-invalid>Please enter the property name.</name-invalid>
-      <unable-create>Cannot add properties.</unable-create>
-      <value-invalid>Please enter the value.</value-invalid>
-      <node-checkedin>You must check out this node before adding a property.</node-checkedin>
-      <can-not-add>You cannot add properties to this node. This is only allowed for the node type nt:unstructured.</can-not-add>
-      <propertyName-invalid>The property name must include namespace (e.g. namespace:name).</propertyName-invalid>
-      <propertyName-exist>The property '{0}' already exists.</propertyName-exist>
-      <propertyValu-null>Some values may be null.</propertyValu-null>
-      <valueFormatEx>You cannot assign a multiple-valued value to a single-valued property.</valueFormatEx>
-      <number-format-exception>Your input value has the wrong format.</number-format-exception>
-      <property-not-exist>The property {0} doesn't exist.</property-not-exist>
+      <name-invalid>crwdns6422323:0crwdne6422323:0</name-invalid>
+      <unable-create>crwdns6422324:0crwdne6422324:0</unable-create>
+      <value-invalid>crwdns6422325:0crwdne6422325:0</value-invalid>
+      <node-checkedin>crwdns6422326:0crwdne6422326:0</node-checkedin>
+      <can-not-add>crwdns6422327:0crwdne6422327:0</can-not-add>
+      <propertyName-invalid>crwdns6422328:0crwdne6422328:0</propertyName-invalid>
+      <propertyName-exist>crwdns6422329:0{0}crwdne6422329:0</propertyName-exist>
+      <propertyValu-null>crwdns6422330:0crwdne6422330:0</propertyValu-null>
+      <valueFormatEx>crwdns6422331:0crwdne6422331:0</valueFormatEx>
+      <number-format-exception>crwdns6422332:0crwdne6422332:0</number-format-exception>
+      <property-not-exist>crwdns6422333:0{0}crwdne6422333:0</property-not-exist>
     </msg>
   </UIPropertyForm>
 
@@ -732,28 +732,28 @@
     <action>
       <title>
         <Edit>crwdns6422341:0crwdne6422341:0</Edit>
-        <Delete>Remove Permission</Delete>
+        <Delete>crwdns6422342:0crwdne6422342:0</Delete>
       </title>
     </action>
     <header>
-      <usersOrGroups>User or Group</usersOrGroups>
-      <read>Read</read>
-      <addNode>Modify</addNode>
+      <usersOrGroups>crwdns6422343:0crwdne6422343:0</usersOrGroups>
+      <read>crwdns6422344:0crwdne6422344:0</read>
+      <addNode>crwdns6422345:0crwdne6422345:0</addNode>
       <remove>crwdns6422346:0crwdne6422346:0</remove>
       <action>crwdns6422347:0crwdne6422347:0</action>
     </header>
     <msg>
-      <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
-      <no-permission-tochange>You do not have the right to remove permission.</no-permission-tochange>
-      <no-permission-remove>You cannot remove the owner.</no-permission-remove>
-      <access-denied>Access denied. You cannot remove this permission.</access-denied>
+      <confirm-delete-permission>crwdns6422348:0crwdne6422348:0</confirm-delete-permission>
+      <no-permission-tochange>crwdns6422349:0crwdne6422349:0</no-permission-tochange>
+      <no-permission-remove>crwdns6422350:0crwdne6422350:0</no-permission-remove>
+      <access-denied>crwdns6422351:0crwdne6422351:0</access-denied>
     </msg>
   </UIPermissionInfo>
   <permission>
     <title>
-      <SelectUser>Select User</SelectUser>
-      <SelectMember>Select Membership</SelectMember>
-      <AddAny>Select Everyone</AddAny>
+      <SelectUser>crwdns6422352:0crwdne6422352:0</SelectUser>
+      <SelectMember>crwdns6422353:0crwdne6422353:0</SelectMember>
+      <AddAny>crwdns6422354:0crwdne6422354:0</AddAny>
     </title>
   </permission>
   <!--
@@ -764,38 +764,38 @@
   <SelectUserOrGroup>
     <title>
       <UIGroupSelector>crwdns6422355:0crwdne6422355:0</UIGroupSelector>
-      <UIPermissionSelector>Select Member</UIPermissionSelector>
+      <UIPermissionSelector>crwdns6422356:0crwdne6422356:0</UIPermissionSelector>
       <UIGroupMemberSelector>crwdns6422357:0crwdne6422357:0</UIGroupMemberSelector>
     </title>
   </SelectUserOrGroup>
   <UIGroupSelector>
     <label>
-      <selectGroup>Browse and Select a Group</selectGroup>
+      <selectGroup>crwdns6422358:0crwdne6422358:0</selectGroup>
       <selectUser>crwdns6422359:0crwdne6422359:0</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' is the owner of this node and has full control permission.</not-change-owner>
+      <not-change-owner>crwdns6422360:0{0}crwdne6422360:0</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
     <label>
-      <UIPopupWindow>Select</UIPopupWindow>
-      <permission>UIPermissionForm</permission>
+      <UIPopupWindow>crwdns6422361:0crwdne6422361:0</UIPopupWindow>
+      <permission>crwdns6422362:0crwdne6422362:0</permission>
       <userOrGroup>crwdns6422363:0crwdne6422363:0</userOrGroup>
-      <read>Read Right</read>
-      <add_node>Modify Right</add_node>
-      <remove>Remove Right</remove>
+      <read>crwdns6422364:0crwdne6422364:0</read>
+      <add_node>crwdns6422365:0crwdne6422365:0</add_node>
+      <remove>crwdns6422366:0crwdne6422366:0</remove>
     </label>
-    <title>Add a permission to that node</title>
+    <title>crwdns6422367:0crwdne6422367:0</title>
     <action>
-      <Close>#{word.close}</Close>
-      <Save>#{word.save}</Save>
+      <Close>crwdns6422368:0{word.close}crwdne6422368:0</Close>
+      <Save>crwdns6422369:0{word.save}crwdne6422369:0</Save>
       <Reset>crwdns6422370:0crwdne6422370:0</Reset>
     </action>
     <msg>
-      <checkbox-require>Please select at least one permission.</checkbox-require>
-      <userOrGroup-required>Please select a user or group before saving this permission.</userOrGroup-required>
-      <not-change-permission>You do not have the right to add a permission.</not-change-permission>
+      <checkbox-require>crwdns6422371:0crwdne6422371:0</checkbox-require>
+      <userOrGroup-required>crwdns6422372:0crwdne6422372:0</userOrGroup-required>
+      <not-change-permission>crwdns6422373:0crwdne6422373:0</not-change-permission>
       <access-denied>crwdns6422374:0crwdne6422374:0</access-denied>
     </msg>
   </UIPermissionForm>
@@ -807,31 +807,31 @@
   -->
   <UINodeTypeInfo>
     <label>
-      <node-type>Node Type</node-type>
+      <node-type>crwdns6422409:0crwdne6422409:0</node-type>
       <name>crwdns6422410:0crwdne6422410:0</name>
-      <item>Primary Item Name</item>
-      <super-types>Parent Types</super-types>
-      <mixin>Mixin Node Type</mixin>
-      <orderable-children>Orderable Children</orderable-children>
-      <property-def>Node Property Definition</property-def>
+      <item>crwdns6422411:0crwdne6422411:0</item>
+      <super-types>crwdns6422412:0crwdne6422412:0</super-types>
+      <mixin>crwdns6422413:0crwdne6422413:0</mixin>
+      <orderable-children>crwdns6422414:0crwdne6422414:0</orderable-children>
+      <property-def>crwdns6422415:0crwdne6422415:0</property-def>
       <prop-name>crwdns6422416:0crwdne6422416:0</prop-name>
       <prop-type>crwdns6422417:0crwdne6422417:0</prop-type>
-      <prop-multiple>Mul</prop-multiple>
-      <prop-mandatory>Man</prop-mandatory>
-      <prop-protected>Pr</prop-protected>
-      <prop-auto-create>AC</prop-auto-create>
+      <prop-multiple>crwdns6422418:0crwdne6422418:0</prop-multiple>
+      <prop-mandatory>crwdns6422419:0crwdne6422419:0</prop-mandatory>
+      <prop-protected>crwdns6422420:0crwdne6422420:0</prop-protected>
+      <prop-auto-create>crwdns6422421:0crwdne6422421:0</prop-auto-create>
       <prop-default-values><![CDATA[<span title="Default Values">DV</span>]]></prop-default-values>
       <prop-constraints><![CDATA[<span title="Constraints Values">CV</span>]]></prop-constraints>
-      <node-def>Child Node Definition</node-def>
+      <node-def>crwdns6422424:0crwdne6422424:0</node-def>
       <node-def-name>crwdns6422425:0crwdne6422425:0</node-def-name>
-      <node-def-opv>OPV</node-def-opv>
+      <node-def-opv>crwdns6422426:0crwdne6422426:0</node-def-opv>
       <node-def-ac>crwdns6422427:0crwdne6422427:0</node-def-ac>
-      <node-def-man>MAN</node-def-man>
-      <node-def-pr>PR</node-def-pr>
-      <node-def-dnt>DNT</node-def-dnt>
+      <node-def-man>crwdns6422428:0crwdne6422428:0</node-def-man>
+      <node-def-pr>crwdns6422429:0crwdne6422429:0</node-def-pr>
+      <node-def-dnt>crwdns6422430:0crwdne6422430:0</node-def-dnt>
     </label>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700515:0{word.close}crwdne6700515:0</Close>
     </action>
   </UINodeTypeInfo>
   <!--
@@ -842,21 +842,21 @@
   <UICategoryManagerSearch>
     <tab>
       <label>
-        <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+        <UIOneNodePathSelector>crwdns6422432:0crwdne6422432:0</UIOneNodePathSelector>
       </label>
     </tab>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700516:0{word.close}crwdne6700516:0</Close>
     </action>
   </UICategoryManagerSearch>
   <UIContentNameSearch>
     <label>
-      <keyword>Content Name:</keyword>
-      <location>Search in this location:</location>
+      <keyword>crwdns6422434:0crwdne6422434:0</keyword>
+      <location>crwdns6422435:0crwdne6422435:0</location>
     </label>
     <action>
       <Search>crwdns6422436:0crwdne6422436:0</Search>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422437:0{word.cancel}crwdne6422437:0</Cancel>
     </action>
     <msg>
       <keyword-not-allowed>crwdns6422438:0crwdne6422438:0</keyword-not-allowed>
@@ -864,73 +864,73 @@
   </UIContentNameSearch>
   <UISimpleSearch>
     <action>
-      <MoreConstraints>Show/Hide Constraint Form</MoreConstraints>
+      <MoreConstraints>crwdns6422439:0crwdne6422439:0</MoreConstraints>
       <Search>crwdns6422440:0crwdne6422440:0</Search>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422441:0{word.save}crwdne6422441:0</Save>
+      <Cancel>crwdns6422442:0{word.cancel}crwdne6422442:0</Cancel>
     </action>
     <label>
-      <moreConstraints>UISimpleSearch</moreConstraints>
-      <firstOperator>Operator:</firstOperator>
-      <input>A word or phrase in content:</input>
-      <constraints>More Constraints:</constraints>
-      <nodePath>Current Location:</nodePath>
+      <moreConstraints>crwdns6422443:0crwdne6422443:0</moreConstraints>
+      <firstOperator>crwdns6422444:0crwdne6422444:0</firstOperator>
+      <input>crwdns6422445:0crwdne6422445:0</input>
+      <constraints>crwdns6422446:0crwdne6422446:0</constraints>
+      <nodePath>crwdns6422447:0crwdne6422447:0</nodePath>
     </label>
     <msg>
-      <keyword-null>Please enter your keyword.</keyword-null>
+      <keyword-null>crwdns6422448:0crwdne6422448:0</keyword-null>
       <not-found>crwdns6422449:0crwdne6422449:0</not-found>
       <keyword-not-allow>crwdns6422450:0crwdne6422450:0</keyword-not-allow>
-      <value-null>Please enter your keyword or constraints.</value-null>
-      <value-save-null>Please enter a keyword or constraints before saving this query.</value-save-null>
-      <inputSearch-invalid>There are invalid characters in the search input.</inputSearch-invalid>
-      <query-invalid>The query is invalid. Please check your constraint.</query-invalid>
+      <value-null>crwdns6422451:0crwdne6422451:0</value-null>
+      <value-save-null>crwdns6422452:0crwdne6422452:0</value-save-null>
+      <inputSearch-invalid>crwdns6422453:0crwdne6422453:0</inputSearch-invalid>
+      <query-invalid>crwdns6422454:0crwdne6422454:0</query-invalid>
     </msg>
   </UISimpleSearch>
   <ViewSearch>
     <title>
-      <UIViewSearchResult>View Template</UIViewSearchResult>
+      <UIViewSearchResult>crwdns6422455:0crwdne6422455:0</UIViewSearchResult>
     </title>
   </ViewSearch>
   <UISearchResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
+      <not-support>crwdns6422456:0crwdne6422456:0</not-support>
       <empty>crwdns6422457:0crwdne6422457:0</empty>
-      <access-denied>You cannot open this folder, either because it no longer exists or because you do not have the right to access it.</access-denied>
-      <query-invalid>The query is invalid.</query-invalid>
+      <access-denied>crwdns6422458:0crwdne6422458:0</access-denied>
+      <query-invalid>crwdns6422459:0crwdne6422459:0</query-invalid>
     </msg>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6422460:0{word.name}crwdne6422460:0</name>
       <path>crwdns6422461:0crwdne6422461:0</path>
       <action>crwdns6422462:0crwdne6422462:0</action>
       <shortcutPath>crwdns6422463:0crwdne6422463:0</shortcutPath>
       <type>crwdns6422464:0crwdne6422464:0</type>
       <dateCreated>crwdns6422465:0crwdne6422465:0</dateCreated>
-      <score>Score</score>
+      <score>crwdns6422466:0crwdne6422466:0</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>crwdns6422467:0crwdne6422467:0</typeASC>
+      <typeDESC>crwdns6422468:0crwdne6422468:0</typeDESC>
+      <scoreASC>crwdns6422469:0crwdne6422469:0</scoreASC>
+      <scoreDESC>crwdns6422470:0crwdne6422470:0</scoreDESC>
+      <nameASC>crwdns6422471:0crwdne6422471:0</nameASC>
+      <nameDESC>crwdns6422472:0crwdne6422472:0</nameDESC>
+      <datecreatedASC>crwdns6422473:0crwdne6422473:0</datecreatedASC>
+      <datecreatedDESC>crwdns6422474:0crwdne6422474:0</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this node</View>
-      <OpenFolder>Go to folder</OpenFolder>
+      <View>crwdns6422475:0crwdne6422475:0</View>
+      <OpenFolder>crwdns6422476:0crwdne6422476:0</OpenFolder>
     </tooltip>
   </UISearchResult>
   <UIShowAllOwnedByUserResult>
     <msg>
-      <not-support>There is no View template for this node</not-support>
+      <not-support>crwdns6422477:0crwdne6422477:0</not-support>
       <empty>crwdns6422478:0crwdne6422478:0</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid</query-invalid>
+      <access-denied>crwdns6422479:0crwdne6422479:0</access-denied>
+      <query-invalid>crwdns6422480:0crwdne6422480:0</query-invalid>
     </msg>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6422481:0{word.name}crwdne6422481:0</name>
       <path>crwdns6422482:0crwdne6422482:0</path>
       <action>crwdns6422483:0crwdne6422483:0</action>
       <shortcutPath>crwdns6422484:0crwdne6422484:0</shortcutPath>
@@ -945,23 +945,23 @@
       <scoreDESC>crwdns6422491:0crwdne6422491:0</scoreDESC>
       <nameASC>crwdns6422492:0crwdne6422492:0</nameASC>
       <nameDESC>crwdns6422493:0crwdne6422493:0</nameDESC>
-      <datecreatedASC>Sort by Created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by Created date in descending order</datecreatedDESC>
+      <datecreatedASC>crwdns6422494:0crwdne6422494:0</datecreatedASC>
+      <datecreatedDESC>crwdns6422495:0crwdne6422495:0</datecreatedDESC>
     </title>
     <tooltip>
       <View>crwdns6422496:0crwdne6422496:0</View>
-      <OpenFolder>Go to Folder</OpenFolder>
+      <OpenFolder>crwdns6422497:0crwdne6422497:0</OpenFolder>
     </tooltip>
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
       <not-support>crwdns6422498:0crwdne6422498:0</not-support>
-      <empty>No results found</empty>
+      <empty>crwdns6422499:0crwdne6422499:0</empty>
       <access-denied>crwdns6422500:0crwdne6422500:0</access-denied>
       <query-invalid>crwdns6422501:0crwdne6422501:0</query-invalid>
     </msg>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6422502:0{word.name}crwdne6422502:0</name>
       <path>crwdns6422503:0crwdne6422503:0</path>
       <action>crwdns6422504:0crwdne6422504:0</action>
       <shortcutPath>crwdns6422505:0crwdne6422505:0</shortcutPath>
@@ -980,7 +980,7 @@
       <datecreatedDESC>crwdns6422516:0crwdne6422516:0</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this Node</View>
+      <View>crwdns6422517:0crwdne6422517:0</View>
       <OpenFolder>crwdns6422518:0crwdne6422518:0</OpenFolder>
     </tooltip>
   </UIShowAllFavouriteResult>
@@ -992,14 +992,14 @@
       <query-invalid>crwdns6422522:0crwdne6422522:0</query-invalid>
     </msg>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6422523:0{word.name}crwdne6422523:0</name>
       <path>crwdns6422524:0crwdne6422524:0</path>
       <action>crwdns6422525:0crwdne6422525:0</action>
       <shortcutPath>crwdns6422526:0crwdne6422526:0</shortcutPath>
       <type>crwdns6422527:0crwdne6422527:0</type>
       <dateCreated>crwdns6422528:0crwdne6422528:0</dateCreated>
       <score>crwdns6422529:0crwdne6422529:0</score>
-      <AddRemoveFavourite>Add/Remove to Favorite</AddRemoveFavourite>
+      <AddRemoveFavourite>crwdns6422530:0crwdne6422530:0</AddRemoveFavourite>
     </header>
     <title>
       <typeASC>crwdns6422531:0crwdne6422531:0</typeASC>
@@ -1014,7 +1014,7 @@
     <tooltip>
       <View>crwdns6422539:0crwdne6422539:0</View>
       <OpenFolder>crwdns6422540:0crwdne6422540:0</OpenFolder>
-      <RemoveHiddenAttribute>Remove Hidden Attribute</RemoveHiddenAttribute>
+      <RemoveHiddenAttribute>crwdns6422541:0crwdne6422541:0</RemoveHiddenAttribute>
     </tooltip>
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
@@ -1025,7 +1025,7 @@
       <query-invalid>crwdns6422545:0crwdne6422545:0</query-invalid>
     </msg>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6422546:0{word.name}crwdne6422546:0</name>
       <path>crwdns6422547:0crwdne6422547:0</path>
       <action>crwdns6422548:0crwdne6422548:0</action>
       <shortcutPath>crwdns6422549:0crwdne6422549:0</shortcutPath>
@@ -1046,50 +1046,50 @@
     <tooltip>
       <View>crwdns6422561:0crwdne6422561:0</View>
       <OpenFolder>crwdns6422562:0crwdne6422562:0</OpenFolder>
-      <DeletePermanently>Delete permanently</DeletePermanently>
+      <DeletePermanently>crwdns6422563:0crwdne6422563:0</DeletePermanently>
       <RestoreFromTrash>crwdns6422564:0crwdne6422564:0</RestoreFromTrash>
     </tooltip>
   </UIShowAllTrashResult>
   <UIConstraintsForm>
     <label>
-      <constraints>UIConstraintsForm</constraints>
+      <constraints>crwdns6422565:0crwdne6422565:0</constraints>
       <metadataProperty>crwdns6422566:0crwdne6422566:0</metadataProperty>
-      <operator>Operator</operator>
-      <contains>Contain Value</contains>
-      <notcontains>Not Contain Value</notcontains>
+      <operator>crwdns6422567:0crwdne6422567:0</operator>
+      <contains>crwdns6422568:0crwdne6422568:0</contains>
+      <notcontains>crwdns6422569:0crwdne6422569:0</notcontains>
     </label>
     <action>
       <Add>crwdns6422570:0crwdne6422570:0</Add>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422571:0{word.cancel}crwdne6422571:0</Cancel>
     </action>
     <msg>
-      <properties-required>The Property name is required.</properties-required>
-      <value-required>The Value field is required.</value-required>
-      <date-invalid>The From date must be earlier than the To date.</date-invalid>
-      <fromDate-required>The From date is required.</fromDate-required>
-      <must-choose-one>You have to select at least one type.</must-choose-one>
-      <properties-null>Select properties first, then filter.</properties-null>
-      <exactly-require>You have to fill in the Value exactly before saving this constraint.</exactly-require>
-      <fromDate-invalid>Invalid type in the 'From' field. Please reselect or type correctly.</fromDate-invalid>
-      <toDate-invalid>Invalid type in the 'To' field. Please reselect or type correctly.</toDate-invalid>
+      <properties-required>crwdns6422572:0crwdne6422572:0</properties-required>
+      <value-required>crwdns6422573:0crwdne6422573:0</value-required>
+      <date-invalid>crwdns6422574:0crwdne6422574:0</date-invalid>
+      <fromDate-required>crwdns6422575:0crwdne6422575:0</fromDate-required>
+      <must-choose-one>crwdns6422576:0crwdne6422576:0</must-choose-one>
+      <properties-null>crwdns6422577:0crwdne6422577:0</properties-null>
+      <exactly-require>crwdns6422578:0crwdne6422578:0</exactly-require>
+      <fromDate-invalid>crwdns6422579:0crwdne6422579:0</fromDate-invalid>
+      <toDate-invalid>crwdns6422580:0crwdne6422580:0</toDate-invalid>
     </msg>
     <button>
       <label-Add>crwdns6422581:0crwdne6422581:0</label-Add>
-      <label-Cancel>#{word.cancel}</label-Cancel>
+      <label-Cancel>crwdns6700517:0{word.cancel}crwdne6700517:0</label-Cancel>
     </button>
   </UIConstraintsForm>
   <ConstraintsForm>
     <action>
       <Add>crwdns6718073:0crwdne6718073:0</Add>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6718074:0{word.cancel}crwdne6718074:0</Cancel>
     </action>
   </ConstraintsForm>
   <UIConstraintForm>
     <tooltip>
-      <AddMetadataType>Add Property</AddMetadataType>
-      <AddNodeType>Add Node Type</AddNodeType>
+      <AddMetadataType>crwdns6422583:0crwdne6422583:0</AddMetadataType>
+      <AddNodeType>crwdns6422584:0crwdne6422584:0</AddNodeType>
       <AddCategory>crwdns6422585:0crwdne6422585:0</AddCategory>
-      <FindExactly>Find Exactly</FindExactly>
+      <FindExactly>crwdns6422586:0crwdne6422586:0</FindExactly>
     </tooltip>
     <label>
       <colon>:</colon>
@@ -1128,8 +1128,8 @@
   </SaveQueryPopup>
   <UINodeTypeSelectForm>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
-      <Save>#{word.save}</Save>
+      <Cancel>crwdns6700518:0{word.cancel}crwdne6700518:0</Cancel>
+      <Save>crwdns6700519:0{word.save}crwdne6700519:0</Save>
     </action>
   </UINodeTypeSelectForm>
   <UICompareExactlyForm>
@@ -1142,7 +1142,7 @@
     </title>
     <button>
       <label-Select>crwdns6422612:0crwdne6422612:0</label-Select>
-      <label-Cancel>#{word.cancel}</label-Cancel>
+      <label-Cancel>crwdns6700520:0{word.cancel}crwdne6700520:0</label-Cancel>
     </button>
     <msg>
       <not-result-found>crwdns6422614:0crwdne6422614:0</not-result-found>
@@ -1155,8 +1155,8 @@
       <query>crwdns6422617:0crwdne6422617:0</query>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422618:0{word.save}crwdne6422618:0</Save>
+      <Cancel>crwdns6422619:0{word.cancel}crwdne6422619:0</Cancel>
       <Search>crwdns6422620:0crwdne6422620:0</Search>
     </action>
     <msg>
@@ -1176,8 +1176,8 @@
       <query>crwdns6422629:0crwdne6422629:0</query>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422630:0{word.save}crwdne6422630:0</Save>
+      <Cancel>crwdns6422631:0{word.cancel}crwdne6422631:0</Cancel>
     </action>
   </EditQueryForm>
   <EditSavedQueryForm>
@@ -1190,7 +1190,7 @@
       <metadataType>crwdns6422633:0crwdne6422633:0</metadataType>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422634:0{word.cancel}crwdne6422634:0</Cancel>
       <Add>crwdns6422635:0crwdne6422635:0</Add>
     </action>
   </UIMetadataSelectForm>
@@ -1216,7 +1216,7 @@
     <pLabel>crwdns6422640:0crwdne6422640:0</pLabel>
     <action>
       <Add>crwdns6422641:0crwdne6422641:0</Add>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6700521:0{word.cancel}crwdne6700521:0</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1251,8 +1251,8 @@
       <queryName>crwdns6422654:0crwdne6422654:0</queryName>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422655:0{word.save}crwdne6422655:0</Save>
+      <Cancel>crwdns6422656:0{word.cancel}crwdne6422656:0</Cancel>
     </action>
   </UISaveQueryForm>
   <UISavedQuery>
@@ -1297,7 +1297,7 @@
       <documentView>crwdns6422675:0crwdne6422675:0</documentView>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422676:0{word.cancel}crwdne6422676:0</Cancel>
       <Export>crwdns6422677:0crwdne6422677:0</Export>
     </action>
     <title>crwdns6422678:0crwdne6422678:0</title>
@@ -1340,7 +1340,7 @@
       <invalid-item-state>crwdns6422692:0crwdne6422692:0</invalid-item-state>
     </msg>
     <action>
-      <close>#{word.close}</close>
+      <close>crwdns6700522:0{word.close}crwdne6700522:0</close>
       <close-view>crwdns6422694:0crwdne6422694:0</close-view>
     </action>
   </UIVersionInfo>
@@ -1359,7 +1359,7 @@
       <e_4>crwdns6422698:0crwdne6422698:0</e_4>
       <e_16>crwdns6422699:0crwdne6422699:0</e_16>
       <e_8>crwdns6422700:0crwdne6422700:0</e_8>
-      <e_32>#{word.save}</e_32>
+      <e_32>crwdns6700523:0{word.save}crwdne6700523:0</e_32>
       <e_64>crwdns6422702:0crwdne6422702:0</e_64>
       <e_128>crwdns6422703:0crwdne6422703:0</e_128>
       <e_256>crwdns6422704:0crwdne6422704:0</e_256>
@@ -1398,7 +1398,7 @@
       <note>crwdns6422725:0crwdne6422725:0</note>
       <question>crwdns6422726:0crwdne6422726:0</question>
       <button-active>crwdns6422727:0crwdne6422727:0</button-active>
-      <button-cancel>#{word.cancel}</button-cancel>
+      <button-cancel>crwdns6700524:0{word.cancel}crwdne6700524:0</button-cancel>
     </label>
     <msg>
       <access-denied>crwdns6422729:0crwdne6422729:0</access-denied>
@@ -1416,7 +1416,7 @@
       <action>crwdns6422732:0crwdne6422732:0</action>
     </header>
     <action>
-      <Cancel>#{word.close}</Cancel>
+      <Cancel>crwdns6700525:0{word.close}crwdne6700525:0</Cancel>
     </action>
     <grid>
       <msg>
@@ -1440,7 +1440,7 @@
     </label>
     <action>
       <activate>crwdns6422739:0crwdne6422739:0</activate>
-      <cancel>#{word.cancel}</cancel>
+      <cancel>crwdns6700526:0{word.cancel}crwdne6700526:0</cancel>
     </action>
   </UIActivateAuditing>
   <!--
@@ -1470,7 +1470,7 @@
       <upload>crwdns6422749:0crwdne6422749:0</upload>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422750:0{word.cancel}crwdne6422750:0</Cancel>
       <Import>crwdns6422751:0crwdne6422751:0</Import>
     </action>
     <title>crwdns6422752:0crwdne6422752:0</title>
@@ -1494,8 +1494,8 @@
       <label>crwdns6422760:0crwdne6422760:0</label>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422761:0{word.save}crwdne6422761:0</Save>
+      <Cancel>crwdns6700527:0{word.cancel}crwdne6700527:0</Cancel>
     </action>
     <title>crwdns6422763:0crwdne6422763:0</title>
     <msg>
@@ -1515,7 +1515,7 @@
     </label>
     <action>
       <Remove>crwdns6422768:0crwdne6422768:0</Remove>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422769:0{word.cancel}crwdne6422769:0</Cancel>
     </action>
   </UIRemoveLabelForm>
   <!--
@@ -1550,7 +1550,7 @@
   -->
   <UICategoryManager>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700528:0{word.close}crwdne6700528:0</Close>
     </action>
     <tab>
       <label>
@@ -1595,7 +1595,7 @@
   -->
   <UIRelationManager>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700529:0{word.close}crwdne6700529:0</Close>
     </action>
     <tab>
       <label>
@@ -1631,7 +1631,7 @@
   <UIClipboard>
     <header>
       <path>crwdns6422802:0crwdne6422802:0</path>
-      <command>Cm</command>
+      <command>crwdns6422803:0crwdne6422803:0</command>
       <action>crwdns6422804:0crwdne6422804:0</action>
     </header>
     <label>
@@ -1660,7 +1660,7 @@
       <selectTemplate>crwdns6422809:0crwdne6422809:0</selectTemplate>
       <ThumbnailView>crwdns6422810:0crwdne6422810:0</ThumbnailView>
       <ListView>crwdns6422811:0crwdne6422811:0</ListView>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422812:0{word.cancel}crwdne6422812:0</Cancel>
     </label>
   </UISelectDocumentForm>
   <!--
@@ -1671,12 +1671,12 @@
   <UIDocumentForm>
     <title>crwdns6422813:0crwdne6422813:0</title>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700530:0{word.save}crwdne6700530:0</Save>
       <SaveAndClose>crwdns6422815:0crwdne6422815:0</SaveAndClose>
       <ChangeType>crwdns6422816:0crwdne6422816:0</ChangeType>
       <Fullscreen>crwdns6422817:0crwdne6422817:0</Fullscreen>
-      <Cancel>#{word.cancel}</Cancel>
-      <Close>#{word.close}</Close>
+      <Cancel>crwdns6422818:0{word.cancel}crwdne6422818:0</Cancel>
+      <Close>crwdns6422819:0{word.close}crwdne6422819:0</Close>
     </action>
 <tooltip>
 <FullScreen>crwdns6422820:0crwdne6422820:0</FullScreen>
@@ -1706,7 +1706,7 @@
       </label>
     </tab>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6422831:0{word.close}crwdne6422831:0</Close>
     </action>
   </UIViewDocumentController>
   <!--
@@ -1726,8 +1726,8 @@
       <name>crwdns6422834:0crwdne6422834:0</name>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422835:0{word.save}crwdne6422835:0</Save>
+      <Cancel>crwdns6422836:0{word.cancel}crwdne6422836:0</Cancel>
     </action>
   </UIQuerySaveForm>
   <!--
@@ -1743,12 +1743,12 @@
   </editActionPopup>
   <UIActionViewContainer>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422839:0{word.cancel}crwdne6422839:0</Cancel>
     </action>
   </UIActionViewContainer>
   <UIActionList>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6422840:0{word.name}crwdne6422840:0</name>
       <description>crwdns6422841:0crwdne6422841:0</description>
   <lifecycle>crwdns6422842:0crwdne6422842:0</lifecycle>
   <triggeredaction>crwdns6422843:0crwdne6422843:0</triggeredaction>
@@ -1763,7 +1763,7 @@
       <access-denied>crwdns6422850:0crwdne6422850:0</access-denied>
     </msg>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6422851:0{word.close}crwdne6422851:0</Close>
       <View>crwdns6422852:0crwdne6422852:0</View>
       <Edit>crwdns6422853:0crwdne6422853:0</Edit>
       <Delete>crwdns6422854:0crwdne6422854:0</Delete>
@@ -1771,8 +1771,8 @@
   </UIActionList>
   <UIActionForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Back>#{word.back}</Back>
+      <Save>crwdns6422855:0{word.save}crwdne6422855:0</Save>
+      <Back>crwdns6422856:0{word.back}crwdne6422856:0</Back>
     </action>
     <label>
       <name>crwdns6422857:0crwdne6422857:0</name>
@@ -1843,7 +1843,7 @@
   <UIWatchDocumentForm>
     <action>
       <Watch>crwdns6422886:0crwdne6422886:0</Watch>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6422887:0{word.cancel}crwdne6422887:0</Cancel>
       <Continue>crwdns6422888:0crwdne6422888:0</Continue>
       <Unwatch>crwdns6422889:0crwdne6422889:0</Unwatch>
     </action>
@@ -1866,11 +1866,11 @@
     <label>
       <names>crwdns6422895:0crwdne6422895:0</names>
       <linked>crwdns6422896:0crwdne6422896:0</linked>
-      <tagSet>UITaggingForm</tagSet>
+      <tagSet>crwdns6422897:0crwdne6422897:0</tagSet>
     </label>
     <action>
       <AddTag>crwdns6422898:0crwdne6422898:0</AddTag>
-      <Cancel>#{word.close}</Cancel>
+      <Cancel>crwdns6422899:0{word.close}crwdne6422899:0</Cancel>
     </action>
     <msg>
       <name-exist>crwdns6422900:0{0}crwdne6422900:0</name-exist>
@@ -1902,8 +1902,8 @@
   -->
   <UIViewMetadataForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422922:0{word.save}crwdne6422922:0</Save>
+      <Cancel>crwdns6422923:0{word.cancel}crwdne6422923:0</Cancel>
     </action>
   </UIViewMetadataForm>
   <metadataForm>
@@ -1989,9 +1989,9 @@
       <stateName>crwdns6422947:0crwdne6422947:0</stateName>
     </label>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6710212:0{word.save}crwdne6710212:0</Save>
       <UnsubcriberLifeCycle>crwdns6422949:0crwdne6422949:0</UnsubcriberLifeCycle>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6700531:0{word.cancel}crwdne6700531:0</Cancel>
     </action>
   </UIPublicationForm>
   <!--
@@ -2085,7 +2085,7 @@
       <visibility>crwdns6422976:0crwdne6422976:0</visibility>
     </header>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700532:0{word.close}crwdne6700532:0</Close>
     </action>
   </UIPublicationLogList>
   <!--
@@ -2106,8 +2106,8 @@
   -->
   <UIThumbnailForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6422980:0{word.save}crwdne6422980:0</Save>
+      <Cancel>crwdns6422981:0{word.cancel}crwdne6422981:0</Cancel>
       <RemoveThumbnail>crwdns6422982:0crwdne6422982:0</RemoveThumbnail>
     </action>
     <label>
@@ -2148,7 +2148,7 @@
   -->
   <UICategoriesSelector>
     <action>
-      <close>#{word.close}</close>
+      <close>crwdns6700533:0{word.close}crwdne6700533:0</close>
     </action>
   </UICategoriesSelector>
   <!--
@@ -2179,8 +2179,8 @@
     <title>crwdns6423003:0crwdne6423003:0</title>
     <action>
       <Edit>crwdns6423004:0crwdne6423004:0</Edit>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6710213:0{word.save}crwdne6710213:0</Save>
+      <Cancel>crwdns6700534:0{word.cancel}crwdne6700534:0</Cancel>
     </action>
     <label>
       <uploadFileSizeLimitMB>crwdns6423009:0crwdne6423009:0</uploadFileSizeLimitMB>
@@ -2205,7 +2205,7 @@
   </UIDriveSelector>
   <UIJcrExplorerEditForm>
     <label>
-      <DriveNameInput>UI JCR Explorer Edit Form</DriveNameInput>
+      <DriveNameInput>crwdns6423023:0crwdne6423023:0</DriveNameInput>
     </label>
     <msg>
       <personal-usecase>crwdns6423025:0crwdne6423025:0</personal-usecase>
@@ -2255,8 +2255,8 @@
       <pathNode>crwdns6423036:0crwdne6423036:0</pathNode>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6423037:0{word.save}crwdne6423037:0</Save>
+      <Cancel>crwdns6423038:0{word.cancel}crwdne6423038:0</Cancel>
     </action>
     <msg>
       <addFolder-successful>crwdns6423039:0{0}crwdne6423039:0</addFolder-successful>
@@ -2283,8 +2283,8 @@
       <note>crwdns6423055:0crwdne6423055:0</note>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6423056:0{word.save}crwdne6423056:0</Save>
+      <Cancel>crwdns6423057:0{word.cancel}crwdne6423057:0</Cancel>
       <SelectDocument>crwdns6423058:0crwdne6423058:0</SelectDocument>
     </action>
     <msg>
@@ -2357,7 +2357,7 @@
     <label>
       <taxonomyTree>crwdns6423085:0crwdne6423085:0</taxonomyTree>
       <rootNodePath>crwdns6423086:0crwdne6423086:0</rootNodePath>
-      <rootNodeInfo>UITreeTaxonomyList</rootNodeInfo>
+      <rootNodeInfo>crwdns6423087:0crwdne6423087:0</rootNodeInfo>
     </label>
   </UITreeTaxonomyList>
 
@@ -2386,7 +2386,7 @@
 
   <UISimpleCategoryManager>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700535:0{word.close}crwdne6700535:0</Close>
     </action>
   </UISimpleCategoryManager>
   <UIPopupWindow>
@@ -2402,7 +2402,7 @@
 
   <UIConfirmMessage>
     <label>
-      <Close>#{word.cancel}</Close>
+      <Close>crwdns6423095:0{word.cancel}crwdne6423095:0</Close>
       <OK>crwdns6423096:0crwdne6423096:0</OK>
       <ReplaceData>crwdns6423097:0crwdne6423097:0</ReplaceData>
       <Back>crwdns6423098:0crwdne6423098:0</Back>
@@ -2412,7 +2412,7 @@
 
   <UIRestoreConfirmMessage>
     <label>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6423100:0{word.close}crwdne6423100:0</Close>
       <OK>crwdns6423101:0crwdne6423101:0</OK>
       <ReplaceData>crwdns6423102:0crwdne6423102:0</ReplaceData>
       <Back>crwdns6423103:0crwdne6423103:0</Back>
@@ -2562,7 +2562,7 @@
       <nt_unstructured>crwdns6423157:0crwdne6423157:0</nt_unstructured>
       <exo_cssFolder>crwdns6423158:0crwdne6423158:0</exo_cssFolder>
       <exo_jsFolder>crwdns6423159:0crwdne6423159:0</exo_jsFolder>
-      <exo_linkFolder>Link Folder</exo_linkFolder>
+      <exo_linkFolder>crwdns6423160:0crwdne6423160:0</exo_linkFolder>
       <exo_webFolder>crwdns6423161:0crwdne6423161:0</exo_webFolder>
    </label>
   </UIFolderForm>
@@ -2658,8 +2658,8 @@
     </label>
     <title>crwdns6423248:0crwdne6423248:0</title>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6423249:0{word.save}crwdne6423249:0</Save>
+      <Cancel>crwdns6423250:0{word.cancel}crwdne6423250:0</Cancel>
     </action>
   </UIDocumentFilterForm>
 
@@ -2716,8 +2716,8 @@
       <name>crwdns6423266:0crwdne6423266:0</name>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6710214:0{word.save}crwdne6710214:0</Save>
+      <Cancel>crwdns6700536:0{word.cancel}crwdne6700536:0</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
@@ -2774,8 +2774,8 @@
 
   <UITagForm>
     <action>
-      <UpdateTag>#{word.save}</UpdateTag>
-      <Cancel>#{word.close}</Cancel>
+      <UpdateTag>crwdns6423288:0{word.save}crwdne6423288:0</UpdateTag>
+      <Cancel>crwdns6436701:0{word.close}crwdne6436701:0</Cancel>
     </action>
     <label>
       <tagName>crwdns6423290:0crwdne6423290:0</tagName>
@@ -2842,8 +2842,8 @@
   <UIPreferencesForm>
       <label>
             <queryType>crwdns6423304:0crwdne6423304:0</queryType>
-            <SQL>SQL</SQL>
-            <XPATH>XPATH</XPATH>
+            <SQL>crwdns6423305:0crwdne6423305:0</SQL>
+            <XPATH>crwdns6423306:0crwdne6423306:0</XPATH>
       </label>
   </UIPreferencesForm>
 
@@ -2871,8 +2871,8 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6710215:0{word.save}crwdne6710215:0</Save>
+      <Cancel>crwdns6700537:0{word.cancel}crwdne6700537:0</Cancel>
     </action>
     <label>
       <formInput>crwdns6423313:0crwdne6423313:0</formInput>
@@ -2908,13 +2908,13 @@
 
   <UIPublicationContainer>
    <action>
-    <Close>#{word.close}</Close>
+    <Close>crwdns6524411:0{word.close}crwdne6524411:0</Close>
    </action>
   </UIPublicationContainer>
 
   <UIPublicationPanel>
     <button>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700538:0{word.close}crwdne6700538:0</Close>
     </button>
     <revisions>
       <version>crwdns6423321:0crwdne6423321:0</version>
@@ -2976,7 +2976,7 @@
       <save-finished>crwdns6423361:0crwdne6423361:0</save-finished>
     </msg>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6524412:0{word.save}crwdne6524412:0</Save>
       <Reset>crwdns6524413:0crwdne6524413:0</Reset>
     </action>
   </UIPublicationSchedule>
@@ -3070,9 +3070,9 @@
   <true>crwdns6423392:0crwdne6423392:0</true>
   <false>crwdns6423393:0crwdne6423393:0</false>
   <Electronic>crwdns6423394:0crwdne6423394:0</Electronic>
-  <Paper>Paper</Paper>
+  <Paper>crwdns6423395:0crwdne6423395:0</Paper>
   <NONE>crwdns6423396:0crwdne6423396:0</NONE>
-  <CLASSIFIED>Classified</CLASSIFIED>
+  <CLASSIFIED>crwdns6423397:0crwdne6423397:0</CLASSIFIED>
   <UNCLASSIFIED>crwdns6423398:0crwdne6423398:0</UNCLASSIFIED>
   <NOCONTRACT>crwdns6423399:0crwdne6423399:0</NOCONTRACT>
   <one-minute>crwdns6423400:0crwdne6423400:0</one-minute>
@@ -3120,7 +3120,7 @@
     <MaxFileSize>crwdns6423422:0crwdne6423422:0</MaxFileSize>
     <InvalidCharacters>crwdns6423423:0crwdne6423423:0</InvalidCharacters>
     <DropFileMessage>crwdns6423424:0crwdne6423424:0</DropFileMessage>
-    <Close>#{word.close}</Close>
+    <Close>crwdns6700539:0{word.close}crwdne6700539:0</Close>
     <in>crwdns6423426:0crwdne6423426:0</in>
     <MaxFileSizeAlert>crwdns6423427:0crwdne6423427:0</MaxFileSizeAlert>
     <Waiting>crwdns6423428:0crwdne6423428:0</Waiting>
@@ -3130,7 +3130,7 @@
     <Keep>crwdns6423432:0crwdne6423432:0</Keep>
     <Replace>crwdns6423433:0crwdne6423433:0</Replace>
     <Canceled>crwdns6423434:0crwdne6423434:0</Canceled>
-    <Cancel>#{word.cancel}</Cancel>
+    <Cancel>crwdns6700540:0{word.cancel}crwdne6700540:0</Cancel>
     <AbortAllConfirmation>crwdns6423436:0crwdne6423436:0</AbortAllConfirmation>
   </label>
   </UIMultiUpload>

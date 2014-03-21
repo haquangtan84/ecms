@@ -27,8 +27,8 @@
   <priority>crwdns6425012:0crwdne6425012:0</priority>
   </tip>   
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6700566:0{word.save}crwdne6700566:0</Save>
+      <Cancel>crwdns6700567:0{word.cancel}crwdne6700567:0</Cancel>
     </action>
     <msg>
       <repository-exception>crwdns6425015:0crwdne6425015:0</repository-exception>

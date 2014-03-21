@@ -23,11 +23,11 @@
     <header>
       <categoryName>crwdns6425443:0crwdne6425443:0</categoryName>
       <categoryPath>crwdns6425444:0crwdne6425444:0</categoryPath>
-      <action>#{word.action}</action>
+      <action>crwdns6700573:0{word.action}crwdne6700573:0</action>
     </header>
     <action>
-      <SaveCategories>#{word.save}</SaveCategories>
-      <Cancel>#{word.cancel}</Cancel>
+      <SaveCategories>crwdns6700574:0{word.save}crwdne6700574:0</SaveCategories>
+      <Cancel>crwdns6700575:0{word.cancel}crwdne6700575:0</Cancel>
     </action>
     <msg>
       <cannot-save>crwdns6425448:0crwdne6425448:0</cannot-save>

@@ -59,7 +59,7 @@
       <label>
         <from>crwdns6425228:0crwdne6425228:0</from>
         <to>crwdns6425229:0crwdne6425229:0</to>
-        <cc>Cc:</cc>
+        <cc>crwdns6425230:0crwdne6425230:0</cc>
         <date>crwdns6425231:0crwdne6425231:0</date>
         <subject>crwdns6425232:0crwdne6425232:0</subject>
         <attachment>crwdns6425233:0crwdne6425233:0</attachment>
@@ -157,10 +157,10 @@
       </label>
       <action>
         <add-edit>crwdns6425306:0crwdne6425306:0</add-edit>
-        <cancel>#{word.cancel}</cancel>
+        <cancel>crwdns6700571:0{word.cancel}crwdne6700571:0</cancel>
       </action>
       <tooltip>
-        <cancel>#{word.cancel}</cancel>
+        <cancel>crwdns6700572:0{word.cancel}crwdne6700572:0</cancel>
         <add-edit>crwdns6425309:0crwdne6425309:0</add-edit>
       </tooltip>
     </view>

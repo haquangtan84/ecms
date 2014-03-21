@@ -27,7 +27,7 @@
       <folder>crwdns6425036:0crwdne6425036:0</folder>
 </value>
 <action>
-<Close>#{word.close}</Close>
+<Close>crwdns6700568:0{word.close}crwdne6700568:0</Close>
 </action>
 </UIViewInfoContainer>
 </bundle>

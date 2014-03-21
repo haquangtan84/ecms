@@ -24,11 +24,11 @@
     <dialog>
       <label>
         <MainContent>crwdns6423488:0crwdne6423488:0</MainContent>
-        <cssFile>default.css</cssFile>
-        <jsFile>default.js</jsFile>
+        <cssFile>crwdns6423489:0crwdne6423489:0</cssFile>
+        <jsFile>crwdns6423490:0crwdne6423490:0</jsFile>
         <Advanced>crwdns6423491:0crwdne6423491:0</Advanced>
         <Summary>crwdns6423492:0crwdne6423492:0</Summary>
-        <name>#{word.name}</name>
+        <name>crwdns6700541:0{word.name}crwdne6700541:0</name>
         <title>crwdns6423494:0crwdne6423494:0</title>
         <ContentCSS>crwdns6423495:0crwdne6423495:0</ContentCSS>
         <hintCSS>crwdns6524400:0crwdne6524400:0</hintCSS>
@@ -51,7 +51,7 @@
   <CSSFile>
     <dialog>
       <label>
-        <name>#{word.name}</name>
+        <name>crwdns6700542:0{word.name}crwdne6700542:0</name>
         <active>crwdns6423510:0crwdne6423510:0</active>
         <priority>crwdns6423511:0crwdne6423511:0</priority>
         <content>crwdns6423512:0crwdne6423512:0</content>
@@ -62,7 +62,7 @@
   <JSFile>
     <dialog>
       <label>
-        <name>#{word.name}</name>
+        <name>crwdns6700543:0{word.name}crwdne6700543:0</name>
         <active>crwdns6423514:0crwdne6423514:0</active>
         <priority>crwdns6423515:0crwdne6423515:0</priority>
         <content>crwdns6423516:0crwdne6423516:0</content>
@@ -73,7 +73,7 @@
   <WebLink>
     <dialog>
       <label>
-        <name>#{word.name}</name>
+        <name>crwdns6700544:0{word.name}crwdne6700544:0</name>
         <url>crwdns6423518:0crwdne6423518:0</url>
         <description>crwdns6423519:0crwdne6423519:0</description>
       </label>

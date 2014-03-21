@@ -62,7 +62,7 @@
   <UIPageSelectorPanel>
     <header>
       <path>crwdns6424710:0crwdne6424710:0</path>
-      <action>#{word.action}</action>
+      <action>crwdns6700554:0{word.action}crwdne6700554:0</action>
     </header>
     <msg>
       <child-not-found>crwdns6424712:0crwdne6424712:0</child-not-found>
@@ -136,7 +136,7 @@
 
   <UISelectedContentGrid>
     <label>
-      <name>#{word.name}</name>
+      <name>crwdns6700555:0{word.name}crwdne6700555:0</name>
       <add>crwdns6424740:0crwdne6424740:0</add>
       <delete>crwdns6424741:0crwdne6424741:0</delete>
     </label>
@@ -148,14 +148,14 @@
 
   <UICLVContentSelectedGrid>
     <action>
-      <SaveCategories>#{word.save}</SaveCategories>
-      <Cancel>#{word.cancel}</Cancel>
+      <SaveCategories>crwdns6700556:0{word.save}crwdne6700556:0</SaveCategories>
+      <Cancel>crwdns6710894:0{word.cancel}crwdne6710894:0</Cancel>
     </action>
   </UICLVContentSelectedGrid>
 
   <UIContentBrowsePathSelector>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6700557:0{word.name}crwdne6700557:0</name>
       <publicationstate>crwdns6424747:0crwdne6424747:0</publicationstate>
       <action>crwdns6424748:0crwdne6424748:0</action>
     </header>
@@ -166,7 +166,7 @@
 
   <UIContentBrowsePathSelectorFolder>
     <header>
-      <name>#{word.name}</name>
+      <name>crwdns6700558:0{word.name}crwdne6700558:0</name>
       <publicationstate>crwdns6424751:0crwdne6424751:0</publicationstate>
       <action>crwdns6424752:0crwdne6424752:0</action>
     </header>
@@ -218,7 +218,7 @@
   <UIContentPropertySelector>
     <action>
       <Add>crwdns6424774:0crwdne6424774:0</Add>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6710897:0{word.cancel}crwdne6710897:0</Cancel>
     </action>
     <label>
       <metadataType>crwdns6424776:0crwdne6424776:0</metadataType>
@@ -234,8 +234,8 @@
 
   <UIContentNodeTypeSelector>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6700559:0{word.save}crwdne6700559:0</Save>
+      <Cancel>crwdns6710898:0{word.cancel}crwdne6710898:0</Cancel>
     </action>
   </UIContentNodeTypeSelector>
 
@@ -260,7 +260,7 @@
       <SaveDraft>crwdns6424788:0crwdne6424788:0</SaveDraft>
       <FastPublish>crwdns6424789:0crwdne6424789:0</FastPublish>
       <Preferences>crwdns6424790:0crwdne6424790:0</Preferences>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6710899:0{word.close}crwdne6710899:0</Close>
     </action>
     <msg>
       <access-denied>crwdns6424792:0crwdne6424792:0</access-denied>
@@ -276,7 +276,7 @@
       <UIEditableCheckboxInput>crwdns6424798:0crwdne6424798:0</UIEditableCheckboxInput>
     </label>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700560:0{word.save}crwdne6700560:0</Save>
       <Clear>crwdns6424800:0crwdne6424800:0</Clear>
       <title>
         <Edit>crwdns6424801:0crwdne6424801:0</Edit>

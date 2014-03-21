@@ -5,7 +5,7 @@
       <name-not-allowed>crwdns6425464:0crwdne6425464:0</name-not-allowed>
       <in-versioning>crwdns6425465:0crwdne6425465:0</in-versioning>
       <cannot-save>crwdns6425466:0crwdne6425466:0</cannot-save>
-      <saved-successfully>{0}</saved-successfully>
+      <saved-successfully>crwdns6425467:0{0}crwdne6425467:0</saved-successfully>
       <not-support>crwdns6425468:0{0}crwdne6425468:0</not-support>
       <not-add-folder>crwdns6438233:0crwdne6438233:0</not-add-folder>
       <access-denied>crwdns6425470:0{0}crwdne6425470:0</access-denied>
@@ -16,8 +16,8 @@
       <new-jcr-template>crwdns6425475:0crwdne6425475:0</new-jcr-template>
     </msg>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6700576:0{word.save}crwdne6700576:0</Save>
+      <Cancel>crwdns6700577:0{word.cancel}crwdne6700577:0</Cancel>
     </action>
   </UIFCCForm>
 
@@ -46,7 +46,7 @@
       <do-select>crwdns6425500:0crwdne6425500:0</do-select>
       </msg>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700578:0{word.save}crwdne6700578:0</Save>
     </action>
   </UIFCCConfig>
 
@@ -115,8 +115,8 @@
   <UIFCCActionForm>
     <title>crwdns6425523:0crwdne6425523:0</title>
     <action>
-      <Save>#{word.save}</Save>
-      <Close>#{word.close}</Close>
+      <Save>crwdns6700579:0{word.save}crwdne6700579:0</Save>
+      <Close>crwdns6700580:0{word.close}crwdne6700580:0</Close>
     </action>
     <msg>
       <repository-exception>crwdns6425526:0crwdne6425526:0</repository-exception>
@@ -173,7 +173,7 @@
 
   <UICategoriesSelector>
     <action>
-      <close>#{word.close}</close>
+      <close>crwdns6700581:0{word.close}crwdne6700581:0</close>
     </action>
   </UICategoriesSelector>
 

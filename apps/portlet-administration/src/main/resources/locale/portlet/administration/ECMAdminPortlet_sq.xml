@@ -154,7 +154,7 @@
   <UIActionForm>
     <title>crwdns6423597:0crwdne6423597:0</title>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700546:0{word.save}crwdne6700546:0</Save>
     </action>
     <msg>
       <name-not-allowed>crwdns6423599:0crwdne6423599:0</name-not-allowed>
@@ -194,8 +194,8 @@
       <uri>crwdns6423610:0crwdne6423610:0</uri>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6423611:0{word.save}crwdne6423611:0</Save>
+      <Cancel>crwdns6423612:0{word.cancel}crwdne6423612:0</Cancel>
     </action>
     <msg>
       <register-unsuccessfull>crwdns6423613:0crwdne6423613:0</register-unsuccessfull>
@@ -254,12 +254,12 @@
     </msg>
     <action>
       <Add>crwdns6423635:0crwdne6423635:0</Add>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6423636:0{word.cancel}crwdne6423636:0</Cancel>
     </action>
   </UIMetadataList>
   <MetadataPopupAddNew>
     <title>
-      <UIMetadataForm>Add New Metadata's Template</UIMetadataForm>
+      <UIMetadataForm>crwdns6423637:0crwdne6423637:0</UIMetadataForm>
     </title>
   </MetadataPopupAddNew>
   <MetadataPopupEdit>
@@ -281,7 +281,7 @@
   <UIMetadataForm>
     <title>crwdns6423641:0crwdne6423641:0</title>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6423642:0{word.cancel}crwdne6423642:0</Cancel>
       <Save>crwdns6423643:0crwdne6423643:0</Save>
     </action>
     <header>
@@ -294,7 +294,7 @@
       <viewTemplate>crwdns6423648:0crwdne6423648:0</viewTemplate>
       <metadataName>crwdns6423649:0crwdne6423649:0</metadataName>
       <viewPermission>crwdns6423650:0crwdne6423650:0</viewPermission>
-      <permission>UIMetadataForm</permission>
+      <permission>crwdns6423651:0crwdne6423651:0</permission>
       <metadataLabel>crwdns6423652:0crwdne6423652:0</metadataLabel>
     </label>
     <tab>
@@ -326,8 +326,8 @@
       <metadataView>crwdns6423663:0crwdne6423663:0</metadataView>
     </tab>
     <action>
-      <Cancel>#{word.close}</Cancel>
-      <Back>#{word.back}</Back>
+      <Cancel>crwdns6700547:0{word.close}crwdne6700547:0</Cancel>
+      <Back>crwdns6423665:0{word.back}crwdne6423665:0</Back>
     </action>
   </UIMetadataView>
   <ViewMetadataPopup>
@@ -366,10 +366,10 @@
   </UIDriveList>
   <UIDriveForm>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
-      <Save>#{word.save}</Save>
-      <Back>#{word.back}</Back>
-      <Refresh>#{word.refresh}</Refresh>
+      <Cancel>crwdns6423681:0{word.cancel}crwdne6423681:0</Cancel>
+      <Save>crwdns6423682:0{word.save}crwdne6423682:0</Save>
+      <Back>crwdns6423683:0{word.back}crwdne6423683:0</Back>
+      <Refresh>crwdns6423684:0{word.refresh}crwdne6423684:0</Refresh>
     </action>
     <msg>
       <drive-exists>crwdns6423685:0crwdne6423685:0</drive-exists>
@@ -444,7 +444,7 @@
       <input>crwdns6423847:0crwdne6423847:0</input>
     </header>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6423848:0{word.save}crwdne6423848:0</Save>
     </action>
   </UINodeTypeManager>
   <!--
@@ -485,7 +485,7 @@
   -->
   <UINodeTypeOptionList>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6423865:0{word.save}crwdne6423865:0</Save>
       <Add>crwdns6423866:0crwdne6423866:0</Add>
     </action>
     <header>
@@ -529,7 +529,7 @@
       <parentversion>crwdns6423891:0crwdne6423891:0</parentversion>
       <protected>crwdns6423892:0crwdne6423892:0</protected>
       <constraints>crwdns6423893:0crwdne6423893:0</constraints>
-      <UIFormTableInputSet>UIFormTableInputSet</UIFormTableInputSet>
+      <UIFormTableInputSet>crwdns6423894:0crwdne6423894:0</UIFormTableInputSet>
       <sameNameSiblings>crwdns6423895:0crwdne6423895:0</sameNameSiblings>
       <childNamespace>crwdns6423896:0crwdne6423896:0</childNamespace>
       <childMandatory>crwdns6423897:0crwdne6423897:0</childMandatory>
@@ -542,22 +542,22 @@
       <valueconstraints>crwdns6423904:0crwdne6423904:0</valueconstraints>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
-      <Save>#{word.save}</Save>
+      <Cancel>crwdns6423905:0{word.cancel}crwdne6423905:0</Cancel>
+      <Save>crwdns6423906:0{word.save}crwdne6423906:0</Save>
       <SaveDraft>crwdns6423907:0crwdne6423907:0</SaveDraft>
       <AddProperty>crwdns6423908:0crwdne6423908:0</AddProperty>
       <AddChild>crwdns6423909:0crwdne6423909:0</AddChild>
       <AddConstraints>crwdns6423910:0crwdne6423910:0</AddConstraints>
-      <Back>#{word.back}</Back>
+      <Back>crwdns6423911:0{word.back}crwdne6423911:0</Back>
       <AddType>crwdns6423912:0crwdne6423912:0</AddType>
       <AddValue>crwdns6423913:0crwdne6423913:0</AddValue>
-      <CancelConstraints>#{word.cancel}</CancelConstraints>
-      <CancelTab>#{word.cancel}</CancelTab>
-      <UpdateChild>#{word.update}</UpdateChild>
-      <CancelChild>#{word.cancel}</CancelChild>
-      <UpdateProperty>#{word.update}</UpdateProperty>
-      <CancelProperty>#{word.cancel}</CancelProperty>
-      <Close>#{word.close}</Close>
+      <CancelConstraints>crwdns6423914:0{word.cancel}crwdne6423914:0</CancelConstraints>
+      <CancelTab>crwdns6423915:0{word.cancel}crwdne6423915:0</CancelTab>
+      <UpdateChild>crwdns6423916:0{word.update}crwdne6423916:0</UpdateChild>
+      <CancelChild>crwdns6423917:0{word.cancel}crwdne6423917:0</CancelChild>
+      <UpdateProperty>crwdns6423918:0{word.update}crwdne6423918:0</UpdateProperty>
+      <CancelProperty>crwdns6423919:0{word.cancel}crwdne6423919:0</CancelProperty>
+      <Close>crwdns6423920:0{word.close}crwdne6423920:0</Close>
     </action>
     <msg>
       <register-successfully>crwdns6423921:0{0}crwdne6423921:0</register-successfully>
@@ -630,7 +630,7 @@
       <input>crwdns6423947:0crwdne6423947:0</input>
     </header>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6423948:0{word.cancel}crwdne6423948:0</Cancel>
       <Export>crwdns6423949:0crwdne6423949:0</Export>
       <UncheckAll>crwdns6423950:0crwdne6423950:0</UncheckAll>
       <CheckAll>crwdns6423951:0crwdne6423951:0</CheckAll>
@@ -660,7 +660,7 @@
       <upload>crwdns6423955:0crwdne6423955:0</upload>
     </label>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6423956:0{word.cancel}crwdne6423956:0</Cancel>
       <Upload>crwdns6423957:0crwdne6423957:0</Upload>
     </action>
     <title>crwdns6423958:0crwdne6423958:0</title>
@@ -679,7 +679,7 @@
   -->
   <UINodeTypeImport>
     <action>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6423964:0{word.cancel}crwdne6423964:0</Cancel>
       <Import>crwdns6423965:0crwdne6423965:0</Import>
       <Upload>crwdns6423966:0crwdne6423966:0</Upload>
     </action>
@@ -706,9 +706,9 @@
   -->
   <DriveInputSet>
     <label>
-      <both>Both</both>
-      <folderOnly>Folder</folderOnly>
-      <unstructuredFolder>Unstructured Folder</unstructuredFolder>
+      <both>crwdns6423974:0crwdne6423974:0</both>
+      <folderOnly>crwdns6423975:0crwdne6423975:0</folderOnly>
+      <unstructuredFolder>crwdns6423976:0crwdne6423976:0</unstructuredFolder>
     </label>
     <title>
       <AddPermission>crwdns6423977:0crwdne6423977:0</AddPermission>
@@ -755,7 +755,7 @@
     <label>
       <actionType>crwdns6423989:0crwdne6423989:0</actionType>
       <name>crwdns6423990:0crwdne6423990:0</name>
-      <isMove>is Action Move:</isMove>
+      <isMove>crwdns6423991:0crwdne6423991:0</isMove>
       <variables>crwdns6423992:0crwdne6423992:0</variables>
       <exo_businessProcessAction>crwdns6423993:0crwdne6423993:0</exo_businessProcessAction>
       <exo_scriptAction>crwdns6423994:0crwdne6423994:0</exo_scriptAction>
@@ -763,8 +763,8 @@
       <script>crwdns6423996:0crwdne6423996:0</script>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6423997:0{word.save}crwdne6423997:0</Save>
+      <Cancel>crwdns6423998:0{word.cancel}crwdne6423998:0</Cancel>
     </action>
     <msg>
       <action-type-added>crwdns6423999:0{0}crwdne6423999:0</action-type-added>
@@ -990,13 +990,13 @@
 <addSymLink>crwdns6424116:0crwdne6424116:0</addSymLink>
     </label>
     <action>
-      <Save>#{word.save}</Save>      
-      <Cancel>#{word.cancel}</Cancel>      
+      <Save>crwdns6424117:0{word.save}crwdne6424117:0</Save>      
+      <Cancel>crwdns6424118:0{word.cancel}crwdne6424118:0</Cancel>      
     </action>
   </UITabForm>
   <UIPermissionForm>
     <label>
-      <permission>UIPermissionForm</permission>
+      <permission>crwdns6424119:0crwdne6424119:0</permission>
     </label>
   </UIPermissionForm>
   <UIViewFormTabPane>
@@ -1008,10 +1008,10 @@
       </label>
     </tab>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6424123:0{word.save}crwdne6424123:0</Save>
       <Reset>crwdns6424124:0crwdne6424124:0</Reset>
-      <Cancel>#{word.cancel}</Cancel>
-      <Close>#{word.close}</Close>
+      <Cancel>crwdns6424125:0{word.cancel}crwdne6424125:0</Cancel>
+      <Close>crwdns6424126:0{word.close}crwdne6424126:0</Close>
       <Restore>crwdns6424127:0crwdne6424127:0</Restore>
     </action>
   </UIViewFormTabPane>
@@ -1068,11 +1068,11 @@
   -->
   <UITemplateForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6424151:0{word.save}crwdne6424151:0</Save>
+      <Cancel>crwdns6424152:0{word.cancel}crwdne6424152:0</Cancel>
       <Reset>crwdns6424153:0crwdne6424153:0</Reset>
       <Restore>crwdns6424154:0crwdne6424154:0</Restore>
-      <Refresh>#{word.refresh}</Refresh>
+      <Refresh>crwdns6424155:0{word.refresh}crwdne6424155:0</Refresh>
     </action>
     <msg>
       <version-restored>crwdns6424156:0{0}crwdne6424156:0</version-restored>
@@ -1151,8 +1151,8 @@
   -->
   <UIScriptList>
     <action>
-      <Edit>#{word.edit}</Edit>
-      <Delete>#{word.delete}</Delete>
+      <Edit>crwdns6424181:0{word.edit}crwdne6424181:0</Edit>
+      <Delete>crwdns6424182:0{word.delete}crwdne6424182:0</Delete>
       <AddNew>crwdns6424183:0crwdne6424183:0</AddNew>
     </action>
     <msg>
@@ -1176,16 +1176,16 @@
   -->
   <uiECMScriptsPopup>
     <title>
-      <ecmScriptForm>ECM Script</ecmScriptForm>
+      <ecmScriptForm>crwdns6424191:0crwdne6424191:0</ecmScriptForm>
     </title>
   </uiECMScriptsPopup>
 
   <UIScriptForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Restore>#{word.restore}</Restore>
-      <Cancel>#{word.cancel}</Cancel>
-      <Refresh>#{word.refresh}</Refresh>
+      <Save>crwdns6424192:0{word.save}crwdne6424192:0</Save>
+      <Restore>crwdns6424193:0{word.restore}crwdne6424193:0</Restore>
+      <Cancel>crwdns6424194:0{word.cancel}crwdne6424194:0</Cancel>
+      <Refresh>crwdns6424195:0{word.refresh}crwdne6424195:0</Refresh>
       <Change>crwdns6424196:0crwdne6424196:0</Change>
     </action>
     <msg>
@@ -1236,8 +1236,8 @@
   -->
   <UITaxonomyForm>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6424212:0{word.save}crwdne6424212:0</Save>
+      <Cancel>crwdns6424213:0{word.cancel}crwdne6424213:0</Cancel>
     </action>
     <title>crwdns6424214:0crwdne6424214:0</title>
     <label>
@@ -1272,8 +1272,8 @@
 
 <UITaxonomyTreeCreateChildForm>
   <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6424224:0{word.save}crwdne6424224:0</Save>
+      <Cancel>crwdns6424225:0{word.cancel}crwdne6424225:0</Cancel>
     </action>
     <label>
       <parentPath>crwdns6470517:0crwdne6470517:0</parentPath>
@@ -1309,7 +1309,7 @@
   <TaxoTreeAnyPermission>
     <label>
       <any>crwdns6424236:0crwdne6424236:0</any>
-      <anyPermission>TaxoTreeAnyPermission</anyPermission>
+      <anyPermission>crwdns6424237:0crwdne6424237:0</anyPermission>
     </label>
   </TaxoTreeAnyPermission>
   
@@ -1367,7 +1367,7 @@
   <UIPermissionTreeForm>
     <label>
       <UIPopupWindow>crwdns6424256:0crwdne6424256:0</UIPopupWindow>
-      <permission>UIPermissionTreeForm</permission>
+      <permission>crwdns6424257:0crwdne6424257:0</permission>
       <userOrGroup>crwdns6423591:0crwdne6423591:0</userOrGroup>
       <read>crwdns6423592:0crwdne6423592:0</read>
       <add_node>crwdns6423593:0crwdne6423593:0</add_node>
@@ -1376,8 +1376,8 @@
     </label>
     <title>crwdns6423590:0crwdne6423590:0</title>
     <action>
-      <Close>#{word.close}</Close>
-      <Save>Save</Save>
+      <Close>crwdns6424258:0{word.close}crwdne6424258:0</Close>
+      <Save>crwdns6424259:0crwdne6424259:0</Save>
       <Reset>crwdns6424260:0crwdne6424260:0</Reset>
     </action>
     <msg>
@@ -1479,8 +1479,8 @@
     </label>
     <title>crwdns6424295:0crwdne6424295:0</title>
     <action>
-      <Close>#{word.close}</Close>
-      <Save>#{word.save}</Save>
+      <Close>crwdns6424296:0{word.close}crwdne6424296:0</Close>
+      <Save>crwdns6424297:0{word.save}crwdne6424297:0</Save>
       <Reset>crwdns6424298:0crwdne6424298:0</Reset>
     </action>
     <msg>
@@ -1666,9 +1666,9 @@
 
 <UICLVTemplateForm_ContentTemplateContainer>
  <action>
-  <Save>#{word.save}</Save>
+  <Save>crwdns6424363:0{word.save}crwdne6424363:0</Save>
 <Reset>crwdns6424364:0crwdne6424364:0</Reset>
-<Cancel>#{word.cancel}</Cancel>
+<Cancel>crwdns6424365:0{word.cancel}crwdne6424365:0</Cancel>
  </action>
 <label>
  <title>crwdns6424366:0crwdne6424366:0</title>
@@ -1680,9 +1680,9 @@
 
 <UICLVTemplateForm_PageTemplateContainer>
  <action>
-  <Save>#{word.save}</Save>
+  <Save>crwdns6424370:0{word.save}crwdne6424370:0</Save>
 <Reset>crwdns6424371:0crwdne6424371:0</Reset>
-<Cancel>#{word.cancel}</Cancel>
+<Cancel>crwdns6424372:0{word.cancel}crwdne6424372:0</Cancel>
  </action>
 <label>
  <title>crwdns6424373:0crwdne6424373:0</title>
@@ -1694,9 +1694,9 @@
 
 <UICLVTemplateForm_CateTemplateContainer>
  <action>
-  <Save>#{word.save}</Save>
+  <Save>crwdns6424377:0{word.save}crwdne6424377:0</Save>
 <Reset>crwdns6424378:0crwdne6424378:0</Reset>
-<Cancel>#{word.cancel}</Cancel>
+<Cancel>crwdns6424379:0{word.cancel}crwdne6424379:0</Cancel>
  </action>
 <label>
  <title>crwdns6424380:0crwdne6424380:0</title>
@@ -1712,9 +1712,9 @@
 <navigation>crwdns6424386:0crwdne6424386:0</navigation>
   </label>
                           <action>
-                            <Save>#{word.save}</Save>
+                            <Save>crwdns6718076:0{word.save}crwdne6718076:0</Save>
                             <Reset>crwdns6718077:0crwdne6718077:0</Reset> 
-                            <Cancel>#{word.cancel}</Cancel> 
+                            <Cancel>crwdns6718078:0{word.cancel}crwdne6718078:0</Cancel> 
                           </action> 
   <msg>
   <template-existing>crwdns6438188:0crwdne6438188:0</template-existing>
@@ -1743,7 +1743,7 @@
   </TemplateContainerPopup>
   <ViewForm>
     <label>
-      <UITemplateContent>ViewForm</UITemplateContent>
+      <UITemplateContent>crwdns6424390:0crwdne6424390:0</UITemplateContent>
       <UIPopupWindow>crwdns6424391:0crwdne6424391:0</UIPopupWindow>
       <selectVersion>crwdns6424392:0crwdne6424392:0</selectVersion>
       <content>crwdns6424393:0crwdne6424393:0</content>
@@ -1756,7 +1756,7 @@
   </ViewForm>
   <DialogForm>
     <label>
-      <UITemplateContent>DialogForm</UITemplateContent>
+      <UITemplateContent>crwdns6424399:0crwdne6424399:0</UITemplateContent>
       <UIPopupWindow>crwdns6424400:0crwdne6424400:0</UIPopupWindow>
       <selectVersion>crwdns6424401:0crwdne6424401:0</selectVersion>
       <content>crwdns6424402:0crwdne6424402:0</content>
@@ -1807,9 +1807,9 @@
       <isDocumentTemplate>crwdns6424417:0crwdne6424417:0</isDocumentTemplate>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
-      <Refresh>#{word.refresh}</Refresh>
+      <Save>crwdns6424418:0{word.save}crwdne6424418:0</Save>
+      <Cancel>crwdns6424419:0{word.cancel}crwdne6424419:0</Cancel>
+      <Refresh>crwdns6424420:0{word.refresh}crwdne6424420:0</Refresh>
     </action>
   </UITemplateEditForm>
   <!--
@@ -1865,10 +1865,10 @@
   -->
   <UITemplateContent>
     <action>
-      <Save>#{word.save}</Save>
-      <Restore>#{word.restore}</Restore>
-      <Cancel>#{word.cancel}</Cancel>
-      <Refresh>#{word.refresh}</Refresh>
+      <Save>crwdns6424437:0{word.save}crwdne6424437:0</Save>
+      <Restore>crwdns6424438:0{word.restore}crwdne6424438:0</Restore>
+      <Cancel>crwdns6424439:0{word.cancel}crwdne6424439:0</Cancel>
+      <Refresh>crwdns6424440:0{word.refresh}crwdne6424440:0</Refresh>
     </action>
     <msg>
       <name-invalid>crwdns6424441:0crwdne6424441:0</name-invalid>
@@ -1939,11 +1939,11 @@
       <statement>crwdns6424462:0crwdne6424462:0</statement>
       <cache>crwdns6424463:0crwdne6424463:0</cache>
       <permissions>crwdns6424464:0crwdne6424464:0</permissions>
-      <PermissionButton>UIQueriesForm</PermissionButton>
+      <PermissionButton>crwdns6424465:0crwdne6424465:0</PermissionButton>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6424466:0{word.save}crwdne6424466:0</Save>
+      <Cancel>crwdns6424467:0{word.cancel}crwdne6424467:0</Cancel>
     </action>
     <msg>
       <permission-require>crwdns6424468:0crwdne6424468:0</permission-require>
@@ -2003,7 +2003,7 @@
     </label>
     <action>
       <UpdateStyle>crwdns6424486:0crwdne6424486:0</UpdateStyle>
-      <Cancel>#{word.cancel}</Cancel>
+      <Cancel>crwdns6424487:0{word.cancel}crwdne6424487:0</Cancel>
     </action>
     <msg>
       <range-validator>crwdns6424488:0crwdne6424488:0</range-validator>
@@ -2050,7 +2050,7 @@
   <UIWorkspaceList>
     <label>
       <workspaceName>crwdns6424496:0crwdne6424496:0</workspaceName>
-      <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
+      <rootNodeInfo>crwdns6424497:0crwdne6424497:0</rootNodeInfo>
       <rootNodePath>crwdns6424498:0crwdne6424498:0</rootNodePath>
     </label>
   </UIWorkspaceList>
@@ -2227,20 +2227,20 @@
   <PermissionTreeSelectUser>
     <label>
       <option>
-        <userName>#{word.userName}</userName>
-        <lastName>#{word.lastName}</lastName>
-        <firstName>#{word.firstName}</firstName>
-        <email>#{word.email}</email>
+        <userName>crwdns6424541:0{word.userName}crwdne6424541:0</userName>
+        <lastName>crwdns6424542:0{word.lastName}crwdne6424542:0</lastName>
+        <firstName>crwdns6424543:0{word.firstName}crwdne6424543:0</firstName>
+        <email>crwdns6424544:0{word.email}crwdne6424544:0</email>
       </option>
       <group>crwdns6424545:0crwdne6424545:0</group>
       <searchUser>crwdns6436605:0crwdne6436605:0</searchUser>
-      <userName>#{word.userName}</userName>
-      <lastName>#{word.lastName}</lastName>
-      <firstName>#{word.firstName}</firstName>
-    <email>#{word.email}</email>
-      <action>#{word.action}</action>
-      <Add>#{word.Add}</Add>
-      <Close>#{word.Close}</Close>
+      <userName>crwdns6424547:0{word.userName}crwdne6424547:0</userName>
+      <lastName>crwdns6424548:0{word.lastName}crwdne6424548:0</lastName>
+      <firstName>crwdns6424549:0{word.firstName}crwdne6424549:0</firstName>
+    <email>crwdns6424550:0{word.email}crwdne6424550:0</email>
+      <action>crwdns6424551:0{word.action}crwdne6424551:0</action>
+      <Add>crwdns6424552:0{word.Add}crwdne6424552:0</Add>
+      <Close>crwdns6424553:0{word.Close}crwdne6424553:0</Close>
     </label>
   </PermissionTreeSelectUser>
   
@@ -2280,11 +2280,11 @@
     <label>
       <name>crwdns6424564:0crwdne6424564:0</name>      
       <permissions>crwdns6424565:0crwdne6424565:0</permissions>
-      <PermissionButton>UI Unlock Form</PermissionButton>
+      <PermissionButton>crwdns6424566:0crwdne6424566:0</PermissionButton>
     </label>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6424567:0{word.save}crwdne6424567:0</Save>
+      <Cancel>crwdns6424568:0{word.cancel}crwdne6424568:0</Cancel>
     </action>
     <msg>
       <permission-require>crwdns6424569:0crwdne6424569:0</permission-require>      
@@ -2322,7 +2322,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>#{word.close}</Close>
+      <Close>crwdns6700548:0{word.close}crwdne6700548:0</Close>
     </action>
     <title>
     <UILockHolderContainer>crwdns6424581:0crwdne6424581:0</UILockHolderContainer>
@@ -2333,7 +2333,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>crwdns6424583:0crwdne6424583:0</AddTabForm>
-      <AddTab>#{word.save}</AddTab>
+      <AddTab>crwdns6700549:0{word.save}crwdne6700549:0</AddTab>
       <BackViewForm>crwdns6424585:0crwdne6424585:0</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2373,7 +2373,7 @@
   
   <SkinForm>
     <label>
-      <UITemplateContent>SkinForm</UITemplateContent>
+      <UITemplateContent>crwdns6424596:0crwdne6424596:0</UITemplateContent>
       <UIPopupWindow>crwdns6424597:0crwdne6424597:0</UIPopupWindow>
       <selectVersion>crwdns6424598:0crwdne6424598:0</selectVersion>
       <content>crwdns6424599:0crwdne6424599:0</content>
@@ -2399,7 +2399,7 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel>#{word.close}</Cancel>
+<Cancel>crwdns6700550:0{word.close}crwdne6700550:0</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
@@ -2459,7 +2459,7 @@
   <UITagPermissionForm>
     <title>crwdns6424623:0crwdne6424623:0</title>
     <action>
-      <Save>#{word.save}</Save>
+      <Save>crwdns6700551:0{word.save}crwdne6700551:0</Save>
       <Add>crwdns6560432:0crwdne6560432:0</Add>
     </action>
     <label>
@@ -2512,7 +2512,7 @@
   </UIWorkspaceWizard>
   <UIRepositoryForm>
     <msg>
-      <not-complete-repository>The repository is being created. You need to wait a few minutes before creating another one.</not-complete-repository>
+      <not-complete-repository>crwdns6424638:0crwdne6424638:0</not-complete-repository>
     </msg>
   </UIRepositoryForm>
   

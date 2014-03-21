@@ -41,38 +41,38 @@
       <UICLVConfigDisplayTemplateFormSelectBox>crwdns6425060:0crwdne6425060:0</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>crwdns6425061:0crwdne6425061:0</UICLVConfigPaginatorTemplateFormSelectBox>
       <UICLVConfigItemsPerPageFormStringInput>crwdns6425063:0crwdne6425063:0</UICLVConfigItemsPerPageFormStringInput>
-      <UICLVConfigShowIllustrationFormCheckboxInput>Show Image</UICLVConfigShowIllustrationFormCheckboxInput>
-      <UICLVConfigShowSummaryFormCheckboxInput>Show Summary</UICLVConfigShowSummaryFormCheckboxInput>
-      <UICLVConfigShowHeaderFormCheckboxInput>Show Header</UICLVConfigShowHeaderFormCheckboxInput>
-      <UICLVConfigShowRefreshFormCheckboxInput>Show Refresh</UICLVConfigShowRefreshFormCheckboxInput>
+      <UICLVConfigShowIllustrationFormCheckboxInput>crwdns6425064:0crwdne6425064:0</UICLVConfigShowIllustrationFormCheckboxInput>
+      <UICLVConfigShowSummaryFormCheckboxInput>crwdns6425065:0crwdne6425065:0</UICLVConfigShowSummaryFormCheckboxInput>
+      <UICLVConfigShowHeaderFormCheckboxInput>crwdns6425066:0crwdne6425066:0</UICLVConfigShowHeaderFormCheckboxInput>
+      <UICLVConfigShowRefreshFormCheckboxInput>crwdns6425067:0crwdne6425067:0</UICLVConfigShowRefreshFormCheckboxInput>
       <UICLVConfigShowTitleFormCheckboxInput>crwdns6425068:0crwdne6425068:0</UICLVConfigShowTitleFormCheckboxInput>
       <UICLVConfigShowDateCreatedFormCheckboxInput>crwdns6425069:0crwdne6425069:0</UICLVConfigShowDateCreatedFormCheckboxInput>
-      <UICLVConfigShowLinkFormCheckboxInput>Show Link</UICLVConfigShowLinkFormCheckboxInput>
-      <UICLVConfigShowReadmoreFormCheckboxInput>Show More Links</UICLVConfigShowReadmoreFormCheckboxInput>
-      <UICLVConfigAllowDynamicUrlStringInput>Allow Dynamic URL</UICLVConfigAllowDynamicUrlStringInput>
-      <UICLVConfigShowRssLinkFormCheckboxInput>Show RSS Link</UICLVConfigShowRssLinkFormCheckboxInput>
-      <UICLVConfigShowAutomaticDetectionCheckboxInput>Automatic Detection</UICLVConfigShowAutomaticDetectionCheckboxInput>
+      <UICLVConfigShowLinkFormCheckboxInput>crwdns6425070:0crwdne6425070:0</UICLVConfigShowLinkFormCheckboxInput>
+      <UICLVConfigShowReadmoreFormCheckboxInput>crwdns6425071:0crwdne6425071:0</UICLVConfigShowReadmoreFormCheckboxInput>
+      <UICLVConfigAllowDynamicUrlStringInput>crwdns6425072:0crwdne6425072:0</UICLVConfigAllowDynamicUrlStringInput>
+      <UICLVConfigShowRssLinkFormCheckboxInput>crwdns6425073:0crwdne6425073:0</UICLVConfigShowRssLinkFormCheckboxInput>
+      <UICLVConfigShowAutomaticDetectionCheckboxInput>crwdns6425074:0crwdne6425074:0</UICLVConfigShowAutomaticDetectionCheckboxInput>
       <AdvancedBlock>crwdns6425075:0crwdne6425075:0</AdvancedBlock>
       <UICLVConfigDynamicNavigationLabel>crwdns6425076:0crwdne6425076:0</UICLVConfigDynamicNavigationLabel>
-      <UICLVConfigContextualFolderRadioBoxInput>Contextual Folder</UICLVConfigContextualFolderRadioBoxInput>
+      <UICLVConfigContextualFolderRadioBoxInput>crwdns6425077:0crwdne6425077:0</UICLVConfigContextualFolderRadioBoxInput>
       <UICLVConfigShowCLVByStringInput>crwdns6425078:0crwdne6425078:0</UICLVConfigShowCLVByStringInput>
       <UICLVConfigshowSCVWithStringInput>crwdns6425079:0crwdne6425079:0</UICLVConfigshowSCVWithStringInput>
       <UICLVConfigTargetPageFormInputSet>crwdns6425080:0crwdne6425080:0</UICLVConfigTargetPageFormInputSet>
-      <content-not-found>Content not found.</content-not-found>
+      <content-not-found>crwdns6425081:0crwdne6425081:0</content-not-found>
       <ContentPath>crwdns6425082:0crwdne6425082:0</ContentPath>
-      <Up>Up</Up>
-      <Down>Down</Down>
+      <Up>crwdns6425083:0crwdne6425083:0</Up>
+      <Down>crwdns6425084:0crwdne6425084:0</Down>
       <UICLVConfigCacheManagementLabel>crwdns6425085:0crwdne6425085:0</UICLVConfigCacheManagementLabel>
-      <UICLVContentByQueryLabel>Content by Query</UICLVContentByQueryLabel>
+      <UICLVContentByQueryLabel>crwdns6425086:0crwdne6425086:0</UICLVContentByQueryLabel>
       <UICLVConfigWorkspaceFormSelectBox>crwdns6425087:0crwdne6425087:0</UICLVConfigWorkspaceFormSelectBox>
-      <UICLVConfigContentByQueryTextArea>by query</UICLVConfigContentByQueryTextArea>
-      <UICLVConfigCacheEnableRadioBoxInput>Share content between users</UICLVConfigCacheEnableRadioBoxInput>
+      <UICLVConfigContentByQueryTextArea>crwdns6425088:0crwdne6425088:0</UICLVConfigContentByQueryTextArea>
+      <UICLVConfigCacheEnableRadioBoxInput>crwdns6425089:0crwdne6425089:0</UICLVConfigCacheEnableRadioBoxInput>
     </label>
     <help>
       <ModeSelectionHelp>crwdns6425090:0crwdne6425090:0</ModeSelectionHelp>
       <FolderPathHelp>crwdns6425091:0crwdne6425091:0</FolderPathHelp>
       <HeaderOptionHelp>crwdns6425092:0crwdne6425092:0</HeaderOptionHelp>
-      <GeneralOptionHelp>Select the graphical elements you want to show in your list. Note that, depending on your selected template, some elements may not be available.</GeneralOptionHelp>
+      <GeneralOptionHelp>crwdns6425093:0crwdne6425093:0</GeneralOptionHelp>
       <ContextualHelp>crwdns6425094:0crwdne6425094:0</ContextualHelp>
       <ParameterHelp>crwdns6425095:0crwdne6425095:0</ParameterHelp>
       <ShowDetailInPageHelp>crwdns6425096:0crwdne6425096:0</ShowDetailInPageHelp>
@@ -81,13 +81,13 @@
       <ContentsVisibilityHelp>crwdns6425099:0crwdne6425099:0</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>#{word.save}</Save>
-      <Cancel>#{word.cancel}</Cancel>
+      <Save>crwdns6700569:0{word.save}crwdne6700569:0</Save>
+      <Cancel>crwdns6700570:0{word.cancel}crwdne6700570:0</Cancel>
       <delete>crwdns6425102:0crwdne6425102:0</delete>
     </action>
     <msg>
-      <not-valid-path>The Folder Path is invalid.</not-valid-path>
-      <saving-success>The portlet's preferences are saved.</saving-success>
+      <not-valid-path>crwdns6425103:0crwdne6425103:0</not-valid-path>
+      <saving-success>crwdns6425104:0crwdne6425104:0</saving-success>
     </msg>
     <tab>
       <label>
@@ -99,8 +99,8 @@
   </UICLVConfig>
   <UICLVConfigDisplayModeFormRadioBoxInput>
     <label>
-      <AutoViewerMode>By Folder</AutoViewerMode>
-      <ManualViewerMode>By Content</ManualViewerMode>
+      <AutoViewerMode>crwdns6425108:0crwdne6425108:0</AutoViewerMode>
+      <ManualViewerMode>crwdns6425109:0crwdne6425109:0</ManualViewerMode>
     </label>
   </UICLVConfigDisplayModeFormRadioBoxInput>
   <UICLVConfigItemPathFormInputSet>
@@ -139,8 +139,8 @@
       <delete-content-successfully>crwdns6546857:0crwdne6546857:0</delete-content-successfully>
     </msg>
     <label>
-      <readmore>Read more</readmore>
-      <rssFeed>RSS Feed</rssFeed>
+      <readmore>crwdns6425117:0crwdne6425117:0</readmore>
+      <rssFeed>crwdns6425118:0crwdne6425118:0</rssFeed>
     </label>
     <action>
       <refresh>crwdns6425119:0crwdne6425119:0</refresh>
@@ -154,12 +154,12 @@
   </UICLVPresentation>
   <CorrectContentSelectorPopupWindow>
     <title>
-      <UIContentSelectorMulti>Multiple Content Selector Pane</UIContentSelectorMulti>
+      <UIContentSelectorMulti>crwdns6425124:0crwdne6425124:0</UIContentSelectorMulti>
     </title>
   </CorrectContentSelectorPopupWindow>
   <UIContentDialogFormPopupWindow>
     <title>
-      <UIContentDialogForm>Web Content Form</UIContentDialogForm>
+      <UIContentDialogForm>crwdns6425125:0crwdne6425125:0</UIContentDialogForm>
     </title>
   </UIContentDialogFormPopupWindow>
   <UICLVConfigContextualFolderRadioBoxInput>
@@ -183,7 +183,7 @@
   <UICLVConfigCacheEnableRadioBoxInput>
     <label>
       <ENABLE>crwdns6425138:0crwdne6425138:0</ENABLE>
-      <DISABLE>Restricted by User Roles</DISABLE>
+      <DISABLE>crwdns6425139:0crwdne6425139:0</DISABLE>
     </label>
   </UICLVConfigCacheEnableRadioBoxInput>
 </bundle>
