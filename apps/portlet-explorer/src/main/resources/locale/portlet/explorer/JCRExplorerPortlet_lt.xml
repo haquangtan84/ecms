@@ -295,7 +295,7 @@
       <ManagePublications>Publications</ManagePublications>
       <ManageCategories>Categories</ManageCategories>
       <ManageRelations>Ryšiai</ManageRelations>
-      <ManageActions>Actions</ManageActions>
+      <ManageActions>Veiksmai</ManageActions>
       <ExportNode>Eksportuoti</ExportNode>
       <ImportNode>Import</ImportNode>
       <OverloadThumbnail>Perkrovos miniatūra</OverloadThumbnail>
@@ -347,7 +347,7 @@
     <title>
       <select-tab>Select Tab</select-tab>
       <SimpleSearch>Greita paieška</SimpleSearch>
-      <AdvanceSearch>Advanced Search</AdvanceSearch>
+      <AdvanceSearch>Išplėstinė paieška</AdvanceSearch>
       <SavedQueries>Saved Queries</SavedQueries>
       <ShowAllOwnedByUser>Rodyti visus mano elementus</ShowAllOwnedByUser>
       <ShowAllFavourite>Rodyti visus mėgstamus elementus</ShowAllFavourite>
@@ -414,7 +414,7 @@
     </action>
     <label>
       <titleTextBox>Aplanko pavadinimas:</titleTextBox>
-      <customTypeCheckBox>Use a custom type of folder</customTypeCheckBox>
+      <customTypeCheckBox>Naudoti pasirinktinį aplanko tipą</customTypeCheckBox>
     </label>
     <title>Add/Edit Folder</title>
     <msg>
@@ -432,7 +432,7 @@
       <ntFolder-not-avaiable>You must select a custom type of folder</ntFolder-not-avaiable>
     </msg>
     <help>
-      <customTypeCheckBoxHelp>Check if you intend to store web contents or custom document types in this folder</customTypeCheckBoxHelp>
+      <customTypeCheckBoxHelp>Patikrinkite jei ketinate saugoti interneto turinį arba pasirinkti dokumentų tipą šiame aplanke</customTypeCheckBoxHelp>
     </help>
   </UIFolderForm>
   <!--
@@ -641,7 +641,7 @@
       <UIContentNameSearch>Search by Name</UIContentNameSearch>
       <UINodeInfo>Versijos informacija</UINodeInfo>
       <UINodeProperty>Node Property</UINodeProperty>
-      <UIActionListContainer>Available Actions</UIActionListContainer>
+      <UIActionListContainer>Galimi veiksmai</UIActionListContainer>
       <UIActionContainer>Pridėti veiksmą</UIActionContainer>
       <UIActionViewContainer>Action Info</UIActionViewContainer>
       <UIMultiLanguageForm>View Language</UIMultiLanguageForm>
@@ -1102,9 +1102,9 @@
       <notContainPro-notContain>Not Contain</notContainPro-notContain>
       <ConstraintOption-From>Nuo</ConstraintOption-From>
       <ConstraintOption-To>Iki</ConstraintOption-To>
-      <DocumentType-label>Document Type</DocumentType-label>
+      <DocumentType-label>Dokumento tipas</DocumentType-label>
       <Category-label>Kategorija</Category-label>
-      <created>Created</created>
+      <created>Sukurta</created>
       <modified>Modified</modified>
       <and>And</and>
       <or>Or</or>
@@ -1211,7 +1211,7 @@
   </property3MetadataPopup>
   <UISelectPropertyForm>
     <label>
-      <metadataType>Metadata Type</metadataType>
+      <metadataType>Metaduomenų tipas</metadataType>
     </label>
     <pLabel>Properties:</pLabel>
     <action>
@@ -1264,7 +1264,7 @@
       <action>Actions</action>
     </header>
     <tooltip>
-      <Execute>Execute</Execute>
+      <Execute>Vykdyti</Execute>
       <Edit>Redaguoti</Edit>
       <Delete>Delete</Delete>
     </tooltip>
@@ -1452,7 +1452,7 @@
     <label>
       <diffTitle>Compare between two versions</diffTitle>
       <noChange>No change between two versions</noChange>
-      <baseVerion>Base Version</baseVerion>
+      <baseVerion>Bazinė versija</baseVerion>
       <compareVerion>Version</compareVerion>
       <can-not-compare>Failed to compare two versions</can-not-compare>
     </label>
@@ -1635,7 +1635,7 @@
       <action>Veiksmas</action>
     </header>
     <label>
-      <nocommand>There are no items in the clipboard.</nocommand>
+      <nocommand>Nėra elementų iškirptinėje.</nocommand>
     </label>
     <action>
       <clearall>Clear All</clearall>
@@ -1657,9 +1657,9 @@
   -->
   <UISelectDocumentForm>
     <label>
-      <selectTemplate>Select your template from the list below</selectTemplate>
-      <ThumbnailView>Thumbnail View</ThumbnailView>
-      <ListView>List View</ListView>
+      <selectTemplate>Pasirinkite savo šabloną iš žemiau pateikto sąrašo</selectTemplate>
+      <ThumbnailView>Miniatiūrų rodinys</ThumbnailView>
+      <ListView>Sąrašo rodinys</ListView>
       <Cancel>#{word.cancel}</Cancel>
     </label>
   </UISelectDocumentForm>
@@ -1673,7 +1673,7 @@
     <action>
       <Save>#{word.save}</Save>
       <SaveAndClose>Išsaugoti ir uždaryti</SaveAndClose>
-      <ChangeType>Change Content Type</ChangeType>
+      <ChangeType>Turinio tipo keitimas</ChangeType>
       <Fullscreen>Fullscreen</Fullscreen>
       <Cancel>#{word.cancel}</Cancel>
       <Close>#{word.close}</Close>
@@ -1750,8 +1750,8 @@
     <header>
       <name>#{word.name}</name>
       <description>Aprašymas</description>
-  <lifecycle>Life Cycle</lifecycle>
-  <triggeredaction>Triggered Action</triggeredaction>
+  <lifecycle>Gyvavimo ciklas</lifecycle>
+  <triggeredaction>Valdomieji veiksmai</triggeredaction>
       <instanceOf>Instance of Action Type</instanceOf>
       <action>Veiksmas</action>
     </header>
@@ -1788,7 +1788,7 @@
       <access-denied>Access denied. You do not have permission to access this template.</access-denied>
       <lifecycle-invalid>You cannot add this action. The lifecycle phase of action is invalid.</lifecycle-invalid>
     </msg>
-    <title>Add/Edit Action</title>
+    <title>Pridėti/Redaguoti veiksmą</title>
     <validator>
       <validator>Validator</validator>
       <destPath>Su keliu</destPath>
@@ -1796,7 +1796,7 @@
   </UIActionForm>
   <UIActionTypeForm>
     <label>
-      <actionType>Create Action of Type</actionType>
+      <actionType>Sukurti tipo veiksmą</actionType>
     </label>
   </UIActionTypeForm>
   <PopupComponent>
@@ -2279,13 +2279,13 @@
   <UIAddTranslationForm>
     <label>
       <symLinkName>Symlink Name</symLinkName>
-      <pathNode>Document Path:</pathNode>
-      <note>Select another document that will serve as the translation</note>
+      <pathNode>Dokumento kelias:</pathNode>
+      <note>Pasirinkite kitą dokumentą, kuris bus naudojamas kaip vertimas</note>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <SelectDocument>Select Document</SelectDocument>
+      <SelectDocument>Pasirinkti dokumentą</SelectDocument>
     </action>
     <msg>
       <addFolder-successful>The symlink '{0}' is added successfully.</addFolder-successful>
@@ -2295,7 +2295,7 @@
       <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
       <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
       <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
+      <path-node-invalid>Prašome įvesti kelio mazgą.</path-node-invalid>
       <path-node-not-allowed>Šis pavadinimas neleidžiamas.</path-node-not-allowed>
       <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
       <cannot-save>An error occurred while creating the symlink.</cannot-save>
@@ -2558,7 +2558,7 @@
    -->
   <UIFolderForm>
     <label>
-      <nt_folder>Document Folder</nt_folder>
+      <nt_folder>Dokumento aplankas</nt_folder>
       <nt_unstructured>Content Folder</nt_unstructured>
       <exo_cssFolder>CSS Folder</exo_cssFolder>
       <exo_jsFolder>Javascript Folder</exo_jsFolder>
@@ -2741,8 +2741,8 @@
 
   <UITagExplorer>
     <title>
-      <PublicTags>Tags</PublicTags>
-      <EditPublicTags>Edit Tags</EditPublicTags>
+      <PublicTags>Žymos</PublicTags>
+      <EditPublicTags>Redaguoti Žymas</EditPublicTags>
       <PrivateTags>Tags</PrivateTags>
     </title>
   </UITagExplorer>
@@ -2768,7 +2768,7 @@
 
   <UIPopupWindow>
     <title>
-      <UIEditingTagsForm>Edit Tag</UIEditingTagsForm>
+      <UIEditingTagsForm>Redaguoti žymę</UIEditingTagsForm>
     </title>
   </UIPopupWindow>
 
@@ -2820,7 +2820,7 @@
 
     <UIActionForm>
     <title>
-      <ShowComponent>Show Component</ShowComponent>
+      <ShowComponent>Rodyti komponentą</ShowComponent>
       <removeReference>Pašalinti</removeReference>
     </title>
   </UIActionForm>
