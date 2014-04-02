@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.exoplatform.ecms</groupId>
   <artifactId>ecms</artifactId>
-  <version>4.1.x-ecms-upgrade-gatein-3.7.x-SNAPSHOT</version>
+  <version>4.1.x-ecms-translation-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo ECM Suite</name>
   <description>eXo Entreprise Content Management Suite</description>
@@ -40,7 +40,7 @@
     <!-- Project Dependencies                     -->
     <!-- **************************************** -->
 
-    <org.exoplatform.depmgt.version>9-upgrade-gatein-3.7.x-SNAPSHOT</org.exoplatform.depmgt.version>
+    <org.exoplatform.depmgt.version>9-translation-SNAPSHOT</org.exoplatform.depmgt.version>
     <!-- JCR Project Dependencies -->
     <org.exoplatform.kernel.version>2.5.0-Alpha4</org.exoplatform.kernel.version>
     <org.exoplatform.core.version>2.6.0-Alpha4</org.exoplatform.core.version>
@@ -52,8 +52,8 @@
     <org.gatein.pc.version>2.5.0.Beta01</org.gatein.pc.version>
     <org.gatein.portal.version>3.7.0.Beta01</org.gatein.portal.version>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.commons.version>4.1.x-commons-upgrade-gatein-3.7.x-SNAPSHOT</org.exoplatform.commons.version>
-    <org.exoplatform.platform-ui.version>4.1.x-plfui-upgrade-gatein-3.7.x-SNAPSHOT</org.exoplatform.platform-ui.version>
+    <org.exoplatform.commons.version>4.1.x-commons-translation-SNAPSHOT</org.exoplatform.commons.version>
+    <org.exoplatform.platform-ui.version>4.1.x-plfui-translation-SNAPSHOT</org.exoplatform.platform-ui.version>
     <!-- Platform Project 3rd party Dependencies -->
     <org.exoplatform.doc.doc-style.version>4.1.0-SNAPSHOT</org.exoplatform.doc.doc-style.version>
   </properties>
