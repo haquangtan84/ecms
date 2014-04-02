@@ -14,6 +14,8 @@
 		.tab-content {
 			.border-top-radius(3px);
 			border: 1px solid @borderColor;
+			background-color: @grayMediumWhiteSmoke;
+			min-height: 36px;
 			
 			.nav-pills {
 				.border-top-radius(3px);
@@ -769,16 +771,25 @@
 	}
 	
 	.checkBoxContent {
-		width: 160px;
+		width: 180px;
 		
 		.uiCheckbox {
 			margin: 2px 0px 0px 10px;
+		}
+		.control-label {
+		    float: left;
+		    max-width: 150px;
+		}
+	}
+	.advanceContent{
+		.span6{
+			white-space: nowrap;
 		}
 	}
 	
 	.control-label {
 		display: inline-block;
-		margin: 0px;
+	    margin: 0;
 	}
 	
 	.nodesContent {
@@ -1238,6 +1249,12 @@
 	max-height: 400px;
 }
 
+.uiSimpleSearch{
+  .resizable {
+    min-height: 245px;
+    max-height: 400px;
+  }
+ }
 
 .UIContentNameSearch{
 	min-height: 160px;

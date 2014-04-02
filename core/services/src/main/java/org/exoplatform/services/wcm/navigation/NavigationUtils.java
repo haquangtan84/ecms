@@ -107,20 +107,21 @@ public class NavigationUtils {
    * @return UserNavigation of group
    */
   public static UserNavigation getUserNavigation(UserPortal userPortal, SiteKey siteKey) throws Exception {
-      UserACL userACL = WCMCoreUtils.getService(UserACL.class);
-      UserPortalConfigService userPortalConfigService = WCMCoreUtils.getService(UserPortalConfigService.class);
-      //userPortalConfigService.get
-      NavigationContext portalNav = userPortalConfigService.getNavigationService().
-                                                            loadNavigation(siteKey);
-      if (portalNav == null) {
-        return null;
-      } else {
-        return userNavigationCtor.newInstance(
-                userPortal, portalNav,
-                userACL.hasEditPermission(Util.getPortalRequestContext().getUserPortalConfig().getPortalConfig()));
-      }
+    if (siteKey.getTypeName().equalsIgnoreCase(SiteType.PORTAL.getName())) {
+      return getUserNavigationOfPortal(userPortal,siteKey.getName());
     }
-
+    UserACL userACL = WCMCoreUtils.getService(UserACL.class);
+    UserPortalConfigService userPortalConfigService = WCMCoreUtils.getService(UserPortalConfigService.class);
+    //userPortalConfigService.get
+    NavigationContext portalNav = userPortalConfigService.getNavigationService().
+      loadNavigation(siteKey);
+    if (portalNav == null) {
+      return null;
+    } else {
+      return userNavigationCtor.newInstance(userPortal, portalNav, userACL.hasEditPermissionOnNavigation(siteKey));
+    }
+  }
+  
   public static void removeNavigationAsJson (String portalName, String username) throws Exception
   {
     String key = portalName + " " + username;
@@ -195,7 +196,11 @@ public class NavigationUtils {
       sbJsonTree.append("\"label\":\"").append(child.getLabel()).append("\",");
       sbJsonTree.append("\"name\":\"").append(child.getName()).append("\",");
       sbJsonTree.append("\"resolvedLabel\":\"").append(child.getResolvedLabel()).append("\",");
-      sbJsonTree.append("\"uri\":\"").append(child.getURI()).append("\",");
+      String childURI = "";
+      if (child.getPageRef() != null){
+        childURI = child.getURI();
+      }
+      sbJsonTree.append("\"uri\":\"").append(childURI).append("\",");
 
       WebuiRequestContext context = WebuiRequestContext.getCurrentInstance();
       MimeResponse res = context.getResponse();

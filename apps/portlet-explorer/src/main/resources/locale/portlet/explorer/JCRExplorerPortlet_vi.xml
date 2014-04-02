@@ -292,7 +292,7 @@
       <Comment>Nhận xét</Comment>
       <ManageVersions>Phiên bản</ManageVersions>
       <ManageAuditing>Quản lý thay đổi</ManageAuditing>
-      <ManagePublications>Xuất bản</ManagePublications>
+      <ManagePublications>Quản lý Xuất bản</ManagePublications>
       <ManageCategories>Danh mục</ManageCategories>
       <ManageRelations>Quan hệ</ManageRelations>
       <ManageActions>Hành động</ManageActions>
@@ -591,7 +591,7 @@
       <MoveToTrash>Chuyển vào Thư mục Rác</MoveToTrash>
       <RestoreFromTrash>Khôi phục từ Thư mục Rác</RestoreFromTrash>
       <EmptyTrash>Xóa sạch Thư mục Rác?</EmptyTrash>
-      <WebDavView>Tải về và Cho phép Chỉnh sửa</WebDavView>
+      <WebDavView>Chỉnh sửa trong MS Office</WebDavView>
     </event>
   </ECMContextMenu>
  
