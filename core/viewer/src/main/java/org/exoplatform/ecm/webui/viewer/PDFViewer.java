@@ -58,7 +58,7 @@ import org.icepdf.core.pobjects.PInfo;
  */
 @ComponentConfig(
     lifecycle = UIFormLifecycle.class,
-    template = "classpath:resources/templates/PDFViewer.gtmpl",
+    template = "classpath:resources/templates/PDFJSViewer.gtmpl",
     events = {
         @EventConfig(listeners = PDFViewer.NextPageActionListener.class, phase = Phase.DECODE),
         @EventConfig(listeners = PDFViewer.PreviousPageActionListener.class, phase = Phase.DECODE),

@@ -188,6 +188,9 @@
     </script>
     <%}
    %>
+   !--#if !(FIREFOX || MOZCENTRAL || CHROME)-->
+     <script type="text/javascript" src="/eXoWCMResources/pdf.js/compatibility.js"></script>
+   <!--#endif-->
  </head>
 
  <body style="height: 100%;">
